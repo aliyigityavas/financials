@@ -24,9 +24,8 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi):
         df_melted['Company'] = sirket_adi
         df_melted['Currency'] = para_birimi
         
-        # Değeri sayısal yap, sonra bilimsel gösterimi ve ondalığı engellemek için string'e formatla
-        df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce')
-        df_melted['Value'] = df_melted['Value'].apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
+        # Sayıya çevir ve Qlik limitini aşmamak için 1000'e böl ("in thousands" formatı)
+        df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce') / 1000
         return df_melted
     return pd.DataFrame()
 
@@ -54,9 +53,9 @@ for ad, sembol in sirketler.items():
     except:
         pass
 
-# Verileri birleştir ve CSV olarak kaydet
-if hist_list: pd.concat(hist_list).to_csv("historical_data.csv")
-if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False)
-if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False)
-if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False)
+# CSV olarak kaydet (Ondalıkları kaldırarak Qlik için en temiz formata getirir)
+if hist_list: pd.concat(hist_list).to_csv("historical_data.csv", float_format='%.2f')
+if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False, float_format='%.0f')
+if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False, float_format='%.0f')
+if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False, float_format='%.0f')
 if stat_list: pd.concat(stat_list, ignore_index=True).to_csv("statistics.csv", index=False)
