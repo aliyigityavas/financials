@@ -1,51 +1,2332 @@
-,2025-12-31,2024-12-31,2023-12-31,2022-12-31
-Tax Effect Of Unusual Items,-40859750.0,514356750.0,1521238000.0,79363552.0
-Tax Rate For Calcs,0.25,0.25,0.25,0.032
-Normalized EBITDA,51065936000.0,45387455000.0,37480994000.0,21077912000.0
-Total Unusual Items,-163439000.0,2057427000.0,6084952000.0,2480111000.0
-Total Unusual Items Excluding Goodwill,-163439000.0,2057427000.0,6084952000.0,2480111000.0
-Net Income From Continuing Operation Net Minority Interest,-8355688000.0,2210878000.0,19505482000.0,6285498000.0
-Reconciled Depreciation,23251359000.0,21662672000.0,12582692000.0,8062820000.0
-Reconciled Cost Of Revenue,373140054000.0,406350247000.0,262373433000.0,188501512000.0
-EBITDA,50902497000.0,47444882000.0,43565946000.0,23558023000.0
-EBIT,27651138000.0,25782210000.0,30983254000.0,15495203000.0
-Net Interest Income,-28104298000.0,-26433344000.0,-9605026000.0,-8865868000.0
-Interest Expense,32387710000.0,27890116000.0,12212483000.0,8256042000.0
-Interest Income,7868440000.0,4710762000.0,2707300000.0,829883000.0
-Normalized Income,-8233108750.0,667807750.0,14941768000.0,3884750552.0
-Net Income From Continuing And Discontinued Operation,-8355688000.0,2210878000.0,19505482000.0,6285498000.0
-Total Expenses,517874477000.0,553833727000.0,357945682000.0,248809059000.0
-Total Operating Income As Reported,10494106000.0,9322710000.0,14665504000.0,9401432000.0
-Diluted Average Shares,608575621.0,606851917.0,606851917.0,613563508.0
-Basic Average Shares,608575621.0,606851917.0,606851917.0,613563508.0
-Diluted EPS,-13.73,3.643,32.142,10.244
-Basic EPS,-13.73,3.643,32.142,10.244
-Diluted NI Availto Com Stockholders,-8355688000.0,2210878000.0,19505482000.0,6285498000.0
-Net Income Common Stockholders,-8355688000.0,2210878000.0,19505482000.0,6285498000.0
-Otherunder Preferred Stock Dividend,0.0,0.0,0.0,0.0
-Net Income,-8355688000.0,2210878000.0,19505482000.0,6285498000.0
-Minority Interests,1443625000.0,5100049000.0,-1051185000.0,-722674000.0
-Net Income Including Noncontrolling Interests,-9799313000.0,-2889171000.0,20556667000.0,7008172000.0
-Net Income Continuous Operations,-9799313000.0,-2889171000.0,20556667000.0,7008172000.0
-Tax Provision,5062741000.0,781265000.0,-1785896000.0,230989000.0
-Pretax Income,-4736572000.0,-2107906000.0,18770771000.0,7239161000.0
-Other Non Operating Income Expenses,14976834000.0,20694239000.0,22712078000.0,7928477000.0
-Special Income Charges,2060418000.0,7916206000.0,-75044000.0,2608323000.0
-Other Special Charges,-9059000.0,189822000.0,75044000.0,127770000.0
-Write Off,0.0,147315000.0,0.0,
-Restructuring And Mergern Acquisition,-2051359000.0,-8253343000.0,0.0,-2736093000.0
-Net Non Operating Interest Income Expense,-28104298000.0,-26433344000.0,-9605026000.0,-8865868000.0
-Total Other Finance Cost,3585028000.0,3253990000.0,99843000.0,1439709000.0
-Interest Expense Non Operating,32387710000.0,27890116000.0,12212483000.0,8256042000.0
-Interest Income Non Operating,7868440000.0,4710762000.0,2707300000.0,829883000.0
-Operating Income,6058844000.0,7103027000.0,13257586000.0,8362971000.0
-Operating Expense,144734423000.0,147483480000.0,95572249000.0,60307547000.0
-Other Operating Expenses,2097112000.0,1609057000.0,4430732000.0,163726000.0
-Research And Development,6490885000.0,6346498000.0,2806443000.0,1861283000.0
-Selling General And Administration,137307059000.0,140717180000.0,89252505000.0,58651767000.0
-Selling And Marketing Expense,103927285000.0,108281560000.0,67914137000.0,46552279000.0
-General And Administrative Expense,33379774000.0,32435620000.0,21338368000.0,12099488000.0
-Gross Profit,150793267000.0,154586507000.0,108829835000.0,68670518000.0
-Cost Of Revenue,373140054000.0,406350247000.0,262373433000.0,188501512000.0
-Total Revenue,523933321000.0,560936754000.0,371203268000.0,257172030000.0
-Operating Revenue,523933321000.0,560936754000.0,371203268000.0,257172030000.0
+Metric,Date,Value,Company,Currency
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,-82500028.412417,Haier,CNY
+Tax Rate For Calcs,2025-06-30 00:00:00,0.160461,Haier,CNY
+Normalized EBITDA,2025-06-30 00:00:00,9394018430.28,Haier,CNY
+Total Unusual Items,2025-06-30 00:00:00,-514144485.79,Haier,CNY
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,-514144485.79,Haier,CNY
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,6546380644.09,Haier,CNY
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,55412723755.3,Haier,CNY
+EBITDA,2025-06-30 00:00:00,8879873944.49,Haier,CNY
+EBIT,2025-06-30 00:00:00,8879873944.49,Haier,CNY
+Net Interest Income,2025-06-30 00:00:00,-752089818.97,Haier,CNY
+Interest Expense,2025-06-30 00:00:00,723151281.02,Haier,CNY
+Interest Income,2025-06-30 00:00:00,454455463.91,Haier,CNY
+Normalized Income,2025-06-30 00:00:00,6978025101.467583,Haier,CNY
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,6546380644.09,Haier,CNY
+Total Expenses,2025-06-30 00:00:00,69338062401.19,Haier,CNY
+Total Operating Income As Reported,2025-06-30 00:00:00,8228661556.54,Haier,CNY
+Diluted Average Shares,2025-06-30 00:00:00,,Haier,CNY
+Basic Average Shares,2025-06-30 00:00:00,,Haier,CNY
+Diluted EPS,2025-06-30 00:00:00,,Haier,CNY
+Basic EPS,2025-06-30 00:00:00,,Haier,CNY
+Net Income Common Stockholders,2025-06-30 00:00:00,6546380644.09,Haier,CNY
+Otherunder Preferred Stock Dividend,2025-06-30 00:00:00,0.0,Haier,CNY
+Net Income,2025-06-30 00:00:00,6546380644.09,Haier,CNY
+Minority Interests,2025-06-30 00:00:00,-301507887.95,Haier,CNY
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,6847888532.04,Haier,CNY
+Net Income Continuous Operations,2025-06-30 00:00:00,6847888532.04,Haier,CNY
+Tax Provision,2025-06-30 00:00:00,1308834131.43,Haier,CNY
+Pretax Income,2025-06-30 00:00:00,8156722663.47,Haier,CNY
+Other Non Operating Income Expenses,2025-06-30 00:00:00,-71938893.07,Haier,CNY
+Special Income Charges,2025-06-30 00:00:00,-549427146.89,Haier,CNY
+Other Special Charges,2025-06-30 00:00:00,9230972.32,Haier,CNY
+Write Off,2025-06-30 00:00:00,33096829.81,Haier,CNY
+Impairment Of Capital Assets,2025-06-30 00:00:00,507099344.76,Haier,CNY
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,-752089818.97,Haier,CNY
+Total Other Finance Cost,2025-06-30 00:00:00,483394001.86,Haier,CNY
+Interest Expense Non Operating,2025-06-30 00:00:00,723151281.02,Haier,CNY
+Interest Income Non Operating,2025-06-30 00:00:00,454455463.91,Haier,CNY
+Operating Income,2025-06-30 00:00:00,8037798463.94,Haier,CNY
+Operating Expense,2025-06-30 00:00:00,13925338645.89,Haier,CNY
+Other Operating Expenses,2025-06-30 00:00:00,330891703.93,Haier,CNY
+Research And Development,2025-06-30 00:00:00,2496984154.17,Haier,CNY
+Selling General And Administration,2025-06-30 00:00:00,11606770328.17,Haier,CNY
+Selling And Marketing Expense,2025-06-30 00:00:00,8206293718.64,Haier,CNY
+General And Administrative Expense,2025-06-30 00:00:00,3400476609.53,Haier,CNY
+Gross Profit,2025-06-30 00:00:00,21963137109.83,Haier,CNY
+Cost Of Revenue,2025-06-30 00:00:00,55412723755.3,Haier,CNY
+Total Revenue,2025-06-30 00:00:00,77375860865.13,Haier,CNY
+Operating Revenue,2025-06-30 00:00:00,77375860865.13,Haier,CNY
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,-48279344.104715,Haier,CNY
+Tax Rate For Calcs,2025-03-31 00:00:00,0.175884,Haier,CNY
+Normalized EBITDA,2025-03-31 00:00:00,7838293036.92,Haier,CNY
+Total Unusual Items,2025-03-31 00:00:00,-274495143.79,Haier,CNY
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,-274495143.79,Haier,CNY
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,5486615176.18,Haier,CNY
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,59025209353.46,Haier,CNY
+EBITDA,2025-03-31 00:00:00,7563797893.13,Haier,CNY
+EBIT,2025-03-31 00:00:00,7563797893.13,Haier,CNY
+Net Interest Income,2025-03-31 00:00:00,221570562.22,Haier,CNY
+Interest Expense,2025-03-31 00:00:00,723464408.49,Haier,CNY
+Interest Income,2025-03-31 00:00:00,454127183.65,Haier,CNY
+Normalized Income,2025-03-31 00:00:00,5712830975.865285,Haier,CNY
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,5486615176.18,Haier,CNY
+Total Expenses,2025-03-31 00:00:00,72502509214.88,Haier,CNY
+Total Operating Income As Reported,2025-03-31 00:00:00,6904277711.49,Haier,CNY
+Diluted Average Shares,2025-03-31 00:00:00,9299347756.0,Haier,CNY
+Basic Average Shares,2025-03-31 00:00:00,9299347756.0,Haier,CNY
+Diluted EPS,2025-03-31 00:00:00,0.59,Haier,CNY
+Basic EPS,2025-03-31 00:00:00,0.59,Haier,CNY
+Net Income Common Stockholders,2025-03-31 00:00:00,5486615176.18,Haier,CNY
+Otherunder Preferred Stock Dividend,2025-03-31 00:00:00,0.0,Haier,CNY
+Net Income,2025-03-31 00:00:00,5486615176.18,Haier,CNY
+Minority Interests,2025-03-31 00:00:00,-150612091.22,Haier,CNY
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,5637227267.4,Haier,CNY
+Net Income Continuous Operations,2025-03-31 00:00:00,5637227267.4,Haier,CNY
+Tax Provision,2025-03-31 00:00:00,1203106217.24,Haier,CNY
+Pretax Income,2025-03-31 00:00:00,6840333484.64,Haier,CNY
+Other Non Operating Income Expenses,2025-03-31 00:00:00,-63944226.85,Haier,CNY
+Special Income Charges,2025-03-31 00:00:00,-273966023.32,Haier,CNY
+Other Special Charges,2025-03-31 00:00:00,-1862934.78,Haier,CNY
+Write Off,2025-03-31 00:00:00,38815258.04,Haier,CNY
+Impairment Of Capital Assets,2025-03-31 00:00:00,237013700.06,Haier,CNY
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,221570562.22,Haier,CNY
+Total Other Finance Cost,2025-03-31 00:00:00,-490907787.06,Haier,CNY
+Interest Expense Non Operating,2025-03-31 00:00:00,723464408.49,Haier,CNY
+Interest Income Non Operating,2025-03-31 00:00:00,454127183.65,Haier,CNY
+Operating Income,2025-03-31 00:00:00,6615664368.84,Haier,CNY
+Operating Expense,2025-03-31 00:00:00,13477299861.42,Haier,CNY
+Other Operating Expenses,2025-03-31 00:00:00,348663099.15,Haier,CNY
+Research And Development,2025-03-31 00:00:00,3293452649.93,Haier,CNY
+Selling General And Administration,2025-03-31 00:00:00,10101091080.38,Haier,CNY
+Selling And Marketing Expense,2025-03-31 00:00:00,7610520791.43,Haier,CNY
+General And Administrative Expense,2025-03-31 00:00:00,2490570288.95,Haier,CNY
+Gross Profit,2025-03-31 00:00:00,20092964230.26,Haier,CNY
+Cost Of Revenue,2025-03-31 00:00:00,59025209353.46,Haier,CNY
+Total Revenue,2025-03-31 00:00:00,79118173583.72,Haier,CNY
+Operating Revenue,2025-03-31 00:00:00,79118173583.72,Haier,CNY
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,-19204225.231832,Haier,CNY
+Tax Rate For Calcs,2024-12-31 00:00:00,0.039004,Haier,CNY
+Normalized EBITDA,2024-12-31 00:00:00,5690411542.85,Haier,CNY
+Total Unusual Items,2024-12-31 00:00:00,-492367805.26,Haier,CNY
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,-492367805.26,Haier,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,3586672338.94,Haier,CNY
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,66123765443.83,Haier,CNY
+EBITDA,2024-12-31 00:00:00,5198043737.59,Haier,CNY
+EBIT,2024-12-31 00:00:00,5198043737.59,Haier,CNY
+Net Interest Income,2024-12-31 00:00:00,-740052670.16,Haier,CNY
+Interest Expense,2024-12-31 00:00:00,890742841.67,Haier,CNY
+Interest Income,2024-12-31 00:00:00,506085626.52,Haier,CNY
+Normalized Income,2024-12-31 00:00:00,4059835918.968168,Haier,CNY
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,3586672338.94,Haier,CNY
+Total Expenses,2024-12-31 00:00:00,77495545128.48,Haier,CNY
+Total Operating Income As Reported,2024-12-31 00:00:00,4500118496.48,Haier,CNY
+Diluted Average Shares,2024-12-31 00:00:00,,Haier,CNY
+Basic Average Shares,2024-12-31 00:00:00,,Haier,CNY
+Diluted EPS,2024-12-31 00:00:00,,Haier,CNY
+Basic EPS,2024-12-31 00:00:00,,Haier,CNY
+Net Income Common Stockholders,2024-12-31 00:00:00,3586672338.94,Haier,CNY
+Otherunder Preferred Stock Dividend,2024-12-31 00:00:00,0.0,Haier,CNY
+Net Income,2024-12-31 00:00:00,3586672338.94,Haier,CNY
+Minority Interests,2024-12-31 00:00:00,-552627368.31,Haier,CNY
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,4139299707.25,Haier,CNY
+Net Income Continuous Operations,2024-12-31 00:00:00,4139299707.25,Haier,CNY
+Tax Provision,2024-12-31 00:00:00,168001188.67,Haier,CNY
+Pretax Income,2024-12-31 00:00:00,4307300895.92,Haier,CNY
+Other Non Operating Income Expenses,2024-12-31 00:00:00,-192817600.56,Haier,CNY
+Special Income Charges,2024-12-31 00:00:00,-537341387.03,Haier,CNY
+Other Special Charges,2024-12-31 00:00:00,6663547.65,Haier,CNY
+Write Off,2024-12-31 00:00:00,112411304.35,Haier,CNY
+Impairment Of Capital Assets,2024-12-31 00:00:00,418266535.03,Haier,CNY
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-740052670.16,Haier,CNY
+Total Other Finance Cost,2024-12-31 00:00:00,355395455.01,Haier,CNY
+Interest Expense Non Operating,2024-12-31 00:00:00,890742841.67,Haier,CNY
+Interest Income Non Operating,2024-12-31 00:00:00,506085626.52,Haier,CNY
+Operating Income,2024-12-31 00:00:00,5514483133.64,Haier,CNY
+Operating Expense,2024-12-31 00:00:00,11371779684.65,Haier,CNY
+Other Operating Expenses,2024-12-31 00:00:00,473478802.38,Haier,CNY
+Research And Development,2024-12-31 00:00:00,2609988183.52,Haier,CNY
+Selling General And Administration,2024-12-31 00:00:00,9103863821.25,Haier,CNY
+Selling And Marketing Expense,2024-12-31 00:00:00,4798074143.17,Haier,CNY
+General And Administrative Expense,2024-12-31 00:00:00,4305789678.08,Haier,CNY
+Gross Profit,2024-12-31 00:00:00,16886262818.29,Haier,CNY
+Cost Of Revenue,2024-12-31 00:00:00,66123765443.83,Haier,CNY
+Total Revenue,2024-12-31 00:00:00,83010028262.12,Haier,CNY
+Operating Revenue,2024-12-31 00:00:00,83010028262.12,Haier,CNY
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,-33374901.494853,Haier,CNY
+Tax Rate For Calcs,2024-09-30 00:00:00,0.150787,Haier,CNY
+Normalized EBITDA,2024-09-30 00:00:00,6517593582.6,Haier,CNY
+Total Unusual Items,2024-09-30 00:00:00,-221338574.83,Haier,CNY
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,-221338574.83,Haier,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,4734229394.77,Haier,CNY
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,46256868052.43,Haier,CNY
+EBITDA,2024-09-30 00:00:00,6296255007.77,Haier,CNY
+EBIT,2024-09-30 00:00:00,6296255007.77,Haier,CNY
+Net Interest Income,2024-09-30 00:00:00,209064520.28,Haier,CNY
+Interest Expense,2024-09-30 00:00:00,609828111.85,Haier,CNY
+Interest Income,2024-09-30 00:00:00,479431826.3,Haier,CNY
+Normalized Income,2024-09-30 00:00:00,4922193068.105147,Haier,CNY
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,4734229394.77,Haier,CNY
+Total Expenses,2024-09-30 00:00:00,61947166056.8,Haier,CNY
+Total Operating Income As Reported,2024-09-30 00:00:00,5661437413.54,Haier,CNY
+Diluted Average Shares,2024-09-30 00:00:00,,Haier,CNY
+Basic Average Shares,2024-09-30 00:00:00,,Haier,CNY
+Diluted EPS,2024-09-30 00:00:00,,Haier,CNY
+Basic EPS,2024-09-30 00:00:00,,Haier,CNY
+Net Income Common Stockholders,2024-09-30 00:00:00,4734229394.77,Haier,CNY
+Otherunder Preferred Stock Dividend,2024-09-30 00:00:00,0.0,Haier,CNY
+Net Income,2024-09-30 00:00:00,4734229394.77,Haier,CNY
+Minority Interests,2024-09-30 00:00:00,-94760257.53,Haier,CNY
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,4828989652.3,Haier,CNY
+Net Income Continuous Operations,2024-09-30 00:00:00,4828989652.3,Haier,CNY
+Tax Provision,2024-09-30 00:00:00,857437243.62,Haier,CNY
+Pretax Income,2024-09-30 00:00:00,5686426895.92,Haier,CNY
+Other Non Operating Income Expenses,2024-09-30 00:00:00,24989482.38,Haier,CNY
+Special Income Charges,2024-09-30 00:00:00,-253060915.55,Haier,CNY
+Other Special Charges,2024-09-30 00:00:00,2011160.62,Haier,CNY
+Write Off,2024-09-30 00:00:00,95892321.95,Haier,CNY
+Impairment Of Capital Assets,2024-09-30 00:00:00,155157432.98,Haier,CNY
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,209064520.28,Haier,CNY
+Total Other Finance Cost,2024-09-30 00:00:00,-339460805.83,Haier,CNY
+Interest Expense Non Operating,2024-09-30 00:00:00,609828111.85,Haier,CNY
+Interest Income Non Operating,2024-09-30 00:00:00,479431826.3,Haier,CNY
+Operating Income,2024-09-30 00:00:00,5401481764.0,Haier,CNY
+Operating Expense,2024-09-30 00:00:00,15690298004.37,Haier,CNY
+Other Operating Expenses,2024-09-30 00:00:00,264294569.63,Haier,CNY
+Research And Development,2024-09-30 00:00:00,3041223003.07,Haier,CNY
+Selling General And Administration,2024-09-30 00:00:00,12718423937.37,Haier,CNY
+Selling And Marketing Expense,2024-09-30 00:00:00,10100327263.54,Haier,CNY
+General And Administrative Expense,2024-09-30 00:00:00,2618096673.83,Haier,CNY
+Gross Profit,2024-09-30 00:00:00,21091779768.37,Haier,CNY
+Cost Of Revenue,2024-09-30 00:00:00,46256868052.43,Haier,CNY
+Total Revenue,2024-09-30 00:00:00,67348647820.8,Haier,CNY
+Operating Revenue,2024-09-30 00:00:00,67348647820.8,Haier,CNY
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,-105750259.500993,Haier,CNY
+Tax Rate For Calcs,2024-06-30 00:00:00,0.176592,Haier,CNY
+Normalized EBITDA,2024-06-30 00:00:00,8211370035.52,Haier,CNY
+Total Unusual Items,2024-06-30 00:00:00,-598840956.26,Haier,CNY
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,-598840956.26,Haier,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,5647250488.41,Haier,CNY
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,45101067578.24,Haier,CNY
+EBITDA,2024-06-30 00:00:00,7612529079.26,Haier,CNY
+EBIT,2024-06-30 00:00:00,7612529079.26,Haier,CNY
+Net Interest Income,2024-06-30 00:00:00,-114345345.75,Haier,CNY
+Interest Expense,2024-06-30 00:00:00,625569373.47,Haier,CNY
+Interest Income,2024-06-30 00:00:00,456357056.09,Haier,CNY
+Normalized Income,2024-06-30 00:00:00,6140341185.169007,Haier,CNY
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,5647250488.41,Haier,CNY
+Total Expenses,2024-06-30 00:00:00,59790439609.8,Haier,CNY
+Total Operating Income As Reported,2024-06-30 00:00:00,6964557760.8,Haier,CNY
+Diluted Average Shares,2024-06-30 00:00:00,,Haier,CNY
+Basic Average Shares,2024-06-30 00:00:00,,Haier,CNY
+Diluted EPS,2024-06-30 00:00:00,,Haier,CNY
+Basic EPS,2024-06-30 00:00:00,,Haier,CNY
+Net Income Common Stockholders,2024-06-30 00:00:00,5647250488.41,Haier,CNY
+Otherunder Preferred Stock Dividend,2024-06-30 00:00:00,0.0,Haier,CNY
+Net Income,2024-06-30 00:00:00,5647250488.41,Haier,CNY
+Minority Interests,2024-06-30 00:00:00,-105871093.44,Haier,CNY
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,5753121581.85,Haier,CNY
+Net Income Continuous Operations,2024-06-30 00:00:00,5753121581.85,Haier,CNY
+Tax Provision,2024-06-30 00:00:00,1233838123.94,Haier,CNY
+Pretax Income,2024-06-30 00:00:00,6986959705.79,Haier,CNY
+Other Non Operating Income Expenses,2024-06-30 00:00:00,22401944.99,Haier,CNY
+Special Income Charges,2024-06-30 00:00:00,-539842961.52,Haier,CNY
+Other Special Charges,2024-06-30 00:00:00,19307984.7,Haier,CNY
+Write Off,2024-06-30 00:00:00,18392514.47,Haier,CNY
+Impairment Of Capital Assets,2024-06-30 00:00:00,502142462.35,Haier,CNY
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,-114345345.75,Haier,CNY
+Total Other Finance Cost,2024-06-30 00:00:00,-54866971.63,Haier,CNY
+Interest Expense Non Operating,2024-06-30 00:00:00,625569373.47,Haier,CNY
+Interest Income Non Operating,2024-06-30 00:00:00,456357056.09,Haier,CNY
+Operating Income,2024-06-30 00:00:00,6854595621.11,Haier,CNY
+Operating Expense,2024-06-30 00:00:00,14689372031.56,Haier,CNY
+Other Operating Expenses,2024-06-30 00:00:00,255040553.62,Haier,CNY
+Research And Development,2024-06-30 00:00:00,2146522977.33,Haier,CNY
+Selling General And Administration,2024-06-30 00:00:00,12624806979.23,Haier,CNY
+Selling And Marketing Expense,2024-06-30 00:00:00,9659181976.06,Haier,CNY
+General And Administrative Expense,2024-06-30 00:00:00,2965625003.17,Haier,CNY
+Gross Profit,2024-06-30 00:00:00,21543967652.67,Haier,CNY
+Cost Of Revenue,2024-06-30 00:00:00,45101067578.24,Haier,CNY
+Total Revenue,2024-06-30 00:00:00,66645035230.91,Haier,CNY
+Operating Revenue,2024-06-30 00:00:00,66645035230.91,Haier,CNY
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,-58851218.442828,Midea,CNY
+Tax Rate For Calcs,2025-06-30 00:00:00,0.142328,Midea,CNY
+Normalized EBITDA,2025-06-30 00:00:00,17292351000.0,Midea,CNY
+Total Unusual Items,2025-06-30 00:00:00,-413490000.0,Midea,CNY
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,-413490000.0,Midea,CNY
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,13591457000.0,Midea,CNY
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,91478866000.0,Midea,CNY
+EBITDA,2025-06-30 00:00:00,16878861000.0,Midea,CNY
+EBIT,2025-06-30 00:00:00,16878861000.0,Midea,CNY
+Net Interest Income,2025-06-30 00:00:00,384605000.0,Midea,CNY
+Interest Expense,2025-06-30 00:00:00,670501000.0,Midea,CNY
+Interest Income,2025-06-30 00:00:00,2271982000.0,Midea,CNY
+Normalized Income,2025-06-30 00:00:00,13946095781.557173,Midea,CNY
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,13591457000.0,Midea,CNY
+Total Expenses,2025-06-30 00:00:00,110618729000.0,Midea,CNY
+Total Operating Income As Reported,2025-06-30 00:00:00,16130249000.0,Midea,CNY
+Diluted Average Shares,2025-06-30 00:00:00,,Midea,CNY
+Basic Average Shares,2025-06-30 00:00:00,,Midea,CNY
+Diluted EPS,2025-06-30 00:00:00,,Midea,CNY
+Basic EPS,2025-06-30 00:00:00,,Midea,CNY
+Net Income Common Stockholders,2025-06-30 00:00:00,13591457000.0,Midea,CNY
+Otherunder Preferred Stock Dividend,2025-06-30 00:00:00,0.0,Midea,CNY
+Net Income,2025-06-30 00:00:00,13591457000.0,Midea,CNY
+Minority Interests,2025-06-30 00:00:00,-309999000.0,Midea,CNY
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,13901456000.0,Midea,CNY
+Net Income Continuous Operations,2025-06-30 00:00:00,13901456000.0,Midea,CNY
+Tax Provision,2025-06-30 00:00:00,2306904000.0,Midea,CNY
+Pretax Income,2025-06-30 00:00:00,16208360000.0,Midea,CNY
+Other Non Operating Income Expenses,2025-06-30 00:00:00,78111000.0,Midea,CNY
+Special Income Charges,2025-06-30 00:00:00,-125569000.0,Midea,CNY
+Other Special Charges,2025-06-30 00:00:00,2695000.0,Midea,CNY
+Write Off,2025-06-30 00:00:00,-30156000.0,Midea,CNY
+Impairment Of Capital Assets,2025-06-30 00:00:00,153030000.0,Midea,CNY
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,384605000.0,Midea,CNY
+Total Other Finance Cost,2025-06-30 00:00:00,1216876000.0,Midea,CNY
+Interest Expense Non Operating,2025-06-30 00:00:00,670501000.0,Midea,CNY
+Interest Income Non Operating,2025-06-30 00:00:00,2271982000.0,Midea,CNY
+Operating Income,2025-06-30 00:00:00,13284344000.0,Midea,CNY
+Operating Expense,2025-06-30 00:00:00,19139863000.0,Midea,CNY
+Other Operating Expenses,2025-06-30 00:00:00,598773000.0,Midea,CNY
+Research And Development,2025-06-30 00:00:00,4418673000.0,Midea,CNY
+Selling General And Administration,2025-06-30 00:00:00,14897812000.0,Midea,CNY
+Selling And Marketing Expense,2025-06-30 00:00:00,11177802000.0,Midea,CNY
+General And Administrative Expense,2025-06-30 00:00:00,3720010000.0,Midea,CNY
+Gross Profit,2025-06-30 00:00:00,32424207000.0,Midea,CNY
+Cost Of Revenue,2025-06-30 00:00:00,91478866000.0,Midea,CNY
+Total Revenue,2025-06-30 00:00:00,123903073000.0,Midea,CNY
+Operating Revenue,2025-06-30 00:00:00,123903073000.0,Midea,CNY
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,-266698560.332989,Midea,CNY
+Tax Rate For Calcs,2025-03-31 00:00:00,0.157849,Midea,CNY
+Normalized EBITDA,2025-03-31 00:00:00,17271044000.0,Midea,CNY
+Total Unusual Items,2025-03-31 00:00:00,-1689582000.0,Midea,CNY
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,-1689582000.0,Midea,CNY
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,12422233000.0,Midea,CNY
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,95307291000.0,Midea,CNY
+EBITDA,2025-03-31 00:00:00,15581462000.0,Midea,CNY
+EBIT,2025-03-31 00:00:00,15581462000.0,Midea,CNY
+Net Interest Income,2025-03-31 00:00:00,2840004000.0,Midea,CNY
+Interest Expense,2025-03-31 00:00:00,446533000.0,Midea,CNY
+Interest Income,2025-03-31 00:00:00,2115630000.0,Midea,CNY
+Normalized Income,2025-03-31 00:00:00,13845116439.667011,Midea,CNY
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,12422233000.0,Midea,CNY
+Total Expenses,2025-03-31 00:00:00,114992871000.0,Midea,CNY
+Total Operating Income As Reported,2025-03-31 00:00:00,15119192000.0,Midea,CNY
+Diluted Average Shares,2025-03-31 00:00:00,7621001840.0,Midea,CNY
+Basic Average Shares,2025-03-31 00:00:00,7574532317.0,Midea,CNY
+Diluted EPS,2025-03-31 00:00:00,1.63,Midea,CNY
+Basic EPS,2025-03-31 00:00:00,1.64,Midea,CNY
+Net Income Common Stockholders,2025-03-31 00:00:00,12422233000.0,Midea,CNY
+Otherunder Preferred Stock Dividend,2025-03-31 00:00:00,0.0,Midea,CNY
+Net Income,2025-03-31 00:00:00,12422233000.0,Midea,CNY
+Minority Interests,2025-03-31 00:00:00,-323665000.0,Midea,CNY
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,12745898000.0,Midea,CNY
+Net Income Continuous Operations,2025-03-31 00:00:00,12745898000.0,Midea,CNY
+Tax Provision,2025-03-31 00:00:00,2389031000.0,Midea,CNY
+Pretax Income,2025-03-31 00:00:00,15134929000.0,Midea,CNY
+Other Non Operating Income Expenses,2025-03-31 00:00:00,15737000.0,Midea,CNY
+Special Income Charges,2025-03-31 00:00:00,-607806000.0,Midea,CNY
+Other Special Charges,2025-03-31 00:00:00,17958000.0,Midea,CNY
+Write Off,2025-03-31 00:00:00,376533000.0,Midea,CNY
+Impairment Of Capital Assets,2025-03-31 00:00:00,213315000.0,Midea,CNY
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,2840004000.0,Midea,CNY
+Total Other Finance Cost,2025-03-31 00:00:00,-1170907000.0,Midea,CNY
+Interest Expense Non Operating,2025-03-31 00:00:00,446533000.0,Midea,CNY
+Interest Income Non Operating,2025-03-31 00:00:00,2115630000.0,Midea,CNY
+Operating Income,2025-03-31 00:00:00,13435550000.0,Midea,CNY
+Operating Expense,2025-03-31 00:00:00,19685580000.0,Midea,CNY
+Other Operating Expenses,2025-03-31 00:00:00,546743000.0,Midea,CNY
+Research And Development,2025-03-31 00:00:00,4347878000.0,Midea,CNY
+Selling General And Administration,2025-03-31 00:00:00,15411365000.0,Midea,CNY
+Selling And Marketing Expense,2025-03-31 00:00:00,11874752000.0,Midea,CNY
+General And Administrative Expense,2025-03-31 00:00:00,3536613000.0,Midea,CNY
+Gross Profit,2025-03-31 00:00:00,33121130000.0,Midea,CNY
+Cost Of Revenue,2025-03-31 00:00:00,95307291000.0,Midea,CNY
+Total Revenue,2025-03-31 00:00:00,128428421000.0,Midea,CNY
+Operating Revenue,2025-03-31 00:00:00,128428421000.0,Midea,CNY
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,82056368.898904,Midea,CNY
+Tax Rate For Calcs,2024-12-31 00:00:00,0.203231,Midea,CNY
+Normalized EBITDA,2024-12-31 00:00:00,8635995000.0,Midea,CNY
+Total Unusual Items,2024-12-31 00:00:00,403759000.0,Midea,CNY
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,403759000.0,Midea,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,6838123000.0,Midea,CNY
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,65955027000.0,Midea,CNY
+EBITDA,2024-12-31 00:00:00,9039754000.0,Midea,CNY
+EBIT,2024-12-31 00:00:00,9039754000.0,Midea,CNY
+Net Interest Income,2024-12-31 00:00:00,1745889000.0,Midea,CNY
+Interest Expense,2024-12-31 00:00:00,748477000.0,Midea,CNY
+Interest Income,2024-12-31 00:00:00,1739388000.0,Midea,CNY
+Normalized Income,2024-12-31 00:00:00,6516420368.898904,Midea,CNY
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,6838123000.0,Midea,CNY
+Total Expenses,2024-12-31 00:00:00,81921217000.0,Midea,CNY
+Total Operating Income As Reported,2024-12-31 00:00:00,8219728000.0,Midea,CNY
+Diluted Average Shares,2024-12-31 00:00:00,,Midea,CNY
+Basic Average Shares,2024-12-31 00:00:00,,Midea,CNY
+Diluted EPS,2024-12-31 00:00:00,,Midea,CNY
+Basic EPS,2024-12-31 00:00:00,,Midea,CNY
+Net Income Common Stockholders,2024-12-31 00:00:00,6838123000.0,Midea,CNY
+Otherunder Preferred Stock Dividend,2024-12-31 00:00:00,0.0,Midea,CNY
+Net Income,2024-12-31 00:00:00,6838123000.0,Midea,CNY
+Minority Interests,2024-12-31 00:00:00,231891000.0,Midea,CNY
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,6606232000.0,Midea,CNY
+Net Income Continuous Operations,2024-12-31 00:00:00,6606232000.0,Midea,CNY
+Tax Provision,2024-12-31 00:00:00,1685045000.0,Midea,CNY
+Pretax Income,2024-12-31 00:00:00,8291277000.0,Midea,CNY
+Other Non Operating Income Expenses,2024-12-31 00:00:00,71549000.0,Midea,CNY
+Special Income Charges,2024-12-31 00:00:00,-569850000.0,Midea,CNY
+Other Special Charges,2024-12-31 00:00:00,43365000.0,Midea,CNY
+Write Off,2024-12-31 00:00:00,-127964000.0,Midea,CNY
+Impairment Of Capital Assets,2024-12-31 00:00:00,654449000.0,Midea,CNY
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,1745889000.0,Midea,CNY
+Total Other Finance Cost,2024-12-31 00:00:00,-754978000.0,Midea,CNY
+Interest Expense Non Operating,2024-12-31 00:00:00,748477000.0,Midea,CNY
+Interest Income Non Operating,2024-12-31 00:00:00,1739388000.0,Midea,CNY
+Operating Income,2024-12-31 00:00:00,6813262000.0,Midea,CNY
+Operating Expense,2024-12-31 00:00:00,15966190000.0,Midea,CNY
+Other Operating Expenses,2024-12-31 00:00:00,487695000.0,Midea,CNY
+Research And Development,2024-12-31 00:00:00,4831279000.0,Midea,CNY
+Selling General And Administration,2024-12-31 00:00:00,11735753000.0,Midea,CNY
+Selling And Marketing Expense,2024-12-31 00:00:00,7590617000.0,Midea,CNY
+General And Administrative Expense,2024-12-31 00:00:00,4145136000.0,Midea,CNY
+Gross Profit,2024-12-31 00:00:00,22779452000.0,Midea,CNY
+Cost Of Revenue,2024-12-31 00:00:00,65955027000.0,Midea,CNY
+Total Revenue,2024-12-31 00:00:00,88734479000.0,Midea,CNY
+Operating Revenue,2024-12-31 00:00:00,88734479000.0,Midea,CNY
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,15746412.134029,Midea,CNY
+Tax Rate For Calcs,2024-09-30 00:00:00,0.149625,Midea,CNY
+Normalized EBITDA,2024-09-30 00:00:00,13481872000.0,Midea,CNY
+Total Unusual Items,2024-09-30 00:00:00,105239000.0,Midea,CNY
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,105239000.0,Midea,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,10894938000.0,Midea,CNY
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,75222311000.0,Midea,CNY
+EBITDA,2024-09-30 00:00:00,13587111000.0,Midea,CNY
+EBIT,2024-09-30 00:00:00,13587111000.0,Midea,CNY
+Net Interest Income,2024-09-30 00:00:00,364428000.0,Midea,CNY
+Interest Expense,2024-09-30 00:00:00,640199000.0,Midea,CNY
+Interest Income,2024-09-30 00:00:00,1776968000.0,Midea,CNY
+Normalized Income,2024-09-30 00:00:00,10805445412.13403,Midea,CNY
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,10894938000.0,Midea,CNY
+Total Expenses,2024-09-30 00:00:00,92087220000.0,Midea,CNY
+Total Operating Income As Reported,2024-09-30 00:00:00,12860975000.0,Midea,CNY
+Diluted Average Shares,2024-09-30 00:00:00,,Midea,CNY
+Basic Average Shares,2024-09-30 00:00:00,,Midea,CNY
+Diluted EPS,2024-09-30 00:00:00,,Midea,CNY
+Basic EPS,2024-09-30 00:00:00,,Midea,CNY
+Net Income Common Stockholders,2024-09-30 00:00:00,10894938000.0,Midea,CNY
+Otherunder Preferred Stock Dividend,2024-09-30 00:00:00,0.0,Midea,CNY
+Net Income,2024-09-30 00:00:00,10894938000.0,Midea,CNY
+Minority Interests,2024-09-30 00:00:00,-114789000.0,Midea,CNY
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,11009727000.0,Midea,CNY
+Net Income Continuous Operations,2024-09-30 00:00:00,11009727000.0,Midea,CNY
+Tax Provision,2024-09-30 00:00:00,1937185000.0,Midea,CNY
+Pretax Income,2024-09-30 00:00:00,12946912000.0,Midea,CNY
+Other Non Operating Income Expenses,2024-09-30 00:00:00,85937000.0,Midea,CNY
+Special Income Charges,2024-09-30 00:00:00,25680000.0,Midea,CNY
+Other Special Charges,2024-09-30 00:00:00,-144253000.0,Midea,CNY
+Write Off,2024-09-30 00:00:00,90286000.0,Midea,CNY
+Impairment Of Capital Assets,2024-09-30 00:00:00,28287000.0,Midea,CNY
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,364428000.0,Midea,CNY
+Total Other Finance Cost,2024-09-30 00:00:00,772341000.0,Midea,CNY
+Interest Expense Non Operating,2024-09-30 00:00:00,640199000.0,Midea,CNY
+Interest Income Non Operating,2024-09-30 00:00:00,1776968000.0,Midea,CNY
+Operating Income,2024-09-30 00:00:00,10140728000.0,Midea,CNY
+Operating Expense,2024-09-30 00:00:00,16864909000.0,Midea,CNY
+Other Operating Expenses,2024-09-30 00:00:00,531127000.0,Midea,CNY
+Research And Development,2024-09-30 00:00:00,3738958000.0,Midea,CNY
+Selling General And Administration,2024-09-30 00:00:00,13374123000.0,Midea,CNY
+Selling And Marketing Expense,2024-09-30 00:00:00,9707194000.0,Midea,CNY
+General And Administrative Expense,2024-09-30 00:00:00,3666929000.0,Midea,CNY
+Gross Profit,2024-09-30 00:00:00,27005637000.0,Midea,CNY
+Cost Of Revenue,2024-09-30 00:00:00,75222311000.0,Midea,CNY
+Total Revenue,2024-09-30 00:00:00,102227948000.0,Midea,CNY
+Operating Revenue,2024-09-30 00:00:00,102227948000.0,Midea,CNY
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,133992849.415085,Midea,CNY
+Tax Rate For Calcs,2024-06-30 00:00:00,0.176999,Midea,CNY
+Normalized EBITDA,2024-06-30 00:00:00,14483950000.0,Midea,CNY
+Total Unusual Items,2024-06-30 00:00:00,757026000.0,Midea,CNY
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,757026000.0,Midea,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,11804169000.0,Midea,CNY
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,81293199000.0,Midea,CNY
+EBITDA,2024-06-30 00:00:00,15240976000.0,Midea,CNY
+EBIT,2024-06-30 00:00:00,15240976000.0,Midea,CNY
+Net Interest Income,2024-06-30 00:00:00,3174659000.0,Midea,CNY
+Interest Expense,2024-06-30 00:00:00,532690000.0,Midea,CNY
+Interest Income,2024-06-30 00:00:00,1854189000.0,Midea,CNY
+Normalized Income,2024-06-30 00:00:00,11181135849.415085,Midea,CNY
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,11804169000.0,Midea,CNY
+Total Expenses,2024-06-30 00:00:00,99415011000.0,Midea,CNY
+Total Operating Income As Reported,2024-06-30 00:00:00,14659602000.0,Midea,CNY
+Diluted Average Shares,2024-06-30 00:00:00,,Midea,CNY
+Basic Average Shares,2024-06-30 00:00:00,,Midea,CNY
+Diluted EPS,2024-06-30 00:00:00,,Midea,CNY
+Basic EPS,2024-06-30 00:00:00,,Midea,CNY
+Net Income Common Stockholders,2024-06-30 00:00:00,11804169000.0,Midea,CNY
+Otherunder Preferred Stock Dividend,2024-06-30 00:00:00,0.0,Midea,CNY
+Net Income,2024-06-30 00:00:00,11804169000.0,Midea,CNY
+Minority Interests,2024-06-30 00:00:00,-300765000.0,Midea,CNY
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,12104934000.0,Midea,CNY
+Net Income Continuous Operations,2024-06-30 00:00:00,12104934000.0,Midea,CNY
+Tax Provision,2024-06-30 00:00:00,2603352000.0,Midea,CNY
+Pretax Income,2024-06-30 00:00:00,14708286000.0,Midea,CNY
+Other Non Operating Income Expenses,2024-06-30 00:00:00,48684000.0,Midea,CNY
+Special Income Charges,2024-06-30 00:00:00,227939000.0,Midea,CNY
+Other Special Charges,2024-06-30 00:00:00,-117784000.0,Midea,CNY
+Write Off,2024-06-30 00:00:00,-259319000.0,Midea,CNY
+Impairment Of Capital Assets,2024-06-30 00:00:00,149164000.0,Midea,CNY
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,3174659000.0,Midea,CNY
+Total Other Finance Cost,2024-06-30 00:00:00,-1853160000.0,Midea,CNY
+Interest Expense Non Operating,2024-06-30 00:00:00,532690000.0,Midea,CNY
+Interest Income Non Operating,2024-06-30 00:00:00,1854189000.0,Midea,CNY
+Operating Income,2024-06-30 00:00:00,12223638000.0,Midea,CNY
+Operating Expense,2024-06-30 00:00:00,18121812000.0,Midea,CNY
+Other Operating Expenses,2024-06-30 00:00:00,573092000.0,Midea,CNY
+Research And Development,2024-06-30 00:00:00,4067546000.0,Midea,CNY
+Selling General And Administration,2024-06-30 00:00:00,14204736000.0,Midea,CNY
+Selling And Marketing Expense,2024-06-30 00:00:00,10826026000.0,Midea,CNY
+General And Administrative Expense,2024-06-30 00:00:00,3378710000.0,Midea,CNY
+Gross Profit,2024-06-30 00:00:00,30345450000.0,Midea,CNY
+Cost Of Revenue,2024-06-30 00:00:00,81293199000.0,Midea,CNY
+Total Revenue,2024-06-30 00:00:00,111638649000.0,Midea,CNY
+Operating Revenue,2024-06-30 00:00:00,111638649000.0,Midea,CNY
+Tax Effect Of Unusual Items,2025-12-31 00:00:00,392865750.0,Beko,TRY
+Tax Rate For Calcs,2025-12-31 00:00:00,0.25,Beko,TRY
+Normalized EBITDA,2025-12-31 00:00:00,14319381000.0,Beko,TRY
+Total Unusual Items,2025-12-31 00:00:00,1571463000.0,Beko,TRY
+Total Unusual Items Excluding Goodwill,2025-12-31 00:00:00,1571463000.0,Beko,TRY
+Net Income From Continuing Operation Net Minority Interest,2025-12-31 00:00:00,-1919882000.0,Beko,TRY
+Reconciled Depreciation,2025-12-31 00:00:00,6299612000.0,Beko,TRY
+Reconciled Cost Of Revenue,2025-12-31 00:00:00,102751460000.0,Beko,TRY
+EBITDA,2025-12-31 00:00:00,15890844000.0,Beko,TRY
+EBIT,2025-12-31 00:00:00,9591232000.0,Beko,TRY
+Net Interest Income,2025-12-31 00:00:00,-8131320000.0,Beko,TRY
+Interest Expense,2025-12-31 00:00:00,10088488000.0,Beko,TRY
+Interest Income,2025-12-31 00:00:00,3109853000.0,Beko,TRY
+Normalized Income,2025-12-31 00:00:00,-3098479250.0,Beko,TRY
+Net Income From Continuing And Discontinued Operation,2025-12-31 00:00:00,-1919882000.0,Beko,TRY
+Total Expenses,2025-12-31 00:00:00,143785932000.0,Beko,TRY
+Total Operating Income As Reported,2025-12-31 00:00:00,2570328000.0,Beko,TRY
+Diluted Average Shares,2025-12-31 00:00:00,,Beko,TRY
+Basic Average Shares,2025-12-31 00:00:00,,Beko,TRY
+Diluted EPS,2025-12-31 00:00:00,,Beko,TRY
+Basic EPS,2025-12-31 00:00:00,,Beko,TRY
+Diluted NI Availto Com Stockholders,2025-12-31 00:00:00,-1919882000.0,Beko,TRY
+Net Income Common Stockholders,2025-12-31 00:00:00,-1919882000.0,Beko,TRY
+Otherunder Preferred Stock Dividend,2025-12-31 00:00:00,0.0,Beko,TRY
+Net Income,2025-12-31 00:00:00,-1919882000.0,Beko,TRY
+Minority Interests,2025-12-31 00:00:00,140972000.0,Beko,TRY
+Net Income Including Noncontrolling Interests,2025-12-31 00:00:00,-2060854000.0,Beko,TRY
+Net Income Continuous Operations,2025-12-31 00:00:00,-2060854000.0,Beko,TRY
+Tax Provision,2025-12-31 00:00:00,1563598000.0,Beko,TRY
+Pretax Income,2025-12-31 00:00:00,-497256000.0,Beko,TRY
+Other Non Operating Income Expenses,2025-12-31 00:00:00,2634622000.0,Beko,TRY
+Special Income Charges,2025-12-31 00:00:00,1454955000.0,Beko,TRY
+Other Special Charges,2025-12-31 00:00:00,1582000.0,Beko,TRY
+Write Off,2025-12-31 00:00:00,,Beko,TRY
+Restructuring And Mergern Acquisition,2025-12-31 00:00:00,-1456537000.0,Beko,TRY
+Net Non Operating Interest Income Expense,2025-12-31 00:00:00,-8131320000.0,Beko,TRY
+Total Other Finance Cost,2025-12-31 00:00:00,1152685000.0,Beko,TRY
+Interest Expense Non Operating,2025-12-31 00:00:00,10088488000.0,Beko,TRY
+Interest Income Non Operating,2025-12-31 00:00:00,3109853000.0,Beko,TRY
+Operating Income,2025-12-31 00:00:00,878105000.0,Beko,TRY
+Operating Expense,2025-12-31 00:00:00,41034472000.0,Beko,TRY
+Other Operating Expenses,2025-12-31 00:00:00,835487000.0,Beko,TRY
+Research And Development,2025-12-31 00:00:00,1801803000.0,Beko,TRY
+Selling General And Administration,2025-12-31 00:00:00,38869205000.0,Beko,TRY
+Selling And Marketing Expense,2025-12-31 00:00:00,28989633000.0,Beko,TRY
+General And Administrative Expense,2025-12-31 00:00:00,9879572000.0,Beko,TRY
+Gross Profit,2025-12-31 00:00:00,41912577000.0,Beko,TRY
+Cost Of Revenue,2025-12-31 00:00:00,102751460000.0,Beko,TRY
+Total Revenue,2025-12-31 00:00:00,144664037000.0,Beko,TRY
+Operating Revenue,2025-12-31 00:00:00,144664037000.0,Beko,TRY
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,-196600000.0,Beko,TRY
+Tax Rate For Calcs,2025-06-30 00:00:00,0.25,Beko,TRY
+Normalized EBITDA,2025-06-30 00:00:00,10100219000.0,Beko,TRY
+Total Unusual Items,2025-06-30 00:00:00,-786400000.0,Beko,TRY
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,-786400000.0,Beko,TRY
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,-2336021000.0,Beko,TRY
+Reconciled Depreciation,2025-06-30 00:00:00,5651708000.0,Beko,TRY
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,86891079000.0,Beko,TRY
+EBITDA,2025-06-30 00:00:00,9313819000.0,Beko,TRY
+EBIT,2025-06-30 00:00:00,3662111000.0,Beko,TRY
+Net Interest Income,2025-06-30 00:00:00,-5621479000.0,Beko,TRY
+Interest Expense,2025-06-30 00:00:00,5936923000.0,Beko,TRY
+Interest Income,2025-06-30 00:00:00,989920000.0,Beko,TRY
+Normalized Income,2025-06-30 00:00:00,-1746221000.0,Beko,TRY
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,-2336021000.0,Beko,TRY
+Total Expenses,2025-06-30 00:00:00,120073314000.0,Beko,TRY
+Total Operating Income As Reported,2025-06-30 00:00:00,2641028000.0,Beko,TRY
+Diluted Average Shares,2025-06-30 00:00:00,606880735.0,Beko,TRY
+Basic Average Shares,2025-06-30 00:00:00,606880735.0,Beko,TRY
+Diluted EPS,2025-06-30 00:00:00,-3.849,Beko,TRY
+Basic EPS,2025-06-30 00:00:00,-3.849,Beko,TRY
+Diluted NI Availto Com Stockholders,2025-06-30 00:00:00,-2336021000.0,Beko,TRY
+Net Income Common Stockholders,2025-06-30 00:00:00,-2336021000.0,Beko,TRY
+Otherunder Preferred Stock Dividend,2025-06-30 00:00:00,0.0,Beko,TRY
+Net Income,2025-06-30 00:00:00,-2336021000.0,Beko,TRY
+Minority Interests,2025-06-30 00:00:00,618242000.0,Beko,TRY
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,-2954263000.0,Beko,TRY
+Net Income Continuous Operations,2025-06-30 00:00:00,-2954263000.0,Beko,TRY
+Tax Provision,2025-06-30 00:00:00,679451000.0,Beko,TRY
+Pretax Income,2025-06-30 00:00:00,-2274812000.0,Beko,TRY
+Other Non Operating Income Expenses,2025-06-30 00:00:00,3432843000.0,Beko,TRY
+Special Income Charges,2025-06-30 00:00:00,33480000.0,Beko,TRY
+Other Special Charges,2025-06-30 00:00:00,-27365000.0,Beko,TRY
+Write Off,2025-06-30 00:00:00,,Beko,TRY
+Restructuring And Mergern Acquisition,2025-06-30 00:00:00,-6115000.0,Beko,TRY
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,-5621479000.0,Beko,TRY
+Total Other Finance Cost,2025-06-30 00:00:00,674476000.0,Beko,TRY
+Interest Expense Non Operating,2025-06-30 00:00:00,5936923000.0,Beko,TRY
+Interest Income Non Operating,2025-06-30 00:00:00,989920000.0,Beko,TRY
+Operating Income,2025-06-30 00:00:00,1290238000.0,Beko,TRY
+Operating Expense,2025-06-30 00:00:00,33182235000.0,Beko,TRY
+Other Operating Expenses,2025-06-30 00:00:00,629110000.0,Beko,TRY
+Research And Development,2025-06-30 00:00:00,1601171000.0,Beko,TRY
+Selling General And Administration,2025-06-30 00:00:00,31164356000.0,Beko,TRY
+Selling And Marketing Expense,2025-06-30 00:00:00,23752062000.0,Beko,TRY
+General And Administrative Expense,2025-06-30 00:00:00,7412294000.0,Beko,TRY
+Gross Profit,2025-06-30 00:00:00,34472473000.0,Beko,TRY
+Cost Of Revenue,2025-06-30 00:00:00,86891079000.0,Beko,TRY
+Total Revenue,2025-06-30 00:00:00,121363552000.0,Beko,TRY
+Operating Revenue,2025-06-30 00:00:00,121363552000.0,Beko,TRY
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,-213887000.0,Beko,TRY
+Tax Rate For Calcs,2025-03-31 00:00:00,0.25,Beko,TRY
+Normalized EBITDA,2025-03-31 00:00:00,9130084000.0,Beko,TRY
+Total Unusual Items,2025-03-31 00:00:00,-855548000.0,Beko,TRY
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,-855548000.0,Beko,TRY
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,-1640076000.0,Beko,TRY
+Reconciled Depreciation,2025-03-31 00:00:00,4720201000.0,Beko,TRY
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,77842714000.0,Beko,TRY
+EBITDA,2025-03-31 00:00:00,8274536000.0,Beko,TRY
+EBIT,2025-03-31 00:00:00,3554335000.0,Beko,TRY
+Net Interest Income,2025-03-31 00:00:00,-3526125000.0,Beko,TRY
+Interest Expense,2025-03-31 00:00:00,4507381000.0,Beko,TRY
+Interest Income,2025-03-31 00:00:00,1717763000.0,Beko,TRY
+Normalized Income,2025-03-31 00:00:00,-998415000.0,Beko,TRY
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,-1640076000.0,Beko,TRY
+Total Expenses,2025-03-31 00:00:00,108890251000.0,Beko,TRY
+Total Operating Income As Reported,2025-03-31 00:00:00,2504920000.0,Beko,TRY
+Diluted Average Shares,2025-03-31 00:00:00,606851917.0,Beko,TRY
+Basic Average Shares,2025-03-31 00:00:00,606851917.0,Beko,TRY
+Diluted EPS,2025-03-31 00:00:00,-2.703,Beko,TRY
+Basic EPS,2025-03-31 00:00:00,-2.703,Beko,TRY
+Diluted NI Availto Com Stockholders,2025-03-31 00:00:00,-1640076000.0,Beko,TRY
+Net Income Common Stockholders,2025-03-31 00:00:00,-1640076000.0,Beko,TRY
+Otherunder Preferred Stock Dividend,2025-03-31 00:00:00,0.0,Beko,TRY
+Net Income,2025-03-31 00:00:00,-1640076000.0,Beko,TRY
+Minority Interests,2025-03-31 00:00:00,311503000.0,Beko,TRY
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,-1951579000.0,Beko,TRY
+Net Income Continuous Operations,2025-03-31 00:00:00,-1951579000.0,Beko,TRY
+Tax Provision,2025-03-31 00:00:00,998533000.0,Beko,TRY
+Pretax Income,2025-03-31 00:00:00,-953046000.0,Beko,TRY
+Other Non Operating Income Expenses,2025-03-31 00:00:00,4342139000.0,Beko,TRY
+Special Income Charges,2025-03-31 00:00:00,25690000.0,Beko,TRY
+Other Special Charges,2025-03-31 00:00:00,-25690000.0,Beko,TRY
+Write Off,2025-03-31 00:00:00,,Beko,TRY
+Restructuring And Mergern Acquisition,2025-03-31 00:00:00,,Beko,TRY
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,-3526125000.0,Beko,TRY
+Total Other Finance Cost,2025-03-31 00:00:00,736507000.0,Beko,TRY
+Interest Expense Non Operating,2025-03-31 00:00:00,4507381000.0,Beko,TRY
+Interest Income Non Operating,2025-03-31 00:00:00,1717763000.0,Beko,TRY
+Operating Income,2025-03-31 00:00:00,227391000.0,Beko,TRY
+Operating Expense,2025-03-31 00:00:00,31047537000.0,Beko,TRY
+Other Operating Expenses,2025-03-31 00:00:00,1131751000.0,Beko,TRY
+Research And Development,2025-03-31 00:00:00,1297230000.0,Beko,TRY
+Selling General And Administration,2025-03-31 00:00:00,28974651000.0,Beko,TRY
+Selling And Marketing Expense,2025-03-31 00:00:00,21430415000.0,Beko,TRY
+General And Administrative Expense,2025-03-31 00:00:00,7544236000.0,Beko,TRY
+Gross Profit,2025-03-31 00:00:00,31274928000.0,Beko,TRY
+Cost Of Revenue,2025-03-31 00:00:00,77842714000.0,Beko,TRY
+Total Revenue,2025-03-31 00:00:00,109117642000.0,Beko,TRY
+Operating Revenue,2025-03-31 00:00:00,109117642000.0,Beko,TRY
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,1593710747.167549,Beko,TRY
+Tax Rate For Calcs,2024-12-31 00:00:00,0.301269,Beko,TRY
+Normalized EBITDA,2024-12-31 00:00:00,11040202000.0,Beko,TRY
+Total Unusual Items,2024-12-31 00:00:00,5289987000.0,Beko,TRY
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,5289987000.0,Beko,TRY
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,6695085000.0,Beko,TRY
+Reconciled Depreciation,2024-12-31 00:00:00,5028310000.0,Beko,TRY
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,92858457000.0,Beko,TRY
+EBITDA,2024-12-31 00:00:00,16330189000.0,Beko,TRY
+EBIT,2024-12-31 00:00:00,11301879000.0,Beko,TRY
+Net Interest Income,2024-12-31 00:00:00,-2577217000.0,Beko,TRY
+Interest Expense,2024-12-31 00:00:00,6089609000.0,Beko,TRY
+Interest Income,2024-12-31 00:00:00,763865000.0,Beko,TRY
+Normalized Income,2024-12-31 00:00:00,2998808747.167549,Beko,TRY
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,6695085000.0,Beko,TRY
+Total Expenses,2024-12-31 00:00:00,130964129000.0,Beko,TRY
+Total Operating Income As Reported,2024-12-31 00:00:00,5667083000.0,Beko,TRY
+Diluted Average Shares,2024-12-31 00:00:00,,Beko,TRY
+Basic Average Shares,2024-12-31 00:00:00,,Beko,TRY
+Diluted EPS,2024-12-31 00:00:00,,Beko,TRY
+Basic EPS,2024-12-31 00:00:00,,Beko,TRY
+Diluted NI Availto Com Stockholders,2024-12-31 00:00:00,6695085000.0,Beko,TRY
+Net Income Common Stockholders,2024-12-31 00:00:00,6695085000.0,Beko,TRY
+Otherunder Preferred Stock Dividend,2024-12-31 00:00:00,0.0,Beko,TRY
+Net Income,2024-12-31 00:00:00,6695085000.0,Beko,TRY
+Minority Interests,2024-12-31 00:00:00,3053112000.0,Beko,TRY
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,3641973000.0,Beko,TRY
+Net Income Continuous Operations,2024-12-31 00:00:00,3641973000.0,Beko,TRY
+Tax Provision,2024-12-31 00:00:00,1570297000.0,Beko,TRY
+Pretax Income,2024-12-31 00:00:00,5212270000.0,Beko,TRY
+Other Non Operating Income Expenses,2024-12-31 00:00:00,7606901000.0,Beko,TRY
+Special Income Charges,2024-12-31 00:00:00,5964312000.0,Beko,TRY
+Other Special Charges,2024-12-31 00:00:00,14479000.0,Beko,TRY
+Write Off,2024-12-31 00:00:00,25800000.0,Beko,TRY
+Restructuring And Mergern Acquisition,2024-12-31 00:00:00,-6004591000.0,Beko,TRY
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-2577217000.0,Beko,TRY
+Total Other Finance Cost,2024-12-31 00:00:00,-2748527000.0,Beko,TRY
+Interest Expense Non Operating,2024-12-31 00:00:00,6089609000.0,Beko,TRY
+Interest Income Non Operating,2024-12-31 00:00:00,763865000.0,Beko,TRY
+Operating Income,2024-12-31 00:00:00,-3778405000.0,Beko,TRY
+Operating Expense,2024-12-31 00:00:00,38105672000.0,Beko,TRY
+Other Operating Expenses,2024-12-31 00:00:00,5639787000.0,Beko,TRY
+Research And Development,2024-12-31 00:00:00,1390496000.0,Beko,TRY
+Selling General And Administration,2024-12-31 00:00:00,32136691000.0,Beko,TRY
+Selling And Marketing Expense,2024-12-31 00:00:00,24541271000.0,Beko,TRY
+General And Administrative Expense,2024-12-31 00:00:00,7595420000.0,Beko,TRY
+Gross Profit,2024-12-31 00:00:00,34327267000.0,Beko,TRY
+Cost Of Revenue,2024-12-31 00:00:00,92858457000.0,Beko,TRY
+Total Revenue,2024-12-31 00:00:00,127185724000.0,Beko,TRY
+Operating Revenue,2024-12-31 00:00:00,127185724000.0,Beko,TRY
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,-506532866.753531,Beko,TRY
+Tax Rate For Calcs,2024-09-30 00:00:00,0.17771,Beko,TRY
+Normalized EBITDA,2024-09-30 00:00:00,10115531000.0,Beko,TRY
+Total Unusual Items,2024-09-30 00:00:00,-2850327000.0,Beko,TRY
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,-2850327000.0,Beko,TRY
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,-5591655000.0,Beko,TRY
+Reconciled Depreciation,2024-09-30 00:00:00,6397637000.0,Beko,TRY
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,103388362000.0,Beko,TRY
+EBITDA,2024-09-30 00:00:00,7265204000.0,Beko,TRY
+EBIT,2024-09-30 00:00:00,867567000.0,Beko,TRY
+Net Interest Income,2024-09-30 00:00:00,-8812033000.0,Beko,TRY
+Interest Expense,2024-09-30 00:00:00,8650610000.0,Beko,TRY
+Interest Income,2024-09-30 00:00:00,848227000.0,Beko,TRY
+Normalized Income,2024-09-30 00:00:00,-3247860866.753531,Beko,TRY
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,-5591655000.0,Beko,TRY
+Total Expenses,2024-09-30 00:00:00,139824297000.0,Beko,TRY
+Total Operating Income As Reported,2024-09-30 00:00:00,-2569880000.0,Beko,TRY
+Diluted Average Shares,2024-09-30 00:00:00,606851917.0,Beko,TRY
+Basic Average Shares,2024-09-30 00:00:00,606851917.0,Beko,TRY
+Diluted EPS,2024-09-30 00:00:00,-9.214,Beko,TRY
+Basic EPS,2024-09-30 00:00:00,-9.214,Beko,TRY
+Diluted NI Availto Com Stockholders,2024-09-30 00:00:00,-5591655000.0,Beko,TRY
+Net Income Common Stockholders,2024-09-30 00:00:00,-5591655000.0,Beko,TRY
+Otherunder Preferred Stock Dividend,2024-09-30 00:00:00,0.0,Beko,TRY
+Net Income,2024-09-30 00:00:00,-5591655000.0,Beko,TRY
+Minority Interests,2024-09-30 00:00:00,808260000.0,Beko,TRY
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,-6399915000.0,Beko,TRY
+Net Income Continuous Operations,2024-09-30 00:00:00,-6399915000.0,Beko,TRY
+Tax Provision,2024-09-30 00:00:00,-1383128000.0,Beko,TRY
+Pretax Income,2024-09-30 00:00:00,-7783043000.0,Beko,TRY
+Other Non Operating Income Expenses,2024-09-30 00:00:00,4315778000.0,Beko,TRY
+Special Income Charges,2024-09-30 00:00:00,-1223696000.0,Beko,TRY
+Other Special Charges,2024-09-30 00:00:00,20556000.0,Beko,TRY
+Write Off,2024-09-30 00:00:00,,Beko,TRY
+Restructuring And Mergern Acquisition,2024-09-30 00:00:00,1203140000.0,Beko,TRY
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,-8812033000.0,Beko,TRY
+Total Other Finance Cost,2024-09-30 00:00:00,1009650000.0,Beko,TRY
+Interest Expense Non Operating,2024-09-30 00:00:00,8650610000.0,Beko,TRY
+Interest Income Non Operating,2024-09-30 00:00:00,848227000.0,Beko,TRY
+Operating Income,2024-09-30 00:00:00,655255000.0,Beko,TRY
+Operating Expense,2024-09-30 00:00:00,36435935000.0,Beko,TRY
+Other Operating Expenses,2024-09-30 00:00:00,166862000.0,Beko,TRY
+Research And Development,2024-09-30 00:00:00,2005419000.0,Beko,TRY
+Selling General And Administration,2024-09-30 00:00:00,34628240000.0,Beko,TRY
+Selling And Marketing Expense,2024-09-30 00:00:00,26832225000.0,Beko,TRY
+General And Administrative Expense,2024-09-30 00:00:00,7796015000.0,Beko,TRY
+Gross Profit,2024-09-30 00:00:00,37091190000.0,Beko,TRY
+Cost Of Revenue,2024-09-30 00:00:00,103388362000.0,Beko,TRY
+Total Revenue,2024-09-30 00:00:00,140479552000.0,Beko,TRY
+Operating Revenue,2024-09-30 00:00:00,140479552000.0,Beko,TRY
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,,Beko,TRY
+Tax Rate For Calcs,2024-06-30 00:00:00,,Beko,TRY
+Normalized EBITDA,2024-06-30 00:00:00,,Beko,TRY
+Total Unusual Items,2024-06-30 00:00:00,,Beko,TRY
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,,Beko,TRY
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,,Beko,TRY
+Reconciled Depreciation,2024-06-30 00:00:00,,Beko,TRY
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,,Beko,TRY
+EBITDA,2024-06-30 00:00:00,,Beko,TRY
+EBIT,2024-06-30 00:00:00,,Beko,TRY
+Net Interest Income,2024-06-30 00:00:00,,Beko,TRY
+Interest Expense,2024-06-30 00:00:00,,Beko,TRY
+Interest Income,2024-06-30 00:00:00,,Beko,TRY
+Normalized Income,2024-06-30 00:00:00,,Beko,TRY
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,,Beko,TRY
+Total Expenses,2024-06-30 00:00:00,,Beko,TRY
+Total Operating Income As Reported,2024-06-30 00:00:00,,Beko,TRY
+Diluted Average Shares,2024-06-30 00:00:00,606851917.0,Beko,TRY
+Basic Average Shares,2024-06-30 00:00:00,606851917.0,Beko,TRY
+Diluted EPS,2024-06-30 00:00:00,33.457,Beko,TRY
+Basic EPS,2024-06-30 00:00:00,33.457,Beko,TRY
+Diluted NI Availto Com Stockholders,2024-06-30 00:00:00,,Beko,TRY
+Net Income Common Stockholders,2024-06-30 00:00:00,,Beko,TRY
+Otherunder Preferred Stock Dividend,2024-06-30 00:00:00,,Beko,TRY
+Net Income,2024-06-30 00:00:00,,Beko,TRY
+Minority Interests,2024-06-30 00:00:00,,Beko,TRY
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,,Beko,TRY
+Net Income Continuous Operations,2024-06-30 00:00:00,,Beko,TRY
+Tax Provision,2024-06-30 00:00:00,,Beko,TRY
+Pretax Income,2024-06-30 00:00:00,,Beko,TRY
+Other Non Operating Income Expenses,2024-06-30 00:00:00,,Beko,TRY
+Special Income Charges,2024-06-30 00:00:00,,Beko,TRY
+Other Special Charges,2024-06-30 00:00:00,,Beko,TRY
+Write Off,2024-06-30 00:00:00,,Beko,TRY
+Restructuring And Mergern Acquisition,2024-06-30 00:00:00,-21171943000.0,Beko,TRY
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,,Beko,TRY
+Total Other Finance Cost,2024-06-30 00:00:00,,Beko,TRY
+Interest Expense Non Operating,2024-06-30 00:00:00,,Beko,TRY
+Interest Income Non Operating,2024-06-30 00:00:00,,Beko,TRY
+Operating Income,2024-06-30 00:00:00,,Beko,TRY
+Operating Expense,2024-06-30 00:00:00,,Beko,TRY
+Other Operating Expenses,2024-06-30 00:00:00,,Beko,TRY
+Research And Development,2024-06-30 00:00:00,,Beko,TRY
+Selling General And Administration,2024-06-30 00:00:00,,Beko,TRY
+Selling And Marketing Expense,2024-06-30 00:00:00,,Beko,TRY
+General And Administrative Expense,2024-06-30 00:00:00,,Beko,TRY
+Gross Profit,2024-06-30 00:00:00,,Beko,TRY
+Cost Of Revenue,2024-06-30 00:00:00,,Beko,TRY
+Total Revenue,2024-06-30 00:00:00,,Beko,TRY
+Operating Revenue,2024-06-30 00:00:00,,Beko,TRY
+Tax Effect Of Unusual Items,2025-12-31 00:00:00,-3543055654.636775,Samsung,KRW
+Tax Rate For Calcs,2025-12-31 00:00:00,0.065933,Samsung,KRW
+Normalized EBITDA,2025-12-31 00:00:00,33479214000000.0,Samsung,KRW
+Total Unusual Items,2025-12-31 00:00:00,-53737000000.0,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2025-12-31 00:00:00,-53737000000.0,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-12-31 00:00:00,19292054000000.0,Samsung,KRW
+Reconciled Depreciation,2025-12-31 00:00:00,12232032000000.0,Samsung,KRW
+Reconciled Cost Of Revenue,2025-12-31 00:00:00,49586396000000.0,Samsung,KRW
+EBITDA,2025-12-31 00:00:00,33425477000000.0,Samsung,KRW
+EBIT,2025-12-31 00:00:00,21193445000000.0,Samsung,KRW
+Net Interest Income,2025-12-31 00:00:00,965075000000.0,Samsung,KRW
+Interest Expense,2025-12-31 00:00:00,165242000000.0,Samsung,KRW
+Interest Income,2025-12-31 00:00:00,1130317000000.0,Samsung,KRW
+Normalized Income,2025-12-31 00:00:00,19342247944345.363,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2025-12-31 00:00:00,19292054000000.0,Samsung,KRW
+Total Expenses,2025-12-31 00:00:00,73763711000000.0,Samsung,KRW
+Total Operating Income As Reported,2025-12-31 00:00:00,20073660000000.0,Samsung,KRW
+Diluted Average Shares,2025-12-31 00:00:00,,Samsung,KRW
+Basic Average Shares,2025-12-31 00:00:00,,Samsung,KRW
+Diluted EPS,2025-12-31 00:00:00,,Samsung,KRW
+Basic EPS,2025-12-31 00:00:00,,Samsung,KRW
+Net Income Common Stockholders,2025-12-31 00:00:00,19292054000000.0,Samsung,KRW
+Net Income,2025-12-31 00:00:00,19292054000000.0,Samsung,KRW
+Minority Interests,2025-12-31 00:00:00,-349691000000.0,Samsung,KRW
+Net Income Including Noncontrolling Interests,2025-12-31 00:00:00,19641745000000.0,Samsung,KRW
+Net Income Continuous Operations,2025-12-31 00:00:00,19641745000000.0,Samsung,KRW
+Tax Provision,2025-12-31 00:00:00,1386458000000.0,Samsung,KRW
+Pretax Income,2025-12-31 00:00:00,21028203000000.0,Samsung,KRW
+Other Non Operating Income Expenses,2025-12-31 00:00:00,-38290000000.0,Samsung,KRW
+Special Income Charges,2025-12-31 00:00:00,-88952000000.0,Samsung,KRW
+Other Special Charges,2025-12-31 00:00:00,88952000000.0,Samsung,KRW
+Net Non Operating Interest Income Expense,2025-12-31 00:00:00,965075000000.0,Samsung,KRW
+Total Other Finance Cost,2025-12-31 00:00:00,,Samsung,KRW
+Interest Expense Non Operating,2025-12-31 00:00:00,165242000000.0,Samsung,KRW
+Interest Income Non Operating,2025-12-31 00:00:00,1130317000000.0,Samsung,KRW
+Operating Income,2025-12-31 00:00:00,20073660000000.0,Samsung,KRW
+Operating Expense,2025-12-31 00:00:00,24177315000000.0,Samsung,KRW
+Depreciation And Amortization In Income Statement,2025-12-31 00:00:00,676205000000.0,Samsung,KRW
+Amortization,2025-12-31 00:00:00,224019000000.0,Samsung,KRW
+Depreciation Income Statement,2025-12-31 00:00:00,452186000000.0,Samsung,KRW
+Research And Development,2025-12-31 00:00:00,10864311000000.0,Samsung,KRW
+Selling General And Administration,2025-12-31 00:00:00,9910391000000.0,Samsung,KRW
+Selling And Marketing Expense,2025-12-31 00:00:00,7547604000000.0,Samsung,KRW
+General And Administrative Expense,2025-12-31 00:00:00,2362787000000.0,Samsung,KRW
+Gross Profit,2025-12-31 00:00:00,44250975000000.0,Samsung,KRW
+Cost Of Revenue,2025-12-31 00:00:00,49586396000000.0,Samsung,KRW
+Total Revenue,2025-12-31 00:00:00,93837371000000.0,Samsung,KRW
+Operating Revenue,2025-12-31 00:00:00,93837371000000.0,Samsung,KRW
+Tax Effect Of Unusual Items,2025-09-30 00:00:00,-4903528927.959657,Samsung,KRW
+Tax Rate For Calcs,2025-09-30 00:00:00,0.097435,Samsung,KRW
+Normalized EBITDA,2025-09-30 00:00:00,25530861000000.0,Samsung,KRW
+Total Unusual Items,2025-09-30 00:00:00,-50326000000.0,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2025-09-30 00:00:00,-50326000000.0,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-09-30 00:00:00,12006461000000.0,Samsung,KRW
+Reconciled Depreciation,2025-09-30 00:00:00,11819048000000.0,Samsung,KRW
+Reconciled Cost Of Revenue,2025-09-30 00:00:00,52569620000000.0,Samsung,KRW
+EBITDA,2025-09-30 00:00:00,25480535000000.0,Samsung,KRW
+EBIT,2025-09-30 00:00:00,13661487000000.0,Samsung,KRW
+Net Interest Income,2025-09-30 00:00:00,1056309000000.0,Samsung,KRW
+Interest Expense,2025-09-30 00:00:00,115924000000.0,Samsung,KRW
+Interest Income,2025-09-30 00:00:00,1172233000000.0,Samsung,KRW
+Normalized Income,2025-09-30 00:00:00,12051883471072.041,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2025-09-30 00:00:00,12006461000000.0,Samsung,KRW
+Total Expenses,2025-09-30 00:00:00,73895685000000.0,Samsung,KRW
+Total Operating Income As Reported,2025-09-30 00:00:00,12166062000000.0,Samsung,KRW
+Diluted Average Shares,2025-09-30 00:00:00,5858733000.0,Samsung,KRW
+Basic Average Shares,2025-09-30 00:00:00,5855461000.0,Samsung,KRW
+Diluted EPS,2025-09-30 00:00:00,1801.0,Samsung,KRW
+Basic EPS,2025-09-30 00:00:00,1802.0,Samsung,KRW
+Net Income Common Stockholders,2025-09-30 00:00:00,12006461000000.0,Samsung,KRW
+Net Income,2025-09-30 00:00:00,12006461000000.0,Samsung,KRW
+Minority Interests,2025-09-30 00:00:00,-219286000000.0,Samsung,KRW
+Net Income Including Noncontrolling Interests,2025-09-30 00:00:00,12225747000000.0,Samsung,KRW
+Net Income Continuous Operations,2025-09-30 00:00:00,12225747000000.0,Samsung,KRW
+Tax Provision,2025-09-30 00:00:00,1319816000000.0,Samsung,KRW
+Pretax Income,2025-09-30 00:00:00,13545563000000.0,Samsung,KRW
+Other Non Operating Income Expenses,2025-09-30 00:00:00,-110129000000.0,Samsung,KRW
+Special Income Charges,2025-09-30 00:00:00,-11996000000.0,Samsung,KRW
+Other Special Charges,2025-09-30 00:00:00,11996000000.0,Samsung,KRW
+Net Non Operating Interest Income Expense,2025-09-30 00:00:00,1056309000000.0,Samsung,KRW
+Total Other Finance Cost,2025-09-30 00:00:00,-1194454000000.0,Samsung,KRW
+Interest Expense Non Operating,2025-09-30 00:00:00,115924000000.0,Samsung,KRW
+Interest Income Non Operating,2025-09-30 00:00:00,1172233000000.0,Samsung,KRW
+Operating Income,2025-09-30 00:00:00,12166062000000.0,Samsung,KRW
+Operating Expense,2025-09-30 00:00:00,21326065000000.0,Samsung,KRW
+Depreciation And Amortization In Income Statement,2025-09-30 00:00:00,627665000000.0,Samsung,KRW
+Amortization,2025-09-30 00:00:00,203264000000.0,Samsung,KRW
+Depreciation Income Statement,2025-09-30 00:00:00,424401000000.0,Samsung,KRW
+Research And Development,2025-09-30 00:00:00,8824050000000.0,Samsung,KRW
+Selling General And Administration,2025-09-30 00:00:00,9644588000000.0,Samsung,KRW
+Selling And Marketing Expense,2025-09-30 00:00:00,7886547000000.0,Samsung,KRW
+General And Administrative Expense,2025-09-30 00:00:00,1758041000000.0,Samsung,KRW
+Gross Profit,2025-09-30 00:00:00,33492127000000.0,Samsung,KRW
+Cost Of Revenue,2025-09-30 00:00:00,52569620000000.0,Samsung,KRW
+Total Revenue,2025-09-30 00:00:00,86061747000000.0,Samsung,KRW
+Operating Revenue,2025-09-30 00:00:00,86061747000000.0,Samsung,KRW
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,-481982401.367308,Samsung,KRW
+Tax Rate For Calcs,2025-06-30 00:00:00,0.111133,Samsung,KRW
+Normalized EBITDA,2025-06-30 00:00:00,20561542000000.0,Samsung,KRW
+Total Unusual Items,2025-06-30 00:00:00,-4337000000.0,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,-4337000000.0,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,4934034000000.0,Samsung,KRW
+Reconciled Depreciation,2025-06-30 00:00:00,11356722000000.0,Samsung,KRW
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,49069566000000.0,Samsung,KRW
+EBITDA,2025-06-30 00:00:00,20557205000000.0,Samsung,KRW
+EBIT,2025-06-30 00:00:00,9200483000000.0,Samsung,KRW
+Net Interest Income,2025-06-30 00:00:00,901498000000.0,Samsung,KRW
+Interest Expense,2025-06-30 00:00:00,3444354000000.0,Samsung,KRW
+Interest Income,2025-06-30 00:00:00,4345852000000.0,Samsung,KRW
+Normalized Income,2025-06-30 00:00:00,4937889017598.633,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,4934034000000.0,Samsung,KRW
+Total Expenses,2025-06-30 00:00:00,69890260000000.0,Samsung,KRW
+Total Operating Income As Reported,2025-06-30 00:00:00,4676057000000.0,Samsung,KRW
+Diluted Average Shares,2025-06-30 00:00:00,5881154000.0,Samsung,KRW
+Basic Average Shares,2025-06-30 00:00:00,5881154000.0,Samsung,KRW
+Diluted EPS,2025-06-30 00:00:00,737.0,Samsung,KRW
+Basic EPS,2025-06-30 00:00:00,737.0,Samsung,KRW
+Net Income Common Stockholders,2025-06-30 00:00:00,4934034000000.0,Samsung,KRW
+Net Income,2025-06-30 00:00:00,4934034000000.0,Samsung,KRW
+Minority Interests,2025-06-30 00:00:00,-182401000000.0,Samsung,KRW
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,5116435000000.0,Samsung,KRW
+Net Income Continuous Operations,2025-06-30 00:00:00,5116435000000.0,Samsung,KRW
+Tax Provision,2025-06-30 00:00:00,639694000000.0,Samsung,KRW
+Pretax Income,2025-06-30 00:00:00,5756129000000.0,Samsung,KRW
+Other Non Operating Income Expenses,2025-06-30 00:00:00,-7861000000.0,Samsung,KRW
+Special Income Charges,2025-06-30 00:00:00,-4337000000.0,Samsung,KRW
+Other Special Charges,2025-06-30 00:00:00,4337000000.0,Samsung,KRW
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,901498000000.0,Samsung,KRW
+Total Other Finance Cost,2025-06-30 00:00:00,-901498000000.0,Samsung,KRW
+Interest Expense Non Operating,2025-06-30 00:00:00,3444354000000.0,Samsung,KRW
+Interest Income Non Operating,2025-06-30 00:00:00,4345852000000.0,Samsung,KRW
+Operating Income,2025-06-30 00:00:00,4676057000000.0,Samsung,KRW
+Operating Expense,2025-06-30 00:00:00,20820694000000.0,Samsung,KRW
+Depreciation And Amortization In Income Statement,2025-06-30 00:00:00,628848000000.0,Samsung,KRW
+Amortization,2025-06-30 00:00:00,201413000000.0,Samsung,KRW
+Depreciation Income Statement,2025-06-30 00:00:00,427435000000.0,Samsung,KRW
+Research And Development,2025-06-30 00:00:00,9019290000000.0,Samsung,KRW
+Selling General And Administration,2025-06-30 00:00:00,8857672000000.0,Samsung,KRW
+Selling And Marketing Expense,2025-06-30 00:00:00,7062120000000.0,Samsung,KRW
+General And Administrative Expense,2025-06-30 00:00:00,1795552000000.0,Samsung,KRW
+Gross Profit,2025-06-30 00:00:00,25496751000000.0,Samsung,KRW
+Cost Of Revenue,2025-06-30 00:00:00,49069566000000.0,Samsung,KRW
+Total Revenue,2025-06-30 00:00:00,74566317000000.0,Samsung,KRW
+Operating Revenue,2025-06-30 00:00:00,74566317000000.0,Samsung,KRW
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,51186295256.685844,Samsung,KRW
+Tax Rate For Calcs,2025-03-31 00:00:00,0.10148,Samsung,KRW
+Normalized EBITDA,2025-03-31 00:00:00,20342053000000.0,Samsung,KRW
+Total Unusual Items,2025-03-31 00:00:00,504400000000.0,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,504400000000.0,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,8028407000000.0,Samsung,KRW
+Reconciled Depreciation,2025-03-31 00:00:00,11518790000000.0,Samsung,KRW
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,51009931000000.0,Samsung,KRW
+EBITDA,2025-03-31 00:00:00,20846453000000.0,Samsung,KRW
+EBIT,2025-03-31 00:00:00,9327663000000.0,Samsung,KRW
+Net Interest Income,2025-03-31 00:00:00,1063262000000.0,Samsung,KRW
+Interest Expense,2025-03-31 00:00:00,176087000000.0,Samsung,KRW
+Interest Income,2025-03-31 00:00:00,1239349000000.0,Samsung,KRW
+Normalized Income,2025-03-31 00:00:00,7575193295256.686,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,8028407000000.0,Samsung,KRW
+Total Expenses,2025-03-31 00:00:00,72455231000000.0,Samsung,KRW
+Total Operating Income As Reported,2025-03-31 00:00:00,6685272000000.0,Samsung,KRW
+Diluted Average Shares,2025-03-31 00:00:00,5921138000.0,Samsung,KRW
+Basic Average Shares,2025-03-31 00:00:00,5920293000.0,Samsung,KRW
+Diluted EPS,2025-03-31 00:00:00,1192.0,Samsung,KRW
+Basic EPS,2025-03-31 00:00:00,1192.0,Samsung,KRW
+Net Income Common Stockholders,2025-03-31 00:00:00,8028407000000.0,Samsung,KRW
+Net Income,2025-03-31 00:00:00,8028407000000.0,Samsung,KRW
+Minority Interests,2025-03-31 00:00:00,-194471000000.0,Samsung,KRW
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,8222878000000.0,Samsung,KRW
+Net Income Continuous Operations,2025-03-31 00:00:00,8222878000000.0,Samsung,KRW
+Tax Provision,2025-03-31 00:00:00,928698000000.0,Samsung,KRW
+Pretax Income,2025-03-31 00:00:00,9151576000000.0,Samsung,KRW
+Other Non Operating Income Expenses,2025-03-31 00:00:00,877674000000.0,Samsung,KRW
+Special Income Charges,2025-03-31 00:00:00,-47899000000.0,Samsung,KRW
+Other Special Charges,2025-03-31 00:00:00,47899000000.0,Samsung,KRW
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,1063262000000.0,Samsung,KRW
+Total Other Finance Cost,2025-03-31 00:00:00,-1482559000000.0,Samsung,KRW
+Interest Expense Non Operating,2025-03-31 00:00:00,176087000000.0,Samsung,KRW
+Interest Income Non Operating,2025-03-31 00:00:00,1239349000000.0,Samsung,KRW
+Operating Income,2025-03-31 00:00:00,6685272000000.0,Samsung,KRW
+Operating Expense,2025-03-31 00:00:00,21445300000000.0,Samsung,KRW
+Depreciation And Amortization In Income Statement,2025-03-31 00:00:00,620547000000.0,Samsung,KRW
+Amortization,2025-03-31 00:00:00,185280000000.0,Samsung,KRW
+Depreciation Income Statement,2025-03-31 00:00:00,435267000000.0,Samsung,KRW
+Research And Development,2025-03-31 00:00:00,9032741000000.0,Samsung,KRW
+Selling General And Administration,2025-03-31 00:00:00,9436601000000.0,Samsung,KRW
+Selling And Marketing Expense,2025-03-31 00:00:00,7732074000000.0,Samsung,KRW
+General And Administrative Expense,2025-03-31 00:00:00,1704527000000.0,Samsung,KRW
+Gross Profit,2025-03-31 00:00:00,28130572000000.0,Samsung,KRW
+Cost Of Revenue,2025-03-31 00:00:00,51009931000000.0,Samsung,KRW
+Total Revenue,2025-03-31 00:00:00,79140503000000.0,Samsung,KRW
+Operating Revenue,2025-03-31 00:00:00,79140503000000.0,Samsung,KRW
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,2233473281.688778,Samsung,KRW
+Tax Rate For Calcs,2024-12-31 00:00:00,0.019332,Samsung,KRW
+Normalized EBITDA,2024-12-31 00:00:00,19513723000000.0,Samsung,KRW
+Total Unusual Items,2024-12-31 00:00:00,115534000000.0,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,115534000000.0,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,7576133000000.0,Samsung,KRW
+Reconciled Depreciation,2024-12-31 00:00:00,11500570000000.0,Samsung,KRW
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,47268827000000.0,Samsung,KRW
+EBITDA,2024-12-31 00:00:00,19629257000000.0,Samsung,KRW
+EBIT,2024-12-31 00:00:00,8128687000000.0,Samsung,KRW
+Net Interest Income,2024-12-31 00:00:00,1015577000000.0,Samsung,KRW
+Interest Expense,2024-12-31 00:00:00,221432000000.0,Samsung,KRW
+Interest Income,2024-12-31 00:00:00,1237009000000.0,Samsung,KRW
+Normalized Income,2024-12-31 00:00:00,7462832473281.688,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,7576133000000.0,Samsung,KRW
+Total Expenses,2024-12-31 00:00:00,69295566000000.0,Samsung,KRW
+Total Operating Income As Reported,2024-12-31 00:00:00,6492703000000.0,Samsung,KRW
+Diluted Average Shares,2024-12-31 00:00:00,,Samsung,KRW
+Basic Average Shares,2024-12-31 00:00:00,,Samsung,KRW
+Diluted EPS,2024-12-31 00:00:00,,Samsung,KRW
+Basic EPS,2024-12-31 00:00:00,,Samsung,KRW
+Net Income Common Stockholders,2024-12-31 00:00:00,7576133000000.0,Samsung,KRW
+Net Income,2024-12-31 00:00:00,7576133000000.0,Samsung,KRW
+Minority Interests,2024-12-31 00:00:00,-178261000000.0,Samsung,KRW
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,7754394000000.0,Samsung,KRW
+Net Income Continuous Operations,2024-12-31 00:00:00,7754394000000.0,Samsung,KRW
+Tax Provision,2024-12-31 00:00:00,152861000000.0,Samsung,KRW
+Pretax Income,2024-12-31 00:00:00,7907255000000.0,Samsung,KRW
+Other Non Operating Income Expenses,2024-12-31 00:00:00,54968000000.0,Samsung,KRW
+Special Income Charges,2024-12-31 00:00:00,-50149000000.0,Samsung,KRW
+Other Special Charges,2024-12-31 00:00:00,50149000000.0,Samsung,KRW
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,1015577000000.0,Samsung,KRW
+Total Other Finance Cost,2024-12-31 00:00:00,,Samsung,KRW
+Interest Expense Non Operating,2024-12-31 00:00:00,221432000000.0,Samsung,KRW
+Interest Income Non Operating,2024-12-31 00:00:00,1237009000000.0,Samsung,KRW
+Operating Income,2024-12-31 00:00:00,6492703000000.0,Samsung,KRW
+Operating Expense,2024-12-31 00:00:00,22026739000000.0,Samsung,KRW
+Depreciation And Amortization In Income Statement,2024-12-31 00:00:00,617424000000.0,Samsung,KRW
+Amortization,2024-12-31 00:00:00,184056000000.0,Samsung,KRW
+Depreciation Income Statement,2024-12-31 00:00:00,433368000000.0,Samsung,KRW
+Research And Development,2024-12-31 00:00:00,10262019000000.0,Samsung,KRW
+Selling General And Administration,2024-12-31 00:00:00,8882058000000.0,Samsung,KRW
+Selling And Marketing Expense,2024-12-31 00:00:00,6976676000000.0,Samsung,KRW
+General And Administrative Expense,2024-12-31 00:00:00,1905382000000.0,Samsung,KRW
+Gross Profit,2024-12-31 00:00:00,28519442000000.0,Samsung,KRW
+Cost Of Revenue,2024-12-31 00:00:00,47268827000000.0,Samsung,KRW
+Total Revenue,2024-12-31 00:00:00,75788269000000.0,Samsung,KRW
+Operating Revenue,2024-12-31 00:00:00,75788269000000.0,Samsung,KRW
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,,Samsung,KRW
+Tax Rate For Calcs,2024-09-30 00:00:00,,Samsung,KRW
+Normalized EBITDA,2024-09-30 00:00:00,,Samsung,KRW
+Total Unusual Items,2024-09-30 00:00:00,,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,,Samsung,KRW
+Reconciled Depreciation,2024-09-30 00:00:00,,Samsung,KRW
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,,Samsung,KRW
+EBITDA,2024-09-30 00:00:00,,Samsung,KRW
+EBIT,2024-09-30 00:00:00,,Samsung,KRW
+Net Interest Income,2024-09-30 00:00:00,,Samsung,KRW
+Interest Expense,2024-09-30 00:00:00,,Samsung,KRW
+Interest Income,2024-09-30 00:00:00,,Samsung,KRW
+Normalized Income,2024-09-30 00:00:00,,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,,Samsung,KRW
+Total Expenses,2024-09-30 00:00:00,,Samsung,KRW
+Total Operating Income As Reported,2024-09-30 00:00:00,,Samsung,KRW
+Diluted Average Shares,2024-09-30 00:00:00,6792740972.0,Samsung,KRW
+Basic Average Shares,2024-09-30 00:00:00,6792740972.0,Samsung,KRW
+Diluted EPS,2024-09-30 00:00:00,1440.0,Samsung,KRW
+Basic EPS,2024-09-30 00:00:00,1440.0,Samsung,KRW
+Net Income Common Stockholders,2024-09-30 00:00:00,,Samsung,KRW
+Net Income,2024-09-30 00:00:00,,Samsung,KRW
+Minority Interests,2024-09-30 00:00:00,,Samsung,KRW
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,,Samsung,KRW
+Net Income Continuous Operations,2024-09-30 00:00:00,,Samsung,KRW
+Tax Provision,2024-09-30 00:00:00,,Samsung,KRW
+Pretax Income,2024-09-30 00:00:00,,Samsung,KRW
+Other Non Operating Income Expenses,2024-09-30 00:00:00,,Samsung,KRW
+Special Income Charges,2024-09-30 00:00:00,,Samsung,KRW
+Other Special Charges,2024-09-30 00:00:00,,Samsung,KRW
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,,Samsung,KRW
+Total Other Finance Cost,2024-09-30 00:00:00,,Samsung,KRW
+Interest Expense Non Operating,2024-09-30 00:00:00,,Samsung,KRW
+Interest Income Non Operating,2024-09-30 00:00:00,,Samsung,KRW
+Operating Income,2024-09-30 00:00:00,,Samsung,KRW
+Operating Expense,2024-09-30 00:00:00,,Samsung,KRW
+Depreciation And Amortization In Income Statement,2024-09-30 00:00:00,,Samsung,KRW
+Amortization,2024-09-30 00:00:00,,Samsung,KRW
+Depreciation Income Statement,2024-09-30 00:00:00,,Samsung,KRW
+Research And Development,2024-09-30 00:00:00,,Samsung,KRW
+Selling General And Administration,2024-09-30 00:00:00,,Samsung,KRW
+Selling And Marketing Expense,2024-09-30 00:00:00,,Samsung,KRW
+General And Administrative Expense,2024-09-30 00:00:00,,Samsung,KRW
+Gross Profit,2024-09-30 00:00:00,,Samsung,KRW
+Cost Of Revenue,2024-09-30 00:00:00,,Samsung,KRW
+Total Revenue,2024-09-30 00:00:00,,Samsung,KRW
+Operating Revenue,2024-09-30 00:00:00,,Samsung,KRW
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,,Samsung,KRW
+Tax Rate For Calcs,2024-06-30 00:00:00,,Samsung,KRW
+Normalized EBITDA,2024-06-30 00:00:00,,Samsung,KRW
+Total Unusual Items,2024-06-30 00:00:00,,Samsung,KRW
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,,Samsung,KRW
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,,Samsung,KRW
+Reconciled Depreciation,2024-06-30 00:00:00,,Samsung,KRW
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,,Samsung,KRW
+EBITDA,2024-06-30 00:00:00,,Samsung,KRW
+EBIT,2024-06-30 00:00:00,,Samsung,KRW
+Net Interest Income,2024-06-30 00:00:00,,Samsung,KRW
+Interest Expense,2024-06-30 00:00:00,,Samsung,KRW
+Interest Income,2024-06-30 00:00:00,,Samsung,KRW
+Normalized Income,2024-06-30 00:00:00,,Samsung,KRW
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,,Samsung,KRW
+Total Expenses,2024-06-30 00:00:00,,Samsung,KRW
+Total Operating Income As Reported,2024-06-30 00:00:00,,Samsung,KRW
+Diluted Average Shares,2024-06-30 00:00:00,6795386187.0,Samsung,KRW
+Basic Average Shares,2024-06-30 00:00:00,6795386187.0,Samsung,KRW
+Diluted EPS,2024-06-30 00:00:00,1419.0,Samsung,KRW
+Basic EPS,2024-06-30 00:00:00,1419.0,Samsung,KRW
+Net Income Common Stockholders,2024-06-30 00:00:00,,Samsung,KRW
+Net Income,2024-06-30 00:00:00,,Samsung,KRW
+Minority Interests,2024-06-30 00:00:00,,Samsung,KRW
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,,Samsung,KRW
+Net Income Continuous Operations,2024-06-30 00:00:00,,Samsung,KRW
+Tax Provision,2024-06-30 00:00:00,,Samsung,KRW
+Pretax Income,2024-06-30 00:00:00,,Samsung,KRW
+Other Non Operating Income Expenses,2024-06-30 00:00:00,,Samsung,KRW
+Special Income Charges,2024-06-30 00:00:00,,Samsung,KRW
+Other Special Charges,2024-06-30 00:00:00,,Samsung,KRW
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,,Samsung,KRW
+Total Other Finance Cost,2024-06-30 00:00:00,-879947000000.0,Samsung,KRW
+Interest Expense Non Operating,2024-06-30 00:00:00,,Samsung,KRW
+Interest Income Non Operating,2024-06-30 00:00:00,,Samsung,KRW
+Operating Income,2024-06-30 00:00:00,,Samsung,KRW
+Operating Expense,2024-06-30 00:00:00,,Samsung,KRW
+Depreciation And Amortization In Income Statement,2024-06-30 00:00:00,,Samsung,KRW
+Amortization,2024-06-30 00:00:00,,Samsung,KRW
+Depreciation Income Statement,2024-06-30 00:00:00,,Samsung,KRW
+Research And Development,2024-06-30 00:00:00,,Samsung,KRW
+Selling General And Administration,2024-06-30 00:00:00,,Samsung,KRW
+Selling And Marketing Expense,2024-06-30 00:00:00,,Samsung,KRW
+General And Administrative Expense,2024-06-30 00:00:00,,Samsung,KRW
+Gross Profit,2024-06-30 00:00:00,,Samsung,KRW
+Cost Of Revenue,2024-06-30 00:00:00,,Samsung,KRW
+Total Revenue,2024-06-30 00:00:00,,Samsung,KRW
+Operating Revenue,2024-06-30 00:00:00,,Samsung,KRW
+Tax Effect Of Unusual Items,2025-09-30 00:00:00,-6385144058.909477,LG,KRW
+Tax Rate For Calcs,2025-09-30 00:00:00,0.181877,LG,KRW
+Normalized EBITDA,2025-09-30 00:00:00,1643346000000.0,LG,KRW
+Total Unusual Items,2025-09-30 00:00:00,-35107000000.0,LG,KRW
+Total Unusual Items Excluding Goodwill,2025-09-30 00:00:00,-35107000000.0,LG,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-09-30 00:00:00,388302000000.0,LG,KRW
+Reconciled Depreciation,2025-09-30 00:00:00,896713000000.0,LG,KRW
+Reconciled Cost Of Revenue,2025-09-30 00:00:00,16632022000000.0,LG,KRW
+EBITDA,2025-09-30 00:00:00,1608239000000.0,LG,KRW
+EBIT,2025-09-30 00:00:00,711526000000.0,LG,KRW
+Net Interest Income,2025-09-30 00:00:00,-64321000000.0,LG,KRW
+Interest Expense,2025-09-30 00:00:00,144147000000.0,LG,KRW
+Interest Income,2025-09-30 00:00:00,96137000000.0,LG,KRW
+Normalized Income,2025-09-30 00:00:00,417023855941.0905,LG,KRW
+Net Income From Continuing And Discontinued Operation,2025-09-30 00:00:00,385190000000.0,LG,KRW
+Total Expenses,2025-09-30 00:00:00,21184856000000.0,LG,KRW
+Total Operating Income As Reported,2025-09-30 00:00:00,688918000000.0,LG,KRW
+Diluted Average Shares,2025-09-30 00:00:00,162884638.0,LG,KRW
+Basic Average Shares,2025-09-30 00:00:00,162884638.0,LG,KRW
+Diluted EPS,2025-09-30 00:00:00,2138.0,LG,KRW
+Basic EPS,2025-09-30 00:00:00,2138.0,LG,KRW
+Net Income Common Stockholders,2025-09-30 00:00:00,385190000000.0,LG,KRW
+Net Income,2025-09-30 00:00:00,385190000000.0,LG,KRW
+Minority Interests,2025-09-30 00:00:00,-75884000000.0,LG,KRW
+Net Income Including Noncontrolling Interests,2025-09-30 00:00:00,461074000000.0,LG,KRW
+Net Income Discontinuous Operations,2025-09-30 00:00:00,-3112000000.0,LG,KRW
+Net Income Continuous Operations,2025-09-30 00:00:00,464186000000.0,LG,KRW
+Tax Provision,2025-09-30 00:00:00,103193000000.0,LG,KRW
+Pretax Income,2025-09-30 00:00:00,567379000000.0,LG,KRW
+Other Non Operating Income Expenses,2025-09-30 00:00:00,979000000.0,LG,KRW
+Special Income Charges,2025-09-30 00:00:00,-44444000000.0,LG,KRW
+Other Special Charges,2025-09-30 00:00:00,22751000000.0,LG,KRW
+Write Off,2025-09-30 00:00:00,0.0,LG,KRW
+Impairment Of Capital Assets,2025-09-30 00:00:00,21693000000.0,LG,KRW
+Net Non Operating Interest Income Expense,2025-09-30 00:00:00,-64321000000.0,LG,KRW
+Total Other Finance Cost,2025-09-30 00:00:00,16311000000.0,LG,KRW
+Interest Expense Non Operating,2025-09-30 00:00:00,144147000000.0,LG,KRW
+Interest Income Non Operating,2025-09-30 00:00:00,96137000000.0,LG,KRW
+Operating Income,2025-09-30 00:00:00,688918000000.0,LG,KRW
+Operating Expense,2025-09-30 00:00:00,4552834000000.0,LG,KRW
+Research And Development,2025-09-30 00:00:00,697439000000.0,LG,KRW
+Selling General And Administration,2025-09-30 00:00:00,3855395000000.0,LG,KRW
+Selling And Marketing Expense,2025-09-30 00:00:00,3244014000000.0,LG,KRW
+General And Administrative Expense,2025-09-30 00:00:00,611381000000.0,LG,KRW
+Gross Profit,2025-09-30 00:00:00,5241752000000.0,LG,KRW
+Cost Of Revenue,2025-09-30 00:00:00,16632022000000.0,LG,KRW
+Total Revenue,2025-09-30 00:00:00,21873774000000.0,LG,KRW
+Operating Revenue,2025-09-30 00:00:00,21873774000000.0,LG,KRW
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,-37072140783.70454,LG,KRW
+Tax Rate For Calcs,2025-06-30 00:00:00,0.198243,LG,KRW
+Normalized EBITDA,2025-06-30 00:00:00,1989387000000.0,LG,KRW
+Total Unusual Items,2025-06-30 00:00:00,-187004000000.0,LG,KRW
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,-187004000000.0,LG,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,605544000000.0,LG,KRW
+Reconciled Depreciation,2025-06-30 00:00:00,892287000000.0,LG,KRW
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,15556748000000.0,LG,KRW
+EBITDA,2025-06-30 00:00:00,1802383000000.0,LG,KRW
+EBIT,2025-06-30 00:00:00,910096000000.0,LG,KRW
+Net Interest Income,2025-06-30 00:00:00,-61084000000.0,LG,KRW
+Interest Expense,2025-06-30 00:00:00,148559000000.0,LG,KRW
+Interest Income,2025-06-30 00:00:00,99740000000.0,LG,KRW
+Normalized Income,2025-06-30 00:00:00,755475859216.2954,LG,KRW
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,604619000000.0,LG,KRW
+Total Expenses,2025-06-30 00:00:00,20095738000000.0,LG,KRW
+Total Operating Income As Reported,2025-06-30 00:00:00,639404000000.0,LG,KRW
+Diluted Average Shares,2025-06-30 00:00:00,162884638.0,LG,KRW
+Basic Average Shares,2025-06-30 00:00:00,162884638.0,LG,KRW
+Diluted EPS,2025-06-30 00:00:00,3357.0,LG,KRW
+Basic EPS,2025-06-30 00:00:00,3357.0,LG,KRW
+Net Income Common Stockholders,2025-06-30 00:00:00,604619000000.0,LG,KRW
+Net Income,2025-06-30 00:00:00,604619000000.0,LG,KRW
+Minority Interests,2025-06-30 00:00:00,-5024000000.0,LG,KRW
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,609643000000.0,LG,KRW
+Net Income Discontinuous Operations,2025-06-30 00:00:00,-925000000.0,LG,KRW
+Net Income Continuous Operations,2025-06-30 00:00:00,610568000000.0,LG,KRW
+Tax Provision,2025-06-30 00:00:00,150969000000.0,LG,KRW
+Pretax Income,2025-06-30 00:00:00,761537000000.0,LG,KRW
+Other Non Operating Income Expenses,2025-06-30 00:00:00,-10322000000.0,LG,KRW
+Special Income Charges,2025-06-30 00:00:00,-142827000000.0,LG,KRW
+Other Special Charges,2025-06-30 00:00:00,8973000000.0,LG,KRW
+Write Off,2025-06-30 00:00:00,0.0,LG,KRW
+Impairment Of Capital Assets,2025-06-30 00:00:00,133854000000.0,LG,KRW
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,-61084000000.0,LG,KRW
+Total Other Finance Cost,2025-06-30 00:00:00,12265000000.0,LG,KRW
+Interest Expense Non Operating,2025-06-30 00:00:00,148559000000.0,LG,KRW
+Interest Income Non Operating,2025-06-30 00:00:00,99740000000.0,LG,KRW
+Operating Income,2025-06-30 00:00:00,639404000000.0,LG,KRW
+Operating Expense,2025-06-30 00:00:00,4538990000000.0,LG,KRW
+Research And Development,2025-06-30 00:00:00,679208000000.0,LG,KRW
+Selling General And Administration,2025-06-30 00:00:00,3859782000000.0,LG,KRW
+Selling And Marketing Expense,2025-06-30 00:00:00,3231295000000.0,LG,KRW
+General And Administrative Expense,2025-06-30 00:00:00,628487000000.0,LG,KRW
+Gross Profit,2025-06-30 00:00:00,5178394000000.0,LG,KRW
+Cost Of Revenue,2025-06-30 00:00:00,15556748000000.0,LG,KRW
+Total Revenue,2025-06-30 00:00:00,20735142000000.0,LG,KRW
+Operating Revenue,2025-06-30 00:00:00,20735142000000.0,LG,KRW
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,-2982329487.471883,LG,KRW
+Tax Rate For Calcs,2025-03-31 00:00:00,0.215564,LG,KRW
+Normalized EBITDA,2025-03-31 00:00:00,2140984000000.0,LG,KRW
+Total Unusual Items,2025-03-31 00:00:00,-13835000000.0,LG,KRW
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,-13835000000.0,LG,KRW
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,800454000000.0,LG,KRW
+Reconciled Depreciation,2025-03-31 00:00:00,857586000000.0,LG,KRW
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,17148549000000.0,LG,KRW
+EBITDA,2025-03-31 00:00:00,2127149000000.0,LG,KRW
+EBIT,2025-03-31 00:00:00,1269563000000.0,LG,KRW
+Net Interest Income,2025-03-31 00:00:00,-50671000000.0,LG,KRW
+Interest Expense,2025-03-31 00:00:00,151478000000.0,LG,KRW
+Interest Income,2025-03-31 00:00:00,107201000000.0,LG,KRW
+Normalized Income,2025-03-31 00:00:00,811306670512.5281,LG,KRW
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,799006000000.0,LG,KRW
+Total Expenses,2025-03-31 00:00:00,21480753000000.0,LG,KRW
+Total Operating Income As Reported,2025-03-31 00:00:00,1259059000000.0,LG,KRW
+Diluted Average Shares,2025-03-31 00:00:00,162884638.0,LG,KRW
+Basic Average Shares,2025-03-31 00:00:00,162884638.0,LG,KRW
+Diluted EPS,2025-03-31 00:00:00,4436.0,LG,KRW
+Basic EPS,2025-03-31 00:00:00,4436.0,LG,KRW
+Net Income Common Stockholders,2025-03-31 00:00:00,799006000000.0,LG,KRW
+Net Income,2025-03-31 00:00:00,799006000000.0,LG,KRW
+Minority Interests,2025-03-31 00:00:00,-76612000000.0,LG,KRW
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,875618000000.0,LG,KRW
+Net Income Discontinuous Operations,2025-03-31 00:00:00,-1448000000.0,LG,KRW
+Net Income Continuous Operations,2025-03-31 00:00:00,877066000000.0,LG,KRW
+Tax Provision,2025-03-31 00:00:00,241019000000.0,LG,KRW
+Pretax Income,2025-03-31 00:00:00,1118085000000.0,LG,KRW
+Other Non Operating Income Expenses,2025-03-31 00:00:00,7692000000.0,LG,KRW
+Special Income Charges,2025-03-31 00:00:00,-10706000000.0,LG,KRW
+Other Special Charges,2025-03-31 00:00:00,7045000000.0,LG,KRW
+Write Off,2025-03-31 00:00:00,0.0,LG,KRW
+Impairment Of Capital Assets,2025-03-31 00:00:00,3661000000.0,LG,KRW
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,-50671000000.0,LG,KRW
+Total Other Finance Cost,2025-03-31 00:00:00,6394000000.0,LG,KRW
+Interest Expense Non Operating,2025-03-31 00:00:00,151478000000.0,LG,KRW
+Interest Income Non Operating,2025-03-31 00:00:00,107201000000.0,LG,KRW
+Operating Income,2025-03-31 00:00:00,1259059000000.0,LG,KRW
+Operating Expense,2025-03-31 00:00:00,4332204000000.0,LG,KRW
+Research And Development,2025-03-31 00:00:00,653483000000.0,LG,KRW
+Selling General And Administration,2025-03-31 00:00:00,3678721000000.0,LG,KRW
+Selling And Marketing Expense,2025-03-31 00:00:00,3120010000000.0,LG,KRW
+General And Administrative Expense,2025-03-31 00:00:00,558711000000.0,LG,KRW
+Gross Profit,2025-03-31 00:00:00,5591263000000.0,LG,KRW
+Cost Of Revenue,2025-03-31 00:00:00,17148549000000.0,LG,KRW
+Total Revenue,2025-03-31 00:00:00,22739812000000.0,LG,KRW
+Operating Revenue,2025-03-31 00:00:00,22739812000000.0,LG,KRW
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,-136540848930.1371,LG,KRW
+Tax Rate For Calcs,2024-12-31 00:00:00,0.357087,LG,KRW
+Normalized EBITDA,2024-12-31 00:00:00,333804000000.0,LG,KRW
+Total Unusual Items,2024-12-31 00:00:00,-382374000000.0,LG,KRW
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,-382374000000.0,LG,KRW
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,-705373000000.0,LG,KRW
+Reconciled Depreciation,2024-12-31 00:00:00,902758000000.0,LG,KRW
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,17809452000000.0,LG,KRW
+EBITDA,2024-12-31 00:00:00,-48570000000.0,LG,KRW
+EBIT,2024-12-31 00:00:00,-951328000000.0,LG,KRW
+Net Interest Income,2024-12-31 00:00:00,-45175000000.0,LG,KRW
+Interest Expense,2024-12-31 00:00:00,144046000000.0,LG,KRW
+Interest Income,2024-12-31 00:00:00,116376000000.0,LG,KRW
+Normalized Income,2024-12-31 00:00:00,-459539848930.1371,LG,KRW
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,-714897000000.0,LG,KRW
+Total Expenses,2024-12-31 00:00:00,22626144000000.0,LG,KRW
+Total Operating Income As Reported,2024-12-31 00:00:00,135331000000.0,LG,KRW
+Diluted Average Shares,2024-12-31 00:00:00,,LG,KRW
+Basic Average Shares,2024-12-31 00:00:00,,LG,KRW
+Diluted EPS,2024-12-31 00:00:00,,LG,KRW
+Basic EPS,2024-12-31 00:00:00,,LG,KRW
+Net Income Common Stockholders,2024-12-31 00:00:00,-714897000000.0,LG,KRW
+Net Income,2024-12-31 00:00:00,-714897000000.0,LG,KRW
+Minority Interests,2024-12-31 00:00:00,-1143000000.0,LG,KRW
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,-713754000000.0,LG,KRW
+Net Income Discontinuous Operations,2024-12-31 00:00:00,-9524000000.0,LG,KRW
+Net Income Continuous Operations,2024-12-31 00:00:00,-704230000000.0,LG,KRW
+Tax Provision,2024-12-31 00:00:00,-391144000000.0,LG,KRW
+Pretax Income,2024-12-31 00:00:00,-1095374000000.0,LG,KRW
+Other Non Operating Income Expenses,2024-12-31 00:00:00,-477638000000.0,LG,KRW
+Special Income Charges,2024-12-31 00:00:00,-360487000000.0,LG,KRW
+Other Special Charges,2024-12-31 00:00:00,25864000000.0,LG,KRW
+Write Off,2024-12-31 00:00:00,0.0,LG,KRW
+Impairment Of Capital Assets,2024-12-31 00:00:00,334623000000.0,LG,KRW
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-45175000000.0,LG,KRW
+Total Other Finance Cost,2024-12-31 00:00:00,17505000000.0,LG,KRW
+Interest Expense Non Operating,2024-12-31 00:00:00,144046000000.0,LG,KRW
+Interest Income Non Operating,2024-12-31 00:00:00,116376000000.0,LG,KRW
+Operating Income,2024-12-31 00:00:00,135331000000.0,LG,KRW
+Operating Expense,2024-12-31 00:00:00,4816692000000.0,LG,KRW
+Research And Development,2024-12-31 00:00:00,695754000000.0,LG,KRW
+Selling General And Administration,2024-12-31 00:00:00,4120938000000.0,LG,KRW
+Selling And Marketing Expense,2024-12-31 00:00:00,3491150000000.0,LG,KRW
+General And Administrative Expense,2024-12-31 00:00:00,629788000000.0,LG,KRW
+Gross Profit,2024-12-31 00:00:00,4952023000000.0,LG,KRW
+Cost Of Revenue,2024-12-31 00:00:00,17809452000000.0,LG,KRW
+Total Revenue,2024-12-31 00:00:00,22761475000000.0,LG,KRW
+Operating Revenue,2024-12-31 00:00:00,22761475000000.0,LG,KRW
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,2438416329.857437,LG,KRW
+Tax Rate For Calcs,2024-09-30 00:00:00,0.35161,LG,KRW
+Normalized EBITDA,2024-09-30 00:00:00,1608182000000.0,LG,KRW
+Total Unusual Items,2024-09-30 00:00:00,6935000000.0,LG,KRW
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,6935000000.0,LG,KRW
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,305184000000.0,LG,KRW
+Reconciled Depreciation,2024-09-30 00:00:00,937826000000.0,LG,KRW
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,16798353000000.0,LG,KRW
+EBITDA,2024-09-30 00:00:00,1615117000000.0,LG,KRW
+EBIT,2024-09-30 00:00:00,677291000000.0,LG,KRW
+Net Interest Income,2024-09-30 00:00:00,-31528000000.0,LG,KRW
+Interest Expense,2024-09-30 00:00:00,142369000000.0,LG,KRW
+Interest Income,2024-09-30 00:00:00,123673000000.0,LG,KRW
+Normalized Income,2024-09-30 00:00:00,300687416329.8574,LG,KRW
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,48580000000.0,LG,KRW
+Total Expenses,2024-09-30 00:00:00,21424490000000.0,LG,KRW
+Total Operating Income As Reported,2024-09-30 00:00:00,751880000000.0,LG,KRW
+Diluted Average Shares,2024-09-30 00:00:00,181268657.0,LG,KRW
+Basic Average Shares,2024-09-30 00:00:00,181268657.0,LG,KRW
+Diluted EPS,2024-09-30 00:00:00,268.0,LG,KRW
+Basic EPS,2024-09-30 00:00:00,268.0,LG,KRW
+Net Income Common Stockholders,2024-09-30 00:00:00,48580000000.0,LG,KRW
+Net Income,2024-09-30 00:00:00,48580000000.0,LG,KRW
+Minority Interests,2024-09-30 00:00:00,-41654000000.0,LG,KRW
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,90234000000.0,LG,KRW
+Net Income Discontinuous Operations,2024-09-30 00:00:00,-256604000000.0,LG,KRW
+Net Income Continuous Operations,2024-09-30 00:00:00,346838000000.0,LG,KRW
+Tax Provision,2024-09-30 00:00:00,188084000000.0,LG,KRW
+Pretax Income,2024-09-30 00:00:00,534922000000.0,LG,KRW
+Other Non Operating Income Expenses,2024-09-30 00:00:00,-3331000000.0,LG,KRW
+Special Income Charges,2024-09-30 00:00:00,-8621000000.0,LG,KRW
+Other Special Charges,2024-09-30 00:00:00,4381000000.0,LG,KRW
+Write Off,2024-09-30 00:00:00,0.0,LG,KRW
+Impairment Of Capital Assets,2024-09-30 00:00:00,4240000000.0,LG,KRW
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,-31528000000.0,LG,KRW
+Total Other Finance Cost,2024-09-30 00:00:00,12832000000.0,LG,KRW
+Interest Expense Non Operating,2024-09-30 00:00:00,142369000000.0,LG,KRW
+Interest Income Non Operating,2024-09-30 00:00:00,123673000000.0,LG,KRW
+Operating Income,2024-09-30 00:00:00,751880000000.0,LG,KRW
+Operating Expense,2024-09-30 00:00:00,4626137000000.0,LG,KRW
+Research And Development,2024-09-30 00:00:00,683125000000.0,LG,KRW
+Selling General And Administration,2024-09-30 00:00:00,3943012000000.0,LG,KRW
+Selling And Marketing Expense,2024-09-30 00:00:00,3353803000000.0,LG,KRW
+General And Administrative Expense,2024-09-30 00:00:00,589209000000.0,LG,KRW
+Gross Profit,2024-09-30 00:00:00,5378017000000.0,LG,KRW
+Cost Of Revenue,2024-09-30 00:00:00,16798353000000.0,LG,KRW
+Total Revenue,2024-09-30 00:00:00,22176370000000.0,LG,KRW
+Operating Revenue,2024-09-30 00:00:00,22176370000000.0,LG,KRW
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,,LG,KRW
+Tax Rate For Calcs,2024-06-30 00:00:00,,LG,KRW
+Normalized EBITDA,2024-06-30 00:00:00,,LG,KRW
+Total Unusual Items,2024-06-30 00:00:00,,LG,KRW
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,,LG,KRW
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,,LG,KRW
+Reconciled Depreciation,2024-06-30 00:00:00,,LG,KRW
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,,LG,KRW
+EBITDA,2024-06-30 00:00:00,,LG,KRW
+EBIT,2024-06-30 00:00:00,,LG,KRW
+Net Interest Income,2024-06-30 00:00:00,,LG,KRW
+Interest Expense,2024-06-30 00:00:00,,LG,KRW
+Interest Income,2024-06-30 00:00:00,,LG,KRW
+Normalized Income,2024-06-30 00:00:00,,LG,KRW
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,,LG,KRW
+Total Expenses,2024-06-30 00:00:00,,LG,KRW
+Total Operating Income As Reported,2024-06-30 00:00:00,,LG,KRW
+Diluted Average Shares,2024-06-30 00:00:00,180115335.0,LG,KRW
+Basic Average Shares,2024-06-30 00:00:00,180115335.0,LG,KRW
+Diluted EPS,2024-06-30 00:00:00,3104.0,LG,KRW
+Basic EPS,2024-06-30 00:00:00,3104.0,LG,KRW
+Net Income Common Stockholders,2024-06-30 00:00:00,,LG,KRW
+Net Income,2024-06-30 00:00:00,,LG,KRW
+Minority Interests,2024-06-30 00:00:00,,LG,KRW
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,,LG,KRW
+Net Income Discontinuous Operations,2024-06-30 00:00:00,,LG,KRW
+Net Income Continuous Operations,2024-06-30 00:00:00,,LG,KRW
+Tax Provision,2024-06-30 00:00:00,,LG,KRW
+Pretax Income,2024-06-30 00:00:00,,LG,KRW
+Other Non Operating Income Expenses,2024-06-30 00:00:00,,LG,KRW
+Special Income Charges,2024-06-30 00:00:00,,LG,KRW
+Other Special Charges,2024-06-30 00:00:00,,LG,KRW
+Write Off,2024-06-30 00:00:00,,LG,KRW
+Impairment Of Capital Assets,2024-06-30 00:00:00,,LG,KRW
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,,LG,KRW
+Total Other Finance Cost,2024-06-30 00:00:00,,LG,KRW
+Interest Expense Non Operating,2024-06-30 00:00:00,,LG,KRW
+Interest Income Non Operating,2024-06-30 00:00:00,,LG,KRW
+Operating Income,2024-06-30 00:00:00,,LG,KRW
+Operating Expense,2024-06-30 00:00:00,,LG,KRW
+Research And Development,2024-06-30 00:00:00,,LG,KRW
+Selling General And Administration,2024-06-30 00:00:00,,LG,KRW
+Selling And Marketing Expense,2024-06-30 00:00:00,,LG,KRW
+General And Administrative Expense,2024-06-30 00:00:00,,LG,KRW
+Gross Profit,2024-06-30 00:00:00,,LG,KRW
+Cost Of Revenue,2024-06-30 00:00:00,,LG,KRW
+Total Revenue,2024-06-30 00:00:00,,LG,KRW
+Operating Revenue,2024-06-30 00:00:00,,LG,KRW
+Tax Effect Of Unusual Items,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Tax Rate For Calcs,2025-12-31 00:00:00,0.206,Electrolux,SEK
+Normalized EBITDA,2025-12-31 00:00:00,2932000000.0,Electrolux,SEK
+Net Income From Continuing Operation Net Minority Interest,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Reconciled Depreciation,2025-12-31 00:00:00,1416000000.0,Electrolux,SEK
+Reconciled Cost Of Revenue,2025-12-31 00:00:00,29318000000.0,Electrolux,SEK
+EBITDA,2025-12-31 00:00:00,2932000000.0,Electrolux,SEK
+EBIT,2025-12-31 00:00:00,1516000000.0,Electrolux,SEK
+Net Interest Income,2025-12-31 00:00:00,-514000000.0,Electrolux,SEK
+Normalized Income,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Net Income From Continuing And Discontinued Operation,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Total Expenses,2025-12-31 00:00:00,33596000000.0,Electrolux,SEK
+Total Operating Income As Reported,2025-12-31 00:00:00,1517000000.0,Electrolux,SEK
+Diluted Average Shares,2025-12-31 00:00:00,276500000.0,Electrolux,SEK
+Basic Average Shares,2025-12-31 00:00:00,270500000.0,Electrolux,SEK
+Diluted EPS,2025-12-31 00:00:00,1.69,Electrolux,SEK
+Basic EPS,2025-12-31 00:00:00,1.72,Electrolux,SEK
+Diluted NI Availto Com Stockholders,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Net Income Common Stockholders,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Otherunder Preferred Stock Dividend,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Net Income,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Minority Interests,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Net Income Including Noncontrolling Interests,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Net Income Continuous Operations,2025-12-31 00:00:00,466000000.0,Electrolux,SEK
+Tax Provision,2025-12-31 00:00:00,537000000.0,Electrolux,SEK
+Pretax Income,2025-12-31 00:00:00,1003000000.0,Electrolux,SEK
+Net Non Operating Interest Income Expense,2025-12-31 00:00:00,-514000000.0,Electrolux,SEK
+Operating Income,2025-12-31 00:00:00,1516000000.0,Electrolux,SEK
+Operating Expense,2025-12-31 00:00:00,4278000000.0,Electrolux,SEK
+Other Operating Expenses,2025-12-31 00:00:00,-596000000.0,Electrolux,SEK
+Selling General And Administration,2025-12-31 00:00:00,4874000000.0,Electrolux,SEK
+Selling And Marketing Expense,2025-12-31 00:00:00,3515000000.0,Electrolux,SEK
+General And Administrative Expense,2025-12-31 00:00:00,1359000000.0,Electrolux,SEK
+Gross Profit,2025-12-31 00:00:00,5794000000.0,Electrolux,SEK
+Cost Of Revenue,2025-12-31 00:00:00,29318000000.0,Electrolux,SEK
+Total Revenue,2025-12-31 00:00:00,35112000000.0,Electrolux,SEK
+Operating Revenue,2025-12-31 00:00:00,35112000000.0,Electrolux,SEK
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Tax Rate For Calcs,2025-06-30 00:00:00,0.206,Electrolux,SEK
+Normalized EBITDA,2025-06-30 00:00:00,2200000000.0,Electrolux,SEK
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Reconciled Depreciation,2025-06-30 00:00:00,1403000000.0,Electrolux,SEK
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,25950000000.0,Electrolux,SEK
+EBITDA,2025-06-30 00:00:00,2200000000.0,Electrolux,SEK
+EBIT,2025-06-30 00:00:00,797000000.0,Electrolux,SEK
+Net Interest Income,2025-06-30 00:00:00,-436000000.0,Electrolux,SEK
+Normalized Income,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Total Expenses,2025-06-30 00:00:00,30478000000.0,Electrolux,SEK
+Total Operating Income As Reported,2025-06-30 00:00:00,797000000.0,Electrolux,SEK
+Diluted Average Shares,2025-06-30 00:00:00,274200000.0,Electrolux,SEK
+Basic Average Shares,2025-06-30 00:00:00,270500000.0,Electrolux,SEK
+Diluted EPS,2025-06-30 00:00:00,0.65,Electrolux,SEK
+Basic EPS,2025-06-30 00:00:00,0.66,Electrolux,SEK
+Diluted NI Availto Com Stockholders,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Net Income Common Stockholders,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Otherunder Preferred Stock Dividend,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Net Income,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Minority Interests,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Net Income Continuous Operations,2025-06-30 00:00:00,178000000.0,Electrolux,SEK
+Tax Provision,2025-06-30 00:00:00,184000000.0,Electrolux,SEK
+Pretax Income,2025-06-30 00:00:00,362000000.0,Electrolux,SEK
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,-436000000.0,Electrolux,SEK
+Operating Income,2025-06-30 00:00:00,797000000.0,Electrolux,SEK
+Operating Expense,2025-06-30 00:00:00,4528000000.0,Electrolux,SEK
+Other Operating Expenses,2025-06-30 00:00:00,-333000000.0,Electrolux,SEK
+Selling General And Administration,2025-06-30 00:00:00,4861000000.0,Electrolux,SEK
+Selling And Marketing Expense,2025-06-30 00:00:00,3414000000.0,Electrolux,SEK
+General And Administrative Expense,2025-06-30 00:00:00,1447000000.0,Electrolux,SEK
+Gross Profit,2025-06-30 00:00:00,5325000000.0,Electrolux,SEK
+Cost Of Revenue,2025-06-30 00:00:00,25950000000.0,Electrolux,SEK
+Total Revenue,2025-06-30 00:00:00,31276000000.0,Electrolux,SEK
+Operating Revenue,2025-06-30 00:00:00,31276000000.0,Electrolux,SEK
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Tax Rate For Calcs,2025-03-31 00:00:00,0.4,Electrolux,SEK
+Normalized EBITDA,2025-03-31 00:00:00,1917000000.0,Electrolux,SEK
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Reconciled Depreciation,2025-03-31 00:00:00,1466000000.0,Electrolux,SEK
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,27399000000.0,Electrolux,SEK
+EBITDA,2025-03-31 00:00:00,1917000000.0,Electrolux,SEK
+EBIT,2025-03-31 00:00:00,451000000.0,Electrolux,SEK
+Net Interest Income,2025-03-31 00:00:00,-382000000.0,Electrolux,SEK
+Normalized Income,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Total Expenses,2025-03-31 00:00:00,32125000000.0,Electrolux,SEK
+Total Operating Income As Reported,2025-03-31 00:00:00,452000000.0,Electrolux,SEK
+Diluted Average Shares,2025-03-31 00:00:00,273200000.0,Electrolux,SEK
+Basic Average Shares,2025-03-31 00:00:00,270100000.0,Electrolux,SEK
+Diluted EPS,2025-03-31 00:00:00,0.15,Electrolux,SEK
+Basic EPS,2025-03-31 00:00:00,0.16,Electrolux,SEK
+Diluted NI Availto Com Stockholders,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Net Income Common Stockholders,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Otherunder Preferred Stock Dividend,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Net Income,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Minority Interests,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Net Income Continuous Operations,2025-03-31 00:00:00,42000000.0,Electrolux,SEK
+Tax Provision,2025-03-31 00:00:00,28000000.0,Electrolux,SEK
+Pretax Income,2025-03-31 00:00:00,70000000.0,Electrolux,SEK
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,-382000000.0,Electrolux,SEK
+Operating Income,2025-03-31 00:00:00,451000000.0,Electrolux,SEK
+Operating Expense,2025-03-31 00:00:00,4726000000.0,Electrolux,SEK
+Other Operating Expenses,2025-03-31 00:00:00,,Electrolux,SEK
+Selling General And Administration,2025-03-31 00:00:00,4894000000.0,Electrolux,SEK
+Selling And Marketing Expense,2025-03-31 00:00:00,3490000000.0,Electrolux,SEK
+General And Administrative Expense,2025-03-31 00:00:00,1404000000.0,Electrolux,SEK
+Gross Profit,2025-03-31 00:00:00,5177000000.0,Electrolux,SEK
+Cost Of Revenue,2025-03-31 00:00:00,27399000000.0,Electrolux,SEK
+Total Revenue,2025-03-31 00:00:00,32576000000.0,Electrolux,SEK
+Operating Revenue,2025-03-31 00:00:00,32576000000.0,Electrolux,SEK
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,0.0,Electrolux,SEK
+Tax Rate For Calcs,2024-12-31 00:00:00,0.206,Electrolux,SEK
+Normalized EBITDA,2024-12-31 00:00:00,2692000000.0,Electrolux,SEK
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Reconciled Depreciation,2024-12-31 00:00:00,1641000000.0,Electrolux,SEK
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,31974000000.0,Electrolux,SEK
+EBITDA,2024-12-31 00:00:00,2692000000.0,Electrolux,SEK
+EBIT,2024-12-31 00:00:00,1051000000.0,Electrolux,SEK
+Net Interest Income,2024-12-31 00:00:00,-390000000.0,Electrolux,SEK
+Normalized Income,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Total Expenses,2024-12-31 00:00:00,36917000000.0,Electrolux,SEK
+Total Operating Income As Reported,2024-12-31 00:00:00,1052000000.0,Electrolux,SEK
+Diluted Average Shares,2024-12-31 00:00:00,273000000.0,Electrolux,SEK
+Basic Average Shares,2024-12-31 00:00:00,270000000.0,Electrolux,SEK
+Diluted EPS,2024-12-31 00:00:00,0.55,Electrolux,SEK
+Basic EPS,2024-12-31 00:00:00,0.56,Electrolux,SEK
+Diluted NI Availto Com Stockholders,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Net Income Common Stockholders,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Otherunder Preferred Stock Dividend,2024-12-31 00:00:00,0.0,Electrolux,SEK
+Net Income,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Minority Interests,2024-12-31 00:00:00,0.0,Electrolux,SEK
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Net Income Continuous Operations,2024-12-31 00:00:00,150000000.0,Electrolux,SEK
+Tax Provision,2024-12-31 00:00:00,512000000.0,Electrolux,SEK
+Pretax Income,2024-12-31 00:00:00,662000000.0,Electrolux,SEK
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-390000000.0,Electrolux,SEK
+Operating Income,2024-12-31 00:00:00,1051000000.0,Electrolux,SEK
+Operating Expense,2024-12-31 00:00:00,4943000000.0,Electrolux,SEK
+Other Operating Expenses,2024-12-31 00:00:00,-385000000.0,Electrolux,SEK
+Selling General And Administration,2024-12-31 00:00:00,5328000000.0,Electrolux,SEK
+Selling And Marketing Expense,2024-12-31 00:00:00,3536000000.0,Electrolux,SEK
+General And Administrative Expense,2024-12-31 00:00:00,1792000000.0,Electrolux,SEK
+Gross Profit,2024-12-31 00:00:00,5994000000.0,Electrolux,SEK
+Cost Of Revenue,2024-12-31 00:00:00,31974000000.0,Electrolux,SEK
+Total Revenue,2024-12-31 00:00:00,37968000000.0,Electrolux,SEK
+Operating Revenue,2024-12-31 00:00:00,37968000000.0,Electrolux,SEK
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Tax Rate For Calcs,2024-09-30 00:00:00,0.206,Electrolux,SEK
+Normalized EBITDA,2024-09-30 00:00:00,1942000000.0,Electrolux,SEK
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Reconciled Depreciation,2024-09-30 00:00:00,1593000000.0,Electrolux,SEK
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,28181000000.0,Electrolux,SEK
+EBITDA,2024-09-30 00:00:00,1942000000.0,Electrolux,SEK
+EBIT,2024-09-30 00:00:00,349000000.0,Electrolux,SEK
+Net Interest Income,2024-09-30 00:00:00,-467000000.0,Electrolux,SEK
+Normalized Income,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Total Expenses,2024-09-30 00:00:00,32937000000.0,Electrolux,SEK
+Total Operating Income As Reported,2024-09-30 00:00:00,349000000.0,Electrolux,SEK
+Diluted Average Shares,2024-09-30 00:00:00,273000000.0,Electrolux,SEK
+Basic Average Shares,2024-09-30 00:00:00,270000000.0,Electrolux,SEK
+Diluted EPS,2024-09-30 00:00:00,-0.87,Electrolux,SEK
+Basic EPS,2024-09-30 00:00:00,-0.87,Electrolux,SEK
+Diluted NI Availto Com Stockholders,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Net Income Common Stockholders,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Otherunder Preferred Stock Dividend,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Net Income,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Minority Interests,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Net Income Continuous Operations,2024-09-30 00:00:00,-235000000.0,Electrolux,SEK
+Tax Provision,2024-09-30 00:00:00,117000000.0,Electrolux,SEK
+Pretax Income,2024-09-30 00:00:00,-118000000.0,Electrolux,SEK
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,-467000000.0,Electrolux,SEK
+Operating Income,2024-09-30 00:00:00,349000000.0,Electrolux,SEK
+Operating Expense,2024-09-30 00:00:00,4756000000.0,Electrolux,SEK
+Other Operating Expenses,2024-09-30 00:00:00,90000000.0,Electrolux,SEK
+Selling General And Administration,2024-09-30 00:00:00,4666000000.0,Electrolux,SEK
+Selling And Marketing Expense,2024-09-30 00:00:00,3339000000.0,Electrolux,SEK
+General And Administrative Expense,2024-09-30 00:00:00,1327000000.0,Electrolux,SEK
+Gross Profit,2024-09-30 00:00:00,5105000000.0,Electrolux,SEK
+Cost Of Revenue,2024-09-30 00:00:00,28181000000.0,Electrolux,SEK
+Total Revenue,2024-09-30 00:00:00,33286000000.0,Electrolux,SEK
+Operating Revenue,2024-09-30 00:00:00,33286000000.0,Electrolux,SEK
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,,Electrolux,SEK
+Tax Rate For Calcs,2024-06-30 00:00:00,,Electrolux,SEK
+Normalized EBITDA,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,,Electrolux,SEK
+Reconciled Depreciation,2024-06-30 00:00:00,,Electrolux,SEK
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,,Electrolux,SEK
+EBITDA,2024-06-30 00:00:00,,Electrolux,SEK
+EBIT,2024-06-30 00:00:00,,Electrolux,SEK
+Net Interest Income,2024-06-30 00:00:00,,Electrolux,SEK
+Normalized Income,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,,Electrolux,SEK
+Total Expenses,2024-06-30 00:00:00,,Electrolux,SEK
+Total Operating Income As Reported,2024-06-30 00:00:00,,Electrolux,SEK
+Diluted Average Shares,2024-06-30 00:00:00,,Electrolux,SEK
+Basic Average Shares,2024-06-30 00:00:00,,Electrolux,SEK
+Diluted EPS,2024-06-30 00:00:00,,Electrolux,SEK
+Basic EPS,2024-06-30 00:00:00,,Electrolux,SEK
+Diluted NI Availto Com Stockholders,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income Common Stockholders,2024-06-30 00:00:00,,Electrolux,SEK
+Otherunder Preferred Stock Dividend,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income,2024-06-30 00:00:00,,Electrolux,SEK
+Minority Interests,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income Continuous Operations,2024-06-30 00:00:00,,Electrolux,SEK
+Tax Provision,2024-06-30 00:00:00,,Electrolux,SEK
+Pretax Income,2024-06-30 00:00:00,,Electrolux,SEK
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,,Electrolux,SEK
+Operating Income,2024-06-30 00:00:00,,Electrolux,SEK
+Operating Expense,2024-06-30 00:00:00,,Electrolux,SEK
+Other Operating Expenses,2024-06-30 00:00:00,-153000000.0,Electrolux,SEK
+Selling General And Administration,2024-06-30 00:00:00,,Electrolux,SEK
+Selling And Marketing Expense,2024-06-30 00:00:00,,Electrolux,SEK
+General And Administrative Expense,2024-06-30 00:00:00,,Electrolux,SEK
+Gross Profit,2024-06-30 00:00:00,,Electrolux,SEK
+Cost Of Revenue,2024-06-30 00:00:00,,Electrolux,SEK
+Total Revenue,2024-06-30 00:00:00,,Electrolux,SEK
+Operating Revenue,2024-06-30 00:00:00,,Electrolux,SEK
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,3530036.493557,Hisense,CNY
+Tax Rate For Calcs,2025-06-30 00:00:00,0.12622,Hisense,CNY
+Normalized EBITDA,2025-06-30 00:00:00,1569164262.48,Hisense,CNY
+Total Unusual Items,2025-06-30 00:00:00,27967254.8,Hisense,CNY
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,27967254.8,Hisense,CNY
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,949185592.91,Hisense,CNY
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,19222437930.1,Hisense,CNY
+EBITDA,2025-06-30 00:00:00,1597131517.28,Hisense,CNY
+EBIT,2025-06-30 00:00:00,1597131517.28,Hisense,CNY
+Net Interest Income,2025-06-30 00:00:00,-71143860.26,Hisense,CNY
+Interest Expense,2025-06-30 00:00:00,46987836.37,Hisense,CNY
+Interest Income,2025-06-30 00:00:00,9951558.2,Hisense,CNY
+Normalized Income,2025-06-30 00:00:00,924748374.603557,Hisense,CNY
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,949185592.91,Hisense,CNY
+Total Expenses,2025-06-30 00:00:00,23218243926.7,Hisense,CNY
+Total Operating Income As Reported,2025-06-30 00:00:00,1524147868.18,Hisense,CNY
+Diluted Average Shares,2025-06-30 00:00:00,,Hisense,CNY
+Basic Average Shares,2025-06-30 00:00:00,,Hisense,CNY
+Diluted EPS,2025-06-30 00:00:00,,Hisense,CNY
+Basic EPS,2025-06-30 00:00:00,,Hisense,CNY
+Net Income Common Stockholders,2025-06-30 00:00:00,949185592.91,Hisense,CNY
+Otherunder Preferred Stock Dividend,2025-06-30 00:00:00,0.0,Hisense,CNY
+Net Income,2025-06-30 00:00:00,949185592.91,Hisense,CNY
+Minority Interests,2025-06-30 00:00:00,-405298420.9,Hisense,CNY
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,1354484013.81,Hisense,CNY
+Net Income Continuous Operations,2025-06-30 00:00:00,1354484013.81,Hisense,CNY
+Tax Provision,2025-06-30 00:00:00,195659667.1,Hisense,CNY
+Pretax Income,2025-06-30 00:00:00,1550143680.91,Hisense,CNY
+Other Non Operating Income Expenses,2025-06-30 00:00:00,-1758748.73,Hisense,CNY
+Special Income Charges,2025-06-30 00:00:00,-57361355.45,Hisense,CNY
+Other Special Charges,2025-06-30 00:00:00,-994188.78,Hisense,CNY
+Write Off,2025-06-30 00:00:00,-4664308.91,Hisense,CNY
+Impairment Of Capital Assets,2025-06-30 00:00:00,63019853.14,Hisense,CNY
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,-71143860.26,Hisense,CNY
+Total Other Finance Cost,2025-06-30 00:00:00,34107582.09,Hisense,CNY
+Interest Expense Non Operating,2025-06-30 00:00:00,46987836.37,Hisense,CNY
+Interest Income Non Operating,2025-06-30 00:00:00,9951558.2,Hisense,CNY
+Operating Income,2025-06-30 00:00:00,1283833131.62,Hisense,CNY
+Operating Expense,2025-06-30 00:00:00,3995805996.6,Hisense,CNY
+Other Operating Expenses,2025-06-30 00:00:00,125091060.07,Hisense,CNY
+Research And Development,2025-06-30 00:00:00,850657441.82,Hisense,CNY
+Selling General And Administration,2025-06-30 00:00:00,3134632599.31,Hisense,CNY
+Selling And Marketing Expense,2025-06-30 00:00:00,2496532526.98,Hisense,CNY
+General And Administrative Expense,2025-06-30 00:00:00,638100072.33,Hisense,CNY
+Gross Profit,2025-06-30 00:00:00,5279639128.22,Hisense,CNY
+Cost Of Revenue,2025-06-30 00:00:00,19222437930.1,Hisense,CNY
+Total Revenue,2025-06-30 00:00:00,24502077058.32,Hisense,CNY
+Operating Revenue,2025-06-30 00:00:00,24502077058.32,Hisense,CNY
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,6689685.99947,Hisense,CNY
+Tax Rate For Calcs,2025-03-31 00:00:00,0.12853,Hisense,CNY
+Normalized EBITDA,2025-03-31 00:00:00,1863081154.9,Hisense,CNY
+Total Unusual Items,2025-03-31 00:00:00,52047636.12,Hisense,CNY
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,52047636.12,Hisense,CNY
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,1127395765.82,Hisense,CNY
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,19521159301.96,Hisense,CNY
+EBITDA,2025-03-31 00:00:00,1915128791.02,Hisense,CNY
+EBIT,2025-03-31 00:00:00,1915128791.02,Hisense,CNY
+Net Interest Income,2025-03-31 00:00:00,-6069913.8,Hisense,CNY
+Interest Expense,2025-03-31 00:00:00,39927155.51,Hisense,CNY
+Interest Income,2025-03-31 00:00:00,10115847.74,Hisense,CNY
+Normalized Income,2025-03-31 00:00:00,1082037815.69947,Hisense,CNY
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,1127395765.82,Hisense,CNY
+Total Expenses,2025-03-31 00:00:00,23252407427.01,Hisense,CNY
+Total Operating Income As Reported,2025-03-31 00:00:00,1854778887.25,Hisense,CNY
+Diluted Average Shares,2025-03-31 00:00:00,1374872885.0,Hisense,CNY
+Basic Average Shares,2025-03-31 00:00:00,1358308152.0,Hisense,CNY
+Diluted EPS,2025-03-31 00:00:00,0.82,Hisense,CNY
+Basic EPS,2025-03-31 00:00:00,0.83,Hisense,CNY
+Net Income Common Stockholders,2025-03-31 00:00:00,1127395765.82,Hisense,CNY
+Otherunder Preferred Stock Dividend,2025-03-31 00:00:00,0.0,Hisense,CNY
+Net Income,2025-03-31 00:00:00,1127395765.82,Hisense,CNY
+Minority Interests,2025-03-31 00:00:00,-506786083.54,Hisense,CNY
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,1634181849.36,Hisense,CNY
+Net Income Continuous Operations,2025-03-31 00:00:00,1634181849.36,Hisense,CNY
+Tax Provision,2025-03-31 00:00:00,241019786.15,Hisense,CNY
+Pretax Income,2025-03-31 00:00:00,1875201635.51,Hisense,CNY
+Other Non Operating Income Expenses,2025-03-31 00:00:00,7280408.64,Hisense,CNY
+Special Income Charges,2025-03-31 00:00:00,21234563.64,Hisense,CNY
+Other Special Charges,2025-03-31 00:00:00,-20792594.0,Hisense,CNY
+Write Off,2025-03-31 00:00:00,-10847339.75,Hisense,CNY
+Impairment Of Capital Assets,2025-03-31 00:00:00,10405370.11,Hisense,CNY
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,-6069913.8,Hisense,CNY
+Total Other Finance Cost,2025-03-31 00:00:00,-23741393.97,Hisense,CNY
+Interest Expense Non Operating,2025-03-31 00:00:00,39927155.51,Hisense,CNY
+Interest Income Non Operating,2025-03-31 00:00:00,10115847.74,Hisense,CNY
+Operating Income,2025-03-31 00:00:00,1585860496.52,Hisense,CNY
+Operating Expense,2025-03-31 00:00:00,3731248125.05,Hisense,CNY
+Other Operating Expenses,2025-03-31 00:00:00,98075556.28,Hisense,CNY
+Research And Development,2025-03-31 00:00:00,824235861.44,Hisense,CNY
+Selling General And Administration,2025-03-31 00:00:00,2967726117.64,Hisense,CNY
+Selling And Marketing Expense,2025-03-31 00:00:00,2372910458.63,Hisense,CNY
+General And Administrative Expense,2025-03-31 00:00:00,594815659.01,Hisense,CNY
+Gross Profit,2025-03-31 00:00:00,5317108621.57,Hisense,CNY
+Cost Of Revenue,2025-03-31 00:00:00,19521159301.96,Hisense,CNY
+Total Revenue,2025-03-31 00:00:00,24838267923.53,Hisense,CNY
+Operating Revenue,2025-03-31 00:00:00,24838267923.53,Hisense,CNY
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,-27254652.341306,Hisense,CNY
+Tax Rate For Calcs,2024-12-31 00:00:00,0.187742,Hisense,CNY
+Normalized EBITDA,2024-12-31 00:00:00,1366290731.43,Hisense,CNY
+Total Unusual Items,2024-12-31 00:00:00,-145170601.48,Hisense,CNY
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,-145170601.48,Hisense,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,554890989.36,Hisense,CNY
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,17802010035.88,Hisense,CNY
+EBITDA,2024-12-31 00:00:00,1221120129.95,Hisense,CNY
+EBIT,2024-12-31 00:00:00,1221120129.95,Hisense,CNY
+Net Interest Income,2024-12-31 00:00:00,-112950067.45,Hisense,CNY
+Interest Expense,2024-12-31 00:00:00,40545954.11,Hisense,CNY
+Interest Income,2024-12-31 00:00:00,15803754.01,Hisense,CNY
+Normalized Income,2024-12-31 00:00:00,672806938.498694,Hisense,CNY
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,554890989.36,Hisense,CNY
+Total Expenses,2024-12-31 00:00:00,21219403688.42,Hisense,CNY
+Total Operating Income As Reported,2024-12-31 00:00:00,1109198723.09,Hisense,CNY
+Diluted Average Shares,2024-12-31 00:00:00,,Hisense,CNY
+Basic Average Shares,2024-12-31 00:00:00,,Hisense,CNY
+Diluted EPS,2024-12-31 00:00:00,,Hisense,CNY
+Basic EPS,2024-12-31 00:00:00,,Hisense,CNY
+Net Income Common Stockholders,2024-12-31 00:00:00,554890989.36,Hisense,CNY
+Otherunder Preferred Stock Dividend,2024-12-31 00:00:00,0.0,Hisense,CNY
+Net Income,2024-12-31 00:00:00,554890989.36,Hisense,CNY
+Minority Interests,2024-12-31 00:00:00,-404039558.93,Hisense,CNY
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,958930548.29,Hisense,CNY
+Net Income Continuous Operations,2024-12-31 00:00:00,958930548.29,Hisense,CNY
+Tax Provision,2024-12-31 00:00:00,221643627.55,Hisense,CNY
+Pretax Income,2024-12-31 00:00:00,1180574175.84,Hisense,CNY
+Other Non Operating Income Expenses,2024-12-31 00:00:00,117665333.07,Hisense,CNY
+Special Income Charges,2024-12-31 00:00:00,-131252097.46,Hisense,CNY
+Other Special Charges,2024-12-31 00:00:00,-2306204.9,Hisense,CNY
+Write Off,2024-12-31 00:00:00,213452.05,Hisense,CNY
+Impairment Of Capital Assets,2024-12-31 00:00:00,133344850.31,Hisense,CNY
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-112950067.45,Hisense,CNY
+Total Other Finance Cost,2024-12-31 00:00:00,88207867.35,Hisense,CNY
+Interest Expense Non Operating,2024-12-31 00:00:00,40545954.11,Hisense,CNY
+Interest Income Non Operating,2024-12-31 00:00:00,15803754.01,Hisense,CNY
+Operating Income,2024-12-31 00:00:00,947118903.23,Hisense,CNY
+Operating Expense,2024-12-31 00:00:00,3417393652.54,Hisense,CNY
+Other Operating Expenses,2024-12-31 00:00:00,104597032.63,Hisense,CNY
+Research And Development,2024-12-31 00:00:00,980602820.76,Hisense,CNY
+Selling General And Administration,2024-12-31 00:00:00,2570545746.75,Hisense,CNY
+Selling And Marketing Expense,2024-12-31 00:00:00,1848705471.86,Hisense,CNY
+General And Administrative Expense,2024-12-31 00:00:00,721840274.89,Hisense,CNY
+Gross Profit,2024-12-31 00:00:00,4364512555.77,Hisense,CNY
+Cost Of Revenue,2024-12-31 00:00:00,17802010035.88,Hisense,CNY
+Total Revenue,2024-12-31 00:00:00,22166522591.65,Hisense,CNY
+Operating Revenue,2024-12-31 00:00:00,22166522591.65,Hisense,CNY
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,3838763.477757,Hisense,CNY
+Tax Rate For Calcs,2024-09-30 00:00:00,0.116129,Hisense,CNY
+Normalized EBITDA,2024-09-30 00:00:00,1293643669.05,Hisense,CNY
+Total Unusual Items,2024-09-30 00:00:00,33056109.99,Hisense,CNY
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,33056109.99,Hisense,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,777159401.39,Hisense,CNY
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,17382377297.57,Hisense,CNY
+EBITDA,2024-09-30 00:00:00,1326699779.04,Hisense,CNY
+EBIT,2024-09-30 00:00:00,1326699779.04,Hisense,CNY
+Net Interest Income,2024-09-30 00:00:00,56555784.42,Hisense,CNY
+Interest Expense,2024-09-30 00:00:00,40234542.73,Hisense,CNY
+Interest Income,2024-09-30 00:00:00,15491379.25,Hisense,CNY
+Normalized Income,2024-09-30 00:00:00,747942054.877757,Hisense,CNY
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,777159401.39,Hisense,CNY
+Total Expenses,2024-09-30 00:00:00,20917902248.19,Hisense,CNY
+Total Operating Income As Reported,2024-09-30 00:00:00,1211189982.71,Hisense,CNY
+Diluted Average Shares,2024-09-30 00:00:00,,Hisense,CNY
+Basic Average Shares,2024-09-30 00:00:00,,Hisense,CNY
+Diluted EPS,2024-09-30 00:00:00,,Hisense,CNY
+Basic EPS,2024-09-30 00:00:00,,Hisense,CNY
+Net Income Common Stockholders,2024-09-30 00:00:00,777159401.39,Hisense,CNY
+Otherunder Preferred Stock Dividend,2024-09-30 00:00:00,0.0,Hisense,CNY
+Net Income,2024-09-30 00:00:00,777159401.39,Hisense,CNY
+Minority Interests,2024-09-30 00:00:00,-359910283.96,Hisense,CNY
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,1137069685.35,Hisense,CNY
+Net Income Continuous Operations,2024-09-30 00:00:00,1137069685.35,Hisense,CNY
+Tax Provision,2024-09-30 00:00:00,149395550.96,Hisense,CNY
+Pretax Income,2024-09-30 00:00:00,1286465236.31,Hisense,CNY
+Other Non Operating Income Expenses,2024-09-30 00:00:00,75275253.6,Hisense,CNY
+Special Income Charges,2024-09-30 00:00:00,-16424717.0,Hisense,CNY
+Other Special Charges,2024-09-30 00:00:00,-808823.53,Hisense,CNY
+Write Off,2024-09-30 00:00:00,-11738044.25,Hisense,CNY
+Impairment Of Capital Assets,2024-09-30 00:00:00,28971584.78,Hisense,CNY
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,56555784.42,Hisense,CNY
+Total Other Finance Cost,2024-09-30 00:00:00,-81298947.9,Hisense,CNY
+Interest Expense Non Operating,2024-09-30 00:00:00,40234542.73,Hisense,CNY
+Interest Income Non Operating,2024-09-30 00:00:00,15491379.25,Hisense,CNY
+Operating Income,2024-09-30 00:00:00,1019512894.89,Hisense,CNY
+Operating Expense,2024-09-30 00:00:00,3535524950.62,Hisense,CNY
+Other Operating Expenses,2024-09-30 00:00:00,102881566.86,Hisense,CNY
+Research And Development,2024-09-30 00:00:00,822164456.36,Hisense,CNY
+Selling General And Administration,2024-09-30 00:00:00,2771973346.74,Hisense,CNY
+Selling And Marketing Expense,2024-09-30 00:00:00,2193457560.63,Hisense,CNY
+General And Administrative Expense,2024-09-30 00:00:00,578515786.11,Hisense,CNY
+Gross Profit,2024-09-30 00:00:00,4555037845.51,Hisense,CNY
+Cost Of Revenue,2024-09-30 00:00:00,17382377297.57,Hisense,CNY
+Total Revenue,2024-09-30 00:00:00,21937415143.08,Hisense,CNY
+Operating Revenue,2024-09-30 00:00:00,21937415143.08,Hisense,CNY
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,17258838.67309,Hisense,CNY
+Tax Rate For Calcs,2024-06-30 00:00:00,0.145037,Hisense,CNY
+Normalized EBITDA,2024-06-30 00:00:00,1659569007.78,Hisense,CNY
+Total Unusual Items,2024-06-30 00:00:00,118996063.57,Hisense,CNY
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,118996063.57,Hisense,CNY
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,1034584599.15,Hisense,CNY
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,19885329670.32,Hisense,CNY
+EBITDA,2024-06-30 00:00:00,1778565071.35,Hisense,CNY
+EBIT,2024-06-30 00:00:00,1778565071.35,Hisense,CNY
+Net Interest Income,2024-06-30 00:00:00,-114243425.77,Hisense,CNY
+Interest Expense,2024-06-30 00:00:00,32644291.63,Hisense,CNY
+Interest Income,2024-06-30 00:00:00,17022202.04,Hisense,CNY
+Normalized Income,2024-06-30 00:00:00,932847374.25309,Hisense,CNY
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,1034584599.15,Hisense,CNY
+Total Expenses,2024-06-30 00:00:00,23882576244.77,Hisense,CNY
+Total Operating Income As Reported,2024-06-30 00:00:00,1675694438.83,Hisense,CNY
+Diluted Average Shares,2024-06-30 00:00:00,,Hisense,CNY
+Basic Average Shares,2024-06-30 00:00:00,,Hisense,CNY
+Diluted EPS,2024-06-30 00:00:00,,Hisense,CNY
+Basic EPS,2024-06-30 00:00:00,,Hisense,CNY
+Net Income Common Stockholders,2024-06-30 00:00:00,1034584599.15,Hisense,CNY
+Otherunder Preferred Stock Dividend,2024-06-30 00:00:00,0.0,Hisense,CNY
+Net Income,2024-06-30 00:00:00,1034584599.15,Hisense,CNY
+Minority Interests,2024-06-30 00:00:00,-458112971.59,Hisense,CNY
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,1492697570.74,Hisense,CNY
+Net Income Continuous Operations,2024-06-30 00:00:00,1492697570.74,Hisense,CNY
+Tax Provision,2024-06-30 00:00:00,253223208.98,Hisense,CNY
+Pretax Income,2024-06-30 00:00:00,1745920779.72,Hisense,CNY
+Other Non Operating Income Expenses,2024-06-30 00:00:00,70226340.89,Hisense,CNY
+Special Income Charges,2024-06-30 00:00:00,26691306.69,Hisense,CNY
+Other Special Charges,2024-06-30 00:00:00,-384346.56,Hisense,CNY
+Write Off,2024-06-30 00:00:00,-37241955.95,Hisense,CNY
+Impairment Of Capital Assets,2024-06-30 00:00:00,10934995.82,Hisense,CNY
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,-114243425.77,Hisense,CNY
+Total Other Finance Cost,2024-06-30 00:00:00,98621336.18,Hisense,CNY
+Interest Expense Non Operating,2024-06-30 00:00:00,32644291.63,Hisense,CNY
+Interest Income Non Operating,2024-06-30 00:00:00,17022202.04,Hisense,CNY
+Operating Income,2024-06-30 00:00:00,1272977835.54,Hisense,CNY
+Operating Expense,2024-06-30 00:00:00,3997246574.45,Hisense,CNY
+Other Operating Expenses,2024-06-30 00:00:00,106729646.25,Hisense,CNY
+Research And Development,2024-06-30 00:00:00,869794878.73,Hisense,CNY
+Selling General And Administration,2024-06-30 00:00:00,3187780119.72,Hisense,CNY
+Selling And Marketing Expense,2024-06-30 00:00:00,2610388542.77,Hisense,CNY
+General And Administrative Expense,2024-06-30 00:00:00,577391576.95,Hisense,CNY
+Gross Profit,2024-06-30 00:00:00,5270224409.99,Hisense,CNY
+Cost Of Revenue,2024-06-30 00:00:00,19885329670.32,Hisense,CNY
+Total Revenue,2024-06-30 00:00:00,25155554080.31,Hisense,CNY
+Operating Revenue,2024-06-30 00:00:00,25155554080.31,Hisense,CNY
+Tax Effect Of Unusual Items,2025-12-31 00:00:00,-262470750.0,Vestel,TRY
+Tax Rate For Calcs,2025-12-31 00:00:00,0.25,Vestel,TRY
+Normalized EBITDA,2025-12-31 00:00:00,803900000.0,Vestel,TRY
+Total Unusual Items,2025-12-31 00:00:00,-1049883000.0,Vestel,TRY
+Total Unusual Items Excluding Goodwill,2025-12-31 00:00:00,-1049883000.0,Vestel,TRY
+Net Income From Continuing Operation Net Minority Interest,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Reconciled Depreciation,2025-12-31 00:00:00,1087551000.0,Vestel,TRY
+Reconciled Cost Of Revenue,2025-12-31 00:00:00,16226657000.0,Vestel,TRY
+EBITDA,2025-12-31 00:00:00,-245983000.0,Vestel,TRY
+EBIT,2025-12-31 00:00:00,-1333534000.0,Vestel,TRY
+Net Interest Income,2025-12-31 00:00:00,-1076728000.0,Vestel,TRY
+Interest Expense,2025-12-31 00:00:00,1415126000.0,Vestel,TRY
+Interest Income,2025-12-31 00:00:00,987287000.0,Vestel,TRY
+Normalized Income,2025-12-31 00:00:00,-2207121750.0,Vestel,TRY
+Net Income From Continuing And Discontinued Operation,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Total Expenses,2025-12-31 00:00:00,18049393000.0,Vestel,TRY
+Total Operating Income As Reported,2025-12-31 00:00:00,-2283727000.0,Vestel,TRY
+Diluted Average Shares,2025-12-31 00:00:00,,Vestel,TRY
+Basic Average Shares,2025-12-31 00:00:00,,Vestel,TRY
+Diluted EPS,2025-12-31 00:00:00,,Vestel,TRY
+Basic EPS,2025-12-31 00:00:00,,Vestel,TRY
+Diluted NI Availto Com Stockholders,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Net Income Common Stockholders,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Otherunder Preferred Stock Dividend,2025-12-31 00:00:00,0.0,Vestel,TRY
+Net Income,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Net Income Including Noncontrolling Interests,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Net Income Continuous Operations,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Tax Provision,2025-12-31 00:00:00,245874000.0,Vestel,TRY
+Pretax Income,2025-12-31 00:00:00,-2748660000.0,Vestel,TRY
+Other Non Operating Income Expenses,2025-12-31 00:00:00,874444000.0,Vestel,TRY
+Net Non Operating Interest Income Expense,2025-12-31 00:00:00,-1076728000.0,Vestel,TRY
+Total Other Finance Cost,2025-12-31 00:00:00,648889000.0,Vestel,TRY
+Interest Expense Non Operating,2025-12-31 00:00:00,1415126000.0,Vestel,TRY
+Interest Income Non Operating,2025-12-31 00:00:00,987287000.0,Vestel,TRY
+Operating Income,2025-12-31 00:00:00,-1068201000.0,Vestel,TRY
+Operating Expense,2025-12-31 00:00:00,1822736000.0,Vestel,TRY
+Other Operating Expenses,2025-12-31 00:00:00,94994000.0,Vestel,TRY
+Research And Development,2025-12-31 00:00:00,377818000.0,Vestel,TRY
+Selling General And Administration,2025-12-31 00:00:00,475660000.0,Vestel,TRY
+Selling And Marketing Expense,2025-12-31 00:00:00,279537000.0,Vestel,TRY
+General And Administrative Expense,2025-12-31 00:00:00,196123000.0,Vestel,TRY
+Gross Profit,2025-12-31 00:00:00,754535000.0,Vestel,TRY
+Cost Of Revenue,2025-12-31 00:00:00,16226657000.0,Vestel,TRY
+Total Revenue,2025-12-31 00:00:00,16981192000.0,Vestel,TRY
+Operating Revenue,2025-12-31 00:00:00,16981192000.0,Vestel,TRY
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,22566500.0,Vestel,TRY
+Tax Rate For Calcs,2025-03-31 00:00:00,0.25,Vestel,TRY
+Normalized EBITDA,2025-03-31 00:00:00,1509068000.0,Vestel,TRY
+Total Unusual Items,2025-03-31 00:00:00,90266000.0,Vestel,TRY
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,90266000.0,Vestel,TRY
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Reconciled Depreciation,2025-03-31 00:00:00,810805000.0,Vestel,TRY
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,14643253000.0,Vestel,TRY
+EBITDA,2025-03-31 00:00:00,1599334000.0,Vestel,TRY
+EBIT,2025-03-31 00:00:00,788529000.0,Vestel,TRY
+Net Interest Income,2025-03-31 00:00:00,-1384457000.0,Vestel,TRY
+Interest Expense,2025-03-31 00:00:00,1546153000.0,Vestel,TRY
+Interest Income,2025-03-31 00:00:00,328968000.0,Vestel,TRY
+Normalized Income,2025-03-31 00:00:00,-1081708500.0,Vestel,TRY
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Total Expenses,2025-03-31 00:00:00,16048312000.0,Vestel,TRY
+Total Operating Income As Reported,2025-03-31 00:00:00,-682031000.0,Vestel,TRY
+Diluted Average Shares,2025-03-31 00:00:00,1600000000.0,Vestel,TRY
+Basic Average Shares,2025-03-31 00:00:00,1600000000.0,Vestel,TRY
+Diluted EPS,2025-03-31 00:00:00,-0.63,Vestel,TRY
+Basic EPS,2025-03-31 00:00:00,-0.63,Vestel,TRY
+Diluted NI Availto Com Stockholders,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Net Income Common Stockholders,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Otherunder Preferred Stock Dividend,2025-03-31 00:00:00,0.0,Vestel,TRY
+Net Income,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Net Income Continuous Operations,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Tax Provision,2025-03-31 00:00:00,256385000.0,Vestel,TRY
+Pretax Income,2025-03-31 00:00:00,-757624000.0,Vestel,TRY
+Other Non Operating Income Expenses,2025-03-31 00:00:00,1146229000.0,Vestel,TRY
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,-1384457000.0,Vestel,TRY
+Total Other Finance Cost,2025-03-31 00:00:00,167272000.0,Vestel,TRY
+Interest Expense Non Operating,2025-03-31 00:00:00,1546153000.0,Vestel,TRY
+Interest Income Non Operating,2025-03-31 00:00:00,328968000.0,Vestel,TRY
+Operating Income,2025-03-31 00:00:00,-157059000.0,Vestel,TRY
+Operating Expense,2025-03-31 00:00:00,1405059000.0,Vestel,TRY
+Other Operating Expenses,2025-03-31 00:00:00,56834000.0,Vestel,TRY
+Research And Development,2025-03-31 00:00:00,240965000.0,Vestel,TRY
+Selling General And Administration,2025-03-31 00:00:00,1117204000.0,Vestel,TRY
+Selling And Marketing Expense,2025-03-31 00:00:00,772110000.0,Vestel,TRY
+General And Administrative Expense,2025-03-31 00:00:00,345094000.0,Vestel,TRY
+Gross Profit,2025-03-31 00:00:00,1248000000.0,Vestel,TRY
+Cost Of Revenue,2025-03-31 00:00:00,14643253000.0,Vestel,TRY
+Total Revenue,2025-03-31 00:00:00,15891253000.0,Vestel,TRY
+Operating Revenue,2025-03-31 00:00:00,15891253000.0,Vestel,TRY
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,43505250.0,Vestel,TRY
+Tax Rate For Calcs,2024-12-31 00:00:00,0.25,Vestel,TRY
+Normalized EBITDA,2024-12-31 00:00:00,2000519000.0,Vestel,TRY
+Total Unusual Items,2024-12-31 00:00:00,174021000.0,Vestel,TRY
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,174021000.0,Vestel,TRY
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Reconciled Depreciation,2024-12-31 00:00:00,981569000.0,Vestel,TRY
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,19387503000.0,Vestel,TRY
+EBITDA,2024-12-31 00:00:00,2174540000.0,Vestel,TRY
+EBIT,2024-12-31 00:00:00,1192971000.0,Vestel,TRY
+Net Interest Income,2024-12-31 00:00:00,-1335577000.0,Vestel,TRY
+Interest Expense,2024-12-31 00:00:00,1338584000.0,Vestel,TRY
+Interest Income,2024-12-31 00:00:00,601815000.0,Vestel,TRY
+Normalized Income,2024-12-31 00:00:00,-175406750.0,Vestel,TRY
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Total Expenses,2024-12-31 00:00:00,21039681000.0,Vestel,TRY
+Total Operating Income As Reported,2024-12-31 00:00:00,129482000.0,Vestel,TRY
+Diluted Average Shares,2024-12-31 00:00:00,,Vestel,TRY
+Basic Average Shares,2024-12-31 00:00:00,,Vestel,TRY
+Diluted EPS,2024-12-31 00:00:00,,Vestel,TRY
+Basic EPS,2024-12-31 00:00:00,,Vestel,TRY
+Diluted NI Availto Com Stockholders,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Net Income Common Stockholders,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Otherunder Preferred Stock Dividend,2024-12-31 00:00:00,0.0,Vestel,TRY
+Net Income,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Net Income Continuous Operations,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Tax Provision,2024-12-31 00:00:00,-100722000.0,Vestel,TRY
+Pretax Income,2024-12-31 00:00:00,-145613000.0,Vestel,TRY
+Other Non Operating Income Expenses,2024-12-31 00:00:00,825421000.0,Vestel,TRY
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-1335577000.0,Vestel,TRY
+Total Other Finance Cost,2024-12-31 00:00:00,598808000.0,Vestel,TRY
+Interest Expense Non Operating,2024-12-31 00:00:00,1338584000.0,Vestel,TRY
+Interest Income Non Operating,2024-12-31 00:00:00,601815000.0,Vestel,TRY
+Operating Income,2024-12-31 00:00:00,238668000.0,Vestel,TRY
+Operating Expense,2024-12-31 00:00:00,1652178000.0,Vestel,TRY
+Other Operating Expenses,2024-12-31 00:00:00,102140000.0,Vestel,TRY
+Research And Development,2024-12-31 00:00:00,288429000.0,Vestel,TRY
+Selling General And Administration,2024-12-31 00:00:00,609575000.0,Vestel,TRY
+Selling And Marketing Expense,2024-12-31 00:00:00,616237000.0,Vestel,TRY
+General And Administrative Expense,2024-12-31 00:00:00,-6662000.0,Vestel,TRY
+Gross Profit,2024-12-31 00:00:00,1890846000.0,Vestel,TRY
+Cost Of Revenue,2024-12-31 00:00:00,19387503000.0,Vestel,TRY
+Total Revenue,2024-12-31 00:00:00,21278349000.0,Vestel,TRY
+Operating Revenue,2024-12-31 00:00:00,21278349000.0,Vestel,TRY
+Tax Effect Of Unusual Items,2024-09-30 00:00:00,-14060999.36877,Vestel,TRY
+Tax Rate For Calcs,2024-09-30 00:00:00,0.052004,Vestel,TRY
+Normalized EBITDA,2024-09-30 00:00:00,1936726000.0,Vestel,TRY
+Total Unusual Items,2024-09-30 00:00:00,-270382000.0,Vestel,TRY
+Total Unusual Items Excluding Goodwill,2024-09-30 00:00:00,-270382000.0,Vestel,TRY
+Net Income From Continuing Operation Net Minority Interest,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Reconciled Depreciation,2024-09-30 00:00:00,963470000.0,Vestel,TRY
+Reconciled Cost Of Revenue,2024-09-30 00:00:00,23473071000.0,Vestel,TRY
+EBITDA,2024-09-30 00:00:00,1666344000.0,Vestel,TRY
+EBIT,2024-09-30 00:00:00,702874000.0,Vestel,TRY
+Net Interest Income,2024-09-30 00:00:00,-1178548000.0,Vestel,TRY
+Interest Expense,2024-09-30 00:00:00,1290615000.0,Vestel,TRY
+Interest Income,2024-09-30 00:00:00,62540000.0,Vestel,TRY
+Normalized Income,2024-09-30 00:00:00,-300854999.36877,Vestel,TRY
+Net Income From Continuing And Discontinued Operation,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Total Expenses,2024-09-30 00:00:00,25293660000.0,Vestel,TRY
+Total Operating Income As Reported,2024-09-30 00:00:00,73629000.0,Vestel,TRY
+Diluted Average Shares,2024-09-30 00:00:00,1591931429.0,Vestel,TRY
+Basic Average Shares,2024-09-30 00:00:00,1591931429.0,Vestel,TRY
+Diluted EPS,2024-09-30 00:00:00,-0.35,Vestel,TRY
+Basic EPS,2024-09-30 00:00:00,-0.35,Vestel,TRY
+Diluted NI Availto Com Stockholders,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Net Income Common Stockholders,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Otherunder Preferred Stock Dividend,2024-09-30 00:00:00,0.0,Vestel,TRY
+Net Income,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Net Income Including Noncontrolling Interests,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Net Income Continuous Operations,2024-09-30 00:00:00,-557176000.0,Vestel,TRY
+Tax Provision,2024-09-30 00:00:00,-30565000.0,Vestel,TRY
+Pretax Income,2024-09-30 00:00:00,-587741000.0,Vestel,TRY
+Other Non Operating Income Expenses,2024-09-30 00:00:00,1072035000.0,Vestel,TRY
+Net Non Operating Interest Income Expense,2024-09-30 00:00:00,-1178548000.0,Vestel,TRY
+Total Other Finance Cost,2024-09-30 00:00:00,-49527000.0,Vestel,TRY
+Interest Expense Non Operating,2024-09-30 00:00:00,1290615000.0,Vestel,TRY
+Interest Income Non Operating,2024-09-30 00:00:00,62540000.0,Vestel,TRY
+Operating Income,2024-09-30 00:00:00,379198000.0,Vestel,TRY
+Operating Expense,2024-09-30 00:00:00,1820589000.0,Vestel,TRY
+Other Operating Expenses,2024-09-30 00:00:00,47118000.0,Vestel,TRY
+Research And Development,2024-09-30 00:00:00,339456000.0,Vestel,TRY
+Selling General And Administration,2024-09-30 00:00:00,1448915000.0,Vestel,TRY
+Selling And Marketing Expense,2024-09-30 00:00:00,1152063000.0,Vestel,TRY
+General And Administrative Expense,2024-09-30 00:00:00,296852000.0,Vestel,TRY
+Gross Profit,2024-09-30 00:00:00,2199787000.0,Vestel,TRY
+Cost Of Revenue,2024-09-30 00:00:00,23473071000.0,Vestel,TRY
+Total Revenue,2024-09-30 00:00:00,25672858000.0,Vestel,TRY
+Operating Revenue,2024-09-30 00:00:00,25672858000.0,Vestel,TRY
+Tax Effect Of Unusual Items,2024-06-30 00:00:00,-121495750.0,Vestel,TRY
+Tax Rate For Calcs,2024-06-30 00:00:00,0.25,Vestel,TRY
+Normalized EBITDA,2024-06-30 00:00:00,2826072000.0,Vestel,TRY
+Total Unusual Items,2024-06-30 00:00:00,-485983000.0,Vestel,TRY
+Total Unusual Items Excluding Goodwill,2024-06-30 00:00:00,-485983000.0,Vestel,TRY
+Net Income From Continuing Operation Net Minority Interest,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Reconciled Depreciation,2024-06-30 00:00:00,841275000.0,Vestel,TRY
+Reconciled Cost Of Revenue,2024-06-30 00:00:00,20391401000.0,Vestel,TRY
+EBITDA,2024-06-30 00:00:00,2340089000.0,Vestel,TRY
+EBIT,2024-06-30 00:00:00,1498814000.0,Vestel,TRY
+Net Interest Income,2024-06-30 00:00:00,-1457193000.0,Vestel,TRY
+Interest Expense,2024-06-30 00:00:00,1455981000.0,Vestel,TRY
+Interest Income,2024-06-30 00:00:00,51989000.0,Vestel,TRY
+Normalized Income,2024-06-30 00:00:00,365306250.0,Vestel,TRY
+Net Income From Continuing And Discontinued Operation,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Total Expenses,2024-06-30 00:00:00,21788285000.0,Vestel,TRY
+Total Operating Income As Reported,2024-06-30 00:00:00,848232000.0,Vestel,TRY
+Diluted Average Shares,2024-06-30 00:00:00,1600000000.0,Vestel,TRY
+Basic Average Shares,2024-06-30 00:00:00,1600000000.0,Vestel,TRY
+Diluted EPS,2024-06-30 00:00:00,0.0,Vestel,TRY
+Basic EPS,2024-06-30 00:00:00,0.0,Vestel,TRY
+Diluted NI Availto Com Stockholders,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Net Income Common Stockholders,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Otherunder Preferred Stock Dividend,2024-06-30 00:00:00,0.0,Vestel,TRY
+Net Income,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Net Income Including Noncontrolling Interests,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Net Income Continuous Operations,2024-06-30 00:00:00,819000.0,Vestel,TRY
+Tax Provision,2024-06-30 00:00:00,42014000.0,Vestel,TRY
+Pretax Income,2024-06-30 00:00:00,42833000.0,Vestel,TRY
+Other Non Operating Income Expenses,2024-06-30 00:00:00,1292645000.0,Vestel,TRY
+Net Non Operating Interest Income Expense,2024-06-30 00:00:00,-1457193000.0,Vestel,TRY
+Total Other Finance Cost,2024-06-30 00:00:00,53201000.0,Vestel,TRY
+Interest Expense Non Operating,2024-06-30 00:00:00,1455981000.0,Vestel,TRY
+Interest Income Non Operating,2024-06-30 00:00:00,51989000.0,Vestel,TRY
+Operating Income,2024-06-30 00:00:00,888565000.0,Vestel,TRY
+Operating Expense,2024-06-30 00:00:00,1396884000.0,Vestel,TRY
+Other Operating Expenses,2024-06-30 00:00:00,39436000.0,Vestel,TRY
+Research And Development,2024-06-30 00:00:00,227929000.0,Vestel,TRY
+Selling General And Administration,2024-06-30 00:00:00,1133707000.0,Vestel,TRY
+Selling And Marketing Expense,2024-06-30 00:00:00,924077000.0,Vestel,TRY
+General And Administrative Expense,2024-06-30 00:00:00,209630000.0,Vestel,TRY
+Gross Profit,2024-06-30 00:00:00,2285449000.0,Vestel,TRY
+Cost Of Revenue,2024-06-30 00:00:00,20391401000.0,Vestel,TRY
+Total Revenue,2024-06-30 00:00:00,22676850000.0,Vestel,TRY
+Operating Revenue,2024-06-30 00:00:00,22676850000.0,Vestel,TRY
+Tax Effect Of Unusual Items,2025-12-31 00:00:00,26859259.259259,Whirlpool,USD
+Tax Rate For Calcs,2025-12-31 00:00:00,0.274074,Whirlpool,USD
+Normalized EBITDA,2025-12-31 00:00:00,214000000.0,Whirlpool,USD
+Total Unusual Items,2025-12-31 00:00:00,98000000.0,Whirlpool,USD
+Total Unusual Items Excluding Goodwill,2025-12-31 00:00:00,98000000.0,Whirlpool,USD
+Net Income From Continuing Operation Net Minority Interest,2025-12-31 00:00:00,108000000.0,Whirlpool,USD
+Reconciled Depreciation,2025-12-31 00:00:00,92000000.0,Whirlpool,USD
+Reconciled Cost Of Revenue,2025-12-31 00:00:00,3437000000.0,Whirlpool,USD
+EBITDA,2025-12-31 00:00:00,312000000.0,Whirlpool,USD
+EBIT,2025-12-31 00:00:00,220000000.0,Whirlpool,USD
+Net Interest Income,2025-12-31 00:00:00,-106000000.0,Whirlpool,USD
+Interest Expense,2025-12-31 00:00:00,85000000.0,Whirlpool,USD
+Interest Income,2025-12-31 00:00:00,-21000000.0,Whirlpool,USD
+Normalized Income,2025-12-31 00:00:00,36859259.259259,Whirlpool,USD
+Net Income From Continuing And Discontinued Operation,2025-12-31 00:00:00,108000000.0,Whirlpool,USD
+Total Expenses,2025-12-31 00:00:00,3953000000.0,Whirlpool,USD
+Total Operating Income As Reported,2025-12-31 00:00:00,243000000.0,Whirlpool,USD
+Diluted Average Shares,2025-12-31 00:00:00,56600000.0,Whirlpool,USD
+Basic Average Shares,2025-12-31 00:00:00,56400000.0,Whirlpool,USD
+Diluted EPS,2025-12-31 00:00:00,1.91,Whirlpool,USD
+Basic EPS,2025-12-31 00:00:00,1.92,Whirlpool,USD
+Diluted NI Availto Com Stockholders,2025-12-31 00:00:00,108000000.0,Whirlpool,USD
+Net Income Common Stockholders,2025-12-31 00:00:00,108000000.0,Whirlpool,USD
+Net Income,2025-12-31 00:00:00,108000000.0,Whirlpool,USD
+Minority Interests,2025-12-31 00:00:00,-3000000.0,Whirlpool,USD
+Net Income Including Noncontrolling Interests,2025-12-31 00:00:00,112000000.0,Whirlpool,USD
+Net Income Continuous Operations,2025-12-31 00:00:00,112000000.0,Whirlpool,USD
+Earnings From Equity Interest Net Of Tax,2025-12-31 00:00:00,12000000.0,Whirlpool,USD
+Tax Provision,2025-12-31 00:00:00,37000000.0,Whirlpool,USD
+Pretax Income,2025-12-31 00:00:00,135000000.0,Whirlpool,USD
+Other Income Expense,2025-12-31 00:00:00,98000000.0,Whirlpool,USD
+Special Income Charges,2025-12-31 00:00:00,98000000.0,Whirlpool,USD
+Gain On Sale Of Business,2025-12-31 00:00:00,250000000.0,Whirlpool,USD
+Restructuring And Mergern Acquisition,2025-12-31 00:00:00,46000000.0,Whirlpool,USD
+Net Non Operating Interest Income Expense,2025-12-31 00:00:00,-106000000.0,Whirlpool,USD
+Interest Expense Non Operating,2025-12-31 00:00:00,85000000.0,Whirlpool,USD
+Interest Income Non Operating,2025-12-31 00:00:00,-21000000.0,Whirlpool,USD
+Operating Income,2025-12-31 00:00:00,145000000.0,Whirlpool,USD
+Operating Expense,2025-12-31 00:00:00,430000000.0,Whirlpool,USD
+Depreciation Amortization Depletion Income Statement,2025-12-31 00:00:00,6000000.0,Whirlpool,USD
+Depreciation And Amortization In Income Statement,2025-12-31 00:00:00,6000000.0,Whirlpool,USD
+Amortization,2025-12-31 00:00:00,6000000.0,Whirlpool,USD
+Amortization Of Intangibles Income Statement,2025-12-31 00:00:00,6000000.0,Whirlpool,USD
+Selling General And Administration,2025-12-31 00:00:00,424000000.0,Whirlpool,USD
+Gross Profit,2025-12-31 00:00:00,575000000.0,Whirlpool,USD
+Cost Of Revenue,2025-12-31 00:00:00,3523000000.0,Whirlpool,USD
+Total Revenue,2025-12-31 00:00:00,4098000000.0,Whirlpool,USD
+Operating Revenue,2025-12-31 00:00:00,4098000000.0,Whirlpool,USD
+Tax Effect Of Unusual Items,2025-09-30 00:00:00,6600000.0,Whirlpool,USD
+Tax Rate For Calcs,2025-09-30 00:00:00,0.275,Whirlpool,USD
+Normalized EBITDA,2025-09-30 00:00:00,271000000.0,Whirlpool,USD
+Total Unusual Items,2025-09-30 00:00:00,24000000.0,Whirlpool,USD
+Total Unusual Items Excluding Goodwill,2025-09-30 00:00:00,24000000.0,Whirlpool,USD
+Net Income From Continuing Operation Net Minority Interest,2025-09-30 00:00:00,73000000.0,Whirlpool,USD
+Reconciled Depreciation,2025-09-30 00:00:00,83000000.0,Whirlpool,USD
+Reconciled Cost Of Revenue,2025-09-30 00:00:00,3363000000.0,Whirlpool,USD
+EBITDA,2025-09-30 00:00:00,295000000.0,Whirlpool,USD
+EBIT,2025-09-30 00:00:00,212000000.0,Whirlpool,USD
+Net Interest Income,2025-09-30 00:00:00,-87000000.0,Whirlpool,USD
+Interest Expense,2025-09-30 00:00:00,92000000.0,Whirlpool,USD
+Interest Income,2025-09-30 00:00:00,5000000.0,Whirlpool,USD
+Normalized Income,2025-09-30 00:00:00,55600000.0,Whirlpool,USD
+Net Income From Continuing And Discontinued Operation,2025-09-30 00:00:00,73000000.0,Whirlpool,USD
+Total Expenses,2025-09-30 00:00:00,3851000000.0,Whirlpool,USD
+Total Operating Income As Reported,2025-09-30 00:00:00,206000000.0,Whirlpool,USD
+Diluted Average Shares,2025-09-30 00:00:00,56500000.0,Whirlpool,USD
+Basic Average Shares,2025-09-30 00:00:00,56100000.0,Whirlpool,USD
+Diluted EPS,2025-09-30 00:00:00,1.29,Whirlpool,USD
+Basic EPS,2025-09-30 00:00:00,1.3,Whirlpool,USD
+Diluted NI Availto Com Stockholders,2025-09-30 00:00:00,73000000.0,Whirlpool,USD
+Net Income Common Stockholders,2025-09-30 00:00:00,73000000.0,Whirlpool,USD
+Net Income,2025-09-30 00:00:00,73000000.0,Whirlpool,USD
+Minority Interests,2025-09-30 00:00:00,-3000000.0,Whirlpool,USD
+Net Income Including Noncontrolling Interests,2025-09-30 00:00:00,76000000.0,Whirlpool,USD
+Net Income Continuous Operations,2025-09-30 00:00:00,76000000.0,Whirlpool,USD
+Earnings From Equity Interest Net Of Tax,2025-09-30 00:00:00,-11000000.0,Whirlpool,USD
+Tax Provision,2025-09-30 00:00:00,33000000.0,Whirlpool,USD
+Pretax Income,2025-09-30 00:00:00,120000000.0,Whirlpool,USD
+Other Income Expense,2025-09-30 00:00:00,24000000.0,Whirlpool,USD
+Special Income Charges,2025-09-30 00:00:00,24000000.0,Whirlpool,USD
+Gain On Sale Of Business,2025-09-30 00:00:00,30000000.0,Whirlpool,USD
+Restructuring And Mergern Acquisition,2025-09-30 00:00:00,6000000.0,Whirlpool,USD
+Net Non Operating Interest Income Expense,2025-09-30 00:00:00,-87000000.0,Whirlpool,USD
+Interest Expense Non Operating,2025-09-30 00:00:00,92000000.0,Whirlpool,USD
+Interest Income Non Operating,2025-09-30 00:00:00,5000000.0,Whirlpool,USD
+Operating Income,2025-09-30 00:00:00,182000000.0,Whirlpool,USD
+Operating Expense,2025-09-30 00:00:00,412000000.0,Whirlpool,USD
+Depreciation Amortization Depletion Income Statement,2025-09-30 00:00:00,7000000.0,Whirlpool,USD
+Depreciation And Amortization In Income Statement,2025-09-30 00:00:00,7000000.0,Whirlpool,USD
+Amortization,2025-09-30 00:00:00,7000000.0,Whirlpool,USD
+Amortization Of Intangibles Income Statement,2025-09-30 00:00:00,7000000.0,Whirlpool,USD
+Selling General And Administration,2025-09-30 00:00:00,405000000.0,Whirlpool,USD
+Gross Profit,2025-09-30 00:00:00,594000000.0,Whirlpool,USD
+Cost Of Revenue,2025-09-30 00:00:00,3439000000.0,Whirlpool,USD
+Total Revenue,2025-09-30 00:00:00,4033000000.0,Whirlpool,USD
+Operating Revenue,2025-09-30 00:00:00,4033000000.0,Whirlpool,USD
+Tax Effect Of Unusual Items,2025-06-30 00:00:00,-479338.842975,Whirlpool,USD
+Tax Rate For Calcs,2025-06-30 00:00:00,0.239669,Whirlpool,USD
+Normalized EBITDA,2025-06-30 00:00:00,289000000.0,Whirlpool,USD
+Total Unusual Items,2025-06-30 00:00:00,-2000000.0,Whirlpool,USD
+Total Unusual Items Excluding Goodwill,2025-06-30 00:00:00,-2000000.0,Whirlpool,USD
+Net Income From Continuing Operation Net Minority Interest,2025-06-30 00:00:00,65000000.0,Whirlpool,USD
+Reconciled Depreciation,2025-06-30 00:00:00,80000000.0,Whirlpool,USD
+Reconciled Cost Of Revenue,2025-06-30 00:00:00,3089000000.0,Whirlpool,USD
+EBITDA,2025-06-30 00:00:00,287000000.0,Whirlpool,USD
+EBIT,2025-06-30 00:00:00,207000000.0,Whirlpool,USD
+Net Interest Income,2025-06-30 00:00:00,-82000000.0,Whirlpool,USD
+Interest Expense,2025-06-30 00:00:00,86000000.0,Whirlpool,USD
+Interest Income,2025-06-30 00:00:00,4000000.0,Whirlpool,USD
+Normalized Income,2025-06-30 00:00:00,66520661.157025,Whirlpool,USD
+Net Income From Continuing And Discontinued Operation,2025-06-30 00:00:00,65000000.0,Whirlpool,USD
+Total Expenses,2025-06-30 00:00:00,3566000000.0,Whirlpool,USD
+Total Operating Income As Reported,2025-06-30 00:00:00,204000000.0,Whirlpool,USD
+Diluted Average Shares,2025-06-30 00:00:00,56100000.0,Whirlpool,USD
+Basic Average Shares,2025-06-30 00:00:00,55900000.0,Whirlpool,USD
+Diluted EPS,2025-06-30 00:00:00,1.17,Whirlpool,USD
+Basic EPS,2025-06-30 00:00:00,1.17,Whirlpool,USD
+Diluted NI Availto Com Stockholders,2025-06-30 00:00:00,65000000.0,Whirlpool,USD
+Net Income Common Stockholders,2025-06-30 00:00:00,65000000.0,Whirlpool,USD
+Net Income,2025-06-30 00:00:00,65000000.0,Whirlpool,USD
+Minority Interests,2025-06-30 00:00:00,-9000000.0,Whirlpool,USD
+Net Income Including Noncontrolling Interests,2025-06-30 00:00:00,75000000.0,Whirlpool,USD
+Net Income Continuous Operations,2025-06-30 00:00:00,75000000.0,Whirlpool,USD
+Earnings From Equity Interest Net Of Tax,2025-06-30 00:00:00,-18000000.0,Whirlpool,USD
+Tax Provision,2025-06-30 00:00:00,29000000.0,Whirlpool,USD
+Pretax Income,2025-06-30 00:00:00,121000000.0,Whirlpool,USD
+Other Income Expense,2025-06-30 00:00:00,-2000000.0,Whirlpool,USD
+Special Income Charges,2025-06-30 00:00:00,-2000000.0,Whirlpool,USD
+Gain On Sale Of Business,2025-06-30 00:00:00,0.0,Whirlpool,USD
+Restructuring And Mergern Acquisition,2025-06-30 00:00:00,2000000.0,Whirlpool,USD
+Net Non Operating Interest Income Expense,2025-06-30 00:00:00,-82000000.0,Whirlpool,USD
+Interest Expense Non Operating,2025-06-30 00:00:00,86000000.0,Whirlpool,USD
+Interest Income Non Operating,2025-06-30 00:00:00,4000000.0,Whirlpool,USD
+Operating Income,2025-06-30 00:00:00,206000000.0,Whirlpool,USD
+Operating Expense,2025-06-30 00:00:00,404000000.0,Whirlpool,USD
+Depreciation Amortization Depletion Income Statement,2025-06-30 00:00:00,7000000.0,Whirlpool,USD
+Depreciation And Amortization In Income Statement,2025-06-30 00:00:00,7000000.0,Whirlpool,USD
+Amortization,2025-06-30 00:00:00,7000000.0,Whirlpool,USD
+Amortization Of Intangibles Income Statement,2025-06-30 00:00:00,7000000.0,Whirlpool,USD
+Selling General And Administration,2025-06-30 00:00:00,397000000.0,Whirlpool,USD
+Gross Profit,2025-06-30 00:00:00,610000000.0,Whirlpool,USD
+Cost Of Revenue,2025-06-30 00:00:00,3162000000.0,Whirlpool,USD
+Total Revenue,2025-06-30 00:00:00,3773000000.0,Whirlpool,USD
+Operating Revenue,2025-06-30 00:00:00,3773000000.0,Whirlpool,USD
+Tax Effect Of Unusual Items,2025-03-31 00:00:00,-3093525.179856,Whirlpool,USD
+Tax Rate For Calcs,2025-03-31 00:00:00,0.309353,Whirlpool,USD
+Normalized EBITDA,2025-03-31 00:00:00,309000000.0,Whirlpool,USD
+Total Unusual Items,2025-03-31 00:00:00,-10000000.0,Whirlpool,USD
+Total Unusual Items Excluding Goodwill,2025-03-31 00:00:00,-10000000.0,Whirlpool,USD
+Net Income From Continuing Operation Net Minority Interest,2025-03-31 00:00:00,71000000.0,Whirlpool,USD
+Reconciled Depreciation,2025-03-31 00:00:00,83000000.0,Whirlpool,USD
+Reconciled Cost Of Revenue,2025-03-31 00:00:00,2938000000.0,Whirlpool,USD
+EBITDA,2025-03-31 00:00:00,299000000.0,Whirlpool,USD
+EBIT,2025-03-31 00:00:00,216000000.0,Whirlpool,USD
+Net Interest Income,2025-03-31 00:00:00,-45000000.0,Whirlpool,USD
+Interest Expense,2025-03-31 00:00:00,77000000.0,Whirlpool,USD
+Interest Income,2025-03-31 00:00:00,32000000.0,Whirlpool,USD
+Normalized Income,2025-03-31 00:00:00,77906474.820144,Whirlpool,USD
+Net Income From Continuing And Discontinued Operation,2025-03-31 00:00:00,71000000.0,Whirlpool,USD
+Total Expenses,2025-03-31 00:00:00,3427000000.0,Whirlpool,USD
+Total Operating Income As Reported,2025-03-31 00:00:00,184000000.0,Whirlpool,USD
+Diluted Average Shares,2025-03-31 00:00:00,55800000.0,Whirlpool,USD
+Basic Average Shares,2025-03-31 00:00:00,55600000.0,Whirlpool,USD
+Diluted EPS,2025-03-31 00:00:00,1.28,Whirlpool,USD
+Basic EPS,2025-03-31 00:00:00,1.29,Whirlpool,USD
+Diluted NI Availto Com Stockholders,2025-03-31 00:00:00,71000000.0,Whirlpool,USD
+Net Income Common Stockholders,2025-03-31 00:00:00,71000000.0,Whirlpool,USD
+Net Income,2025-03-31 00:00:00,71000000.0,Whirlpool,USD
+Minority Interests,2025-03-31 00:00:00,-7000000.0,Whirlpool,USD
+Net Income Including Noncontrolling Interests,2025-03-31 00:00:00,79000000.0,Whirlpool,USD
+Net Income Continuous Operations,2025-03-31 00:00:00,79000000.0,Whirlpool,USD
+Earnings From Equity Interest Net Of Tax,2025-03-31 00:00:00,-17000000.0,Whirlpool,USD
+Tax Provision,2025-03-31 00:00:00,43000000.0,Whirlpool,USD
+Pretax Income,2025-03-31 00:00:00,139000000.0,Whirlpool,USD
+Other Income Expense,2025-03-31 00:00:00,-10000000.0,Whirlpool,USD
+Special Income Charges,2025-03-31 00:00:00,-10000000.0,Whirlpool,USD
+Gain On Sale Of Business,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Restructuring And Mergern Acquisition,2025-03-31 00:00:00,10000000.0,Whirlpool,USD
+Net Non Operating Interest Income Expense,2025-03-31 00:00:00,-45000000.0,Whirlpool,USD
+Interest Expense Non Operating,2025-03-31 00:00:00,77000000.0,Whirlpool,USD
+Interest Income Non Operating,2025-03-31 00:00:00,32000000.0,Whirlpool,USD
+Operating Income,2025-03-31 00:00:00,194000000.0,Whirlpool,USD
+Operating Expense,2025-03-31 00:00:00,413000000.0,Whirlpool,USD
+Depreciation Amortization Depletion Income Statement,2025-03-31 00:00:00,7000000.0,Whirlpool,USD
+Depreciation And Amortization In Income Statement,2025-03-31 00:00:00,7000000.0,Whirlpool,USD
+Amortization,2025-03-31 00:00:00,7000000.0,Whirlpool,USD
+Amortization Of Intangibles Income Statement,2025-03-31 00:00:00,7000000.0,Whirlpool,USD
+Selling General And Administration,2025-03-31 00:00:00,406000000.0,Whirlpool,USD
+Gross Profit,2025-03-31 00:00:00,607000000.0,Whirlpool,USD
+Cost Of Revenue,2025-03-31 00:00:00,3014000000.0,Whirlpool,USD
+Total Revenue,2025-03-31 00:00:00,3621000000.0,Whirlpool,USD
+Operating Revenue,2025-03-31 00:00:00,3621000000.0,Whirlpool,USD
+Tax Effect Of Unusual Items,2024-12-31 00:00:00,-80430000.0,Whirlpool,USD
+Tax Rate For Calcs,2024-12-31 00:00:00,0.21,Whirlpool,USD
+Normalized EBITDA,2024-12-31 00:00:00,331000000.0,Whirlpool,USD
+Total Unusual Items,2024-12-31 00:00:00,-383000000.0,Whirlpool,USD
+Total Unusual Items Excluding Goodwill,2024-12-31 00:00:00,-383000000.0,Whirlpool,USD
+Net Income From Continuing Operation Net Minority Interest,2024-12-31 00:00:00,-392000000.0,Whirlpool,USD
+Reconciled Depreciation,2024-12-31 00:00:00,84000000.0,Whirlpool,USD
+Reconciled Cost Of Revenue,2024-12-31 00:00:00,3388000000.0,Whirlpool,USD
+EBITDA,2024-12-31 00:00:00,-52000000.0,Whirlpool,USD
+EBIT,2024-12-31 00:00:00,-136000000.0,Whirlpool,USD
+Net Interest Income,2024-12-31 00:00:00,-83000000.0,Whirlpool,USD
+Interest Expense,2024-12-31 00:00:00,83000000.0,Whirlpool,USD
+Interest Income,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Normalized Income,2024-12-31 00:00:00,-89430000.0,Whirlpool,USD
+Net Income From Continuing And Discontinued Operation,2024-12-31 00:00:00,-392000000.0,Whirlpool,USD
+Total Expenses,2024-12-31 00:00:00,3890000000.0,Whirlpool,USD
+Total Operating Income As Reported,2024-12-31 00:00:00,-136000000.0,Whirlpool,USD
+Diluted Average Shares,2024-12-31 00:00:00,55400000.0,Whirlpool,USD
+Basic Average Shares,2024-12-31 00:00:00,55400000.0,Whirlpool,USD
+Diluted EPS,2024-12-31 00:00:00,-7.1,Whirlpool,USD
+Basic EPS,2024-12-31 00:00:00,-7.1,Whirlpool,USD
+Diluted NI Availto Com Stockholders,2024-12-31 00:00:00,-392000000.0,Whirlpool,USD
+Net Income Common Stockholders,2024-12-31 00:00:00,-392000000.0,Whirlpool,USD
+Net Income,2024-12-31 00:00:00,-392000000.0,Whirlpool,USD
+Minority Interests,2024-12-31 00:00:00,-2000000.0,Whirlpool,USD
+Net Income Including Noncontrolling Interests,2024-12-31 00:00:00,-390000000.0,Whirlpool,USD
+Net Income Continuous Operations,2024-12-31 00:00:00,-390000000.0,Whirlpool,USD
+Earnings From Equity Interest Net Of Tax,2024-12-31 00:00:00,-76000000.0,Whirlpool,USD
+Tax Provision,2024-12-31 00:00:00,95000000.0,Whirlpool,USD
+Pretax Income,2024-12-31 00:00:00,-219000000.0,Whirlpool,USD
+Other Income Expense,2024-12-31 00:00:00,-383000000.0,Whirlpool,USD
+Special Income Charges,2024-12-31 00:00:00,-383000000.0,Whirlpool,USD
+Gain On Sale Of Business,2024-12-31 00:00:00,-4000000.0,Whirlpool,USD
+Restructuring And Mergern Acquisition,2024-12-31 00:00:00,-2000000.0,Whirlpool,USD
+Net Non Operating Interest Income Expense,2024-12-31 00:00:00,-83000000.0,Whirlpool,USD
+Interest Expense Non Operating,2024-12-31 00:00:00,83000000.0,Whirlpool,USD
+Interest Income Non Operating,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Operating Income,2024-12-31 00:00:00,246000000.0,Whirlpool,USD
+Operating Expense,2024-12-31 00:00:00,425000000.0,Whirlpool,USD
+Depreciation Amortization Depletion Income Statement,2024-12-31 00:00:00,7000000.0,Whirlpool,USD
+Depreciation And Amortization In Income Statement,2024-12-31 00:00:00,7000000.0,Whirlpool,USD
+Amortization,2024-12-31 00:00:00,7000000.0,Whirlpool,USD
+Amortization Of Intangibles Income Statement,2024-12-31 00:00:00,7000000.0,Whirlpool,USD
+Selling General And Administration,2024-12-31 00:00:00,418000000.0,Whirlpool,USD
+Gross Profit,2024-12-31 00:00:00,671000000.0,Whirlpool,USD
+Cost Of Revenue,2024-12-31 00:00:00,3465000000.0,Whirlpool,USD
+Total Revenue,2024-12-31 00:00:00,4136000000.0,Whirlpool,USD
+Operating Revenue,2024-12-31 00:00:00,4136000000.0,Whirlpool,USD

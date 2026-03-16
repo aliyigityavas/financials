@@ -1,53 +1,2283 @@
-,2025-12-31,2024-12-31,2023-12-31,2022-12-31,2021-12-31
-Free Cash Flow,5334967000.0,-12312172000.0,-19014117000.0,-13569359000.0,
-Repurchase Of Capital Stock,,,0.0,-4089893000.0,-1215266000.0
-Repayment Of Debt,-187598544000.0,-158500293000.0,-146861447000.0,-12393074000.0,
-Issuance Of Debt,249586944000.0,191868447000.0,200085462000.0,36231131000.0,
-Capital Expenditure,-18279797000.0,-31147187000.0,-18533286000.0,-10672132000.0,
-End Cash Position,97247410000.0,66410326000.0,70423031000.0,40333129000.0,
-Other Cash Adjustment Outside Changein Cash,-8340476000.0,-12102278000.0,-15710319000.0,-7354018000.0,
-Beginning Cash Position,66410326000.0,92178336000.0,58232486000.0,43336634000.0,
-Effect Of Exchange Rate Changes,4566851000.0,-14620163000.0,5230463000.0,7448461000.0,
-Changes In Cash,34610709000.0,954431000.0,22670401000.0,-3097948000.0,
-Financing Cash Flow,29291469000.0,1384813000.0,42584205000.0,7594340000.0,
-Net Other Financing Charges,-574189000.0,-4911736000.0,8452664000.0,37811000.0,
-Interest Paid Cff,-24865885000.0,-19857579000.0,-11640263000.0,-6927345000.0,
-Cash Dividends Paid,-1019947000.0,-1476526000.0,-4661547000.0,-3656896000.0,
-Net Common Stock Issuance,,,0.0,-4089893000.0,-1215266000.0
-Common Stock Payments,,,0.0,-4089893000.0,-1215266000.0
-Net Issuance Payments Of Debt,61988400000.0,33368154000.0,53224015000.0,23838057000.0,
-Net Long Term Debt Issuance,61988400000.0,33368154000.0,53224015000.0,23838057000.0,
-Long Term Debt Payments,-187598544000.0,-158500293000.0,-146861447000.0,-12393074000.0,
-Long Term Debt Issuance,249586944000.0,191868447000.0,200085462000.0,36231131000.0,
-Investing Cash Flow,-18295524000.0,-19265397000.0,-19432973000.0,-7795061000.0,
-Net Other Investing Changes,,,,,3136000.0
-Dividends Received Cfi,134506000.0,76158000.0,35849000.0,122814000.0,
-Net Investment Purchase And Sale,-13803000.0,-190373000.0,-16936000.0,-13002000.0,
-Sale Of Investment,0.0,29482000.0,0.0,,
-Purchase Of Investment,-13803000.0,-219855000.0,-16936000.0,-13002000.0,
-Net Business Purchase And Sale,-509065000.0,11112507000.0,-1851493000.0,1931330000.0,
-Sale Of Business,14480000.0,11801266000.0,,2478338000.0,326839000.0
-Purchase Of Business,-523545000.0,-688759000.0,-1851493000.0,-547008000.0,
-Net PPE Purchase And Sale,-17907162000.0,-30263689000.0,-17600393000.0,-9849205000.0,
-Sale Of PPE,372635000.0,883498000.0,932893000.0,822927000.0,
-Purchase Of PPE,-18279797000.0,-31147187000.0,-18533286000.0,-10672132000.0,
-Operating Cash Flow,23614764000.0,18835015000.0,-480831000.0,-2897227000.0,
-Taxes Refund Paid,-1127225000.0,-1172234000.0,-1173249000.0,-1459741000.0,
-Change In Working Capital,-1024958000.0,27434312000.0,-10634012000.0,2735994000.0,
-Change In Other Current Liabilities,,,,1150225000.0,-89181000.0
-Change In Other Current Assets,-4968977000.0,-7788799000.0,-7470880000.0,-1698344000.0,
-Change In Payable,828590000.0,-35072942000.0,6327140000.0,-2125262000.0,
-Change In Prepaid Assets,-793590000.0,-523289000.0,-978663000.0,162700000.0,
-Change In Inventory,3591032000.0,21800806000.0,5747171000.0,-1532436000.0,
-Change In Receivables,4499407000.0,38584251000.0,-14831415000.0,7747127000.0,
-Other Non Cash Items,6314923000.0,-41368350000.0,9066345000.0,-27869638000.0,
-Provisionand Write Offof Assets,238132000.0,2110696000.0,5679175000.0,2264297000.0,
-Deferred Tax,5062741000.0,781265000.0,-1785896000.0,230989000.0,
-Depreciation And Amortization,23251359000.0,21662672000.0,12582692000.0,8062820000.0,
-Depreciation,23251359000.0,21662672000.0,12582692000.0,8062820000.0,
-Pension And Employee Benefit Expense,4931774000.0,6168464000.0,507405000.0,563535000.0,
-Gain Loss On Investment Securities,2244701000.0,6062395000.0,-6084952000.0,255214000.0,
-Net Foreign Currency Exchange Gain Loss,1768629000.0,1306220000.0,-29830603000.0,4483648000.0,
-Gain Loss On Sale Of PPE,,,,5011000.0,-15310000.0
-Gain Loss On Sale Of Business,-30772000.0,-17231000.0,0.0,0.0,
-Net Income From Continuing Operations,-9799313000.0,-2889171000.0,20556667000.0,7008172000.0,
+Metric,Date,Value,Company,Currency
+Free Cash Flow,2025-06-30 00:00:00,7050763662.22,Haier,CNY
+Repayment Of Debt,2025-06-30 00:00:00,-9442408597.75,Haier,CNY
+Issuance Of Debt,2025-06-30 00:00:00,8731451094.28,Haier,CNY
+Capital Expenditure,2025-06-30 00:00:00,-1803667424.65,Haier,CNY
+End Cash Position,2025-06-30 00:00:00,54514391673.07,Haier,CNY
+Beginning Cash Position,2025-06-30 00:00:00,53413370138.99,Haier,CNY
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,381051264.03,Haier,CNY
+Changes In Cash,2025-06-30 00:00:00,719970270.05,Haier,CNY
+Financing Cash Flow,2025-06-30 00:00:00,-3256365041.36,Haier,CNY
+Net Other Financing Charges,2025-06-30 00:00:00,-1998259632.95,Haier,CNY
+Cash Dividends Paid,2025-06-30 00:00:00,-547147904.94,Haier,CNY
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,-710957503.47,Haier,CNY
+Net Long Term Debt Issuance,2025-06-30 00:00:00,-710957503.47,Haier,CNY
+Long Term Debt Payments,2025-06-30 00:00:00,-9442408597.75,Haier,CNY
+Long Term Debt Issuance,2025-06-30 00:00:00,8731451094.28,Haier,CNY
+Investing Cash Flow,2025-06-30 00:00:00,-4878095775.46,Haier,CNY
+Net Other Investing Changes,2025-06-30 00:00:00,281735256.14,Haier,CNY
+Net Investment Purchase And Sale,2025-06-30 00:00:00,-3370577259.3,Haier,CNY
+Sale Of Investment,2025-06-30 00:00:00,12052673883.46,Haier,CNY
+Purchase Of Investment,2025-06-30 00:00:00,-15423251142.76,Haier,CNY
+Net PPE Purchase And Sale,2025-06-30 00:00:00,-1789253772.3,Haier,CNY
+Sale Of PPE,2025-06-30 00:00:00,14413652.35,Haier,CNY
+Purchase Of PPE,2025-06-30 00:00:00,-1803667424.65,Haier,CNY
+Cash Flowsfromusedin Operating Activities Direct,2025-06-30 00:00:00,8854431086.87,Haier,CNY
+Taxes Refund Paid Direct,2025-06-30 00:00:00,-4610410432.6,Haier,CNY
+Classesof Cash Payments,2025-06-30 00:00:00,-72249009283.66,Haier,CNY
+Other Cash Paymentsfrom Operating Activities,2025-06-30 00:00:00,-4142528109.45,Haier,CNY
+Paymentson Behalfof Employees,2025-06-30 00:00:00,-9223778894.12,Haier,CNY
+Paymentsto Suppliersfor Goodsand Services,2025-06-30 00:00:00,-58882702280.09,Haier,CNY
+Classesof Cash Receiptsfrom Operating Activities,2025-06-30 00:00:00,85713850803.13,Haier,CNY
+Other Cash Receiptsfrom Operating Activities,2025-06-30 00:00:00,744022974.34,Haier,CNY
+Receiptsfrom Customers,2025-06-30 00:00:00,84969827828.79,Haier,CNY
+Free Cash Flow,2025-03-31 00:00:00,323819312.94,Haier,CNY
+Repayment Of Debt,2025-03-31 00:00:00,-4877205219.99,Haier,CNY
+Issuance Of Debt,2025-03-31 00:00:00,8587360333.75,Haier,CNY
+Capital Expenditure,2025-03-31 00:00:00,-1960795381.53,Haier,CNY
+End Cash Position,2025-03-31 00:00:00,53413370138.99,Haier,CNY
+Beginning Cash Position,2025-03-31 00:00:00,54994595280.18,Haier,CNY
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,86486684.58,Haier,CNY
+Changes In Cash,2025-03-31 00:00:00,-1667711825.77,Haier,CNY
+Financing Cash Flow,2025-03-31 00:00:00,1191138052.9,Haier,CNY
+Net Other Financing Charges,2025-03-31 00:00:00,-1747826223.38,Haier,CNY
+Cash Dividends Paid,2025-03-31 00:00:00,-771190837.48,Haier,CNY
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,3710155113.76,Haier,CNY
+Net Long Term Debt Issuance,2025-03-31 00:00:00,3710155113.76,Haier,CNY
+Long Term Debt Payments,2025-03-31 00:00:00,-4877205219.99,Haier,CNY
+Long Term Debt Issuance,2025-03-31 00:00:00,8587360333.75,Haier,CNY
+Investing Cash Flow,2025-03-31 00:00:00,-5143464573.14,Haier,CNY
+Net Other Investing Changes,2025-03-31 00:00:00,-150306450.0,Haier,CNY
+Net Investment Purchase And Sale,2025-03-31 00:00:00,-3035152967.11,Haier,CNY
+Sale Of Investment,2025-03-31 00:00:00,8469620547.59,Haier,CNY
+Purchase Of Investment,2025-03-31 00:00:00,-11504773514.7,Haier,CNY
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-1958005156.03,Haier,CNY
+Sale Of PPE,2025-03-31 00:00:00,2790225.5,Haier,CNY
+Purchase Of PPE,2025-03-31 00:00:00,-1960795381.53,Haier,CNY
+Cash Flowsfromusedin Operating Activities Direct,2025-03-31 00:00:00,2284614694.47,Haier,CNY
+Taxes Refund Paid Direct,2025-03-31 00:00:00,-3559172209.98,Haier,CNY
+Classesof Cash Payments,2025-03-31 00:00:00,-76927707319.75,Haier,CNY
+Other Cash Paymentsfrom Operating Activities,2025-03-31 00:00:00,-7402137835.91,Haier,CNY
+Paymentson Behalfof Employees,2025-03-31 00:00:00,-9622818712.58,Haier,CNY
+Paymentsto Suppliersfor Goodsand Services,2025-03-31 00:00:00,-59902750771.26,Haier,CNY
+Classesof Cash Receiptsfrom Operating Activities,2025-03-31 00:00:00,82771494224.2,Haier,CNY
+Other Cash Receiptsfrom Operating Activities,2025-03-31 00:00:00,768161495.26,Haier,CNY
+Receiptsfrom Customers,2025-03-31 00:00:00,82003332728.94,Haier,CNY
+Free Cash Flow,2024-12-31 00:00:00,8832608778.31,Haier,CNY
+Repayment Of Debt,2024-12-31 00:00:00,-4080841636.36,Haier,CNY
+Issuance Of Debt,2024-12-31 00:00:00,6187380014.79,Haier,CNY
+Capital Expenditure,2024-12-31 00:00:00,-3834805862.71,Haier,CNY
+End Cash Position,2024-12-31 00:00:00,54980883247.05,Haier,CNY
+Beginning Cash Position,2024-12-31 00:00:00,46656680119.83,Haier,CNY
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,103384871.6,Haier,CNY
+Changes In Cash,2024-12-31 00:00:00,5515122697.33,Haier,CNY
+Financing Cash Flow,2024-12-31 00:00:00,862134201.45,Haier,CNY
+Net Other Financing Charges,2024-12-31 00:00:00,-557031705.63,Haier,CNY
+Cash Dividends Paid,2024-12-31 00:00:00,-687372471.35,Haier,CNY
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,2106538378.43,Haier,CNY
+Net Long Term Debt Issuance,2024-12-31 00:00:00,2106538378.43,Haier,CNY
+Long Term Debt Payments,2024-12-31 00:00:00,-4080841636.36,Haier,CNY
+Long Term Debt Issuance,2024-12-31 00:00:00,6187380014.79,Haier,CNY
+Investing Cash Flow,2024-12-31 00:00:00,-8014426145.14,Haier,CNY
+Net Other Investing Changes,2024-12-31 00:00:00,,Haier,CNY
+Net Investment Purchase And Sale,2024-12-31 00:00:00,216241242.88,Haier,CNY
+Sale Of Investment,2024-12-31 00:00:00,3780368927.83,Haier,CNY
+Purchase Of Investment,2024-12-31 00:00:00,-3564127684.95,Haier,CNY
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-3821152687.17,Haier,CNY
+Sale Of PPE,2024-12-31 00:00:00,13653175.54,Haier,CNY
+Purchase Of PPE,2024-12-31 00:00:00,-3834805862.71,Haier,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-12-31 00:00:00,12667414641.02,Haier,CNY
+Taxes Refund Paid Direct,2024-12-31 00:00:00,-4535147451.74,Haier,CNY
+Classesof Cash Payments,2024-12-31 00:00:00,-80687799035.47,Haier,CNY
+Other Cash Paymentsfrom Operating Activities,2024-12-31 00:00:00,-4723799633.75,Haier,CNY
+Paymentson Behalfof Employees,2024-12-31 00:00:00,-8379349303.0,Haier,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-12-31 00:00:00,-67584650098.72,Haier,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-12-31 00:00:00,97890361128.23,Haier,CNY
+Other Cash Receiptsfrom Operating Activities,2024-12-31 00:00:00,567409785.02,Haier,CNY
+Receiptsfrom Customers,2024-12-31 00:00:00,97322951343.21,Haier,CNY
+Free Cash Flow,2024-09-30 00:00:00,3712580849.32,Haier,CNY
+Repayment Of Debt,2024-09-30 00:00:00,-1337470284.56,Haier,CNY
+Issuance Of Debt,2024-09-30 00:00:00,1529834039.8,Haier,CNY
+Capital Expenditure,2024-09-30 00:00:00,-2344828484.36,Haier,CNY
+End Cash Position,2024-09-30 00:00:00,46656680119.83,Haier,CNY
+Beginning Cash Position,2024-09-30 00:00:00,54228034803.2,Haier,CNY
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,-318151714.94,Haier,CNY
+Changes In Cash,2024-09-30 00:00:00,-7253202968.43,Haier,CNY
+Financing Cash Flow,2024-09-30 00:00:00,-8584861566.0,Haier,CNY
+Net Other Financing Charges,2024-09-30 00:00:00,-657132052.51,Haier,CNY
+Cash Dividends Paid,2024-09-30 00:00:00,-8120093268.73,Haier,CNY
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,192363755.24,Haier,CNY
+Net Long Term Debt Issuance,2024-09-30 00:00:00,192363755.24,Haier,CNY
+Long Term Debt Payments,2024-09-30 00:00:00,-1337470284.56,Haier,CNY
+Long Term Debt Issuance,2024-09-30 00:00:00,1529834039.8,Haier,CNY
+Investing Cash Flow,2024-09-30 00:00:00,-4725750736.11,Haier,CNY
+Net Other Investing Changes,2024-09-30 00:00:00,,Haier,CNY
+Net Investment Purchase And Sale,2024-09-30 00:00:00,-2401892701.23,Haier,CNY
+Sale Of Investment,2024-09-30 00:00:00,4044430961.88,Haier,CNY
+Purchase Of Investment,2024-09-30 00:00:00,-6446323663.11,Haier,CNY
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-2323858034.88,Haier,CNY
+Sale Of PPE,2024-09-30 00:00:00,20970449.48,Haier,CNY
+Purchase Of PPE,2024-09-30 00:00:00,-2344828484.36,Haier,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-09-30 00:00:00,6057409333.68,Haier,CNY
+Taxes Refund Paid Direct,2024-09-30 00:00:00,-3374784633.67,Haier,CNY
+Classesof Cash Payments,2024-09-30 00:00:00,-63221960004.73,Haier,CNY
+Other Cash Paymentsfrom Operating Activities,2024-09-30 00:00:00,-6935503323.02,Haier,CNY
+Paymentson Behalfof Employees,2024-09-30 00:00:00,-7004792320.01,Haier,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-09-30 00:00:00,-49281664361.7,Haier,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-09-30 00:00:00,72654153972.08,Haier,CNY
+Other Cash Receiptsfrom Operating Activities,2024-09-30 00:00:00,948158541.86,Haier,CNY
+Receiptsfrom Customers,2024-09-30 00:00:00,71705995430.22,Haier,CNY
+Free Cash Flow,2024-06-30 00:00:00,4232958500.39,Haier,CNY
+Repayment Of Debt,2024-06-30 00:00:00,-2016734707.7,Haier,CNY
+Issuance Of Debt,2024-06-30 00:00:00,3242247482.58,Haier,CNY
+Capital Expenditure,2024-06-30 00:00:00,-1860540477.44,Haier,CNY
+End Cash Position,2024-06-30 00:00:00,54228034803.2,Haier,CNY
+Beginning Cash Position,2024-06-30 00:00:00,53087298212.08,Haier,CNY
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,19929205.25,Haier,CNY
+Changes In Cash,2024-06-30 00:00:00,1120807385.87,Haier,CNY
+Financing Cash Flow,2024-06-30 00:00:00,149977352.1,Haier,CNY
+Net Other Financing Charges,2024-06-30 00:00:00,-417165156.17,Haier,CNY
+Cash Dividends Paid,2024-06-30 00:00:00,-658370266.61,Haier,CNY
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,1225512774.88,Haier,CNY
+Net Long Term Debt Issuance,2024-06-30 00:00:00,1225512774.88,Haier,CNY
+Long Term Debt Payments,2024-06-30 00:00:00,-2016734707.7,Haier,CNY
+Long Term Debt Issuance,2024-06-30 00:00:00,3242247482.58,Haier,CNY
+Investing Cash Flow,2024-06-30 00:00:00,-5122668944.06,Haier,CNY
+Net Other Investing Changes,2024-06-30 00:00:00,,Haier,CNY
+Net Investment Purchase And Sale,2024-06-30 00:00:00,-3270092274.34,Haier,CNY
+Sale Of Investment,2024-06-30 00:00:00,7983678646.52,Haier,CNY
+Purchase Of Investment,2024-06-30 00:00:00,-11253770920.86,Haier,CNY
+Net PPE Purchase And Sale,2024-06-30 00:00:00,-1860213038.11,Haier,CNY
+Sale Of PPE,2024-06-30 00:00:00,327439.33,Haier,CNY
+Purchase Of PPE,2024-06-30 00:00:00,-1860540477.44,Haier,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-06-30 00:00:00,6093498977.83,Haier,CNY
+Taxes Refund Paid Direct,2024-06-30 00:00:00,-3701392339.4,Haier,CNY
+Classesof Cash Payments,2024-06-30 00:00:00,-58246794492.08,Haier,CNY
+Other Cash Paymentsfrom Operating Activities,2024-06-30 00:00:00,-5577971727.4,Haier,CNY
+Paymentson Behalfof Employees,2024-06-30 00:00:00,-7696422977.3,Haier,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-06-30 00:00:00,-44972399787.38,Haier,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-06-30 00:00:00,68041685809.31,Haier,CNY
+Other Cash Receiptsfrom Operating Activities,2024-06-30 00:00:00,708646192.02,Haier,CNY
+Receiptsfrom Customers,2024-06-30 00:00:00,67333039617.29,Haier,CNY
+Free Cash Flow,2025-06-30 00:00:00,21678205000.0,Midea,CNY
+Repayment Of Debt,2025-06-30 00:00:00,-30024832000.0,Midea,CNY
+Issuance Of Debt,2025-06-30 00:00:00,28631912000.0,Midea,CNY
+Capital Expenditure,2025-06-30 00:00:00,-1281842000.0,Midea,CNY
+End Cash Position,2025-06-30 00:00:00,81666269000.0,Midea,CNY
+Beginning Cash Position,2025-06-30 00:00:00,53651276000.0,Midea,CNY
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,734374000.0,Midea,CNY
+Changes In Cash,2025-06-30 00:00:00,27280619000.0,Midea,CNY
+Financing Cash Flow,2025-06-30 00:00:00,-26446497000.0,Midea,CNY
+Net Other Financing Charges,2025-06-30 00:00:00,-201408000.0,Midea,CNY
+Cash Dividends Paid,2025-06-30 00:00:00,-24741810000.0,Midea,CNY
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,-1392920000.0,Midea,CNY
+Net Long Term Debt Issuance,2025-06-30 00:00:00,-1392920000.0,Midea,CNY
+Long Term Debt Payments,2025-06-30 00:00:00,-30024832000.0,Midea,CNY
+Long Term Debt Issuance,2025-06-30 00:00:00,28631912000.0,Midea,CNY
+Investing Cash Flow,2025-06-30 00:00:00,30767069000.0,Midea,CNY
+Net Other Investing Changes,2025-06-30 00:00:00,,Midea,CNY
+Net Investment Purchase And Sale,2025-06-30 00:00:00,32738422000.0,Midea,CNY
+Sale Of Investment,2025-06-30 00:00:00,42384005000.0,Midea,CNY
+Purchase Of Investment,2025-06-30 00:00:00,-9645583000.0,Midea,CNY
+Net Business Purchase And Sale,2025-06-30 00:00:00,-1017828000.0,Midea,CNY
+Sale Of Business,2025-06-30 00:00:00,168286000.0,Midea,CNY
+Purchase Of Business,2025-06-30 00:00:00,-1186114000.0,Midea,CNY
+Net PPE Purchase And Sale,2025-06-30 00:00:00,-953053000.0,Midea,CNY
+Sale Of PPE,2025-06-30 00:00:00,328789000.0,Midea,CNY
+Purchase Of PPE,2025-06-30 00:00:00,-1281842000.0,Midea,CNY
+Cash Flowsfromusedin Operating Activities Direct,2025-06-30 00:00:00,22960047000.0,Midea,CNY
+Taxes Refund Paid Direct,2025-06-30 00:00:00,-3689734000.0,Midea,CNY
+Interest Received Direct,2025-06-30 00:00:00,604966000.0,Midea,CNY
+Interest Paid Direct,2025-06-30 00:00:00,-412000.0,Midea,CNY
+Classesof Cash Payments,2025-06-30 00:00:00,-93278603000.0,Midea,CNY
+Other Cash Paymentsfrom Operating Activities,2025-06-30 00:00:00,-10329740000.0,Midea,CNY
+Paymentson Behalfof Employees,2025-06-30 00:00:00,-9822100000.0,Midea,CNY
+Paymentsto Suppliersfor Goodsand Services,2025-06-30 00:00:00,-73126763000.0,Midea,CNY
+Classesof Cash Receiptsfrom Operating Activities,2025-06-30 00:00:00,119323830000.0,Midea,CNY
+Other Cash Receiptsfrom Operating Activities,2025-06-30 00:00:00,3300265000.0,Midea,CNY
+Receiptsfrom Customers,2025-06-30 00:00:00,116023565000.0,Midea,CNY
+Free Cash Flow,2025-03-31 00:00:00,12457491000.0,Midea,CNY
+Repayment Of Debt,2025-03-31 00:00:00,-13593543000.0,Midea,CNY
+Issuance Of Debt,2025-03-31 00:00:00,21678276000.0,Midea,CNY
+Capital Expenditure,2025-03-31 00:00:00,-1863477000.0,Midea,CNY
+End Cash Position,2025-03-31 00:00:00,53651276000.0,Midea,CNY
+Beginning Cash Position,2025-03-31 00:00:00,55118728000.0,Midea,CNY
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,94820000.0,Midea,CNY
+Changes In Cash,2025-03-31 00:00:00,-1562272000.0,Midea,CNY
+Financing Cash Flow,2025-03-31 00:00:00,7333433000.0,Midea,CNY
+Net Other Financing Charges,2025-03-31 00:00:00,-207386000.0,Midea,CNY
+Cash Dividends Paid,2025-03-31 00:00:00,-513811000.0,Midea,CNY
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,8084733000.0,Midea,CNY
+Net Long Term Debt Issuance,2025-03-31 00:00:00,8084733000.0,Midea,CNY
+Long Term Debt Payments,2025-03-31 00:00:00,-13593543000.0,Midea,CNY
+Long Term Debt Issuance,2025-03-31 00:00:00,21678276000.0,Midea,CNY
+Investing Cash Flow,2025-03-31 00:00:00,-23216673000.0,Midea,CNY
+Net Other Investing Changes,2025-03-31 00:00:00,,Midea,CNY
+Net Investment Purchase And Sale,2025-03-31 00:00:00,-17090692000.0,Midea,CNY
+Sale Of Investment,2025-03-31 00:00:00,29878872000.0,Midea,CNY
+Purchase Of Investment,2025-03-31 00:00:00,-46969564000.0,Midea,CNY
+Net Business Purchase And Sale,2025-03-31 00:00:00,-4285780000.0,Midea,CNY
+Sale Of Business,2025-03-31 00:00:00,100292000.0,Midea,CNY
+Purchase Of Business,2025-03-31 00:00:00,-4386072000.0,Midea,CNY
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-1840201000.0,Midea,CNY
+Sale Of PPE,2025-03-31 00:00:00,23276000.0,Midea,CNY
+Purchase Of PPE,2025-03-31 00:00:00,-1863477000.0,Midea,CNY
+Cash Flowsfromusedin Operating Activities Direct,2025-03-31 00:00:00,14320968000.0,Midea,CNY
+Taxes Refund Paid Direct,2025-03-31 00:00:00,-540407000.0,Midea,CNY
+Interest Received Direct,2025-03-31 00:00:00,589883000.0,Midea,CNY
+Interest Paid Direct,2025-03-31 00:00:00,-579000.0,Midea,CNY
+Classesof Cash Payments,2025-03-31 00:00:00,-97345322000.0,Midea,CNY
+Other Cash Paymentsfrom Operating Activities,2025-03-31 00:00:00,-14784112000.0,Midea,CNY
+Paymentson Behalfof Employees,2025-03-31 00:00:00,-14723891000.0,Midea,CNY
+Paymentsto Suppliersfor Goodsand Services,2025-03-31 00:00:00,-67837319000.0,Midea,CNY
+Classesof Cash Receiptsfrom Operating Activities,2025-03-31 00:00:00,111617393000.0,Midea,CNY
+Other Cash Receiptsfrom Operating Activities,2025-03-31 00:00:00,2350559000.0,Midea,CNY
+Receiptsfrom Customers,2025-03-31 00:00:00,109266834000.0,Midea,CNY
+Free Cash Flow,2024-12-31 00:00:00,-2552129000.0,Midea,CNY
+Repayment Of Debt,2024-12-31 00:00:00,-5159174000.0,Midea,CNY
+Issuance Of Debt,2024-12-31 00:00:00,8372915000.0,Midea,CNY
+Capital Expenditure,2024-12-31 00:00:00,-2800020000.0,Midea,CNY
+End Cash Position,2024-12-31 00:00:00,55118728000.0,Midea,CNY
+Beginning Cash Position,2024-12-31 00:00:00,49307630000.0,Midea,CNY
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,163645000.0,Midea,CNY
+Changes In Cash,2024-12-31 00:00:00,5647453000.0,Midea,CNY
+Financing Cash Flow,2024-12-31 00:00:00,2736876000.0,Midea,CNY
+Net Other Financing Charges,2024-12-31 00:00:00,44362000.0,Midea,CNY
+Cash Dividends Paid,2024-12-31 00:00:00,-401797000.0,Midea,CNY
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,3213741000.0,Midea,CNY
+Net Long Term Debt Issuance,2024-12-31 00:00:00,3213741000.0,Midea,CNY
+Long Term Debt Payments,2024-12-31 00:00:00,-5159174000.0,Midea,CNY
+Long Term Debt Issuance,2024-12-31 00:00:00,8372915000.0,Midea,CNY
+Investing Cash Flow,2024-12-31 00:00:00,2662686000.0,Midea,CNY
+Net Other Investing Changes,2024-12-31 00:00:00,215930000.0,Midea,CNY
+Net Investment Purchase And Sale,2024-12-31 00:00:00,4849751000.0,Midea,CNY
+Sale Of Investment,2024-12-31 00:00:00,42814048000.0,Midea,CNY
+Purchase Of Investment,2024-12-31 00:00:00,-37964297000.0,Midea,CNY
+Net Business Purchase And Sale,2024-12-31 00:00:00,37620000.0,Midea,CNY
+Sale Of Business,2024-12-31 00:00:00,37620000.0,Midea,CNY
+Purchase Of Business,2024-12-31 00:00:00,,Midea,CNY
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-2440615000.0,Midea,CNY
+Sale Of PPE,2024-12-31 00:00:00,359405000.0,Midea,CNY
+Purchase Of PPE,2024-12-31 00:00:00,-2800020000.0,Midea,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-12-31 00:00:00,247891000.0,Midea,CNY
+Taxes Refund Paid Direct,2024-12-31 00:00:00,-3099998000.0,Midea,CNY
+Interest Received Direct,2024-12-31 00:00:00,559540000.0,Midea,CNY
+Interest Paid Direct,2024-12-31 00:00:00,-1538000.0,Midea,CNY
+Classesof Cash Payments,2024-12-31 00:00:00,-76705981000.0,Midea,CNY
+Other Cash Paymentsfrom Operating Activities,2024-12-31 00:00:00,-11937287000.0,Midea,CNY
+Paymentson Behalfof Employees,2024-12-31 00:00:00,-9981109000.0,Midea,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-12-31 00:00:00,-54787585000.0,Midea,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-12-31 00:00:00,79495868000.0,Midea,CNY
+Other Cash Receiptsfrom Operating Activities,2024-12-31 00:00:00,3006952000.0,Midea,CNY
+Receiptsfrom Customers,2024-12-31 00:00:00,76488916000.0,Midea,CNY
+Free Cash Flow,2024-09-30 00:00:00,25470471000.0,Midea,CNY
+Repayment Of Debt,2024-09-30 00:00:00,-743917000.0,Midea,CNY
+Issuance Of Debt,2024-09-30 00:00:00,10019891000.0,Midea,CNY
+Capital Expenditure,2024-09-30 00:00:00,-1305040000.0,Midea,CNY
+End Cash Position,2024-09-30 00:00:00,49307630000.0,Midea,CNY
+Beginning Cash Position,2024-09-30 00:00:00,51500714000.0,Midea,CNY
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,22105000.0,Midea,CNY
+Changes In Cash,2024-09-30 00:00:00,-2215189000.0,Midea,CNY
+Financing Cash Flow,2024-09-30 00:00:00,40938234000.0,Midea,CNY
+Net Other Financing Charges,2024-09-30 00:00:00,32292272000.0,Midea,CNY
+Cash Dividends Paid,2024-09-30 00:00:00,-424084000.0,Midea,CNY
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,9275974000.0,Midea,CNY
+Net Long Term Debt Issuance,2024-09-30 00:00:00,9275974000.0,Midea,CNY
+Long Term Debt Payments,2024-09-30 00:00:00,-743917000.0,Midea,CNY
+Long Term Debt Issuance,2024-09-30 00:00:00,10019891000.0,Midea,CNY
+Investing Cash Flow,2024-09-30 00:00:00,-69928934000.0,Midea,CNY
+Net Other Investing Changes,2024-09-30 00:00:00,0.0,Midea,CNY
+Net Investment Purchase And Sale,2024-09-30 00:00:00,-68850638000.0,Midea,CNY
+Sale Of Investment,2024-09-30 00:00:00,13013918000.0,Midea,CNY
+Purchase Of Investment,2024-09-30 00:00:00,-81864556000.0,Midea,CNY
+Net Business Purchase And Sale,2024-09-30 00:00:00,8142000.0,Midea,CNY
+Sale Of Business,2024-09-30 00:00:00,8142000.0,Midea,CNY
+Purchase Of Business,2024-09-30 00:00:00,,Midea,CNY
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-1086438000.0,Midea,CNY
+Sale Of PPE,2024-09-30 00:00:00,218602000.0,Midea,CNY
+Purchase Of PPE,2024-09-30 00:00:00,-1305040000.0,Midea,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-09-30 00:00:00,26775511000.0,Midea,CNY
+Taxes Refund Paid Direct,2024-09-30 00:00:00,-1843858000.0,Midea,CNY
+Interest Received Direct,2024-09-30 00:00:00,527373000.0,Midea,CNY
+Interest Paid Direct,2024-09-30 00:00:00,-750000.0,Midea,CNY
+Classesof Cash Payments,2024-09-30 00:00:00,-94784127000.0,Midea,CNY
+Other Cash Paymentsfrom Operating Activities,2024-09-30 00:00:00,-10314734000.0,Midea,CNY
+Paymentson Behalfof Employees,2024-09-30 00:00:00,-9912212000.0,Midea,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-09-30 00:00:00,-74557181000.0,Midea,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-09-30 00:00:00,122876873000.0,Midea,CNY
+Other Cash Receiptsfrom Operating Activities,2024-09-30 00:00:00,2550588000.0,Midea,CNY
+Receiptsfrom Customers,2024-09-30 00:00:00,120326285000.0,Midea,CNY
+Free Cash Flow,2024-06-30 00:00:00,17305861000.0,Midea,CNY
+Repayment Of Debt,2024-06-30 00:00:00,-9996716000.0,Midea,CNY
+Issuance Of Debt,2024-06-30 00:00:00,15280268000.0,Midea,CNY
+Capital Expenditure,2024-06-30 00:00:00,-2253401000.0,Midea,CNY
+End Cash Position,2024-06-30 00:00:00,51500714000.0,Midea,CNY
+Beginning Cash Position,2024-06-30 00:00:00,62656268000.0,Midea,CNY
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,-147803000.0,Midea,CNY
+Changes In Cash,2024-06-30 00:00:00,-11007751000.0,Midea,CNY
+Financing Cash Flow,2024-06-30 00:00:00,-15886330000.0,Midea,CNY
+Net Other Financing Charges,2024-06-30 00:00:00,95747000.0,Midea,CNY
+Cash Dividends Paid,2024-06-30 00:00:00,-21213991000.0,Midea,CNY
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,5283552000.0,Midea,CNY
+Net Long Term Debt Issuance,2024-06-30 00:00:00,5283552000.0,Midea,CNY
+Long Term Debt Payments,2024-06-30 00:00:00,-9996716000.0,Midea,CNY
+Long Term Debt Issuance,2024-06-30 00:00:00,15280268000.0,Midea,CNY
+Investing Cash Flow,2024-06-30 00:00:00,-14680683000.0,Midea,CNY
+Net Other Investing Changes,2024-06-30 00:00:00,-222067000.0,Midea,CNY
+Net Investment Purchase And Sale,2024-06-30 00:00:00,-12497702000.0,Midea,CNY
+Sale Of Investment,2024-06-30 00:00:00,22286433000.0,Midea,CNY
+Purchase Of Investment,2024-06-30 00:00:00,-34784135000.0,Midea,CNY
+Net Business Purchase And Sale,2024-06-30 00:00:00,11060000.0,Midea,CNY
+Sale Of Business,2024-06-30 00:00:00,11060000.0,Midea,CNY
+Purchase Of Business,2024-06-30 00:00:00,,Midea,CNY
+Net PPE Purchase And Sale,2024-06-30 00:00:00,-1971974000.0,Midea,CNY
+Sale Of PPE,2024-06-30 00:00:00,281427000.0,Midea,CNY
+Purchase Of PPE,2024-06-30 00:00:00,-2253401000.0,Midea,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-06-30 00:00:00,19559262000.0,Midea,CNY
+Taxes Refund Paid Direct,2024-06-30 00:00:00,-3356887000.0,Midea,CNY
+Interest Received Direct,2024-06-30 00:00:00,464798000.0,Midea,CNY
+Interest Paid Direct,2024-06-30 00:00:00,-2521000.0,Midea,CNY
+Classesof Cash Payments,2024-06-30 00:00:00,-83258740000.0,Midea,CNY
+Other Cash Paymentsfrom Operating Activities,2024-06-30 00:00:00,-10980437000.0,Midea,CNY
+Paymentson Behalfof Employees,2024-06-30 00:00:00,-9749744000.0,Midea,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-06-30 00:00:00,-62528559000.0,Midea,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-06-30 00:00:00,105712612000.0,Midea,CNY
+Other Cash Receiptsfrom Operating Activities,2024-06-30 00:00:00,2449166000.0,Midea,CNY
+Receiptsfrom Customers,2024-06-30 00:00:00,103263446000.0,Midea,CNY
+Free Cash Flow,2025-12-31 00:00:00,17890517000.0,Beko,TRY
+Repayment Of Debt,2025-12-31 00:00:00,-76344348000.0,Beko,TRY
+Issuance Of Debt,2025-12-31 00:00:00,86656290000.0,Beko,TRY
+Capital Expenditure,2025-12-31 00:00:00,-7430375000.0,Beko,TRY
+End Cash Position,2025-12-31 00:00:00,97247410000.0,Beko,TRY
+Other Cash Adjustment Outside Changein Cash,2025-12-31 00:00:00,-2005860000.0,Beko,TRY
+Beginning Cash Position,2025-12-31 00:00:00,71302883000.0,Beko,TRY
+Effect Of Exchange Rate Changes,2025-12-31 00:00:00,994076000.0,Beko,TRY
+Changes In Cash,2025-12-31 00:00:00,24184708000.0,Beko,TRY
+Financing Cash Flow,2025-12-31 00:00:00,6220853000.0,Beko,TRY
+Net Other Financing Charges,2025-12-31 00:00:00,4763482000.0,Beko,TRY
+Interest Paid Cff,2025-12-31 00:00:00,-6492162000.0,Beko,TRY
+Cash Dividends Paid,2025-12-31 00:00:00,-593026000.0,Beko,TRY
+Net Issuance Payments Of Debt,2025-12-31 00:00:00,10311942000.0,Beko,TRY
+Net Long Term Debt Issuance,2025-12-31 00:00:00,10311942000.0,Beko,TRY
+Long Term Debt Payments,2025-12-31 00:00:00,-76344348000.0,Beko,TRY
+Long Term Debt Issuance,2025-12-31 00:00:00,86656290000.0,Beko,TRY
+Investing Cash Flow,2025-12-31 00:00:00,-7357037000.0,Beko,TRY
+Dividends Received Cfi,2025-12-31 00:00:00,6041000.0,Beko,TRY
+Net Investment Purchase And Sale,2025-12-31 00:00:00,-13803000.0,Beko,TRY
+Sale Of Investment,2025-12-31 00:00:00,0.0,Beko,TRY
+Net Business Purchase And Sale,2025-12-31 00:00:00,-7336000.0,Beko,TRY
+Sale Of Business,2025-12-31 00:00:00,1284000.0,Beko,TRY
+Purchase Of Business,2025-12-31 00:00:00,-8620000.0,Beko,TRY
+Net PPE Purchase And Sale,2025-12-31 00:00:00,-7341939000.0,Beko,TRY
+Sale Of PPE,2025-12-31 00:00:00,88436000.0,Beko,TRY
+Purchase Of PPE,2025-12-31 00:00:00,-7430375000.0,Beko,TRY
+Operating Cash Flow,2025-12-31 00:00:00,25320892000.0,Beko,TRY
+Taxes Refund Paid,2025-12-31 00:00:00,536231000.0,Beko,TRY
+Change In Working Capital,2025-12-31 00:00:00,22778228000.0,Beko,TRY
+Change In Other Current Assets,2025-12-31 00:00:00,-1153358000.0,Beko,TRY
+Change In Payable,2025-12-31 00:00:00,7394681000.0,Beko,TRY
+Change In Prepaid Assets,2025-12-31 00:00:00,-1370850000.0,Beko,TRY
+Change In Inventory,2025-12-31 00:00:00,6348739000.0,Beko,TRY
+Change In Receivables,2025-12-31 00:00:00,13740310000.0,Beko,TRY
+Other Non Cash Items,2025-12-31 00:00:00,6578407000.0,Beko,TRY
+Provisionand Write Offof Assets,2025-12-31 00:00:00,-3762566000.0,Beko,TRY
+Deferred Tax,2025-12-31 00:00:00,1563598000.0,Beko,TRY
+Depreciation And Amortization,2025-12-31 00:00:00,6299612000.0,Beko,TRY
+Depreciation,2025-12-31 00:00:00,6299612000.0,Beko,TRY
+Pension And Employee Benefit Expense,2025-12-31 00:00:00,4137587000.0,Beko,TRY
+Gain Loss On Investment Securities,2025-12-31 00:00:00,-114097000.0,Beko,TRY
+Net Foreign Currency Exchange Gain Loss,2025-12-31 00:00:00,-2268803000.0,Beko,TRY
+Gain Loss On Sale Of Business,2025-12-31 00:00:00,-1285000.0,Beko,TRY
+Net Income From Continuing Operations,2025-12-31 00:00:00,-2060854000.0,Beko,TRY
+Free Cash Flow,2025-06-30 00:00:00,-11000439000.0,Beko,TRY
+Repayment Of Debt,2025-06-30 00:00:00,-35632620000.0,Beko,TRY
+Issuance Of Debt,2025-06-30 00:00:00,67245033000.0,Beko,TRY
+Capital Expenditure,2025-06-30 00:00:00,-3855508000.0,Beko,TRY
+End Cash Position,2025-06-30 00:00:00,59842986000.0,Beko,TRY
+Other Cash Adjustment Outside Changein Cash,2025-06-30 00:00:00,-1383718000.0,Beko,TRY
+Beginning Cash Position,2025-06-30 00:00:00,43825456000.0,Beko,TRY
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,1975408000.0,Beko,TRY
+Changes In Cash,2025-06-30 00:00:00,12071563000.0,Beko,TRY
+Financing Cash Flow,2025-06-30 00:00:00,22903048000.0,Beko,TRY
+Net Other Financing Charges,2025-06-30 00:00:00,-2318491000.0,Beko,TRY
+Interest Paid Cff,2025-06-30 00:00:00,-4667665000.0,Beko,TRY
+Cash Dividends Paid,2025-06-30 00:00:00,-194063000.0,Beko,TRY
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,31612413000.0,Beko,TRY
+Net Long Term Debt Issuance,2025-06-30 00:00:00,31612413000.0,Beko,TRY
+Long Term Debt Payments,2025-06-30 00:00:00,-35632620000.0,Beko,TRY
+Long Term Debt Issuance,2025-06-30 00:00:00,67245033000.0,Beko,TRY
+Investing Cash Flow,2025-06-30 00:00:00,-3686554000.0,Beko,TRY
+Dividends Received Cfi,2025-06-30 00:00:00,119497000.0,Beko,TRY
+Net Investment Purchase And Sale,2025-06-30 00:00:00,0.0,Beko,TRY
+Sale Of Investment,2025-06-30 00:00:00,0.0,Beko,TRY
+Net Business Purchase And Sale,2025-06-30 00:00:00,-25183000.0,Beko,TRY
+Sale Of Business,2025-06-30 00:00:00,316000.0,Beko,TRY
+Purchase Of Business,2025-06-30 00:00:00,-25499000.0,Beko,TRY
+Net PPE Purchase And Sale,2025-06-30 00:00:00,-3780868000.0,Beko,TRY
+Sale Of PPE,2025-06-30 00:00:00,74640000.0,Beko,TRY
+Purchase Of PPE,2025-06-30 00:00:00,-3855508000.0,Beko,TRY
+Operating Cash Flow,2025-06-30 00:00:00,-7144931000.0,Beko,TRY
+Taxes Refund Paid,2025-06-30 00:00:00,-344125000.0,Beko,TRY
+Change In Working Capital,2025-06-30 00:00:00,-16886057000.0,Beko,TRY
+Change In Other Current Assets,2025-06-30 00:00:00,-2525288000.0,Beko,TRY
+Change In Payable,2025-06-30 00:00:00,-2710401000.0,Beko,TRY
+Change In Prepaid Assets,2025-06-30 00:00:00,667315000.0,Beko,TRY
+Change In Inventory,2025-06-30 00:00:00,514724000.0,Beko,TRY
+Change In Receivables,2025-06-30 00:00:00,-12021494000.0,Beko,TRY
+Other Non Cash Items,2025-06-30 00:00:00,-7040199000.0,Beko,TRY
+Provisionand Write Offof Assets,2025-06-30 00:00:00,417025000.0,Beko,TRY
+Deferred Tax,2025-06-30 00:00:00,739430000.0,Beko,TRY
+Depreciation And Amortization,2025-06-30 00:00:00,5651708000.0,Beko,TRY
+Depreciation,2025-06-30 00:00:00,5651708000.0,Beko,TRY
+Pension And Employee Benefit Expense,2025-06-30 00:00:00,2550965000.0,Beko,TRY
+Gain Loss On Investment Securities,2025-06-30 00:00:00,845078000.0,Beko,TRY
+Net Foreign Currency Exchange Gain Loss,2025-06-30 00:00:00,9951084000.0,Beko,TRY
+Gain Loss On Sale Of Business,2025-06-30 00:00:00,-1554000.0,Beko,TRY
+Net Income From Continuing Operations,2025-06-30 00:00:00,-3071488000.0,Beko,TRY
+Free Cash Flow,2025-03-31 00:00:00,-12949427000.0,Beko,TRY
+Repayment Of Debt,2025-03-31 00:00:00,-33070040000.0,Beko,TRY
+Issuance Of Debt,2025-03-31 00:00:00,42440167000.0,Beko,TRY
+Capital Expenditure,2025-03-31 00:00:00,-3291463000.0,Beko,TRY
+End Cash Position,2025-03-31 00:00:00,43825456000.0,Beko,TRY
+Other Cash Adjustment Outside Changein Cash,2025-03-31 00:00:00,-1990039000.0,Beko,TRY
+Beginning Cash Position,2025-03-31 00:00:00,55842119000.0,Beko,TRY
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,886505000.0,Beko,TRY
+Changes In Cash,2025-03-31 00:00:00,-10913129000.0,Beko,TRY
+Financing Cash Flow,2025-03-31 00:00:00,2432903000.0,Beko,TRY
+Net Other Financing Charges,2025-03-31 00:00:00,-641123000.0,Beko,TRY
+Interest Paid Cff,2025-03-31 00:00:00,-5126386000.0,Beko,TRY
+Cash Dividends Paid,2025-03-31 00:00:00,-13341000.0,Beko,TRY
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,9370127000.0,Beko,TRY
+Net Long Term Debt Issuance,2025-03-31 00:00:00,9370127000.0,Beko,TRY
+Long Term Debt Payments,2025-03-31 00:00:00,-33070040000.0,Beko,TRY
+Long Term Debt Issuance,2025-03-31 00:00:00,42440167000.0,Beko,TRY
+Investing Cash Flow,2025-03-31 00:00:00,-3688068000.0,Beko,TRY
+Dividends Received Cfi,2025-03-31 00:00:00,0.0,Beko,TRY
+Net Investment Purchase And Sale,2025-03-31 00:00:00,0.0,Beko,TRY
+Sale Of Investment,2025-03-31 00:00:00,0.0,Beko,TRY
+Net Business Purchase And Sale,2025-03-31 00:00:00,-436943000.0,Beko,TRY
+Sale Of Business,2025-03-31 00:00:00,10821000.0,Beko,TRY
+Purchase Of Business,2025-03-31 00:00:00,-447764000.0,Beko,TRY
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-3251125000.0,Beko,TRY
+Sale Of PPE,2025-03-31 00:00:00,40338000.0,Beko,TRY
+Purchase Of PPE,2025-03-31 00:00:00,-3291463000.0,Beko,TRY
+Operating Cash Flow,2025-03-31 00:00:00,-9657964000.0,Beko,TRY
+Taxes Refund Paid,2025-03-31 00:00:00,-96201000.0,Beko,TRY
+Change In Working Capital,2025-03-31 00:00:00,-13662238000.0,Beko,TRY
+Change In Other Current Assets,2025-03-31 00:00:00,1139287000.0,Beko,TRY
+Change In Payable,2025-03-31 00:00:00,7841811000.0,Beko,TRY
+Change In Prepaid Assets,2025-03-31 00:00:00,-1335322000.0,Beko,TRY
+Change In Inventory,2025-03-31 00:00:00,-9585542000.0,Beko,TRY
+Change In Receivables,2025-03-31 00:00:00,-10905230000.0,Beko,TRY
+Other Non Cash Items,2025-03-31 00:00:00,4555931000.0,Beko,TRY
+Provisionand Write Offof Assets,2025-03-31 00:00:00,1083341000.0,Beko,TRY
+Deferred Tax,2025-03-31 00:00:00,998533000.0,Beko,TRY
+Depreciation And Amortization,2025-03-31 00:00:00,4720201000.0,Beko,TRY
+Depreciation,2025-03-31 00:00:00,4720201000.0,Beko,TRY
+Pension And Employee Benefit Expense,2025-03-31 00:00:00,-76476000.0,Beko,TRY
+Gain Loss On Investment Securities,2025-03-31 00:00:00,881423000.0,Beko,TRY
+Net Foreign Currency Exchange Gain Loss,2025-03-31 00:00:00,-6256536000.0,Beko,TRY
+Gain Loss On Sale Of Business,2025-03-31 00:00:00,-25875000.0,Beko,TRY
+Net Income From Continuing Operations,2025-03-31 00:00:00,-1951579000.0,Beko,TRY
+Free Cash Flow,2024-12-31 00:00:00,15983939000.0,Beko,TRY
+Repayment Of Debt,2024-12-31 00:00:00,71562279000.0,Beko,TRY
+Issuance Of Debt,2024-12-31 00:00:00,-62517398000.0,Beko,TRY
+Capital Expenditure,2024-12-31 00:00:00,-9649957000.0,Beko,TRY
+End Cash Position,2024-12-31 00:00:00,50736615000.0,Beko,TRY
+Other Cash Adjustment Outside Changein Cash,2024-12-31 00:00:00,-1032261000.0,Beko,TRY
+Beginning Cash Position,2024-12-31 00:00:00,34224934000.0,Beko,TRY
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,-3546955000.0,Beko,TRY
+Changes In Cash,2024-12-31 00:00:00,16935892000.0,Beko,TRY
+Financing Cash Flow,2024-12-31 00:00:00,-50650000.0,Beko,TRY
+Net Other Financing Charges,2024-12-31 00:00:00,-2267686000.0,Beko,TRY
+Interest Paid Cff,2024-12-31 00:00:00,-5058624000.0,Beko,TRY
+Cash Dividends Paid,2024-12-31 00:00:00,-268486000.0,Beko,TRY
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,9044881000.0,Beko,TRY
+Net Long Term Debt Issuance,2024-12-31 00:00:00,9044881000.0,Beko,TRY
+Long Term Debt Payments,2024-12-31 00:00:00,71562279000.0,Beko,TRY
+Long Term Debt Issuance,2024-12-31 00:00:00,-62517398000.0,Beko,TRY
+Investing Cash Flow,2024-12-31 00:00:00,-8647354000.0,Beko,TRY
+Dividends Received Cfi,2024-12-31 00:00:00,3728000.0,Beko,TRY
+Net Investment Purchase And Sale,2024-12-31 00:00:00,,Beko,TRY
+Sale Of Investment,2024-12-31 00:00:00,,Beko,TRY
+Net Business Purchase And Sale,2024-12-31 00:00:00,743802000.0,Beko,TRY
+Sale Of Business,2024-12-31 00:00:00,761118000.0,Beko,TRY
+Purchase Of Business,2024-12-31 00:00:00,-17316000.0,Beko,TRY
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-9249432000.0,Beko,TRY
+Sale Of PPE,2024-12-31 00:00:00,400525000.0,Beko,TRY
+Purchase Of PPE,2024-12-31 00:00:00,-9649957000.0,Beko,TRY
+Operating Cash Flow,2024-12-31 00:00:00,25633896000.0,Beko,TRY
+Taxes Refund Paid,2024-12-31 00:00:00,-334954000.0,Beko,TRY
+Change In Working Capital,2024-12-31 00:00:00,23542075000.0,Beko,TRY
+Change In Other Current Assets,2024-12-31 00:00:00,-1037061000.0,Beko,TRY
+Change In Payable,2024-12-31 00:00:00,-11765840000.0,Beko,TRY
+Change In Prepaid Assets,2024-12-31 00:00:00,1491708000.0,Beko,TRY
+Change In Inventory,2024-12-31 00:00:00,15441238000.0,Beko,TRY
+Change In Receivables,2024-12-31 00:00:00,22243344000.0,Beko,TRY
+Other Non Cash Items,2024-12-31 00:00:00,10957233000.0,Beko,TRY
+Provisionand Write Offof Assets,2024-12-31 00:00:00,11407986000.0,Beko,TRY
+Deferred Tax,2024-12-31 00:00:00,1570297000.0,Beko,TRY
+Depreciation And Amortization,2024-12-31 00:00:00,5028310000.0,Beko,TRY
+Depreciation,2024-12-31 00:00:00,5028310000.0,Beko,TRY
+Pension And Employee Benefit Expense,2024-12-31 00:00:00,383187000.0,Beko,TRY
+Gain Loss On Investment Securities,2024-12-31 00:00:00,797412000.0,Beko,TRY
+Net Foreign Currency Exchange Gain Loss,2024-12-31 00:00:00,-31094543000.0,Beko,TRY
+Gain Loss On Sale Of Business,2024-12-31 00:00:00,,Beko,TRY
+Net Income From Continuing Operations,2024-12-31 00:00:00,3641973000.0,Beko,TRY
+Free Cash Flow,2024-09-30 00:00:00,-24294820000.0,Beko,TRY
+Repayment Of Debt,2024-09-30 00:00:00,-43635588000.0,Beko,TRY
+Issuance Of Debt,2024-09-30 00:00:00,55191494000.0,Beko,TRY
+Capital Expenditure,2024-09-30 00:00:00,-7792670000.0,Beko,TRY
+End Cash Position,2024-09-30 00:00:00,45619787000.0,Beko,TRY
+Other Cash Adjustment Outside Changein Cash,2024-09-30 00:00:00,-2565836000.0,Beko,TRY
+Beginning Cash Position,2024-09-30 00:00:00,61058211000.0,Beko,TRY
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,2774326000.0,Beko,TRY
+Changes In Cash,2024-09-30 00:00:00,-21812968000.0,Beko,TRY
+Financing Cash Flow,2024-09-30 00:00:00,1448928000.0,Beko,TRY
+Net Other Financing Charges,2024-09-30 00:00:00,-1294359000.0,Beko,TRY
+Interest Paid Cff,2024-09-30 00:00:00,-6890189000.0,Beko,TRY
+Cash Dividends Paid,2024-09-30 00:00:00,-345695000.0,Beko,TRY
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,11555906000.0,Beko,TRY
+Net Long Term Debt Issuance,2024-09-30 00:00:00,11555906000.0,Beko,TRY
+Long Term Debt Payments,2024-09-30 00:00:00,-43635588000.0,Beko,TRY
+Long Term Debt Issuance,2024-09-30 00:00:00,55191494000.0,Beko,TRY
+Investing Cash Flow,2024-09-30 00:00:00,-6759746000.0,Beko,TRY
+Dividends Received Cfi,2024-09-30 00:00:00,8371000.0,Beko,TRY
+Net Investment Purchase And Sale,2024-09-30 00:00:00,,Beko,TRY
+Sale Of Investment,2024-09-30 00:00:00,,Beko,TRY
+Net Business Purchase And Sale,2024-09-30 00:00:00,737191000.0,Beko,TRY
+Sale Of Business,2024-09-30 00:00:00,789409000.0,Beko,TRY
+Purchase Of Business,2024-09-30 00:00:00,-52218000.0,Beko,TRY
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-7507291000.0,Beko,TRY
+Sale Of PPE,2024-09-30 00:00:00,285379000.0,Beko,TRY
+Purchase Of PPE,2024-09-30 00:00:00,-7792670000.0,Beko,TRY
+Operating Cash Flow,2024-09-30 00:00:00,-16502150000.0,Beko,TRY
+Taxes Refund Paid,2024-09-30 00:00:00,-248041000.0,Beko,TRY
+Change In Working Capital,2024-09-30 00:00:00,-12214493000.0,Beko,TRY
+Change In Other Current Assets,2024-09-30 00:00:00,-7354746000.0,Beko,TRY
+Change In Payable,2024-09-30 00:00:00,-17414849000.0,Beko,TRY
+Change In Prepaid Assets,2024-09-30 00:00:00,836462000.0,Beko,TRY
+Change In Inventory,2024-09-30 00:00:00,1839555000.0,Beko,TRY
+Change In Receivables,2024-09-30 00:00:00,8675984000.0,Beko,TRY
+Other Non Cash Items,2024-09-30 00:00:00,-12735317000.0,Beko,TRY
+Provisionand Write Offof Assets,2024-09-30 00:00:00,5792162000.0,Beko,TRY
+Deferred Tax,2024-09-30 00:00:00,-1377152000.0,Beko,TRY
+Depreciation And Amortization,2024-09-30 00:00:00,6397637000.0,Beko,TRY
+Depreciation,2024-09-30 00:00:00,6397637000.0,Beko,TRY
+Pension And Employee Benefit Expense,2024-09-30 00:00:00,-1569272000.0,Beko,TRY
+Gain Loss On Investment Securities,2024-09-30 00:00:00,1899676000.0,Beko,TRY
+Net Foreign Currency Exchange Gain Loss,2024-09-30 00:00:00,2027899000.0,Beko,TRY
+Gain Loss On Sale Of Business,2024-09-30 00:00:00,,Beko,TRY
+Net Income From Continuing Operations,2024-09-30 00:00:00,-4705352000.0,Beko,TRY
+Free Cash Flow,2024-06-30 00:00:00,,Beko,TRY
+Repayment Of Debt,2024-06-30 00:00:00,,Beko,TRY
+Issuance Of Debt,2024-06-30 00:00:00,,Beko,TRY
+Capital Expenditure,2024-06-30 00:00:00,,Beko,TRY
+End Cash Position,2024-06-30 00:00:00,,Beko,TRY
+Other Cash Adjustment Outside Changein Cash,2024-06-30 00:00:00,,Beko,TRY
+Beginning Cash Position,2024-06-30 00:00:00,,Beko,TRY
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,,Beko,TRY
+Changes In Cash,2024-06-30 00:00:00,,Beko,TRY
+Financing Cash Flow,2024-06-30 00:00:00,,Beko,TRY
+Net Other Financing Charges,2024-06-30 00:00:00,,Beko,TRY
+Interest Paid Cff,2024-06-30 00:00:00,,Beko,TRY
+Cash Dividends Paid,2024-06-30 00:00:00,,Beko,TRY
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,,Beko,TRY
+Net Long Term Debt Issuance,2024-06-30 00:00:00,,Beko,TRY
+Long Term Debt Payments,2024-06-30 00:00:00,,Beko,TRY
+Long Term Debt Issuance,2024-06-30 00:00:00,,Beko,TRY
+Investing Cash Flow,2024-06-30 00:00:00,,Beko,TRY
+Dividends Received Cfi,2024-06-30 00:00:00,,Beko,TRY
+Net Investment Purchase And Sale,2024-06-30 00:00:00,2319000.0,Beko,TRY
+Sale Of Investment,2024-06-30 00:00:00,2319000.0,Beko,TRY
+Net Business Purchase And Sale,2024-06-30 00:00:00,,Beko,TRY
+Sale Of Business,2024-06-30 00:00:00,,Beko,TRY
+Purchase Of Business,2024-06-30 00:00:00,,Beko,TRY
+Net PPE Purchase And Sale,2024-06-30 00:00:00,,Beko,TRY
+Sale Of PPE,2024-06-30 00:00:00,,Beko,TRY
+Purchase Of PPE,2024-06-30 00:00:00,,Beko,TRY
+Operating Cash Flow,2024-06-30 00:00:00,,Beko,TRY
+Taxes Refund Paid,2024-06-30 00:00:00,,Beko,TRY
+Change In Working Capital,2024-06-30 00:00:00,,Beko,TRY
+Change In Other Current Assets,2024-06-30 00:00:00,,Beko,TRY
+Change In Payable,2024-06-30 00:00:00,,Beko,TRY
+Change In Prepaid Assets,2024-06-30 00:00:00,,Beko,TRY
+Change In Inventory,2024-06-30 00:00:00,,Beko,TRY
+Change In Receivables,2024-06-30 00:00:00,,Beko,TRY
+Other Non Cash Items,2024-06-30 00:00:00,,Beko,TRY
+Provisionand Write Offof Assets,2024-06-30 00:00:00,,Beko,TRY
+Deferred Tax,2024-06-30 00:00:00,,Beko,TRY
+Depreciation And Amortization,2024-06-30 00:00:00,,Beko,TRY
+Depreciation,2024-06-30 00:00:00,,Beko,TRY
+Pension And Employee Benefit Expense,2024-06-30 00:00:00,,Beko,TRY
+Gain Loss On Investment Securities,2024-06-30 00:00:00,,Beko,TRY
+Net Foreign Currency Exchange Gain Loss,2024-06-30 00:00:00,,Beko,TRY
+Gain Loss On Sale Of Business,2024-06-30 00:00:00,-23912000.0,Beko,TRY
+Net Income From Continuing Operations,2024-06-30 00:00:00,,Beko,TRY
+Free Cash Flow,2025-12-31 00:00:00,16040162000000.0,Samsung,KRW
+Repurchase Of Capital Stock,2025-12-31 00:00:00,-39968000000.0,Samsung,KRW
+Repayment Of Debt,2025-12-31 00:00:00,2491401000000.0,Samsung,KRW
+Issuance Of Debt,2025-12-31 00:00:00,5458604000000.0,Samsung,KRW
+Capital Expenditure,2025-12-31 00:00:00,-12759490000000.0,Samsung,KRW
+End Cash Position,2025-12-31 00:00:00,57856378000000.0,Samsung,KRW
+Beginning Cash Position,2025-12-31 00:00:00,53399483000000.0,Samsung,KRW
+Effect Of Exchange Rate Changes,2025-12-31 00:00:00,1190168000000.0,Samsung,KRW
+Changes In Cash,2025-12-31 00:00:00,3266727000000.0,Samsung,KRW
+Financing Cash Flow,2025-12-31 00:00:00,5458103000000.0,Samsung,KRW
+Net Other Financing Charges,2025-12-31 00:00:00,1412000000.0,Samsung,KRW
+Cash Dividends Paid,2025-12-31 00:00:00,-2453346000000.0,Samsung,KRW
+Net Common Stock Issuance,2025-12-31 00:00:00,-39968000000.0,Samsung,KRW
+Common Stock Payments,2025-12-31 00:00:00,-39968000000.0,Samsung,KRW
+Net Issuance Payments Of Debt,2025-12-31 00:00:00,7950005000000.0,Samsung,KRW
+Net Short Term Debt Issuance,2025-12-31 00:00:00,7996996000000.0,Samsung,KRW
+Short Term Debt Payments,2025-12-31 00:00:00,,Samsung,KRW
+Short Term Debt Issuance,2025-12-31 00:00:00,,Samsung,KRW
+Net Long Term Debt Issuance,2025-12-31 00:00:00,-46991000000.0,Samsung,KRW
+Long Term Debt Payments,2025-12-31 00:00:00,-850246000000.0,Samsung,KRW
+Long Term Debt Issuance,2025-12-31 00:00:00,803255000000.0,Samsung,KRW
+Investing Cash Flow,2025-12-31 00:00:00,-30991028000000.0,Samsung,KRW
+Net Other Investing Changes,2025-12-31 00:00:00,1764487000000.0,Samsung,KRW
+Net Investment Purchase And Sale,2025-12-31 00:00:00,-17892400000000.0,Samsung,KRW
+Sale Of Investment,2025-12-31 00:00:00,-2391461000000.0,Samsung,KRW
+Purchase Of Investment,2025-12-31 00:00:00,-15500939000000.0,Samsung,KRW
+Net Business Purchase And Sale,2025-12-31 00:00:00,-2083276000000.0,Samsung,KRW
+Sale Of Business,2025-12-31 00:00:00,420613000000.0,Samsung,KRW
+Purchase Of Business,2025-12-31 00:00:00,-2503889000000.0,Samsung,KRW
+Net Intangibles Purchase And Sale,2025-12-31 00:00:00,-1210202000000.0,Samsung,KRW
+Sale Of Intangibles,2025-12-31 00:00:00,0.0,Samsung,KRW
+Purchase Of Intangibles,2025-12-31 00:00:00,-1210202000000.0,Samsung,KRW
+Net PPE Purchase And Sale,2025-12-31 00:00:00,-11569637000000.0,Samsung,KRW
+Sale Of PPE,2025-12-31 00:00:00,-20349000000.0,Samsung,KRW
+Purchase Of PPE,2025-12-31 00:00:00,-11549288000000.0,Samsung,KRW
+Operating Cash Flow,2025-12-31 00:00:00,28799652000000.0,Samsung,KRW
+Taxes Refund Paid,2025-12-31 00:00:00,-2172220000000.0,Samsung,KRW
+Interest Received Cfo,2025-12-31 00:00:00,1100284000000.0,Samsung,KRW
+Interest Paid Cfo,2025-12-31 00:00:00,-125680000000.0,Samsung,KRW
+Dividend Received Cfo,2025-12-31 00:00:00,29167000000.0,Samsung,KRW
+Change In Working Capital,2025-12-31 00:00:00,-4147410000000.0,Samsung,KRW
+Change In Other Current Assets,2025-12-31 00:00:00,-3379781000000.0,Samsung,KRW
+Change In Accrued Expense,2025-12-31 00:00:00,3047814000000.0,Samsung,KRW
+Change In Payable,2025-12-31 00:00:00,-3639752000000.0,Samsung,KRW
+Change In Prepaid Assets,2025-12-31 00:00:00,69491000000.0,Samsung,KRW
+Change In Inventory,2025-12-31 00:00:00,-2084879000000.0,Samsung,KRW
+Change In Receivables,2025-12-31 00:00:00,2471778000000.0,Samsung,KRW
+Other Non Cash Items,2025-12-31 00:00:00,-171536000000.0,Samsung,KRW
+Provisionand Write Offof Assets,2025-12-31 00:00:00,101294000000.0,Samsung,KRW
+Deferred Tax,2025-12-31 00:00:00,1386458000000.0,Samsung,KRW
+Depreciation And Amortization,2025-12-31 00:00:00,12232032000000.0,Samsung,KRW
+Amortization Cash Flow,2025-12-31 00:00:00,875183000000.0,Samsung,KRW
+Depreciation,2025-12-31 00:00:00,11356849000000.0,Samsung,KRW
+Pension And Employee Benefit Expense,2025-12-31 00:00:00,595374000000.0,Samsung,KRW
+Gain Loss On Investment Securities,2025-12-31 00:00:00,-29417000000.0,Samsung,KRW
+Gain Loss On Sale Of PPE,2025-12-31 00:00:00,-12392000000.0,Samsung,KRW
+Net Income From Continuing Operations,2025-12-31 00:00:00,19641745000000.0,Samsung,KRW
+Free Cash Flow,2025-09-30 00:00:00,10383396000000.0,Samsung,KRW
+Repurchase Of Capital Stock,2025-09-30 00:00:00,-3872331000000.0,Samsung,KRW
+Repayment Of Debt,2025-09-30 00:00:00,2147530000000.0,Samsung,KRW
+Issuance Of Debt,2025-09-30 00:00:00,0.0,Samsung,KRW
+Capital Expenditure,2025-09-30 00:00:00,-12191098000000.0,Samsung,KRW
+End Cash Position,2025-09-30 00:00:00,53399483000000.0,Samsung,KRW
+Beginning Cash Position,2025-09-30 00:00:00,47120025000000.0,Samsung,KRW
+Effect Of Exchange Rate Changes,2025-09-30 00:00:00,1240372000000.0,Samsung,KRW
+Changes In Cash,2025-09-30 00:00:00,5039086000000.0,Samsung,KRW
+Financing Cash Flow,2025-09-30 00:00:00,-4187733000000.0,Samsung,KRW
+Net Other Financing Charges,2025-09-30 00:00:00,-1313000000.0,Samsung,KRW
+Cash Dividends Paid,2025-09-30 00:00:00,-2461619000000.0,Samsung,KRW
+Net Common Stock Issuance,2025-09-30 00:00:00,-3872331000000.0,Samsung,KRW
+Common Stock Payments,2025-09-30 00:00:00,-3872331000000.0,Samsung,KRW
+Net Issuance Payments Of Debt,2025-09-30 00:00:00,2147530000000.0,Samsung,KRW
+Net Short Term Debt Issuance,2025-09-30 00:00:00,2594629000000.0,Samsung,KRW
+Short Term Debt Payments,2025-09-30 00:00:00,2594629000000.0,Samsung,KRW
+Short Term Debt Issuance,2025-09-30 00:00:00,,Samsung,KRW
+Net Long Term Debt Issuance,2025-09-30 00:00:00,-447099000000.0,Samsung,KRW
+Long Term Debt Payments,2025-09-30 00:00:00,-447099000000.0,Samsung,KRW
+Long Term Debt Issuance,2025-09-30 00:00:00,0.0,Samsung,KRW
+Investing Cash Flow,2025-09-30 00:00:00,-13347675000000.0,Samsung,KRW
+Net Other Investing Changes,2025-09-30 00:00:00,-104642000000.0,Samsung,KRW
+Net Investment Purchase And Sale,2025-09-30 00:00:00,-706579000000.0,Samsung,KRW
+Sale Of Investment,2025-09-30 00:00:00,3560199000000.0,Samsung,KRW
+Purchase Of Investment,2025-09-30 00:00:00,-4266778000000.0,Samsung,KRW
+Net Business Purchase And Sale,2025-09-30 00:00:00,-415637000000.0,Samsung,KRW
+Sale Of Business,2025-09-30 00:00:00,980000000.0,Samsung,KRW
+Purchase Of Business,2025-09-30 00:00:00,-416617000000.0,Samsung,KRW
+Net Intangibles Purchase And Sale,2025-09-30 00:00:00,-1378989000000.0,Samsung,KRW
+Sale Of Intangibles,2025-09-30 00:00:00,2600000000.0,Samsung,KRW
+Purchase Of Intangibles,2025-09-30 00:00:00,-1381589000000.0,Samsung,KRW
+Net PPE Purchase And Sale,2025-09-30 00:00:00,-10741828000000.0,Samsung,KRW
+Sale Of PPE,2025-09-30 00:00:00,67681000000.0,Samsung,KRW
+Purchase Of PPE,2025-09-30 00:00:00,-10809509000000.0,Samsung,KRW
+Operating Cash Flow,2025-09-30 00:00:00,22574494000000.0,Samsung,KRW
+Taxes Refund Paid,2025-09-30 00:00:00,-1321112000000.0,Samsung,KRW
+Interest Received Cfo,2025-09-30 00:00:00,1002894000000.0,Samsung,KRW
+Interest Paid Cfo,2025-09-30 00:00:00,-71012000000.0,Samsung,KRW
+Dividend Received Cfo,2025-09-30 00:00:00,29155000000.0,Samsung,KRW
+Change In Working Capital,2025-09-30 00:00:00,-2184300000000.0,Samsung,KRW
+Change In Other Current Assets,2025-09-30 00:00:00,1016812000000.0,Samsung,KRW
+Change In Accrued Expense,2025-09-30 00:00:00,1275320000000.0,Samsung,KRW
+Change In Payable,2025-09-30 00:00:00,-241318000000.0,Samsung,KRW
+Change In Prepaid Assets,2025-09-30 00:00:00,-82632000000.0,Samsung,KRW
+Change In Inventory,2025-09-30 00:00:00,1539935000000.0,Samsung,KRW
+Change In Receivables,2025-09-30 00:00:00,-4941304000000.0,Samsung,KRW
+Other Non Cash Items,2025-09-30 00:00:00,-668747000000.0,Samsung,KRW
+Provisionand Write Offof Assets,2025-09-30 00:00:00,23048000000.0,Samsung,KRW
+Deferred Tax,2025-09-30 00:00:00,1319816000000.0,Samsung,KRW
+Depreciation And Amortization,2025-09-30 00:00:00,11819048000000.0,Samsung,KRW
+Amortization Cash Flow,2025-09-30 00:00:00,857453000000.0,Samsung,KRW
+Depreciation,2025-09-30 00:00:00,10961595000000.0,Samsung,KRW
+Pension And Employee Benefit Expense,2025-09-30 00:00:00,364920000000.0,Samsung,KRW
+Gain Loss On Investment Securities,2025-09-30 00:00:00,-26684000000.0,Samsung,KRW
+Gain Loss On Sale Of PPE,2025-09-30 00:00:00,-14449000000.0,Samsung,KRW
+Net Income From Continuing Operations,2025-09-30 00:00:00,12225747000000.0,Samsung,KRW
+Free Cash Flow,2025-06-30 00:00:00,3543053000000.0,Samsung,KRW
+Repurchase Of Capital Stock,2025-06-30 00:00:00,-1321113000000.0,Samsung,KRW
+Repayment Of Debt,2025-06-30 00:00:00,816940000000.0,Samsung,KRW
+Issuance Of Debt,2025-06-30 00:00:00,2002187000000.0,Samsung,KRW
+Capital Expenditure,2025-06-30 00:00:00,-13817083000000.0,Samsung,KRW
+End Cash Position,2025-06-30 00:00:00,47120025000000.0,Samsung,KRW
+Beginning Cash Position,2025-06-30 00:00:00,53161004000000.0,Samsung,KRW
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,-2252109000000.0,Samsung,KRW
+Changes In Cash,2025-06-30 00:00:00,-3788870000000.0,Samsung,KRW
+Financing Cash Flow,2025-06-30 00:00:00,-3406690000000.0,Samsung,KRW
+Net Other Financing Charges,2025-06-30 00:00:00,-1451000000.0,Samsung,KRW
+Cash Dividends Paid,2025-06-30 00:00:00,-4903253000000.0,Samsung,KRW
+Net Common Stock Issuance,2025-06-30 00:00:00,-1321113000000.0,Samsung,KRW
+Common Stock Payments,2025-06-30 00:00:00,-1321113000000.0,Samsung,KRW
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,2819127000000.0,Samsung,KRW
+Net Short Term Debt Issuance,2025-06-30 00:00:00,1919750000000.0,Samsung,KRW
+Short Term Debt Payments,2025-06-30 00:00:00,1919750000000.0,Samsung,KRW
+Short Term Debt Issuance,2025-06-30 00:00:00,,Samsung,KRW
+Net Long Term Debt Issuance,2025-06-30 00:00:00,899377000000.0,Samsung,KRW
+Long Term Debt Payments,2025-06-30 00:00:00,-1102810000000.0,Samsung,KRW
+Long Term Debt Issuance,2025-06-30 00:00:00,2002187000000.0,Samsung,KRW
+Investing Cash Flow,2025-06-30 00:00:00,-17742316000000.0,Samsung,KRW
+Net Other Investing Changes,2025-06-30 00:00:00,-108777000000.0,Samsung,KRW
+Net Investment Purchase And Sale,2025-06-30 00:00:00,-3581198000000.0,Samsung,KRW
+Sale Of Investment,2025-06-30 00:00:00,-3462466000000.0,Samsung,KRW
+Purchase Of Investment,2025-06-30 00:00:00,-118732000000.0,Samsung,KRW
+Net Business Purchase And Sale,2025-06-30 00:00:00,-307119000000.0,Samsung,KRW
+Sale Of Business,2025-06-30 00:00:00,1062000000.0,Samsung,KRW
+Purchase Of Business,2025-06-30 00:00:00,-308181000000.0,Samsung,KRW
+Net Intangibles Purchase And Sale,2025-06-30 00:00:00,-780909000000.0,Samsung,KRW
+Sale Of Intangibles,2025-06-30 00:00:00,726000000.0,Samsung,KRW
+Purchase Of Intangibles,2025-06-30 00:00:00,-781635000000.0,Samsung,KRW
+Net PPE Purchase And Sale,2025-06-30 00:00:00,-12964313000000.0,Samsung,KRW
+Sale Of PPE,2025-06-30 00:00:00,71135000000.0,Samsung,KRW
+Purchase Of PPE,2025-06-30 00:00:00,-13035448000000.0,Samsung,KRW
+Operating Cash Flow,2025-06-30 00:00:00,17360136000000.0,Samsung,KRW
+Taxes Refund Paid,2025-06-30 00:00:00,-2212117000000.0,Samsung,KRW
+Interest Received Cfo,2025-06-30 00:00:00,997433000000.0,Samsung,KRW
+Interest Paid Cfo,2025-06-30 00:00:00,-160497000000.0,Samsung,KRW
+Dividend Received Cfo,2025-06-30 00:00:00,190260000000.0,Samsung,KRW
+Change In Working Capital,2025-06-30 00:00:00,357578000000.0,Samsung,KRW
+Change In Other Current Assets,2025-06-30 00:00:00,1723990000000.0,Samsung,KRW
+Change In Accrued Expense,2025-06-30 00:00:00,929951000000.0,Samsung,KRW
+Change In Payable,2025-06-30 00:00:00,1060396000000.0,Samsung,KRW
+Change In Prepaid Assets,2025-06-30 00:00:00,62921000000.0,Samsung,KRW
+Change In Inventory,2025-06-30 00:00:00,-944588000000.0,Samsung,KRW
+Change In Receivables,2025-06-30 00:00:00,-1530485000000.0,Samsung,KRW
+Other Non Cash Items,2025-06-30 00:00:00,-802527000000.0,Samsung,KRW
+Provisionand Write Offof Assets,2025-06-30 00:00:00,-18167000000.0,Samsung,KRW
+Deferred Tax,2025-06-30 00:00:00,639694000000.0,Samsung,KRW
+Depreciation And Amortization,2025-06-30 00:00:00,11356722000000.0,Samsung,KRW
+Amortization Cash Flow,2025-06-30 00:00:00,799641000000.0,Samsung,KRW
+Depreciation,2025-06-30 00:00:00,10557081000000.0,Samsung,KRW
+Pension And Employee Benefit Expense,2025-06-30 00:00:00,415126000000.0,Samsung,KRW
+Gain Loss On Investment Securities,2025-06-30 00:00:00,-31754000000.0,Samsung,KRW
+Gain Loss On Sale Of PPE,2025-06-30 00:00:00,-35624000000.0,Samsung,KRW
+Net Income From Continuing Operations,2025-06-30 00:00:00,5116435000000.0,Samsung,KRW
+Free Cash Flow,2025-03-31 00:00:00,3195388000000.0,Samsung,KRW
+Repurchase Of Capital Stock,2025-03-31 00:00:00,-2955851000000.0,Samsung,KRW
+Repayment Of Debt,2025-03-31 00:00:00,-8308842000000.0,Samsung,KRW
+Issuance Of Debt,2025-03-31 00:00:00,1559000000.0,Samsung,KRW
+Capital Expenditure,2025-03-31 00:00:00,-13385478000000.0,Samsung,KRW
+End Cash Position,2025-03-31 00:00:00,53161004000000.0,Samsung,KRW
+Beginning Cash Position,2025-03-31 00:00:00,53705579000000.0,Samsung,KRW
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,647466000000.0,Samsung,KRW
+Changes In Cash,2025-03-31 00:00:00,-1192041000000.0,Samsung,KRW
+Financing Cash Flow,2025-03-31 00:00:00,-11341720000000.0,Samsung,KRW
+Net Other Financing Charges,2025-03-31 00:00:00,379000000.0,Samsung,KRW
+Cash Dividends Paid,2025-03-31 00:00:00,-78965000000.0,Samsung,KRW
+Net Common Stock Issuance,2025-03-31 00:00:00,-2955851000000.0,Samsung,KRW
+Common Stock Payments,2025-03-31 00:00:00,-2955851000000.0,Samsung,KRW
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,-8307283000000.0,Samsung,KRW
+Net Short Term Debt Issuance,2025-03-31 00:00:00,-7856026000000.0,Samsung,KRW
+Short Term Debt Payments,2025-03-31 00:00:00,-7856026000000.0,Samsung,KRW
+Short Term Debt Issuance,2025-03-31 00:00:00,,Samsung,KRW
+Net Long Term Debt Issuance,2025-03-31 00:00:00,-451257000000.0,Samsung,KRW
+Long Term Debt Payments,2025-03-31 00:00:00,-452816000000.0,Samsung,KRW
+Long Term Debt Issuance,2025-03-31 00:00:00,1559000000.0,Samsung,KRW
+Investing Cash Flow,2025-03-31 00:00:00,-6431187000000.0,Samsung,KRW
+Net Other Investing Changes,2025-03-31 00:00:00,-55202000000.0,Samsung,KRW
+Net Investment Purchase And Sale,2025-03-31 00:00:00,7193821000000.0,Samsung,KRW
+Sale Of Investment,2025-03-31 00:00:00,7818488000000.0,Samsung,KRW
+Purchase Of Investment,2025-03-31 00:00:00,-624667000000.0,Samsung,KRW
+Net Business Purchase And Sale,2025-03-31 00:00:00,-225917000000.0,Samsung,KRW
+Sale Of Business,2025-03-31 00:00:00,2081000000.0,Samsung,KRW
+Purchase Of Business,2025-03-31 00:00:00,-227998000000.0,Samsung,KRW
+Net Intangibles Purchase And Sale,2025-03-31 00:00:00,-1247316000000.0,Samsung,KRW
+Sale Of Intangibles,2025-03-31 00:00:00,10228000000.0,Samsung,KRW
+Purchase Of Intangibles,2025-03-31 00:00:00,-1257544000000.0,Samsung,KRW
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-12096573000000.0,Samsung,KRW
+Sale Of PPE,2025-03-31 00:00:00,31361000000.0,Samsung,KRW
+Purchase Of PPE,2025-03-31 00:00:00,-12127934000000.0,Samsung,KRW
+Operating Cash Flow,2025-03-31 00:00:00,16580866000000.0,Samsung,KRW
+Taxes Refund Paid,2025-03-31 00:00:00,-1431846000000.0,Samsung,KRW
+Interest Received Cfo,2025-03-31 00:00:00,1579942000000.0,Samsung,KRW
+Interest Paid Cfo,2025-03-31 00:00:00,-112541000000.0,Samsung,KRW
+Dividend Received Cfo,2025-03-31 00:00:00,4523000000.0,Samsung,KRW
+Change In Working Capital,2025-03-31 00:00:00,-3639774000000.0,Samsung,KRW
+Change In Other Current Assets,2025-03-31 00:00:00,-532146000000.0,Samsung,KRW
+Change In Accrued Expense,2025-03-31 00:00:00,-1572697000000.0,Samsung,KRW
+Change In Payable,2025-03-31 00:00:00,-436303000000.0,Samsung,KRW
+Change In Prepaid Assets,2025-03-31 00:00:00,28519000000.0,Samsung,KRW
+Change In Inventory,2025-03-31 00:00:00,-2101170000000.0,Samsung,KRW
+Change In Receivables,2025-03-31 00:00:00,1465119000000.0,Samsung,KRW
+Other Non Cash Items,2025-03-31 00:00:00,-1671763000000.0,Samsung,KRW
+Provisionand Write Offof Assets,2025-03-31 00:00:00,38333000000.0,Samsung,KRW
+Deferred Tax,2025-03-31 00:00:00,928698000000.0,Samsung,KRW
+Depreciation And Amortization,2025-03-31 00:00:00,11518790000000.0,Samsung,KRW
+Amortization Cash Flow,2025-03-31 00:00:00,788575000000.0,Samsung,KRW
+Depreciation,2025-03-31 00:00:00,10730215000000.0,Samsung,KRW
+Pension And Employee Benefit Expense,2025-03-31 00:00:00,422769000000.0,Samsung,KRW
+Gain Loss On Investment Securities,2025-03-31 00:00:00,-35117000000.0,Samsung,KRW
+Gain Loss On Sale Of PPE,2025-03-31 00:00:00,3929000000.0,Samsung,KRW
+Net Income From Continuing Operations,2025-03-31 00:00:00,8222878000000.0,Samsung,KRW
+Free Cash Flow,2024-12-31 00:00:00,6278502000000.0,Samsung,KRW
+Repurchase Of Capital Stock,2024-12-31 00:00:00,,Samsung,KRW
+Repayment Of Debt,2024-12-31 00:00:00,-359784000000.0,Samsung,KRW
+Issuance Of Debt,2024-12-31 00:00:00,1847825000000.0,Samsung,KRW
+Capital Expenditure,2024-12-31 00:00:00,-15743769000000.0,Samsung,KRW
+End Cash Position,2024-12-31 00:00:00,53705579000000.0,Samsung,KRW
+Beginning Cash Position,2024-12-31 00:00:00,43131359000000.0,Samsung,KRW
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,3200956000000.0,Samsung,KRW
+Changes In Cash,2024-12-31 00:00:00,7373264000000.0,Samsung,KRW
+Financing Cash Flow,2024-12-31 00:00:00,-2781085000000.0,Samsung,KRW
+Net Other Financing Charges,2024-12-31 00:00:00,3734000000.0,Samsung,KRW
+Cash Dividends Paid,2024-12-31 00:00:00,-2461085000000.0,Samsung,KRW
+Net Common Stock Issuance,2024-12-31 00:00:00,,Samsung,KRW
+Common Stock Payments,2024-12-31 00:00:00,,Samsung,KRW
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,1488041000000.0,Samsung,KRW
+Net Short Term Debt Issuance,2024-12-31 00:00:00,1847771000000.0,Samsung,KRW
+Short Term Debt Payments,2024-12-31 00:00:00,,Samsung,KRW
+Short Term Debt Issuance,2024-12-31 00:00:00,1847771000000.0,Samsung,KRW
+Net Long Term Debt Issuance,2024-12-31 00:00:00,-359730000000.0,Samsung,KRW
+Long Term Debt Payments,2024-12-31 00:00:00,-359784000000.0,Samsung,KRW
+Long Term Debt Issuance,2024-12-31 00:00:00,54000000.0,Samsung,KRW
+Investing Cash Flow,2024-12-31 00:00:00,-11867922000000.0,Samsung,KRW
+Net Other Investing Changes,2024-12-31 00:00:00,67167000000.0,Samsung,KRW
+Net Investment Purchase And Sale,2024-12-31 00:00:00,3728478000000.0,Samsung,KRW
+Sale Of Investment,2024-12-31 00:00:00,240515000000.0,Samsung,KRW
+Purchase Of Investment,2024-12-31 00:00:00,3487963000000.0,Samsung,KRW
+Net Business Purchase And Sale,2024-12-31 00:00:00,3589000000.0,Samsung,KRW
+Sale Of Business,2024-12-31 00:00:00,4300000000.0,Samsung,KRW
+Purchase Of Business,2024-12-31 00:00:00,-711000000.0,Samsung,KRW
+Net Intangibles Purchase And Sale,2024-12-31 00:00:00,-658225000000.0,Samsung,KRW
+Sale Of Intangibles,2024-12-31 00:00:00,0.0,Samsung,KRW
+Purchase Of Intangibles,2024-12-31 00:00:00,-658225000000.0,Samsung,KRW
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-15008931000000.0,Samsung,KRW
+Sale Of PPE,2024-12-31 00:00:00,76613000000.0,Samsung,KRW
+Purchase Of PPE,2024-12-31 00:00:00,-15085544000000.0,Samsung,KRW
+Operating Cash Flow,2024-12-31 00:00:00,22022271000000.0,Samsung,KRW
+Taxes Refund Paid,2024-12-31 00:00:00,-1361018000000.0,Samsung,KRW
+Interest Received Cfo,2024-12-31 00:00:00,1139863000000.0,Samsung,KRW
+Interest Paid Cfo,2024-12-31 00:00:00,-178041000000.0,Samsung,KRW
+Dividend Received Cfo,2024-12-31 00:00:00,38222000000.0,Samsung,KRW
+Change In Working Capital,2024-12-31 00:00:00,1755866000000.0,Samsung,KRW
+Change In Other Current Assets,2024-12-31 00:00:00,885000000.0,Samsung,KRW
+Change In Accrued Expense,2024-12-31 00:00:00,-1785470000000.0,Samsung,KRW
+Change In Payable,2024-12-31 00:00:00,-3270820000000.0,Samsung,KRW
+Change In Prepaid Assets,2024-12-31 00:00:00,39755000000.0,Samsung,KRW
+Change In Inventory,2024-12-31 00:00:00,1533843000000.0,Samsung,KRW
+Change In Receivables,2024-12-31 00:00:00,4335789000000.0,Samsung,KRW
+Other Non Cash Items,2024-12-31 00:00:00,-1032594000000.0,Samsung,KRW
+Provisionand Write Offof Assets,2024-12-31 00:00:00,71163000000.0,Samsung,KRW
+Deferred Tax,2024-12-31 00:00:00,152861000000.0,Samsung,KRW
+Depreciation And Amortization,2024-12-31 00:00:00,11500570000000.0,Samsung,KRW
+Amortization Cash Flow,2024-12-31 00:00:00,766171000000.0,Samsung,KRW
+Depreciation,2024-12-31 00:00:00,10734399000000.0,Samsung,KRW
+Pension And Employee Benefit Expense,2024-12-31 00:00:00,482991000000.0,Samsung,KRW
+Gain Loss On Investment Securities,2024-12-31 00:00:00,-33535000000.0,Samsung,KRW
+Gain Loss On Sale Of PPE,2024-12-31 00:00:00,-24902000000.0,Samsung,KRW
+Net Income From Continuing Operations,2024-12-31 00:00:00,7754394000000.0,Samsung,KRW
+Free Cash Flow,2024-09-30 00:00:00,,Samsung,KRW
+Repurchase Of Capital Stock,2024-09-30 00:00:00,,Samsung,KRW
+Repayment Of Debt,2024-09-30 00:00:00,,Samsung,KRW
+Issuance Of Debt,2024-09-30 00:00:00,,Samsung,KRW
+Capital Expenditure,2024-09-30 00:00:00,,Samsung,KRW
+End Cash Position,2024-09-30 00:00:00,,Samsung,KRW
+Beginning Cash Position,2024-09-30 00:00:00,,Samsung,KRW
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,,Samsung,KRW
+Changes In Cash,2024-09-30 00:00:00,,Samsung,KRW
+Financing Cash Flow,2024-09-30 00:00:00,,Samsung,KRW
+Net Other Financing Charges,2024-09-30 00:00:00,,Samsung,KRW
+Cash Dividends Paid,2024-09-30 00:00:00,,Samsung,KRW
+Net Common Stock Issuance,2024-09-30 00:00:00,,Samsung,KRW
+Common Stock Payments,2024-09-30 00:00:00,,Samsung,KRW
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,,Samsung,KRW
+Net Short Term Debt Issuance,2024-09-30 00:00:00,,Samsung,KRW
+Short Term Debt Payments,2024-09-30 00:00:00,,Samsung,KRW
+Short Term Debt Issuance,2024-09-30 00:00:00,524357000000.0,Samsung,KRW
+Net Long Term Debt Issuance,2024-09-30 00:00:00,,Samsung,KRW
+Long Term Debt Payments,2024-09-30 00:00:00,,Samsung,KRW
+Long Term Debt Issuance,2024-09-30 00:00:00,,Samsung,KRW
+Investing Cash Flow,2024-09-30 00:00:00,,Samsung,KRW
+Net Other Investing Changes,2024-09-30 00:00:00,,Samsung,KRW
+Net Investment Purchase And Sale,2024-09-30 00:00:00,,Samsung,KRW
+Sale Of Investment,2024-09-30 00:00:00,,Samsung,KRW
+Purchase Of Investment,2024-09-30 00:00:00,,Samsung,KRW
+Net Business Purchase And Sale,2024-09-30 00:00:00,,Samsung,KRW
+Sale Of Business,2024-09-30 00:00:00,,Samsung,KRW
+Purchase Of Business,2024-09-30 00:00:00,,Samsung,KRW
+Net Intangibles Purchase And Sale,2024-09-30 00:00:00,,Samsung,KRW
+Sale Of Intangibles,2024-09-30 00:00:00,,Samsung,KRW
+Purchase Of Intangibles,2024-09-30 00:00:00,,Samsung,KRW
+Net PPE Purchase And Sale,2024-09-30 00:00:00,,Samsung,KRW
+Sale Of PPE,2024-09-30 00:00:00,,Samsung,KRW
+Purchase Of PPE,2024-09-30 00:00:00,,Samsung,KRW
+Operating Cash Flow,2024-09-30 00:00:00,,Samsung,KRW
+Taxes Refund Paid,2024-09-30 00:00:00,,Samsung,KRW
+Interest Received Cfo,2024-09-30 00:00:00,,Samsung,KRW
+Interest Paid Cfo,2024-09-30 00:00:00,,Samsung,KRW
+Dividend Received Cfo,2024-09-30 00:00:00,,Samsung,KRW
+Change In Working Capital,2024-09-30 00:00:00,,Samsung,KRW
+Change In Other Current Assets,2024-09-30 00:00:00,,Samsung,KRW
+Change In Accrued Expense,2024-09-30 00:00:00,,Samsung,KRW
+Change In Payable,2024-09-30 00:00:00,,Samsung,KRW
+Change In Prepaid Assets,2024-09-30 00:00:00,,Samsung,KRW
+Change In Inventory,2024-09-30 00:00:00,,Samsung,KRW
+Change In Receivables,2024-09-30 00:00:00,,Samsung,KRW
+Other Non Cash Items,2024-09-30 00:00:00,,Samsung,KRW
+Provisionand Write Offof Assets,2024-09-30 00:00:00,,Samsung,KRW
+Deferred Tax,2024-09-30 00:00:00,,Samsung,KRW
+Depreciation And Amortization,2024-09-30 00:00:00,,Samsung,KRW
+Amortization Cash Flow,2024-09-30 00:00:00,,Samsung,KRW
+Depreciation,2024-09-30 00:00:00,,Samsung,KRW
+Pension And Employee Benefit Expense,2024-09-30 00:00:00,,Samsung,KRW
+Gain Loss On Investment Securities,2024-09-30 00:00:00,,Samsung,KRW
+Gain Loss On Sale Of PPE,2024-09-30 00:00:00,,Samsung,KRW
+Net Income From Continuing Operations,2024-09-30 00:00:00,,Samsung,KRW
+Free Cash Flow,2024-06-30 00:00:00,,Samsung,KRW
+Repurchase Of Capital Stock,2024-06-30 00:00:00,,Samsung,KRW
+Repayment Of Debt,2024-06-30 00:00:00,,Samsung,KRW
+Issuance Of Debt,2024-06-30 00:00:00,,Samsung,KRW
+Capital Expenditure,2024-06-30 00:00:00,,Samsung,KRW
+End Cash Position,2024-06-30 00:00:00,,Samsung,KRW
+Beginning Cash Position,2024-06-30 00:00:00,,Samsung,KRW
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,,Samsung,KRW
+Changes In Cash,2024-06-30 00:00:00,,Samsung,KRW
+Financing Cash Flow,2024-06-30 00:00:00,,Samsung,KRW
+Net Other Financing Charges,2024-06-30 00:00:00,,Samsung,KRW
+Cash Dividends Paid,2024-06-30 00:00:00,,Samsung,KRW
+Net Common Stock Issuance,2024-06-30 00:00:00,,Samsung,KRW
+Common Stock Payments,2024-06-30 00:00:00,,Samsung,KRW
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,,Samsung,KRW
+Net Short Term Debt Issuance,2024-06-30 00:00:00,,Samsung,KRW
+Short Term Debt Payments,2024-06-30 00:00:00,,Samsung,KRW
+Short Term Debt Issuance,2024-06-30 00:00:00,1048147000000.0,Samsung,KRW
+Net Long Term Debt Issuance,2024-06-30 00:00:00,,Samsung,KRW
+Long Term Debt Payments,2024-06-30 00:00:00,,Samsung,KRW
+Long Term Debt Issuance,2024-06-30 00:00:00,,Samsung,KRW
+Investing Cash Flow,2024-06-30 00:00:00,,Samsung,KRW
+Net Other Investing Changes,2024-06-30 00:00:00,,Samsung,KRW
+Net Investment Purchase And Sale,2024-06-30 00:00:00,,Samsung,KRW
+Sale Of Investment,2024-06-30 00:00:00,,Samsung,KRW
+Purchase Of Investment,2024-06-30 00:00:00,,Samsung,KRW
+Net Business Purchase And Sale,2024-06-30 00:00:00,,Samsung,KRW
+Sale Of Business,2024-06-30 00:00:00,,Samsung,KRW
+Purchase Of Business,2024-06-30 00:00:00,,Samsung,KRW
+Net Intangibles Purchase And Sale,2024-06-30 00:00:00,,Samsung,KRW
+Sale Of Intangibles,2024-06-30 00:00:00,,Samsung,KRW
+Purchase Of Intangibles,2024-06-30 00:00:00,,Samsung,KRW
+Net PPE Purchase And Sale,2024-06-30 00:00:00,,Samsung,KRW
+Sale Of PPE,2024-06-30 00:00:00,,Samsung,KRW
+Purchase Of PPE,2024-06-30 00:00:00,,Samsung,KRW
+Operating Cash Flow,2024-06-30 00:00:00,,Samsung,KRW
+Taxes Refund Paid,2024-06-30 00:00:00,,Samsung,KRW
+Interest Received Cfo,2024-06-30 00:00:00,,Samsung,KRW
+Interest Paid Cfo,2024-06-30 00:00:00,,Samsung,KRW
+Dividend Received Cfo,2024-06-30 00:00:00,,Samsung,KRW
+Change In Working Capital,2024-06-30 00:00:00,,Samsung,KRW
+Change In Other Current Assets,2024-06-30 00:00:00,,Samsung,KRW
+Change In Accrued Expense,2024-06-30 00:00:00,,Samsung,KRW
+Change In Payable,2024-06-30 00:00:00,,Samsung,KRW
+Change In Prepaid Assets,2024-06-30 00:00:00,,Samsung,KRW
+Change In Inventory,2024-06-30 00:00:00,,Samsung,KRW
+Change In Receivables,2024-06-30 00:00:00,,Samsung,KRW
+Other Non Cash Items,2024-06-30 00:00:00,,Samsung,KRW
+Provisionand Write Offof Assets,2024-06-30 00:00:00,,Samsung,KRW
+Deferred Tax,2024-06-30 00:00:00,,Samsung,KRW
+Depreciation And Amortization,2024-06-30 00:00:00,,Samsung,KRW
+Amortization Cash Flow,2024-06-30 00:00:00,,Samsung,KRW
+Depreciation,2024-06-30 00:00:00,,Samsung,KRW
+Pension And Employee Benefit Expense,2024-06-30 00:00:00,,Samsung,KRW
+Gain Loss On Investment Securities,2024-06-30 00:00:00,,Samsung,KRW
+Gain Loss On Sale Of PPE,2024-06-30 00:00:00,,Samsung,KRW
+Net Income From Continuing Operations,2024-06-30 00:00:00,,Samsung,KRW
+Free Cash Flow,2025-09-30 00:00:00,751797000000.0,LG,KRW
+Repayment Of Debt,2025-09-30 00:00:00,-1083525000000.0,LG,KRW
+Issuance Of Debt,2025-09-30 00:00:00,981079000000.0,LG,KRW
+Capital Expenditure,2025-09-30 00:00:00,-884704000000.0,LG,KRW
+End Cash Position,2025-09-30 00:00:00,7958078000000.0,LG,KRW
+Beginning Cash Position,2025-09-30 00:00:00,7575691000000.0,LG,KRW
+Effect Of Exchange Rate Changes,2025-09-30 00:00:00,133511000000.0,LG,KRW
+Changes In Cash,2025-09-30 00:00:00,248876000000.0,LG,KRW
+Financing Cash Flow,2025-09-30 00:00:00,-311589000000.0,LG,KRW
+Net Other Financing Charges,2025-09-30 00:00:00,-3753000000.0,LG,KRW
+Cash Dividends Paid,2025-09-30 00:00:00,-90033000000.0,LG,KRW
+Net Issuance Payments Of Debt,2025-09-30 00:00:00,-102446000000.0,LG,KRW
+Net Long Term Debt Issuance,2025-09-30 00:00:00,-102446000000.0,LG,KRW
+Long Term Debt Payments,2025-09-30 00:00:00,-1083525000000.0,LG,KRW
+Long Term Debt Issuance,2025-09-30 00:00:00,981079000000.0,LG,KRW
+Investing Cash Flow,2025-09-30 00:00:00,-1076036000000.0,LG,KRW
+Net Other Investing Changes,2025-09-30 00:00:00,37469000000.0,LG,KRW
+Net Investment Purchase And Sale,2025-09-30 00:00:00,-66152000000.0,LG,KRW
+Sale Of Investment,2025-09-30 00:00:00,15881000000.0,LG,KRW
+Purchase Of Investment,2025-09-30 00:00:00,-82033000000.0,LG,KRW
+Net Business Purchase And Sale,2025-09-30 00:00:00,-163522000000.0,LG,KRW
+Sale Of Business,2025-09-30 00:00:00,0.0,LG,KRW
+Purchase Of Business,2025-09-30 00:00:00,-163522000000.0,LG,KRW
+Net Intangibles Purchase And Sale,2025-09-30 00:00:00,-267804000000.0,LG,KRW
+Sale Of Intangibles,2025-09-30 00:00:00,19000000.0,LG,KRW
+Purchase Of Intangibles,2025-09-30 00:00:00,-267823000000.0,LG,KRW
+Net PPE Purchase And Sale,2025-09-30 00:00:00,-616027000000.0,LG,KRW
+Sale Of PPE,2025-09-30 00:00:00,854000000.0,LG,KRW
+Purchase Of PPE,2025-09-30 00:00:00,-616881000000.0,LG,KRW
+Operating Cash Flow,2025-09-30 00:00:00,1636501000000.0,LG,KRW
+Taxes Refund Paid,2025-09-30 00:00:00,-159624000000.0,LG,KRW
+Interest Received Cfo,2025-09-30 00:00:00,93045000000.0,LG,KRW
+Interest Paid Cfo,2025-09-30 00:00:00,-137291000000.0,LG,KRW
+Dividend Received Cfo,2025-09-30 00:00:00,0.0,LG,KRW
+Change In Working Capital,2025-09-30 00:00:00,-158763000000.0,LG,KRW
+Change In Other Current Liabilities,2025-09-30 00:00:00,589528000000.0,LG,KRW
+Change In Other Current Assets,2025-09-30 00:00:00,397047000000.0,LG,KRW
+Change In Payable,2025-09-30 00:00:00,1896397000000.0,LG,KRW
+Change In Inventory,2025-09-30 00:00:00,-1388357000000.0,LG,KRW
+Change In Receivables,2025-09-30 00:00:00,-1256538000000.0,LG,KRW
+Other Non Cash Items,2025-09-30 00:00:00,50298000000.0,LG,KRW
+Provisionand Write Offof Assets,2025-09-30 00:00:00,231280000000.0,LG,KRW
+Deferred Tax,2025-09-30 00:00:00,103193000000.0,LG,KRW
+Depreciation And Amortization,2025-09-30 00:00:00,896713000000.0,LG,KRW
+Amortization Cash Flow,2025-09-30 00:00:00,143482000000.0,LG,KRW
+Depreciation,2025-09-30 00:00:00,753231000000.0,LG,KRW
+Pension And Employee Benefit Expense,2025-09-30 00:00:00,119816000000.0,LG,KRW
+Gain Loss On Investment Securities,2025-09-30 00:00:00,-6526000000.0,LG,KRW
+Net Foreign Currency Exchange Gain Loss,2025-09-30 00:00:00,106072000000.0,LG,KRW
+Gain Loss On Sale Of PPE,2025-09-30 00:00:00,22750000000.0,LG,KRW
+Net Income From Continuing Operations,2025-09-30 00:00:00,461074000000.0,LG,KRW
+Free Cash Flow,2025-06-30 00:00:00,727076000000.0,LG,KRW
+Repayment Of Debt,2025-06-30 00:00:00,-1258898000000.0,LG,KRW
+Issuance Of Debt,2025-06-30 00:00:00,613208000000.0,LG,KRW
+Capital Expenditure,2025-06-30 00:00:00,-821067000000.0,LG,KRW
+End Cash Position,2025-06-30 00:00:00,7575691000000.0,LG,KRW
+Beginning Cash Position,2025-06-30 00:00:00,6985040000000.0,LG,KRW
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,-221831000000.0,LG,KRW
+Changes In Cash,2025-06-30 00:00:00,812482000000.0,LG,KRW
+Financing Cash Flow,2025-06-30 00:00:00,-921400000000.0,LG,KRW
+Net Other Financing Charges,2025-06-30 00:00:00,77000000.0,LG,KRW
+Cash Dividends Paid,2025-06-30 00:00:00,,LG,KRW
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,-645690000000.0,LG,KRW
+Net Long Term Debt Issuance,2025-06-30 00:00:00,-645690000000.0,LG,KRW
+Long Term Debt Payments,2025-06-30 00:00:00,-1258898000000.0,LG,KRW
+Long Term Debt Issuance,2025-06-30 00:00:00,613208000000.0,LG,KRW
+Investing Cash Flow,2025-06-30 00:00:00,185739000000.0,LG,KRW
+Net Other Investing Changes,2025-06-30 00:00:00,990579000000.0,LG,KRW
+Net Investment Purchase And Sale,2025-06-30 00:00:00,-35693000000.0,LG,KRW
+Sale Of Investment,2025-06-30 00:00:00,25310000000.0,LG,KRW
+Purchase Of Investment,2025-06-30 00:00:00,-61003000000.0,LG,KRW
+Net Business Purchase And Sale,2025-06-30 00:00:00,11915000000.0,LG,KRW
+Sale Of Business,2025-06-30 00:00:00,,LG,KRW
+Purchase Of Business,2025-06-30 00:00:00,-5617000000.0,LG,KRW
+Net Intangibles Purchase And Sale,2025-06-30 00:00:00,-231985000000.0,LG,KRW
+Sale Of Intangibles,2025-06-30 00:00:00,1672000000.0,LG,KRW
+Purchase Of Intangibles,2025-06-30 00:00:00,-233657000000.0,LG,KRW
+Net PPE Purchase And Sale,2025-06-30 00:00:00,-549077000000.0,LG,KRW
+Sale Of PPE,2025-06-30 00:00:00,38333000000.0,LG,KRW
+Purchase Of PPE,2025-06-30 00:00:00,-587410000000.0,LG,KRW
+Operating Cash Flow,2025-06-30 00:00:00,1548143000000.0,LG,KRW
+Taxes Refund Paid,2025-06-30 00:00:00,-302509000000.0,LG,KRW
+Interest Received Cfo,2025-06-30 00:00:00,95414000000.0,LG,KRW
+Interest Paid Cfo,2025-06-30 00:00:00,-165801000000.0,LG,KRW
+Dividend Received Cfo,2025-06-30 00:00:00,8586000000.0,LG,KRW
+Change In Working Capital,2025-06-30 00:00:00,-6137000000.0,LG,KRW
+Change In Other Current Liabilities,2025-06-30 00:00:00,35346000000.0,LG,KRW
+Change In Other Current Assets,2025-06-30 00:00:00,173966000000.0,LG,KRW
+Change In Payable,2025-06-30 00:00:00,-952318000000.0,LG,KRW
+Change In Inventory,2025-06-30 00:00:00,418742000000.0,LG,KRW
+Change In Receivables,2025-06-30 00:00:00,553504000000.0,LG,KRW
+Other Non Cash Items,2025-06-30 00:00:00,275733000000.0,LG,KRW
+Provisionand Write Offof Assets,2025-06-30 00:00:00,200614000000.0,LG,KRW
+Deferred Tax,2025-06-30 00:00:00,150969000000.0,LG,KRW
+Depreciation And Amortization,2025-06-30 00:00:00,892287000000.0,LG,KRW
+Amortization Cash Flow,2025-06-30 00:00:00,134022000000.0,LG,KRW
+Depreciation,2025-06-30 00:00:00,758265000000.0,LG,KRW
+Pension And Employee Benefit Expense,2025-06-30 00:00:00,119272000000.0,LG,KRW
+Gain Loss On Investment Securities,2025-06-30 00:00:00,45024000000.0,LG,KRW
+Net Foreign Currency Exchange Gain Loss,2025-06-30 00:00:00,-33495000000.0,LG,KRW
+Gain Loss On Sale Of PPE,2025-06-30 00:00:00,8973000000.0,LG,KRW
+Net Income From Continuing Operations,2025-06-30 00:00:00,609643000000.0,LG,KRW
+Free Cash Flow,2025-03-31 00:00:00,-518556000000.0,LG,KRW
+Repayment Of Debt,2025-03-31 00:00:00,-1291644000000.0,LG,KRW
+Issuance Of Debt,2025-03-31 00:00:00,1157085000000.0,LG,KRW
+Capital Expenditure,2025-03-31 00:00:00,-1004262000000.0,LG,KRW
+End Cash Position,2025-03-31 00:00:00,6985040000000.0,LG,KRW
+Beginning Cash Position,2025-03-31 00:00:00,7573036000000.0,LG,KRW
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,155640000000.0,LG,KRW
+Changes In Cash,2025-03-31 00:00:00,-743636000000.0,LG,KRW
+Financing Cash Flow,2025-03-31 00:00:00,-240892000000.0,LG,KRW
+Net Other Financing Charges,2025-03-31 00:00:00,50000000.0,LG,KRW
+Cash Dividends Paid,2025-03-31 00:00:00,,LG,KRW
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,-134559000000.0,LG,KRW
+Net Long Term Debt Issuance,2025-03-31 00:00:00,-134559000000.0,LG,KRW
+Long Term Debt Payments,2025-03-31 00:00:00,-1291644000000.0,LG,KRW
+Long Term Debt Issuance,2025-03-31 00:00:00,1157085000000.0,LG,KRW
+Investing Cash Flow,2025-03-31 00:00:00,-988450000000.0,LG,KRW
+Net Other Investing Changes,2025-03-31 00:00:00,-10262000000.0,LG,KRW
+Net Investment Purchase And Sale,2025-03-31 00:00:00,8905000000.0,LG,KRW
+Sale Of Investment,2025-03-31 00:00:00,32630000000.0,LG,KRW
+Purchase Of Investment,2025-03-31 00:00:00,-23725000000.0,LG,KRW
+Net Business Purchase And Sale,2025-03-31 00:00:00,-15770000000.0,LG,KRW
+Sale Of Business,2025-03-31 00:00:00,,LG,KRW
+Purchase Of Business,2025-03-31 00:00:00,-15770000000.0,LG,KRW
+Net Intangibles Purchase And Sale,2025-03-31 00:00:00,-349557000000.0,LG,KRW
+Sale Of Intangibles,2025-03-31 00:00:00,8923000000.0,LG,KRW
+Purchase Of Intangibles,2025-03-31 00:00:00,-358480000000.0,LG,KRW
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-621766000000.0,LG,KRW
+Sale Of PPE,2025-03-31 00:00:00,24016000000.0,LG,KRW
+Purchase Of PPE,2025-03-31 00:00:00,-645782000000.0,LG,KRW
+Operating Cash Flow,2025-03-31 00:00:00,485706000000.0,LG,KRW
+Taxes Refund Paid,2025-03-31 00:00:00,-209866000000.0,LG,KRW
+Interest Received Cfo,2025-03-31 00:00:00,106279000000.0,LG,KRW
+Interest Paid Cfo,2025-03-31 00:00:00,-150664000000.0,LG,KRW
+Dividend Received Cfo,2025-03-31 00:00:00,261000000.0,LG,KRW
+Change In Working Capital,2025-03-31 00:00:00,-1702023000000.0,LG,KRW
+Change In Other Current Liabilities,2025-03-31 00:00:00,-1207140000000.0,LG,KRW
+Change In Other Current Assets,2025-03-31 00:00:00,284620000000.0,LG,KRW
+Change In Payable,2025-03-31 00:00:00,361719000000.0,LG,KRW
+Change In Inventory,2025-03-31 00:00:00,201615000000.0,LG,KRW
+Change In Receivables,2025-03-31 00:00:00,-994384000000.0,LG,KRW
+Other Non Cash Items,2025-03-31 00:00:00,43591000000.0,LG,KRW
+Provisionand Write Offof Assets,2025-03-31 00:00:00,220231000000.0,LG,KRW
+Deferred Tax,2025-03-31 00:00:00,241019000000.0,LG,KRW
+Depreciation And Amortization,2025-03-31 00:00:00,857586000000.0,LG,KRW
+Amortization Cash Flow,2025-03-31 00:00:00,134817000000.0,LG,KRW
+Depreciation,2025-03-31 00:00:00,722769000000.0,LG,KRW
+Pension And Employee Benefit Expense,2025-03-31 00:00:00,117012000000.0,LG,KRW
+Gain Loss On Investment Securities,2025-03-31 00:00:00,1095000000.0,LG,KRW
+Net Foreign Currency Exchange Gain Loss,2025-03-31 00:00:00,-25533000000.0,LG,KRW
+Gain Loss On Sale Of PPE,2025-03-31 00:00:00,7045000000.0,LG,KRW
+Net Income From Continuing Operations,2025-03-31 00:00:00,875618000000.0,LG,KRW
+Free Cash Flow,2024-12-31 00:00:00,622109000000.0,LG,KRW
+Repayment Of Debt,2024-12-31 00:00:00,-1264284000000.0,LG,KRW
+Issuance Of Debt,2024-12-31 00:00:00,658916000000.0,LG,KRW
+Capital Expenditure,2024-12-31 00:00:00,-1086727000000.0,LG,KRW
+End Cash Position,2024-12-31 00:00:00,7573036000000.0,LG,KRW
+Beginning Cash Position,2024-12-31 00:00:00,7692326000000.0,LG,KRW
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,190150000000.0,LG,KRW
+Changes In Cash,2024-12-31 00:00:00,-309440000000.0,LG,KRW
+Financing Cash Flow,2024-12-31 00:00:00,-926628000000.0,LG,KRW
+Net Other Financing Charges,2024-12-31 00:00:00,-223914000000.0,LG,KRW
+Cash Dividends Paid,2024-12-31 00:00:00,-3000000.0,LG,KRW
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,-605368000000.0,LG,KRW
+Net Long Term Debt Issuance,2024-12-31 00:00:00,-605368000000.0,LG,KRW
+Long Term Debt Payments,2024-12-31 00:00:00,-1264284000000.0,LG,KRW
+Long Term Debt Issuance,2024-12-31 00:00:00,658916000000.0,LG,KRW
+Investing Cash Flow,2024-12-31 00:00:00,-1091648000000.0,LG,KRW
+Net Other Investing Changes,2024-12-31 00:00:00,12234000000.0,LG,KRW
+Net Investment Purchase And Sale,2024-12-31 00:00:00,10445000000.0,LG,KRW
+Sale Of Investment,2024-12-31 00:00:00,541000000.0,LG,KRW
+Purchase Of Investment,2024-12-31 00:00:00,9904000000.0,LG,KRW
+Net Business Purchase And Sale,2024-12-31 00:00:00,-38255000000.0,LG,KRW
+Sale Of Business,2024-12-31 00:00:00,0.0,LG,KRW
+Purchase Of Business,2024-12-31 00:00:00,-38255000000.0,LG,KRW
+Net Intangibles Purchase And Sale,2024-12-31 00:00:00,-449245000000.0,LG,KRW
+Sale Of Intangibles,2024-12-31 00:00:00,298000000.0,LG,KRW
+Purchase Of Intangibles,2024-12-31 00:00:00,-449543000000.0,LG,KRW
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-626827000000.0,LG,KRW
+Sale Of PPE,2024-12-31 00:00:00,10357000000.0,LG,KRW
+Purchase Of PPE,2024-12-31 00:00:00,-637184000000.0,LG,KRW
+Operating Cash Flow,2024-12-31 00:00:00,1708836000000.0,LG,KRW
+Taxes Refund Paid,2024-12-31 00:00:00,-247299000000.0,LG,KRW
+Interest Received Cfo,2024-12-31 00:00:00,110287000000.0,LG,KRW
+Interest Paid Cfo,2024-12-31 00:00:00,-170865000000.0,LG,KRW
+Dividend Received Cfo,2024-12-31 00:00:00,0.0,LG,KRW
+Change In Working Capital,2024-12-31 00:00:00,334531000000.0,LG,KRW
+Change In Other Current Liabilities,2024-12-31 00:00:00,97620000000.0,LG,KRW
+Change In Other Current Assets,2024-12-31 00:00:00,-20570000000.0,LG,KRW
+Change In Payable,2024-12-31 00:00:00,-2028716000000.0,LG,KRW
+Change In Inventory,2024-12-31 00:00:00,780628000000.0,LG,KRW
+Change In Receivables,2024-12-31 00:00:00,1857142000000.0,LG,KRW
+Other Non Cash Items,2024-12-31 00:00:00,1354796000000.0,LG,KRW
+Provisionand Write Offof Assets,2024-12-31 00:00:00,361608000000.0,LG,KRW
+Deferred Tax,2024-12-31 00:00:00,-391144000000.0,LG,KRW
+Depreciation And Amortization,2024-12-31 00:00:00,902758000000.0,LG,KRW
+Amortization Cash Flow,2024-12-31 00:00:00,135751000000.0,LG,KRW
+Depreciation,2024-12-31 00:00:00,767007000000.0,LG,KRW
+Pension And Employee Benefit Expense,2024-12-31 00:00:00,122337000000.0,LG,KRW
+Gain Loss On Investment Securities,2024-12-31 00:00:00,21208000000.0,LG,KRW
+Net Foreign Currency Exchange Gain Loss,2024-12-31 00:00:00,77633000000.0,LG,KRW
+Gain Loss On Sale Of PPE,2024-12-31 00:00:00,25864000000.0,LG,KRW
+Net Income From Continuing Operations,2024-12-31 00:00:00,-713754000000.0,LG,KRW
+Free Cash Flow,2024-09-30 00:00:00,-636233000000.0,LG,KRW
+Repayment Of Debt,2024-09-30 00:00:00,-460257000000.0,LG,KRW
+Issuance Of Debt,2024-09-30 00:00:00,556195000000.0,LG,KRW
+Capital Expenditure,2024-09-30 00:00:00,-843455000000.0,LG,KRW
+End Cash Position,2024-09-30 00:00:00,7692326000000.0,LG,KRW
+Beginning Cash Position,2024-09-30 00:00:00,8554530000000.0,LG,KRW
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,-180753000000.0,LG,KRW
+Changes In Cash,2024-09-30 00:00:00,-681451000000.0,LG,KRW
+Financing Cash Flow,2024-09-30 00:00:00,-134579000000.0,LG,KRW
+Net Other Financing Charges,2024-09-30 00:00:00,98000000.0,LG,KRW
+Cash Dividends Paid,2024-09-30 00:00:00,-90036000000.0,LG,KRW
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,95938000000.0,LG,KRW
+Net Long Term Debt Issuance,2024-09-30 00:00:00,95938000000.0,LG,KRW
+Long Term Debt Payments,2024-09-30 00:00:00,-460257000000.0,LG,KRW
+Long Term Debt Issuance,2024-09-30 00:00:00,556195000000.0,LG,KRW
+Investing Cash Flow,2024-09-30 00:00:00,-754094000000.0,LG,KRW
+Net Other Investing Changes,2024-09-30 00:00:00,-2209000000.0,LG,KRW
+Net Investment Purchase And Sale,2024-09-30 00:00:00,90983000000.0,LG,KRW
+Sale Of Investment,2024-09-30 00:00:00,150586000000.0,LG,KRW
+Purchase Of Investment,2024-09-30 00:00:00,-59603000000.0,LG,KRW
+Net Business Purchase And Sale,2024-09-30 00:00:00,-11099000000.0,LG,KRW
+Sale Of Business,2024-09-30 00:00:00,349000000.0,LG,KRW
+Purchase Of Business,2024-09-30 00:00:00,-11448000000.0,LG,KRW
+Net Intangibles Purchase And Sale,2024-09-30 00:00:00,-241087000000.0,LG,KRW
+Sale Of Intangibles,2024-09-30 00:00:00,7068000000.0,LG,KRW
+Purchase Of Intangibles,2024-09-30 00:00:00,-248155000000.0,LG,KRW
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-590682000000.0,LG,KRW
+Sale Of PPE,2024-09-30 00:00:00,4618000000.0,LG,KRW
+Purchase Of PPE,2024-09-30 00:00:00,-595300000000.0,LG,KRW
+Operating Cash Flow,2024-09-30 00:00:00,207222000000.0,LG,KRW
+Taxes Refund Paid,2024-09-30 00:00:00,-169182000000.0,LG,KRW
+Interest Received Cfo,2024-09-30 00:00:00,127556000000.0,LG,KRW
+Interest Paid Cfo,2024-09-30 00:00:00,-147326000000.0,LG,KRW
+Dividend Received Cfo,2024-09-30 00:00:00,799000000.0,LG,KRW
+Change In Working Capital,2024-09-30 00:00:00,-1793564000000.0,LG,KRW
+Change In Other Current Liabilities,2024-09-30 00:00:00,615639000000.0,LG,KRW
+Change In Other Current Assets,2024-09-30 00:00:00,-450027000000.0,LG,KRW
+Change In Payable,2024-09-30 00:00:00,1667014000000.0,LG,KRW
+Change In Inventory,2024-09-30 00:00:00,-1412174000000.0,LG,KRW
+Change In Receivables,2024-09-30 00:00:00,-1931550000000.0,LG,KRW
+Other Non Cash Items,2024-09-30 00:00:00,513007000000.0,LG,KRW
+Provisionand Write Offof Assets,2024-09-30 00:00:00,249597000000.0,LG,KRW
+Deferred Tax,2024-09-30 00:00:00,188084000000.0,LG,KRW
+Depreciation And Amortization,2024-09-30 00:00:00,937826000000.0,LG,KRW
+Amortization Cash Flow,2024-09-30 00:00:00,145526000000.0,LG,KRW
+Depreciation,2024-09-30 00:00:00,792300000000.0,LG,KRW
+Pension And Employee Benefit Expense,2024-09-30 00:00:00,108788000000.0,LG,KRW
+Gain Loss On Investment Securities,2024-09-30 00:00:00,-10637000000.0,LG,KRW
+Net Foreign Currency Exchange Gain Loss,2024-09-30 00:00:00,-18512000000.0,LG,KRW
+Gain Loss On Sale Of PPE,2024-09-30 00:00:00,4382000000.0,LG,KRW
+Net Income From Continuing Operations,2024-09-30 00:00:00,90234000000.0,LG,KRW
+Free Cash Flow,2024-06-30 00:00:00,,LG,KRW
+Repayment Of Debt,2024-06-30 00:00:00,,LG,KRW
+Issuance Of Debt,2024-06-30 00:00:00,,LG,KRW
+Capital Expenditure,2024-06-30 00:00:00,,LG,KRW
+End Cash Position,2024-06-30 00:00:00,,LG,KRW
+Beginning Cash Position,2024-06-30 00:00:00,,LG,KRW
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,,LG,KRW
+Changes In Cash,2024-06-30 00:00:00,,LG,KRW
+Financing Cash Flow,2024-06-30 00:00:00,,LG,KRW
+Net Other Financing Charges,2024-06-30 00:00:00,,LG,KRW
+Cash Dividends Paid,2024-06-30 00:00:00,,LG,KRW
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,,LG,KRW
+Net Long Term Debt Issuance,2024-06-30 00:00:00,,LG,KRW
+Long Term Debt Payments,2024-06-30 00:00:00,,LG,KRW
+Long Term Debt Issuance,2024-06-30 00:00:00,,LG,KRW
+Investing Cash Flow,2024-06-30 00:00:00,,LG,KRW
+Net Other Investing Changes,2024-06-30 00:00:00,,LG,KRW
+Net Investment Purchase And Sale,2024-06-30 00:00:00,,LG,KRW
+Sale Of Investment,2024-06-30 00:00:00,,LG,KRW
+Purchase Of Investment,2024-06-30 00:00:00,,LG,KRW
+Net Business Purchase And Sale,2024-06-30 00:00:00,,LG,KRW
+Sale Of Business,2024-06-30 00:00:00,6252000000.0,LG,KRW
+Purchase Of Business,2024-06-30 00:00:00,,LG,KRW
+Net Intangibles Purchase And Sale,2024-06-30 00:00:00,,LG,KRW
+Sale Of Intangibles,2024-06-30 00:00:00,,LG,KRW
+Purchase Of Intangibles,2024-06-30 00:00:00,,LG,KRW
+Net PPE Purchase And Sale,2024-06-30 00:00:00,,LG,KRW
+Sale Of PPE,2024-06-30 00:00:00,,LG,KRW
+Purchase Of PPE,2024-06-30 00:00:00,,LG,KRW
+Operating Cash Flow,2024-06-30 00:00:00,,LG,KRW
+Taxes Refund Paid,2024-06-30 00:00:00,,LG,KRW
+Interest Received Cfo,2024-06-30 00:00:00,,LG,KRW
+Interest Paid Cfo,2024-06-30 00:00:00,,LG,KRW
+Dividend Received Cfo,2024-06-30 00:00:00,,LG,KRW
+Change In Working Capital,2024-06-30 00:00:00,,LG,KRW
+Change In Other Current Liabilities,2024-06-30 00:00:00,,LG,KRW
+Change In Other Current Assets,2024-06-30 00:00:00,,LG,KRW
+Change In Payable,2024-06-30 00:00:00,,LG,KRW
+Change In Inventory,2024-06-30 00:00:00,,LG,KRW
+Change In Receivables,2024-06-30 00:00:00,,LG,KRW
+Other Non Cash Items,2024-06-30 00:00:00,,LG,KRW
+Provisionand Write Offof Assets,2024-06-30 00:00:00,,LG,KRW
+Deferred Tax,2024-06-30 00:00:00,,LG,KRW
+Depreciation And Amortization,2024-06-30 00:00:00,,LG,KRW
+Amortization Cash Flow,2024-06-30 00:00:00,,LG,KRW
+Depreciation,2024-06-30 00:00:00,,LG,KRW
+Pension And Employee Benefit Expense,2024-06-30 00:00:00,,LG,KRW
+Gain Loss On Investment Securities,2024-06-30 00:00:00,,LG,KRW
+Net Foreign Currency Exchange Gain Loss,2024-06-30 00:00:00,,LG,KRW
+Gain Loss On Sale Of PPE,2024-06-30 00:00:00,,LG,KRW
+Net Income From Continuing Operations,2024-06-30 00:00:00,,LG,KRW
+Free Cash Flow,2025-12-31 00:00:00,3599000000.0,Electrolux,SEK
+Repayment Of Debt,2025-12-31 00:00:00,-1973000000.0,Electrolux,SEK
+Issuance Of Debt,2025-12-31 00:00:00,2180000000.0,Electrolux,SEK
+Issuance Of Capital Stock,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Capital Expenditure,2025-12-31 00:00:00,-997000000.0,Electrolux,SEK
+End Cash Position,2025-12-31 00:00:00,15658000000.0,Electrolux,SEK
+Other Cash Adjustment Outside Changein Cash,2025-12-31 00:00:00,1000000.0,Electrolux,SEK
+Beginning Cash Position,2025-12-31 00:00:00,11995000000.0,Electrolux,SEK
+Effect Of Exchange Rate Changes,2025-12-31 00:00:00,-300000000.0,Electrolux,SEK
+Changes In Cash,2025-12-31 00:00:00,3962000000.0,Electrolux,SEK
+Financing Cash Flow,2025-12-31 00:00:00,119000000.0,Electrolux,SEK
+Net Other Financing Charges,2025-12-31 00:00:00,,Electrolux,SEK
+Net Common Stock Issuance,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Common Stock Issuance,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Net Issuance Payments Of Debt,2025-12-31 00:00:00,416000000.0,Electrolux,SEK
+Net Short Term Debt Issuance,2025-12-31 00:00:00,209000000.0,Electrolux,SEK
+Net Long Term Debt Issuance,2025-12-31 00:00:00,207000000.0,Electrolux,SEK
+Long Term Debt Payments,2025-12-31 00:00:00,-1973000000.0,Electrolux,SEK
+Long Term Debt Issuance,2025-12-31 00:00:00,2180000000.0,Electrolux,SEK
+Investing Cash Flow,2025-12-31 00:00:00,-753000000.0,Electrolux,SEK
+Net Other Investing Changes,2025-12-31 00:00:00,244000000.0,Electrolux,SEK
+Net Business Purchase And Sale,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Sale Of Business,2025-12-31 00:00:00,0.0,Electrolux,SEK
+Purchase Of Business,2025-12-31 00:00:00,,Electrolux,SEK
+Net Intangibles Purchase And Sale,2025-12-31 00:00:00,,Electrolux,SEK
+Purchase Of Intangibles,2025-12-31 00:00:00,,Electrolux,SEK
+Net PPE Purchase And Sale,2025-12-31 00:00:00,,Electrolux,SEK
+Purchase Of PPE,2025-12-31 00:00:00,,Electrolux,SEK
+Capital Expenditure Reported,2025-12-31 00:00:00,-997000000.0,Electrolux,SEK
+Operating Cash Flow,2025-12-31 00:00:00,4596000000.0,Electrolux,SEK
+Taxes Refund Paid,2025-12-31 00:00:00,-686000000.0,Electrolux,SEK
+Interest Paid Cfo,2025-12-31 00:00:00,-651000000.0,Electrolux,SEK
+Change In Working Capital,2025-12-31 00:00:00,3475000000.0,Electrolux,SEK
+Change In Other Current Assets,2025-12-31 00:00:00,1076000000.0,Electrolux,SEK
+Change In Payable,2025-12-31 00:00:00,207000000.0,Electrolux,SEK
+Change In Inventory,2025-12-31 00:00:00,2941000000.0,Electrolux,SEK
+Change In Receivables,2025-12-31 00:00:00,-749000000.0,Electrolux,SEK
+Other Non Cash Items,2025-12-31 00:00:00,-476000000.0,Electrolux,SEK
+Depreciation And Amortization,2025-12-31 00:00:00,1416000000.0,Electrolux,SEK
+Depreciation,2025-12-31 00:00:00,1416000000.0,Electrolux,SEK
+Net Income From Continuing Operations,2025-12-31 00:00:00,1517000000.0,Electrolux,SEK
+Free Cash Flow,2025-06-30 00:00:00,-1906000000.0,Electrolux,SEK
+Repayment Of Debt,2025-06-30 00:00:00,-811000000.0,Electrolux,SEK
+Issuance Of Debt,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Issuance Of Capital Stock,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Capital Expenditure,2025-06-30 00:00:00,-775000000.0,Electrolux,SEK
+End Cash Position,2025-06-30 00:00:00,10519000000.0,Electrolux,SEK
+Other Cash Adjustment Outside Changein Cash,2025-06-30 00:00:00,,Electrolux,SEK
+Beginning Cash Position,2025-06-30 00:00:00,12371000000.0,Electrolux,SEK
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,-76000000.0,Electrolux,SEK
+Changes In Cash,2025-06-30 00:00:00,-1776000000.0,Electrolux,SEK
+Financing Cash Flow,2025-06-30 00:00:00,-175000000.0,Electrolux,SEK
+Net Other Financing Charges,2025-06-30 00:00:00,13000000.0,Electrolux,SEK
+Net Common Stock Issuance,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Common Stock Issuance,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,87000000.0,Electrolux,SEK
+Net Short Term Debt Issuance,2025-06-30 00:00:00,898000000.0,Electrolux,SEK
+Net Long Term Debt Issuance,2025-06-30 00:00:00,-811000000.0,Electrolux,SEK
+Long Term Debt Payments,2025-06-30 00:00:00,-811000000.0,Electrolux,SEK
+Long Term Debt Issuance,2025-06-30 00:00:00,0.0,Electrolux,SEK
+Investing Cash Flow,2025-06-30 00:00:00,-470000000.0,Electrolux,SEK
+Net Other Investing Changes,2025-06-30 00:00:00,311000000.0,Electrolux,SEK
+Net Business Purchase And Sale,2025-06-30 00:00:00,-6000000.0,Electrolux,SEK
+Sale Of Business,2025-06-30 00:00:00,,Electrolux,SEK
+Purchase Of Business,2025-06-30 00:00:00,-6000000.0,Electrolux,SEK
+Net Intangibles Purchase And Sale,2025-06-30 00:00:00,,Electrolux,SEK
+Purchase Of Intangibles,2025-06-30 00:00:00,,Electrolux,SEK
+Net PPE Purchase And Sale,2025-06-30 00:00:00,,Electrolux,SEK
+Purchase Of PPE,2025-06-30 00:00:00,,Electrolux,SEK
+Capital Expenditure Reported,2025-06-30 00:00:00,-775000000.0,Electrolux,SEK
+Operating Cash Flow,2025-06-30 00:00:00,-1131000000.0,Electrolux,SEK
+Taxes Refund Paid,2025-06-30 00:00:00,-421000000.0,Electrolux,SEK
+Interest Paid Cfo,2025-06-30 00:00:00,-434000000.0,Electrolux,SEK
+Change In Working Capital,2025-06-30 00:00:00,-2298000000.0,Electrolux,SEK
+Change In Other Current Assets,2025-06-30 00:00:00,-239000000.0,Electrolux,SEK
+Change In Payable,2025-06-30 00:00:00,-581000000.0,Electrolux,SEK
+Change In Inventory,2025-06-30 00:00:00,-1242000000.0,Electrolux,SEK
+Change In Receivables,2025-06-30 00:00:00,-236000000.0,Electrolux,SEK
+Other Non Cash Items,2025-06-30 00:00:00,-178000000.0,Electrolux,SEK
+Depreciation And Amortization,2025-06-30 00:00:00,1403000000.0,Electrolux,SEK
+Depreciation,2025-06-30 00:00:00,1403000000.0,Electrolux,SEK
+Net Income From Continuing Operations,2025-06-30 00:00:00,797000000.0,Electrolux,SEK
+Free Cash Flow,2025-03-31 00:00:00,-3776000000.0,Electrolux,SEK
+Repayment Of Debt,2025-03-31 00:00:00,-1002000000.0,Electrolux,SEK
+Issuance Of Debt,2025-03-31 00:00:00,2548000000.0,Electrolux,SEK
+Issuance Of Capital Stock,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Capital Expenditure,2025-03-31 00:00:00,-761000000.0,Electrolux,SEK
+End Cash Position,2025-03-31 00:00:00,12371000000.0,Electrolux,SEK
+Other Cash Adjustment Outside Changein Cash,2025-03-31 00:00:00,2000000.0,Electrolux,SEK
+Beginning Cash Position,2025-03-31 00:00:00,16171000000.0,Electrolux,SEK
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,-554000000.0,Electrolux,SEK
+Changes In Cash,2025-03-31 00:00:00,-3248000000.0,Electrolux,SEK
+Financing Cash Flow,2025-03-31 00:00:00,380000000.0,Electrolux,SEK
+Net Other Financing Charges,2025-03-31 00:00:00,2000000.0,Electrolux,SEK
+Net Common Stock Issuance,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Common Stock Issuance,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,670000000.0,Electrolux,SEK
+Net Short Term Debt Issuance,2025-03-31 00:00:00,-876000000.0,Electrolux,SEK
+Net Long Term Debt Issuance,2025-03-31 00:00:00,1546000000.0,Electrolux,SEK
+Long Term Debt Payments,2025-03-31 00:00:00,-1002000000.0,Electrolux,SEK
+Long Term Debt Issuance,2025-03-31 00:00:00,2548000000.0,Electrolux,SEK
+Investing Cash Flow,2025-03-31 00:00:00,-613000000.0,Electrolux,SEK
+Net Other Investing Changes,2025-03-31 00:00:00,148000000.0,Electrolux,SEK
+Net Business Purchase And Sale,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Sale Of Business,2025-03-31 00:00:00,0.0,Electrolux,SEK
+Purchase Of Business,2025-03-31 00:00:00,,Electrolux,SEK
+Net Intangibles Purchase And Sale,2025-03-31 00:00:00,,Electrolux,SEK
+Purchase Of Intangibles,2025-03-31 00:00:00,,Electrolux,SEK
+Net PPE Purchase And Sale,2025-03-31 00:00:00,,Electrolux,SEK
+Purchase Of PPE,2025-03-31 00:00:00,,Electrolux,SEK
+Capital Expenditure Reported,2025-03-31 00:00:00,-761000000.0,Electrolux,SEK
+Operating Cash Flow,2025-03-31 00:00:00,-3015000000.0,Electrolux,SEK
+Taxes Refund Paid,2025-03-31 00:00:00,-291000000.0,Electrolux,SEK
+Interest Paid Cfo,2025-03-31 00:00:00,-229000000.0,Electrolux,SEK
+Change In Working Capital,2025-03-31 00:00:00,-4336000000.0,Electrolux,SEK
+Change In Other Current Assets,2025-03-31 00:00:00,-3155000000.0,Electrolux,SEK
+Change In Payable,2025-03-31 00:00:00,-1275000000.0,Electrolux,SEK
+Change In Inventory,2025-03-31 00:00:00,-2587000000.0,Electrolux,SEK
+Change In Receivables,2025-03-31 00:00:00,2681000000.0,Electrolux,SEK
+Other Non Cash Items,2025-03-31 00:00:00,-76000000.0,Electrolux,SEK
+Depreciation And Amortization,2025-03-31 00:00:00,1466000000.0,Electrolux,SEK
+Depreciation,2025-03-31 00:00:00,1466000000.0,Electrolux,SEK
+Net Income From Continuing Operations,2025-03-31 00:00:00,452000000.0,Electrolux,SEK
+Free Cash Flow,2024-12-31 00:00:00,1636000000.0,Electrolux,SEK
+Repayment Of Debt,2024-12-31 00:00:00,-3577000000.0,Electrolux,SEK
+Issuance Of Debt,2024-12-31 00:00:00,1673000000.0,Electrolux,SEK
+Issuance Of Capital Stock,2024-12-31 00:00:00,0.0,Electrolux,SEK
+Capital Expenditure,2024-12-31 00:00:00,-1604000000.0,Electrolux,SEK
+End Cash Position,2024-12-31 00:00:00,16171000000.0,Electrolux,SEK
+Other Cash Adjustment Outside Changein Cash,2024-12-31 00:00:00,-1000000.0,Electrolux,SEK
+Beginning Cash Position,2024-12-31 00:00:00,16184000000.0,Electrolux,SEK
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,38000000.0,Electrolux,SEK
+Changes In Cash,2024-12-31 00:00:00,-50000000.0,Electrolux,SEK
+Financing Cash Flow,2024-12-31 00:00:00,-2639000000.0,Electrolux,SEK
+Net Other Financing Charges,2024-12-31 00:00:00,-1000000.0,Electrolux,SEK
+Net Common Stock Issuance,2024-12-31 00:00:00,0.0,Electrolux,SEK
+Common Stock Issuance,2024-12-31 00:00:00,0.0,Electrolux,SEK
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,-2320000000.0,Electrolux,SEK
+Net Short Term Debt Issuance,2024-12-31 00:00:00,-416000000.0,Electrolux,SEK
+Net Long Term Debt Issuance,2024-12-31 00:00:00,-1904000000.0,Electrolux,SEK
+Long Term Debt Payments,2024-12-31 00:00:00,-3577000000.0,Electrolux,SEK
+Long Term Debt Issuance,2024-12-31 00:00:00,1673000000.0,Electrolux,SEK
+Investing Cash Flow,2024-12-31 00:00:00,-651000000.0,Electrolux,SEK
+Net Other Investing Changes,2024-12-31 00:00:00,-19000000.0,Electrolux,SEK
+Net Business Purchase And Sale,2024-12-31 00:00:00,972000000.0,Electrolux,SEK
+Sale Of Business,2024-12-31 00:00:00,972000000.0,Electrolux,SEK
+Purchase Of Business,2024-12-31 00:00:00,,Electrolux,SEK
+Net Intangibles Purchase And Sale,2024-12-31 00:00:00,,Electrolux,SEK
+Purchase Of Intangibles,2024-12-31 00:00:00,,Electrolux,SEK
+Net PPE Purchase And Sale,2024-12-31 00:00:00,,Electrolux,SEK
+Purchase Of PPE,2024-12-31 00:00:00,,Electrolux,SEK
+Capital Expenditure Reported,2024-12-31 00:00:00,-1604000000.0,Electrolux,SEK
+Operating Cash Flow,2024-12-31 00:00:00,3240000000.0,Electrolux,SEK
+Taxes Refund Paid,2024-12-31 00:00:00,-418000000.0,Electrolux,SEK
+Interest Paid Cfo,2024-12-31 00:00:00,-625000000.0,Electrolux,SEK
+Change In Working Capital,2024-12-31 00:00:00,1559000000.0,Electrolux,SEK
+Change In Other Current Assets,2024-12-31 00:00:00,-604000000.0,Electrolux,SEK
+Change In Payable,2024-12-31 00:00:00,2328000000.0,Electrolux,SEK
+Change In Inventory,2024-12-31 00:00:00,1778000000.0,Electrolux,SEK
+Change In Receivables,2024-12-31 00:00:00,-1943000000.0,Electrolux,SEK
+Other Non Cash Items,2024-12-31 00:00:00,32000000.0,Electrolux,SEK
+Depreciation And Amortization,2024-12-31 00:00:00,1641000000.0,Electrolux,SEK
+Depreciation,2024-12-31 00:00:00,1641000000.0,Electrolux,SEK
+Net Income From Continuing Operations,2024-12-31 00:00:00,1052000000.0,Electrolux,SEK
+Free Cash Flow,2024-09-30 00:00:00,794000000.0,Electrolux,SEK
+Repayment Of Debt,2024-09-30 00:00:00,-354000000.0,Electrolux,SEK
+Issuance Of Debt,2024-09-30 00:00:00,1024000000.0,Electrolux,SEK
+Issuance Of Capital Stock,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Capital Expenditure,2024-09-30 00:00:00,-1004000000.0,Electrolux,SEK
+End Cash Position,2024-09-30 00:00:00,16184000000.0,Electrolux,SEK
+Other Cash Adjustment Outside Changein Cash,2024-09-30 00:00:00,1000000.0,Electrolux,SEK
+Beginning Cash Position,2024-09-30 00:00:00,15024000000.0,Electrolux,SEK
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,-150000000.0,Electrolux,SEK
+Changes In Cash,2024-09-30 00:00:00,1309000000.0,Electrolux,SEK
+Financing Cash Flow,2024-09-30 00:00:00,824000000.0,Electrolux,SEK
+Net Other Financing Charges,2024-09-30 00:00:00,4000000.0,Electrolux,SEK
+Net Common Stock Issuance,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Common Stock Issuance,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,1100000000.0,Electrolux,SEK
+Net Short Term Debt Issuance,2024-09-30 00:00:00,430000000.0,Electrolux,SEK
+Net Long Term Debt Issuance,2024-09-30 00:00:00,670000000.0,Electrolux,SEK
+Long Term Debt Payments,2024-09-30 00:00:00,-354000000.0,Electrolux,SEK
+Long Term Debt Issuance,2024-09-30 00:00:00,1024000000.0,Electrolux,SEK
+Investing Cash Flow,2024-09-30 00:00:00,-1313000000.0,Electrolux,SEK
+Net Other Investing Changes,2024-09-30 00:00:00,-309000000.0,Electrolux,SEK
+Net Business Purchase And Sale,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Sale Of Business,2024-09-30 00:00:00,0.0,Electrolux,SEK
+Purchase Of Business,2024-09-30 00:00:00,,Electrolux,SEK
+Net Intangibles Purchase And Sale,2024-09-30 00:00:00,-176000000.0,Electrolux,SEK
+Purchase Of Intangibles,2024-09-30 00:00:00,-176000000.0,Electrolux,SEK
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-828000000.0,Electrolux,SEK
+Purchase Of PPE,2024-09-30 00:00:00,-828000000.0,Electrolux,SEK
+Capital Expenditure Reported,2024-09-30 00:00:00,,Electrolux,SEK
+Operating Cash Flow,2024-09-30 00:00:00,1798000000.0,Electrolux,SEK
+Taxes Refund Paid,2024-09-30 00:00:00,-216000000.0,Electrolux,SEK
+Interest Paid Cfo,2024-09-30 00:00:00,-353000000.0,Electrolux,SEK
+Change In Working Capital,2024-09-30 00:00:00,25000000.0,Electrolux,SEK
+Change In Other Current Assets,2024-09-30 00:00:00,1267000000.0,Electrolux,SEK
+Change In Payable,2024-09-30 00:00:00,1057000000.0,Electrolux,SEK
+Change In Inventory,2024-09-30 00:00:00,-1941000000.0,Electrolux,SEK
+Change In Receivables,2024-09-30 00:00:00,-358000000.0,Electrolux,SEK
+Other Non Cash Items,2024-09-30 00:00:00,399000000.0,Electrolux,SEK
+Depreciation And Amortization,2024-09-30 00:00:00,1593000000.0,Electrolux,SEK
+Depreciation,2024-09-30 00:00:00,1593000000.0,Electrolux,SEK
+Net Income From Continuing Operations,2024-09-30 00:00:00,349000000.0,Electrolux,SEK
+Free Cash Flow,2024-06-30 00:00:00,,Electrolux,SEK
+Repayment Of Debt,2024-06-30 00:00:00,,Electrolux,SEK
+Issuance Of Debt,2024-06-30 00:00:00,,Electrolux,SEK
+Issuance Of Capital Stock,2024-06-30 00:00:00,,Electrolux,SEK
+Capital Expenditure,2024-06-30 00:00:00,,Electrolux,SEK
+End Cash Position,2024-06-30 00:00:00,,Electrolux,SEK
+Other Cash Adjustment Outside Changein Cash,2024-06-30 00:00:00,-1000000.0,Electrolux,SEK
+Beginning Cash Position,2024-06-30 00:00:00,,Electrolux,SEK
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,,Electrolux,SEK
+Changes In Cash,2024-06-30 00:00:00,,Electrolux,SEK
+Financing Cash Flow,2024-06-30 00:00:00,,Electrolux,SEK
+Net Other Financing Charges,2024-06-30 00:00:00,1000000.0,Electrolux,SEK
+Net Common Stock Issuance,2024-06-30 00:00:00,,Electrolux,SEK
+Common Stock Issuance,2024-06-30 00:00:00,,Electrolux,SEK
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,,Electrolux,SEK
+Net Short Term Debt Issuance,2024-06-30 00:00:00,,Electrolux,SEK
+Net Long Term Debt Issuance,2024-06-30 00:00:00,,Electrolux,SEK
+Long Term Debt Payments,2024-06-30 00:00:00,,Electrolux,SEK
+Long Term Debt Issuance,2024-06-30 00:00:00,,Electrolux,SEK
+Investing Cash Flow,2024-06-30 00:00:00,,Electrolux,SEK
+Net Other Investing Changes,2024-06-30 00:00:00,,Electrolux,SEK
+Net Business Purchase And Sale,2024-06-30 00:00:00,,Electrolux,SEK
+Sale Of Business,2024-06-30 00:00:00,,Electrolux,SEK
+Purchase Of Business,2024-06-30 00:00:00,0.0,Electrolux,SEK
+Net Intangibles Purchase And Sale,2024-06-30 00:00:00,,Electrolux,SEK
+Purchase Of Intangibles,2024-06-30 00:00:00,,Electrolux,SEK
+Net PPE Purchase And Sale,2024-06-30 00:00:00,,Electrolux,SEK
+Purchase Of PPE,2024-06-30 00:00:00,,Electrolux,SEK
+Capital Expenditure Reported,2024-06-30 00:00:00,-1047000000.0,Electrolux,SEK
+Operating Cash Flow,2024-06-30 00:00:00,,Electrolux,SEK
+Taxes Refund Paid,2024-06-30 00:00:00,,Electrolux,SEK
+Interest Paid Cfo,2024-06-30 00:00:00,,Electrolux,SEK
+Change In Working Capital,2024-06-30 00:00:00,,Electrolux,SEK
+Change In Other Current Assets,2024-06-30 00:00:00,,Electrolux,SEK
+Change In Payable,2024-06-30 00:00:00,,Electrolux,SEK
+Change In Inventory,2024-06-30 00:00:00,,Electrolux,SEK
+Change In Receivables,2024-06-30 00:00:00,,Electrolux,SEK
+Other Non Cash Items,2024-06-30 00:00:00,,Electrolux,SEK
+Depreciation And Amortization,2024-06-30 00:00:00,,Electrolux,SEK
+Depreciation,2024-06-30 00:00:00,,Electrolux,SEK
+Net Income From Continuing Operations,2024-06-30 00:00:00,,Electrolux,SEK
+Free Cash Flow,2025-06-30 00:00:00,4912559743.34,Hisense,CNY
+Repayment Of Debt,2025-06-30 00:00:00,-841274056.32,Hisense,CNY
+Issuance Of Debt,2025-06-30 00:00:00,1137456882.51,Hisense,CNY
+Capital Expenditure,2025-06-30 00:00:00,-344353264.36,Hisense,CNY
+End Cash Position,2025-06-30 00:00:00,3267001507.52,Hisense,CNY
+Beginning Cash Position,2025-06-30 00:00:00,2318304562.85,Hisense,CNY
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,12720383.62,Hisense,CNY
+Changes In Cash,2025-06-30 00:00:00,935976561.05,Hisense,CNY
+Financing Cash Flow,2025-06-30 00:00:00,-954689526.15,Hisense,CNY
+Net Other Financing Charges,2025-06-30 00:00:00,206216694.64,Hisense,CNY
+Cash Dividends Paid,2025-06-30 00:00:00,-24983119.86,Hisense,CNY
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,296182826.19,Hisense,CNY
+Net Long Term Debt Issuance,2025-06-30 00:00:00,296182826.19,Hisense,CNY
+Long Term Debt Payments,2025-06-30 00:00:00,-841274056.32,Hisense,CNY
+Long Term Debt Issuance,2025-06-30 00:00:00,1137456882.51,Hisense,CNY
+Investing Cash Flow,2025-06-30 00:00:00,-3366246920.5,Hisense,CNY
+Net Other Investing Changes,2025-06-30 00:00:00,-3205675171.27,Hisense,CNY
+Net Investment Purchase And Sale,2025-06-30 00:00:00,182768206.68,Hisense,CNY
+Sale Of Investment,2025-06-30 00:00:00,198891128.25,Hisense,CNY
+Purchase Of Investment,2025-06-30 00:00:00,,Hisense,CNY
+Net PPE Purchase And Sale,2025-06-30 00:00:00,-343339955.91,Hisense,CNY
+Sale Of PPE,2025-06-30 00:00:00,1013308.45,Hisense,CNY
+Purchase Of PPE,2025-06-30 00:00:00,-344353264.36,Hisense,CNY
+Cash Flowsfromusedin Operating Activities Direct,2025-06-30 00:00:00,5256913007.7,Hisense,CNY
+Taxes Refund Paid Direct,2025-06-30 00:00:00,97808971.35,Hisense,CNY
+Classesof Cash Payments,2025-06-30 00:00:00,-17377964247.85,Hisense,CNY
+Other Cash Paymentsfrom Operating Activities,2025-06-30 00:00:00,-2458894164.26,Hisense,CNY
+Paymentson Behalfof Employees,2025-06-30 00:00:00,-2057478157.01,Hisense,CNY
+Paymentsto Suppliersfor Goodsand Services,2025-06-30 00:00:00,-12861591926.58,Hisense,CNY
+Classesof Cash Receiptsfrom Operating Activities,2025-06-30 00:00:00,22537068284.2,Hisense,CNY
+Other Cash Receiptsfrom Operating Activities,2025-06-30 00:00:00,302690439.45,Hisense,CNY
+Receiptsfrom Customers,2025-06-30 00:00:00,22234377844.75,Hisense,CNY
+Free Cash Flow,2025-03-31 00:00:00,-309218491.53,Hisense,CNY
+Repayment Of Debt,2025-03-31 00:00:00,-841788129.75,Hisense,CNY
+Issuance Of Debt,2025-03-31 00:00:00,1082358684.87,Hisense,CNY
+Capital Expenditure,2025-03-31 00:00:00,-374294311.61,Hisense,CNY
+End Cash Position,2025-03-31 00:00:00,2318304562.85,Hisense,CNY
+Beginning Cash Position,2025-03-31 00:00:00,2191268606.55,Hisense,CNY
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,30664041.98,Hisense,CNY
+Changes In Cash,2025-03-31 00:00:00,96371914.32,Hisense,CNY
+Financing Cash Flow,2025-03-31 00:00:00,286401437.22,Hisense,CNY
+Net Other Financing Charges,2025-03-31 00:00:00,117419475.58,Hisense,CNY
+Cash Dividends Paid,2025-03-31 00:00:00,-20413326.95,Hisense,CNY
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,240570555.12,Hisense,CNY
+Net Long Term Debt Issuance,2025-03-31 00:00:00,240570555.12,Hisense,CNY
+Long Term Debt Payments,2025-03-31 00:00:00,-841788129.75,Hisense,CNY
+Long Term Debt Issuance,2025-03-31 00:00:00,1082358684.87,Hisense,CNY
+Investing Cash Flow,2025-03-31 00:00:00,-255105342.98,Hisense,CNY
+Net Other Investing Changes,2025-03-31 00:00:00,-15692830.11,Hisense,CNY
+Net Investment Purchase And Sale,2025-03-31 00:00:00,106768279.96,Hisense,CNY
+Sale Of Investment,2025-03-31 00:00:00,106768279.96,Hisense,CNY
+Purchase Of Investment,2025-03-31 00:00:00,,Hisense,CNY
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-346180792.83,Hisense,CNY
+Sale Of PPE,2025-03-31 00:00:00,28113518.78,Hisense,CNY
+Purchase Of PPE,2025-03-31 00:00:00,-374294311.61,Hisense,CNY
+Cash Flowsfromusedin Operating Activities Direct,2025-03-31 00:00:00,65075820.08,Hisense,CNY
+Taxes Refund Paid Direct,2025-03-31 00:00:00,194231119.43,Hisense,CNY
+Classesof Cash Payments,2025-03-31 00:00:00,-19673220038.42,Hisense,CNY
+Other Cash Paymentsfrom Operating Activities,2025-03-31 00:00:00,-2421713891.19,Hisense,CNY
+Paymentson Behalfof Employees,2025-03-31 00:00:00,-2907367609.4,Hisense,CNY
+Paymentsto Suppliersfor Goodsand Services,2025-03-31 00:00:00,-14344138537.83,Hisense,CNY
+Classesof Cash Receiptsfrom Operating Activities,2025-03-31 00:00:00,19544064739.07,Hisense,CNY
+Other Cash Receiptsfrom Operating Activities,2025-03-31 00:00:00,237821081.24,Hisense,CNY
+Receiptsfrom Customers,2025-03-31 00:00:00,19306243657.83,Hisense,CNY
+Free Cash Flow,2024-12-31 00:00:00,-452619466.19,Hisense,CNY
+Repayment Of Debt,2024-12-31 00:00:00,-442442254.14,Hisense,CNY
+Issuance Of Debt,2024-12-31 00:00:00,505145814.35,Hisense,CNY
+Capital Expenditure,2024-12-31 00:00:00,-377194263.74,Hisense,CNY
+End Cash Position,2024-12-31 00:00:00,2191268606.55,Hisense,CNY
+Beginning Cash Position,2024-12-31 00:00:00,2264376345.0,Hisense,CNY
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,-21857332.43,Hisense,CNY
+Changes In Cash,2024-12-31 00:00:00,-51250406.02,Hisense,CNY
+Financing Cash Flow,2024-12-31 00:00:00,-602496902.02,Hisense,CNY
+Net Other Financing Charges,2024-12-31 00:00:00,299953741.69,Hisense,CNY
+Cash Dividends Paid,2024-12-31 00:00:00,-26172164.11,Hisense,CNY
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,62703560.21,Hisense,CNY
+Net Long Term Debt Issuance,2024-12-31 00:00:00,62703560.21,Hisense,CNY
+Long Term Debt Payments,2024-12-31 00:00:00,-442442254.14,Hisense,CNY
+Long Term Debt Issuance,2024-12-31 00:00:00,505145814.35,Hisense,CNY
+Investing Cash Flow,2024-12-31 00:00:00,626671698.45,Hisense,CNY
+Net Other Investing Changes,2024-12-31 00:00:00,352919788.87,Hisense,CNY
+Net Investment Purchase And Sale,2024-12-31 00:00:00,646710662.07,Hisense,CNY
+Sale Of Investment,2024-12-31 00:00:00,695710662.07,Hisense,CNY
+Purchase Of Investment,2024-12-31 00:00:00,-49000000.0,Hisense,CNY
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-372958752.49,Hisense,CNY
+Sale Of PPE,2024-12-31 00:00:00,4235511.25,Hisense,CNY
+Purchase Of PPE,2024-12-31 00:00:00,-377194263.74,Hisense,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-12-31 00:00:00,-75425202.45,Hisense,CNY
+Taxes Refund Paid Direct,2024-12-31 00:00:00,83533842.16,Hisense,CNY
+Classesof Cash Payments,2024-12-31 00:00:00,-19112569386.28,Hisense,CNY
+Other Cash Paymentsfrom Operating Activities,2024-12-31 00:00:00,-2242211302.29,Hisense,CNY
+Paymentson Behalfof Employees,2024-12-31 00:00:00,-2213136615.58,Hisense,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-12-31 00:00:00,-14657221468.41,Hisense,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-12-31 00:00:00,18953610341.67,Hisense,CNY
+Other Cash Receiptsfrom Operating Activities,2024-12-31 00:00:00,368896978.42,Hisense,CNY
+Receiptsfrom Customers,2024-12-31 00:00:00,18584713363.25,Hisense,CNY
+Free Cash Flow,2024-09-30 00:00:00,2630564921.73,Hisense,CNY
+Repayment Of Debt,2024-09-30 00:00:00,-1076504001.46,Hisense,CNY
+Issuance Of Debt,2024-09-30 00:00:00,1387608673.97,Hisense,CNY
+Capital Expenditure,2024-09-30 00:00:00,-477051739.49,Hisense,CNY
+End Cash Position,2024-09-30 00:00:00,2264376345.0,Hisense,CNY
+Beginning Cash Position,2024-09-30 00:00:00,2749716134.21,Hisense,CNY
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,52045423.78,Hisense,CNY
+Changes In Cash,2024-09-30 00:00:00,-537385212.99,Hisense,CNY
+Financing Cash Flow,2024-09-30 00:00:00,-1905840408.97,Hisense,CNY
+Net Other Financing Charges,2024-09-30 00:00:00,-133949814.83,Hisense,CNY
+Cash Dividends Paid,2024-09-30 00:00:00,-1422753097.78,Hisense,CNY
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,311104672.51,Hisense,CNY
+Net Long Term Debt Issuance,2024-09-30 00:00:00,311104672.51,Hisense,CNY
+Long Term Debt Payments,2024-09-30 00:00:00,-1076504001.46,Hisense,CNY
+Long Term Debt Issuance,2024-09-30 00:00:00,1387608673.97,Hisense,CNY
+Investing Cash Flow,2024-09-30 00:00:00,-1739161465.24,Hisense,CNY
+Net Other Investing Changes,2024-09-30 00:00:00,-1358017618.09,Hisense,CNY
+Net Investment Purchase And Sale,2024-09-30 00:00:00,93562268.45,Hisense,CNY
+Sale Of Investment,2024-09-30 00:00:00,93562268.45,Hisense,CNY
+Purchase Of Investment,2024-09-30 00:00:00,0.0,Hisense,CNY
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-474706115.6,Hisense,CNY
+Sale Of PPE,2024-09-30 00:00:00,2345623.89,Hisense,CNY
+Purchase Of PPE,2024-09-30 00:00:00,-477051739.49,Hisense,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-09-30 00:00:00,3107616661.22,Hisense,CNY
+Taxes Refund Paid Direct,2024-09-30 00:00:00,90599889.72,Hisense,CNY
+Classesof Cash Payments,2024-09-30 00:00:00,-19072571792.28,Hisense,CNY
+Other Cash Paymentsfrom Operating Activities,2024-09-30 00:00:00,-3072044672.99,Hisense,CNY
+Paymentson Behalfof Employees,2024-09-30 00:00:00,-2113783852.08,Hisense,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-09-30 00:00:00,-13886743267.21,Hisense,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-09-30 00:00:00,22089588563.78,Hisense,CNY
+Other Cash Receiptsfrom Operating Activities,2024-09-30 00:00:00,419929678.28,Hisense,CNY
+Receiptsfrom Customers,2024-09-30 00:00:00,21669658885.5,Hisense,CNY
+Free Cash Flow,2024-06-30 00:00:00,1654623147.91,Hisense,CNY
+Repayment Of Debt,2024-06-30 00:00:00,106219645.37,Hisense,CNY
+Issuance Of Debt,2024-06-30 00:00:00,-87277092.63,Hisense,CNY
+Capital Expenditure,2024-06-30 00:00:00,-289301165.86,Hisense,CNY
+End Cash Position,2024-06-30 00:00:00,2749716134.21,Hisense,CNY
+Beginning Cash Position,2024-06-30 00:00:00,3113769261.78,Hisense,CNY
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,-44920226.37,Hisense,CNY
+Changes In Cash,2024-06-30 00:00:00,-319132901.2,Hisense,CNY
+Financing Cash Flow,2024-06-30 00:00:00,-2069599458.85,Hisense,CNY
+Net Other Financing Charges,2024-06-30 00:00:00,-888597399.28,Hisense,CNY
+Cash Dividends Paid,2024-06-30 00:00:00,-26926890.44,Hisense,CNY
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,18942552.74,Hisense,CNY
+Net Long Term Debt Issuance,2024-06-30 00:00:00,18942552.74,Hisense,CNY
+Long Term Debt Payments,2024-06-30 00:00:00,106219645.37,Hisense,CNY
+Long Term Debt Issuance,2024-06-30 00:00:00,-87277092.63,Hisense,CNY
+Investing Cash Flow,2024-06-30 00:00:00,-193457756.12,Hisense,CNY
+Net Other Investing Changes,2024-06-30 00:00:00,22240482.61,Hisense,CNY
+Net Investment Purchase And Sale,2024-06-30 00:00:00,71960114.17,Hisense,CNY
+Sale Of Investment,2024-06-30 00:00:00,169960114.17,Hisense,CNY
+Purchase Of Investment,2024-06-30 00:00:00,,Hisense,CNY
+Net PPE Purchase And Sale,2024-06-30 00:00:00,-287658352.9,Hisense,CNY
+Sale Of PPE,2024-06-30 00:00:00,1642812.96,Hisense,CNY
+Purchase Of PPE,2024-06-30 00:00:00,-289301165.86,Hisense,CNY
+Cash Flowsfromusedin Operating Activities Direct,2024-06-30 00:00:00,1943924313.77,Hisense,CNY
+Taxes Refund Paid Direct,2024-06-30 00:00:00,27442150.65,Hisense,CNY
+Classesof Cash Payments,2024-06-30 00:00:00,-17249325818.07,Hisense,CNY
+Other Cash Paymentsfrom Operating Activities,2024-06-30 00:00:00,-2317607164.52,Hisense,CNY
+Paymentson Behalfof Employees,2024-06-30 00:00:00,-2197437772.73,Hisense,CNY
+Paymentsto Suppliersfor Goodsand Services,2024-06-30 00:00:00,-12734280880.82,Hisense,CNY
+Classesof Cash Receiptsfrom Operating Activities,2024-06-30 00:00:00,19165807981.19,Hisense,CNY
+Other Cash Receiptsfrom Operating Activities,2024-06-30 00:00:00,266670035.39,Hisense,CNY
+Receiptsfrom Customers,2024-06-30 00:00:00,18899137945.8,Hisense,CNY
+Free Cash Flow,2025-12-31 00:00:00,996599000.0,Vestel,TRY
+Repayment Of Debt,2025-12-31 00:00:00,-10253190000.0,Vestel,TRY
+Issuance Of Debt,2025-12-31 00:00:00,11678187000.0,Vestel,TRY
+Capital Expenditure,2025-12-31 00:00:00,-1203275000.0,Vestel,TRY
+End Cash Position,2025-12-31 00:00:00,254476000.0,Vestel,TRY
+Beginning Cash Position,2025-12-31 00:00:00,263479000.0,Vestel,TRY
+Effect Of Exchange Rate Changes,2025-12-31 00:00:00,-59661000.0,Vestel,TRY
+Changes In Cash,2025-12-31 00:00:00,-9002000.0,Vestel,TRY
+Financing Cash Flow,2025-12-31 00:00:00,1153835000.0,Vestel,TRY
+Net Other Financing Charges,2025-12-31 00:00:00,1132459000.0,Vestel,TRY
+Interest Paid Cff,2025-12-31 00:00:00,-1313190000.0,Vestel,TRY
+Cash Dividends Paid,2025-12-31 00:00:00,-3289000.0,Vestel,TRY
+Common Stock Dividend Paid,2025-12-31 00:00:00,-3289000.0,Vestel,TRY
+Net Issuance Payments Of Debt,2025-12-31 00:00:00,1424997000.0,Vestel,TRY
+Net Short Term Debt Issuance,2025-12-31 00:00:00,,Vestel,TRY
+Short Term Debt Payments,2025-12-31 00:00:00,,Vestel,TRY
+Net Long Term Debt Issuance,2025-12-31 00:00:00,1424997000.0,Vestel,TRY
+Long Term Debt Payments,2025-12-31 00:00:00,-10253190000.0,Vestel,TRY
+Long Term Debt Issuance,2025-12-31 00:00:00,11678187000.0,Vestel,TRY
+Investing Cash Flow,2025-12-31 00:00:00,-3362711000.0,Vestel,TRY
+Net Other Investing Changes,2025-12-31 00:00:00,-4293000.0,Vestel,TRY
+Net Intangibles Purchase And Sale,2025-12-31 00:00:00,-250443000.0,Vestel,TRY
+Purchase Of Intangibles,2025-12-31 00:00:00,-250443000.0,Vestel,TRY
+Net PPE Purchase And Sale,2025-12-31 00:00:00,-945342000.0,Vestel,TRY
+Sale Of PPE,2025-12-31 00:00:00,7490000.0,Vestel,TRY
+Purchase Of PPE,2025-12-31 00:00:00,-952832000.0,Vestel,TRY
+Operating Cash Flow,2025-12-31 00:00:00,2199874000.0,Vestel,TRY
+Taxes Refund Paid,2025-12-31 00:00:00,365000.0,Vestel,TRY
+Change In Working Capital,2025-12-31 00:00:00,3263713000.0,Vestel,TRY
+Change In Other Current Assets,2025-12-31 00:00:00,-2395799000.0,Vestel,TRY
+Change In Payable,2025-12-31 00:00:00,-1981024000.0,Vestel,TRY
+Change In Prepaid Assets,2025-12-31 00:00:00,-223377000.0,Vestel,TRY
+Change In Inventory,2025-12-31 00:00:00,2745972000.0,Vestel,TRY
+Change In Receivables,2025-12-31 00:00:00,4763272000.0,Vestel,TRY
+Other Non Cash Items,2025-12-31 00:00:00,153933000.0,Vestel,TRY
+Provisionand Write Offof Assets,2025-12-31 00:00:00,,Vestel,TRY
+Deferred Tax,2025-12-31 00:00:00,245874000.0,Vestel,TRY
+Depreciation And Amortization,2025-12-31 00:00:00,1087551000.0,Vestel,TRY
+Depreciation,2025-12-31 00:00:00,1087551000.0,Vestel,TRY
+Pension And Employee Benefit Expense,2025-12-31 00:00:00,371140000.0,Vestel,TRY
+Gain Loss On Investment Securities,2025-12-31 00:00:00,454425000.0,Vestel,TRY
+Net Foreign Currency Exchange Gain Loss,2025-12-31 00:00:00,-100420000.0,Vestel,TRY
+Gain Loss On Sale Of PPE,2025-12-31 00:00:00,-5416000.0,Vestel,TRY
+Net Income From Continuing Operations,2025-12-31 00:00:00,-2994534000.0,Vestel,TRY
+Free Cash Flow,2025-03-31 00:00:00,-527640000.0,Vestel,TRY
+Repayment Of Debt,2025-03-31 00:00:00,-4553746000.0,Vestel,TRY
+Issuance Of Debt,2025-03-31 00:00:00,7661657000.0,Vestel,TRY
+Capital Expenditure,2025-03-31 00:00:00,-1046847000.0,Vestel,TRY
+End Cash Position,2025-03-31 00:00:00,587399000.0,Vestel,TRY
+Beginning Cash Position,2025-03-31 00:00:00,1202014000.0,Vestel,TRY
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,-109899000.0,Vestel,TRY
+Changes In Cash,2025-03-31 00:00:00,-504716000.0,Vestel,TRY
+Financing Cash Flow,2025-03-31 00:00:00,1984082000.0,Vestel,TRY
+Net Other Financing Charges,2025-03-31 00:00:00,10294000.0,Vestel,TRY
+Interest Paid Cff,2025-03-31 00:00:00,-1077368000.0,Vestel,TRY
+Cash Dividends Paid,2025-03-31 00:00:00,,Vestel,TRY
+Common Stock Dividend Paid,2025-03-31 00:00:00,,Vestel,TRY
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,3107911000.0,Vestel,TRY
+Net Short Term Debt Issuance,2025-03-31 00:00:00,-1000000000.0,Vestel,TRY
+Short Term Debt Payments,2025-03-31 00:00:00,-1000000000.0,Vestel,TRY
+Net Long Term Debt Issuance,2025-03-31 00:00:00,4107911000.0,Vestel,TRY
+Long Term Debt Payments,2025-03-31 00:00:00,-3553746000.0,Vestel,TRY
+Long Term Debt Issuance,2025-03-31 00:00:00,7661657000.0,Vestel,TRY
+Investing Cash Flow,2025-03-31 00:00:00,-3008005000.0,Vestel,TRY
+Net Other Investing Changes,2025-03-31 00:00:00,2449000.0,Vestel,TRY
+Net Intangibles Purchase And Sale,2025-03-31 00:00:00,-223320000.0,Vestel,TRY
+Purchase Of Intangibles,2025-03-31 00:00:00,-223320000.0,Vestel,TRY
+Net PPE Purchase And Sale,2025-03-31 00:00:00,-821232000.0,Vestel,TRY
+Sale Of PPE,2025-03-31 00:00:00,2295000.0,Vestel,TRY
+Purchase Of PPE,2025-03-31 00:00:00,-823527000.0,Vestel,TRY
+Operating Cash Flow,2025-03-31 00:00:00,519207000.0,Vestel,TRY
+Taxes Refund Paid,2025-03-31 00:00:00,-49000.0,Vestel,TRY
+Change In Working Capital,2025-03-31 00:00:00,546701000.0,Vestel,TRY
+Change In Other Current Assets,2025-03-31 00:00:00,296839000.0,Vestel,TRY
+Change In Payable,2025-03-31 00:00:00,-131627000.0,Vestel,TRY
+Change In Prepaid Assets,2025-03-31 00:00:00,-693902000.0,Vestel,TRY
+Change In Inventory,2025-03-31 00:00:00,-929517000.0,Vestel,TRY
+Change In Receivables,2025-03-31 00:00:00,1844714000.0,Vestel,TRY
+Other Non Cash Items,2025-03-31 00:00:00,-112980000.0,Vestel,TRY
+Provisionand Write Offof Assets,2025-03-31 00:00:00,6260000.0,Vestel,TRY
+Deferred Tax,2025-03-31 00:00:00,256385000.0,Vestel,TRY
+Depreciation And Amortization,2025-03-31 00:00:00,810805000.0,Vestel,TRY
+Depreciation,2025-03-31 00:00:00,810805000.0,Vestel,TRY
+Pension And Employee Benefit Expense,2025-03-31 00:00:00,101545000.0,Vestel,TRY
+Gain Loss On Investment Securities,2025-03-31 00:00:00,103120000.0,Vestel,TRY
+Net Foreign Currency Exchange Gain Loss,2025-03-31 00:00:00,-174516000.0,Vestel,TRY
+Gain Loss On Sale Of PPE,2025-03-31 00:00:00,-1768000.0,Vestel,TRY
+Net Income From Continuing Operations,2025-03-31 00:00:00,-1014009000.0,Vestel,TRY
+Free Cash Flow,2024-12-31 00:00:00,3508138000.0,Vestel,TRY
+Repayment Of Debt,2024-12-31 00:00:00,-2316902000.0,Vestel,TRY
+Issuance Of Debt,2024-12-31 00:00:00,2729641000.0,Vestel,TRY
+Capital Expenditure,2024-12-31 00:00:00,-963661000.0,Vestel,TRY
+End Cash Position,2024-12-31 00:00:00,1092117000.0,Vestel,TRY
+Beginning Cash Position,2024-12-31 00:00:00,206598000.0,Vestel,TRY
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,-62146000.0,Vestel,TRY
+Changes In Cash,2024-12-31 00:00:00,885521000.0,Vestel,TRY
+Financing Cash Flow,2024-12-31 00:00:00,-2265731000.0,Vestel,TRY
+Net Other Financing Charges,2024-12-31 00:00:00,-1261032000.0,Vestel,TRY
+Interest Paid Cff,2024-12-31 00:00:00,-1287248000.0,Vestel,TRY
+Cash Dividends Paid,2024-12-31 00:00:00,-80621000.0,Vestel,TRY
+Common Stock Dividend Paid,2024-12-31 00:00:00,-80621000.0,Vestel,TRY
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,412739000.0,Vestel,TRY
+Net Short Term Debt Issuance,2024-12-31 00:00:00,-1011430000.0,Vestel,TRY
+Short Term Debt Payments,2024-12-31 00:00:00,-1011430000.0,Vestel,TRY
+Net Long Term Debt Issuance,2024-12-31 00:00:00,-380831000.0,Vestel,TRY
+Long Term Debt Payments,2024-12-31 00:00:00,-3110472000.0,Vestel,TRY
+Long Term Debt Issuance,2024-12-31 00:00:00,2729641000.0,Vestel,TRY
+Investing Cash Flow,2024-12-31 00:00:00,-1320547000.0,Vestel,TRY
+Net Other Investing Changes,2024-12-31 00:00:00,-8184000.0,Vestel,TRY
+Net Intangibles Purchase And Sale,2024-12-31 00:00:00,72215000.0,Vestel,TRY
+Purchase Of Intangibles,2024-12-31 00:00:00,72215000.0,Vestel,TRY
+Net PPE Purchase And Sale,2024-12-31 00:00:00,-1030947000.0,Vestel,TRY
+Sale Of PPE,2024-12-31 00:00:00,4929000.0,Vestel,TRY
+Purchase Of PPE,2024-12-31 00:00:00,-1035876000.0,Vestel,TRY
+Operating Cash Flow,2024-12-31 00:00:00,4471799000.0,Vestel,TRY
+Taxes Refund Paid,2024-12-31 00:00:00,177000.0,Vestel,TRY
+Change In Working Capital,2024-12-31 00:00:00,5019839000.0,Vestel,TRY
+Change In Other Current Assets,2024-12-31 00:00:00,-181815000.0,Vestel,TRY
+Change In Payable,2024-12-31 00:00:00,-1234256000.0,Vestel,TRY
+Change In Prepaid Assets,2024-12-31 00:00:00,131305000.0,Vestel,TRY
+Change In Inventory,2024-12-31 00:00:00,4238253000.0,Vestel,TRY
+Change In Receivables,2024-12-31 00:00:00,2099174000.0,Vestel,TRY
+Other Non Cash Items,2024-12-31 00:00:00,-1271313000.0,Vestel,TRY
+Provisionand Write Offof Assets,2024-12-31 00:00:00,,Vestel,TRY
+Deferred Tax,2024-12-31 00:00:00,-100722000.0,Vestel,TRY
+Depreciation And Amortization,2024-12-31 00:00:00,981569000.0,Vestel,TRY
+Depreciation,2024-12-31 00:00:00,981569000.0,Vestel,TRY
+Pension And Employee Benefit Expense,2024-12-31 00:00:00,87427000.0,Vestel,TRY
+Gain Loss On Investment Securities,2024-12-31 00:00:00,-43721000.0,Vestel,TRY
+Net Foreign Currency Exchange Gain Loss,2024-12-31 00:00:00,-128511000.0,Vestel,TRY
+Gain Loss On Sale Of PPE,2024-12-31 00:00:00,-3745000.0,Vestel,TRY
+Net Income From Continuing Operations,2024-12-31 00:00:00,-44891000.0,Vestel,TRY
+Free Cash Flow,2024-09-30 00:00:00,1422714000.0,Vestel,TRY
+Repayment Of Debt,2024-09-30 00:00:00,-1322634000.0,Vestel,TRY
+Issuance Of Debt,2024-09-30 00:00:00,7666726000.0,Vestel,TRY
+Capital Expenditure,2024-09-30 00:00:00,-1652329000.0,Vestel,TRY
+End Cash Position,2024-09-30 00:00:00,275383000.0,Vestel,TRY
+Beginning Cash Position,2024-09-30 00:00:00,172384000.0,Vestel,TRY
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,-105023000.0,Vestel,TRY
+Changes In Cash,2024-09-30 00:00:00,115803000.0,Vestel,TRY
+Financing Cash Flow,2024-09-30 00:00:00,1780567000.0,Vestel,TRY
+Net Other Financing Charges,2024-09-30 00:00:00,-1371891000.0,Vestel,TRY
+Interest Paid Cff,2024-09-30 00:00:00,-1402378000.0,Vestel,TRY
+Cash Dividends Paid,2024-09-30 00:00:00,,Vestel,TRY
+Common Stock Dividend Paid,2024-09-30 00:00:00,,Vestel,TRY
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,6344092000.0,Vestel,TRY
+Net Short Term Debt Issuance,2024-09-30 00:00:00,,Vestel,TRY
+Short Term Debt Payments,2024-09-30 00:00:00,,Vestel,TRY
+Net Long Term Debt Issuance,2024-09-30 00:00:00,6344092000.0,Vestel,TRY
+Long Term Debt Payments,2024-09-30 00:00:00,-1322634000.0,Vestel,TRY
+Long Term Debt Issuance,2024-09-30 00:00:00,7666726000.0,Vestel,TRY
+Investing Cash Flow,2024-09-30 00:00:00,-4739807000.0,Vestel,TRY
+Net Other Investing Changes,2024-09-30 00:00:00,-2839000.0,Vestel,TRY
+Net Intangibles Purchase And Sale,2024-09-30 00:00:00,-484184000.0,Vestel,TRY
+Purchase Of Intangibles,2024-09-30 00:00:00,-484184000.0,Vestel,TRY
+Net PPE Purchase And Sale,2024-09-30 00:00:00,-1151072000.0,Vestel,TRY
+Sale Of PPE,2024-09-30 00:00:00,17073000.0,Vestel,TRY
+Purchase Of PPE,2024-09-30 00:00:00,-1168145000.0,Vestel,TRY
+Operating Cash Flow,2024-09-30 00:00:00,3075043000.0,Vestel,TRY
+Taxes Refund Paid,2024-09-30 00:00:00,-12189000.0,Vestel,TRY
+Change In Working Capital,2024-09-30 00:00:00,2432202000.0,Vestel,TRY
+Change In Other Current Assets,2024-09-30 00:00:00,-284600000.0,Vestel,TRY
+Change In Payable,2024-09-30 00:00:00,2016860000.0,Vestel,TRY
+Change In Prepaid Assets,2024-09-30 00:00:00,592209000.0,Vestel,TRY
+Change In Inventory,2024-09-30 00:00:00,2377079000.0,Vestel,TRY
+Change In Receivables,2024-09-30 00:00:00,-1916914000.0,Vestel,TRY
+Other Non Cash Items,2024-09-30 00:00:00,673630000.0,Vestel,TRY
+Provisionand Write Offof Assets,2024-09-30 00:00:00,-139735000.0,Vestel,TRY
+Deferred Tax,2024-09-30 00:00:00,-31458000.0,Vestel,TRY
+Depreciation And Amortization,2024-09-30 00:00:00,963470000.0,Vestel,TRY
+Depreciation,2024-09-30 00:00:00,963470000.0,Vestel,TRY
+Pension And Employee Benefit Expense,2024-09-30 00:00:00,106154000.0,Vestel,TRY
+Gain Loss On Investment Securities,2024-09-30 00:00:00,-327430000.0,Vestel,TRY
+Net Foreign Currency Exchange Gain Loss,2024-09-30 00:00:00,-106011000.0,Vestel,TRY
+Gain Loss On Sale Of PPE,2024-09-30 00:00:00,-11902000.0,Vestel,TRY
+Net Income From Continuing Operations,2024-09-30 00:00:00,-489371000.0,Vestel,TRY
+Free Cash Flow,2024-06-30 00:00:00,-1514290000.0,Vestel,TRY
+Repayment Of Debt,2024-06-30 00:00:00,-1422222000.0,Vestel,TRY
+Issuance Of Debt,2024-06-30 00:00:00,2705684000.0,Vestel,TRY
+Capital Expenditure,2024-06-30 00:00:00,-1094515000.0,Vestel,TRY
+End Cash Position,2024-06-30 00:00:00,172384000.0,Vestel,TRY
+Beginning Cash Position,2024-06-30 00:00:00,137666000.0,Vestel,TRY
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,-91924000.0,Vestel,TRY
+Changes In Cash,2024-06-30 00:00:00,57008000.0,Vestel,TRY
+Financing Cash Flow,2024-06-30 00:00:00,-2429067000.0,Vestel,TRY
+Net Other Financing Charges,2024-06-30 00:00:00,-2035379000.0,Vestel,TRY
+Interest Paid Cff,2024-06-30 00:00:00,-1655838000.0,Vestel,TRY
+Cash Dividends Paid,2024-06-30 00:00:00,,Vestel,TRY
+Common Stock Dividend Paid,2024-06-30 00:00:00,,Vestel,TRY
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,1283462000.0,Vestel,TRY
+Net Short Term Debt Issuance,2024-06-30 00:00:00,,Vestel,TRY
+Short Term Debt Payments,2024-06-30 00:00:00,,Vestel,TRY
+Net Long Term Debt Issuance,2024-06-30 00:00:00,725112000.0,Vestel,TRY
+Long Term Debt Payments,2024-06-30 00:00:00,-1980572000.0,Vestel,TRY
+Long Term Debt Issuance,2024-06-30 00:00:00,2705684000.0,Vestel,TRY
+Investing Cash Flow,2024-06-30 00:00:00,2905850000.0,Vestel,TRY
+Net Other Investing Changes,2024-06-30 00:00:00,-312000.0,Vestel,TRY
+Net Intangibles Purchase And Sale,2024-06-30 00:00:00,-334116000.0,Vestel,TRY
+Purchase Of Intangibles,2024-06-30 00:00:00,-334116000.0,Vestel,TRY
+Net PPE Purchase And Sale,2024-06-30 00:00:00,-756415000.0,Vestel,TRY
+Sale Of PPE,2024-06-30 00:00:00,3984000.0,Vestel,TRY
+Purchase Of PPE,2024-06-30 00:00:00,-760399000.0,Vestel,TRY
+Operating Cash Flow,2024-06-30 00:00:00,-419775000.0,Vestel,TRY
+Taxes Refund Paid,2024-06-30 00:00:00,-18666000.0,Vestel,TRY
+Change In Working Capital,2024-06-30 00:00:00,-775777000.0,Vestel,TRY
+Change In Other Current Assets,2024-06-30 00:00:00,-75264000.0,Vestel,TRY
+Change In Payable,2024-06-30 00:00:00,2245359000.0,Vestel,TRY
+Change In Prepaid Assets,2024-06-30 00:00:00,123656000.0,Vestel,TRY
+Change In Inventory,2024-06-30 00:00:00,-1494048000.0,Vestel,TRY
+Change In Receivables,2024-06-30 00:00:00,-1947146000.0,Vestel,TRY
+Other Non Cash Items,2024-06-30 00:00:00,-742054000.0,Vestel,TRY
+Provisionand Write Offof Assets,2024-06-30 00:00:00,138180000.0,Vestel,TRY
+Deferred Tax,2024-06-30 00:00:00,38959000.0,Vestel,TRY
+Depreciation And Amortization,2024-06-30 00:00:00,841275000.0,Vestel,TRY
+Depreciation,2024-06-30 00:00:00,841275000.0,Vestel,TRY
+Pension And Employee Benefit Expense,2024-06-30 00:00:00,147438000.0,Vestel,TRY
+Gain Loss On Investment Securities,2024-06-30 00:00:00,173998000.0,Vestel,TRY
+Net Foreign Currency Exchange Gain Loss,2024-06-30 00:00:00,-138823000.0,Vestel,TRY
+Gain Loss On Sale Of PPE,2024-06-30 00:00:00,-2612000.0,Vestel,TRY
+Net Income From Continuing Operations,2024-06-30 00:00:00,51972000.0,Vestel,TRY
+Free Cash Flow,2025-12-31 00:00:00,989000000.0,Whirlpool,USD
+Repurchase Of Capital Stock,2025-12-31 00:00:00,0.0,Whirlpool,USD
+Repayment Of Debt,2025-12-31 00:00:00,-300000000.0,Whirlpool,USD
+Issuance Of Debt,2025-12-31 00:00:00,0.0,Whirlpool,USD
+Issuance Of Capital Stock,2025-12-31 00:00:00,,Whirlpool,USD
+Capital Expenditure,2025-12-31 00:00:00,-150000000.0,Whirlpool,USD
+End Cash Position,2025-12-31 00:00:00,669000000.0,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2025-12-31 00:00:00,,Whirlpool,USD
+Beginning Cash Position,2025-12-31 00:00:00,934000000.0,Whirlpool,USD
+Effect Of Exchange Rate Changes,2025-12-31 00:00:00,-15000000.0,Whirlpool,USD
+Changes In Cash,2025-12-31 00:00:00,-250000000.0,Whirlpool,USD
+Financing Cash Flow,2025-12-31 00:00:00,-1124000000.0,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2025-12-31 00:00:00,-1124000000.0,Whirlpool,USD
+Net Other Financing Charges,2025-12-31 00:00:00,2000000.0,Whirlpool,USD
+Cash Dividends Paid,2025-12-31 00:00:00,-52000000.0,Whirlpool,USD
+Common Stock Dividend Paid,2025-12-31 00:00:00,-52000000.0,Whirlpool,USD
+Net Common Stock Issuance,2025-12-31 00:00:00,0.0,Whirlpool,USD
+Common Stock Payments,2025-12-31 00:00:00,0.0,Whirlpool,USD
+Common Stock Issuance,2025-12-31 00:00:00,,Whirlpool,USD
+Net Issuance Payments Of Debt,2025-12-31 00:00:00,-1074000000.0,Whirlpool,USD
+Net Short Term Debt Issuance,2025-12-31 00:00:00,-774000000.0,Whirlpool,USD
+Net Long Term Debt Issuance,2025-12-31 00:00:00,-300000000.0,Whirlpool,USD
+Long Term Debt Payments,2025-12-31 00:00:00,-300000000.0,Whirlpool,USD
+Long Term Debt Issuance,2025-12-31 00:00:00,0.0,Whirlpool,USD
+Investing Cash Flow,2025-12-31 00:00:00,-265000000.0,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2025-12-31 00:00:00,-266000000.0,Whirlpool,USD
+Net Other Investing Changes,2025-12-31 00:00:00,,Whirlpool,USD
+Net Business Purchase And Sale,2025-12-31 00:00:00,-327000000.0,Whirlpool,USD
+Purchase Of Business,2025-12-31 00:00:00,-327000000.0,Whirlpool,USD
+Capital Expenditure Reported,2025-12-31 00:00:00,-150000000.0,Whirlpool,USD
+Operating Cash Flow,2025-12-31 00:00:00,1139000000.0,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2025-12-31 00:00:00,1140000000.0,Whirlpool,USD
+Change In Working Capital,2025-12-31 00:00:00,1031000000.0,Whirlpool,USD
+Change In Other Working Capital,2025-12-31 00:00:00,-40000000.0,Whirlpool,USD
+Change In Payables And Accrued Expense,2025-12-31 00:00:00,622000000.0,Whirlpool,USD
+Change In Accrued Expense,2025-12-31 00:00:00,389000000.0,Whirlpool,USD
+Change In Payable,2025-12-31 00:00:00,233000000.0,Whirlpool,USD
+Change In Account Payable,2025-12-31 00:00:00,233000000.0,Whirlpool,USD
+Change In Inventory,2025-12-31 00:00:00,151000000.0,Whirlpool,USD
+Change In Receivables,2025-12-31 00:00:00,298000000.0,Whirlpool,USD
+Changes In Account Receivables,2025-12-31 00:00:00,298000000.0,Whirlpool,USD
+Stock Based Compensation,2025-12-31 00:00:00,24000000.0,Whirlpool,USD
+Depreciation Amortization Depletion,2025-12-31 00:00:00,92000000.0,Whirlpool,USD
+Depreciation And Amortization,2025-12-31 00:00:00,92000000.0,Whirlpool,USD
+Operating Gains Losses,2025-12-31 00:00:00,-262000000.0,Whirlpool,USD
+Earnings Losses From Equity Investments,2025-12-31 00:00:00,-12000000.0,Whirlpool,USD
+Gain Loss On Sale Of Business,2025-12-31 00:00:00,-250000000.0,Whirlpool,USD
+Net Income From Continuing Operations,2025-12-31 00:00:00,112000000.0,Whirlpool,USD
+Free Cash Flow,2025-09-30 00:00:00,-52000000.0,Whirlpool,USD
+Repurchase Of Capital Stock,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Repayment Of Debt,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Issuance Of Debt,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Issuance Of Capital Stock,2025-09-30 00:00:00,,Whirlpool,USD
+Capital Expenditure,2025-09-30 00:00:00,-85000000.0,Whirlpool,USD
+End Cash Position,2025-09-30 00:00:00,934000000.0,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2025-09-30 00:00:00,,Whirlpool,USD
+Beginning Cash Position,2025-09-30 00:00:00,1068000000.0,Whirlpool,USD
+Effect Of Exchange Rate Changes,2025-09-30 00:00:00,-3000000.0,Whirlpool,USD
+Changes In Cash,2025-09-30 00:00:00,-131000000.0,Whirlpool,USD
+Financing Cash Flow,2025-09-30 00:00:00,-80000000.0,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2025-09-30 00:00:00,-79000000.0,Whirlpool,USD
+Net Other Financing Charges,2025-09-30 00:00:00,2000000.0,Whirlpool,USD
+Cash Dividends Paid,2025-09-30 00:00:00,-54000000.0,Whirlpool,USD
+Common Stock Dividend Paid,2025-09-30 00:00:00,-54000000.0,Whirlpool,USD
+Net Common Stock Issuance,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Common Stock Payments,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Common Stock Issuance,2025-09-30 00:00:00,,Whirlpool,USD
+Net Issuance Payments Of Debt,2025-09-30 00:00:00,-28000000.0,Whirlpool,USD
+Net Short Term Debt Issuance,2025-09-30 00:00:00,-28000000.0,Whirlpool,USD
+Net Long Term Debt Issuance,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Long Term Debt Payments,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Long Term Debt Issuance,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Investing Cash Flow,2025-09-30 00:00:00,-85000000.0,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2025-09-30 00:00:00,-85000000.0,Whirlpool,USD
+Net Other Investing Changes,2025-09-30 00:00:00,,Whirlpool,USD
+Net Business Purchase And Sale,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Purchase Of Business,2025-09-30 00:00:00,0.0,Whirlpool,USD
+Capital Expenditure Reported,2025-09-30 00:00:00,-85000000.0,Whirlpool,USD
+Operating Cash Flow,2025-09-30 00:00:00,33000000.0,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2025-09-30 00:00:00,33000000.0,Whirlpool,USD
+Change In Working Capital,2025-09-30 00:00:00,-134000000.0,Whirlpool,USD
+Change In Other Working Capital,2025-09-30 00:00:00,-29000000.0,Whirlpool,USD
+Change In Payables And Accrued Expense,2025-09-30 00:00:00,128000000.0,Whirlpool,USD
+Change In Accrued Expense,2025-09-30 00:00:00,53000000.0,Whirlpool,USD
+Change In Payable,2025-09-30 00:00:00,75000000.0,Whirlpool,USD
+Change In Account Payable,2025-09-30 00:00:00,75000000.0,Whirlpool,USD
+Change In Inventory,2025-09-30 00:00:00,4000000.0,Whirlpool,USD
+Change In Receivables,2025-09-30 00:00:00,-237000000.0,Whirlpool,USD
+Changes In Account Receivables,2025-09-30 00:00:00,-237000000.0,Whirlpool,USD
+Stock Based Compensation,2025-09-30 00:00:00,27000000.0,Whirlpool,USD
+Depreciation Amortization Depletion,2025-09-30 00:00:00,83000000.0,Whirlpool,USD
+Depreciation And Amortization,2025-09-30 00:00:00,83000000.0,Whirlpool,USD
+Operating Gains Losses,2025-09-30 00:00:00,-19000000.0,Whirlpool,USD
+Earnings Losses From Equity Investments,2025-09-30 00:00:00,11000000.0,Whirlpool,USD
+Gain Loss On Sale Of Business,2025-09-30 00:00:00,-30000000.0,Whirlpool,USD
+Net Income From Continuing Operations,2025-09-30 00:00:00,76000000.0,Whirlpool,USD
+Free Cash Flow,2025-06-30 00:00:00,-63000000.0,Whirlpool,USD
+Repurchase Of Capital Stock,2025-06-30 00:00:00,0.0,Whirlpool,USD
+Repayment Of Debt,2025-06-30 00:00:00,-1550000000.0,Whirlpool,USD
+Issuance Of Debt,2025-06-30 00:00:00,1200000000.0,Whirlpool,USD
+Issuance Of Capital Stock,2025-06-30 00:00:00,,Whirlpool,USD
+Capital Expenditure,2025-06-30 00:00:00,-82000000.0,Whirlpool,USD
+End Cash Position,2025-06-30 00:00:00,1068000000.0,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2025-06-30 00:00:00,,Whirlpool,USD
+Beginning Cash Position,2025-06-30 00:00:00,1024000000.0,Whirlpool,USD
+Effect Of Exchange Rate Changes,2025-06-30 00:00:00,28000000.0,Whirlpool,USD
+Changes In Cash,2025-06-30 00:00:00,16000000.0,Whirlpool,USD
+Financing Cash Flow,2025-06-30 00:00:00,80000000.0,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2025-06-30 00:00:00,80000000.0,Whirlpool,USD
+Net Other Financing Charges,2025-06-30 00:00:00,-16000000.0,Whirlpool,USD
+Cash Dividends Paid,2025-06-30 00:00:00,-97000000.0,Whirlpool,USD
+Common Stock Dividend Paid,2025-06-30 00:00:00,-97000000.0,Whirlpool,USD
+Net Common Stock Issuance,2025-06-30 00:00:00,0.0,Whirlpool,USD
+Common Stock Payments,2025-06-30 00:00:00,0.0,Whirlpool,USD
+Common Stock Issuance,2025-06-30 00:00:00,,Whirlpool,USD
+Net Issuance Payments Of Debt,2025-06-30 00:00:00,193000000.0,Whirlpool,USD
+Net Short Term Debt Issuance,2025-06-30 00:00:00,543000000.0,Whirlpool,USD
+Net Long Term Debt Issuance,2025-06-30 00:00:00,-350000000.0,Whirlpool,USD
+Long Term Debt Payments,2025-06-30 00:00:00,-1550000000.0,Whirlpool,USD
+Long Term Debt Issuance,2025-06-30 00:00:00,1200000000.0,Whirlpool,USD
+Investing Cash Flow,2025-06-30 00:00:00,-82000000.0,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2025-06-30 00:00:00,-82000000.0,Whirlpool,USD
+Net Other Investing Changes,2025-06-30 00:00:00,,Whirlpool,USD
+Net Business Purchase And Sale,2025-06-30 00:00:00,,Whirlpool,USD
+Purchase Of Business,2025-06-30 00:00:00,,Whirlpool,USD
+Capital Expenditure Reported,2025-06-30 00:00:00,-82000000.0,Whirlpool,USD
+Operating Cash Flow,2025-06-30 00:00:00,19000000.0,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2025-06-30 00:00:00,19000000.0,Whirlpool,USD
+Change In Working Capital,2025-06-30 00:00:00,-181000000.0,Whirlpool,USD
+Change In Other Working Capital,2025-06-30 00:00:00,-13000000.0,Whirlpool,USD
+Change In Payables And Accrued Expense,2025-06-30 00:00:00,-41000000.0,Whirlpool,USD
+Change In Accrued Expense,2025-06-30 00:00:00,10000000.0,Whirlpool,USD
+Change In Payable,2025-06-30 00:00:00,-51000000.0,Whirlpool,USD
+Change In Account Payable,2025-06-30 00:00:00,-51000000.0,Whirlpool,USD
+Change In Inventory,2025-06-30 00:00:00,-186000000.0,Whirlpool,USD
+Change In Receivables,2025-06-30 00:00:00,59000000.0,Whirlpool,USD
+Changes In Account Receivables,2025-06-30 00:00:00,59000000.0,Whirlpool,USD
+Stock Based Compensation,2025-06-30 00:00:00,28000000.0,Whirlpool,USD
+Depreciation Amortization Depletion,2025-06-30 00:00:00,80000000.0,Whirlpool,USD
+Depreciation And Amortization,2025-06-30 00:00:00,80000000.0,Whirlpool,USD
+Operating Gains Losses,2025-06-30 00:00:00,18000000.0,Whirlpool,USD
+Earnings Losses From Equity Investments,2025-06-30 00:00:00,18000000.0,Whirlpool,USD
+Gain Loss On Sale Of Business,2025-06-30 00:00:00,0.0,Whirlpool,USD
+Net Income From Continuing Operations,2025-06-30 00:00:00,74000000.0,Whirlpool,USD
+Free Cash Flow,2025-03-31 00:00:00,-793000000.0,Whirlpool,USD
+Repurchase Of Capital Stock,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Repayment Of Debt,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Issuance Of Debt,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Issuance Of Capital Stock,2025-03-31 00:00:00,,Whirlpool,USD
+Capital Expenditure,2025-03-31 00:00:00,-72000000.0,Whirlpool,USD
+End Cash Position,2025-03-31 00:00:00,1024000000.0,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Beginning Cash Position,2025-03-31 00:00:00,1275000000.0,Whirlpool,USD
+Effect Of Exchange Rate Changes,2025-03-31 00:00:00,39000000.0,Whirlpool,USD
+Changes In Cash,2025-03-31 00:00:00,-290000000.0,Whirlpool,USD
+Financing Cash Flow,2025-03-31 00:00:00,503000000.0,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2025-03-31 00:00:00,503000000.0,Whirlpool,USD
+Net Other Financing Charges,2025-03-31 00:00:00,1000000.0,Whirlpool,USD
+Cash Dividends Paid,2025-03-31 00:00:00,-97000000.0,Whirlpool,USD
+Common Stock Dividend Paid,2025-03-31 00:00:00,-97000000.0,Whirlpool,USD
+Net Common Stock Issuance,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Common Stock Payments,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Common Stock Issuance,2025-03-31 00:00:00,,Whirlpool,USD
+Net Issuance Payments Of Debt,2025-03-31 00:00:00,599000000.0,Whirlpool,USD
+Net Short Term Debt Issuance,2025-03-31 00:00:00,599000000.0,Whirlpool,USD
+Net Long Term Debt Issuance,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Long Term Debt Payments,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Long Term Debt Issuance,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Investing Cash Flow,2025-03-31 00:00:00,-72000000.0,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2025-03-31 00:00:00,-72000000.0,Whirlpool,USD
+Net Other Investing Changes,2025-03-31 00:00:00,,Whirlpool,USD
+Net Business Purchase And Sale,2025-03-31 00:00:00,,Whirlpool,USD
+Purchase Of Business,2025-03-31 00:00:00,,Whirlpool,USD
+Capital Expenditure Reported,2025-03-31 00:00:00,-72000000.0,Whirlpool,USD
+Operating Cash Flow,2025-03-31 00:00:00,-721000000.0,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2025-03-31 00:00:00,-721000000.0,Whirlpool,USD
+Change In Working Capital,2025-03-31 00:00:00,-958000000.0,Whirlpool,USD
+Change In Other Working Capital,2025-03-31 00:00:00,-131000000.0,Whirlpool,USD
+Change In Payables And Accrued Expense,2025-03-31 00:00:00,-406000000.0,Whirlpool,USD
+Change In Accrued Expense,2025-03-31 00:00:00,-323000000.0,Whirlpool,USD
+Change In Payable,2025-03-31 00:00:00,-83000000.0,Whirlpool,USD
+Change In Account Payable,2025-03-31 00:00:00,-83000000.0,Whirlpool,USD
+Change In Inventory,2025-03-31 00:00:00,-341000000.0,Whirlpool,USD
+Change In Receivables,2025-03-31 00:00:00,-80000000.0,Whirlpool,USD
+Changes In Account Receivables,2025-03-31 00:00:00,-80000000.0,Whirlpool,USD
+Stock Based Compensation,2025-03-31 00:00:00,58000000.0,Whirlpool,USD
+Depreciation Amortization Depletion,2025-03-31 00:00:00,83000000.0,Whirlpool,USD
+Depreciation And Amortization,2025-03-31 00:00:00,83000000.0,Whirlpool,USD
+Operating Gains Losses,2025-03-31 00:00:00,17000000.0,Whirlpool,USD
+Earnings Losses From Equity Investments,2025-03-31 00:00:00,17000000.0,Whirlpool,USD
+Gain Loss On Sale Of Business,2025-03-31 00:00:00,0.0,Whirlpool,USD
+Net Income From Continuing Operations,2025-03-31 00:00:00,79000000.0,Whirlpool,USD
+Free Cash Flow,2024-12-31 00:00:00,970000000.0,Whirlpool,USD
+Repurchase Of Capital Stock,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Repayment Of Debt,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Issuance Of Debt,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Issuance Of Capital Stock,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Capital Expenditure,2024-12-31 00:00:00,-136000000.0,Whirlpool,USD
+End Cash Position,2024-12-31 00:00:00,1275000000.0,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Beginning Cash Position,2024-12-31 00:00:00,1084000000.0,Whirlpool,USD
+Effect Of Exchange Rate Changes,2024-12-31 00:00:00,-81000000.0,Whirlpool,USD
+Changes In Cash,2024-12-31 00:00:00,272000000.0,Whirlpool,USD
+Financing Cash Flow,2024-12-31 00:00:00,-698000000.0,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2024-12-31 00:00:00,-698000000.0,Whirlpool,USD
+Net Other Financing Charges,2024-12-31 00:00:00,1000000.0,Whirlpool,USD
+Cash Dividends Paid,2024-12-31 00:00:00,-97000000.0,Whirlpool,USD
+Common Stock Dividend Paid,2024-12-31 00:00:00,-97000000.0,Whirlpool,USD
+Net Common Stock Issuance,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Common Stock Payments,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Common Stock Issuance,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Net Issuance Payments Of Debt,2024-12-31 00:00:00,-602000000.0,Whirlpool,USD
+Net Short Term Debt Issuance,2024-12-31 00:00:00,-602000000.0,Whirlpool,USD
+Net Long Term Debt Issuance,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Long Term Debt Payments,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Long Term Debt Issuance,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Investing Cash Flow,2024-12-31 00:00:00,-136000000.0,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2024-12-31 00:00:00,-136000000.0,Whirlpool,USD
+Net Other Investing Changes,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Net Business Purchase And Sale,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Purchase Of Business,2024-12-31 00:00:00,0.0,Whirlpool,USD
+Capital Expenditure Reported,2024-12-31 00:00:00,-136000000.0,Whirlpool,USD
+Operating Cash Flow,2024-12-31 00:00:00,1106000000.0,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2024-12-31 00:00:00,1106000000.0,Whirlpool,USD
+Change In Working Capital,2024-12-31 00:00:00,920000000.0,Whirlpool,USD
+Change In Other Working Capital,2024-12-31 00:00:00,39000000.0,Whirlpool,USD
+Change In Payables And Accrued Expense,2024-12-31 00:00:00,430000000.0,Whirlpool,USD
+Change In Accrued Expense,2024-12-31 00:00:00,229000000.0,Whirlpool,USD
+Change In Payable,2024-12-31 00:00:00,201000000.0,Whirlpool,USD
+Change In Account Payable,2024-12-31 00:00:00,201000000.0,Whirlpool,USD
+Change In Inventory,2024-12-31 00:00:00,190000000.0,Whirlpool,USD
+Change In Receivables,2024-12-31 00:00:00,261000000.0,Whirlpool,USD
+Changes In Account Receivables,2024-12-31 00:00:00,261000000.0,Whirlpool,USD
+Stock Based Compensation,2024-12-31 00:00:00,,Whirlpool,USD
+Depreciation Amortization Depletion,2024-12-31 00:00:00,84000000.0,Whirlpool,USD
+Depreciation And Amortization,2024-12-31 00:00:00,84000000.0,Whirlpool,USD
+Operating Gains Losses,2024-12-31 00:00:00,111000000.0,Whirlpool,USD
+Earnings Losses From Equity Investments,2024-12-31 00:00:00,,Whirlpool,USD
+Gain Loss On Sale Of Business,2024-12-31 00:00:00,4000000.0,Whirlpool,USD
+Net Income From Continuing Operations,2024-12-31 00:00:00,-390000000.0,Whirlpool,USD
+Free Cash Flow,2024-09-30 00:00:00,,Whirlpool,USD
+Repurchase Of Capital Stock,2024-09-30 00:00:00,,Whirlpool,USD
+Repayment Of Debt,2024-09-30 00:00:00,,Whirlpool,USD
+Issuance Of Debt,2024-09-30 00:00:00,,Whirlpool,USD
+Issuance Of Capital Stock,2024-09-30 00:00:00,0.0,Whirlpool,USD
+Capital Expenditure,2024-09-30 00:00:00,,Whirlpool,USD
+End Cash Position,2024-09-30 00:00:00,,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2024-09-30 00:00:00,0.0,Whirlpool,USD
+Beginning Cash Position,2024-09-30 00:00:00,,Whirlpool,USD
+Effect Of Exchange Rate Changes,2024-09-30 00:00:00,,Whirlpool,USD
+Changes In Cash,2024-09-30 00:00:00,,Whirlpool,USD
+Financing Cash Flow,2024-09-30 00:00:00,,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2024-09-30 00:00:00,,Whirlpool,USD
+Net Other Financing Charges,2024-09-30 00:00:00,,Whirlpool,USD
+Cash Dividends Paid,2024-09-30 00:00:00,,Whirlpool,USD
+Common Stock Dividend Paid,2024-09-30 00:00:00,,Whirlpool,USD
+Net Common Stock Issuance,2024-09-30 00:00:00,,Whirlpool,USD
+Common Stock Payments,2024-09-30 00:00:00,,Whirlpool,USD
+Common Stock Issuance,2024-09-30 00:00:00,0.0,Whirlpool,USD
+Net Issuance Payments Of Debt,2024-09-30 00:00:00,,Whirlpool,USD
+Net Short Term Debt Issuance,2024-09-30 00:00:00,,Whirlpool,USD
+Net Long Term Debt Issuance,2024-09-30 00:00:00,,Whirlpool,USD
+Long Term Debt Payments,2024-09-30 00:00:00,,Whirlpool,USD
+Long Term Debt Issuance,2024-09-30 00:00:00,,Whirlpool,USD
+Investing Cash Flow,2024-09-30 00:00:00,,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2024-09-30 00:00:00,,Whirlpool,USD
+Net Other Investing Changes,2024-09-30 00:00:00,53000000.0,Whirlpool,USD
+Net Business Purchase And Sale,2024-09-30 00:00:00,0.0,Whirlpool,USD
+Purchase Of Business,2024-09-30 00:00:00,0.0,Whirlpool,USD
+Capital Expenditure Reported,2024-09-30 00:00:00,,Whirlpool,USD
+Operating Cash Flow,2024-09-30 00:00:00,,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Working Capital,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Other Working Capital,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Payables And Accrued Expense,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Accrued Expense,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Payable,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Account Payable,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Inventory,2024-09-30 00:00:00,,Whirlpool,USD
+Change In Receivables,2024-09-30 00:00:00,,Whirlpool,USD
+Changes In Account Receivables,2024-09-30 00:00:00,,Whirlpool,USD
+Stock Based Compensation,2024-09-30 00:00:00,,Whirlpool,USD
+Depreciation Amortization Depletion,2024-09-30 00:00:00,,Whirlpool,USD
+Depreciation And Amortization,2024-09-30 00:00:00,,Whirlpool,USD
+Operating Gains Losses,2024-09-30 00:00:00,,Whirlpool,USD
+Earnings Losses From Equity Investments,2024-09-30 00:00:00,,Whirlpool,USD
+Gain Loss On Sale Of Business,2024-09-30 00:00:00,,Whirlpool,USD
+Net Income From Continuing Operations,2024-09-30 00:00:00,,Whirlpool,USD
+Free Cash Flow,2024-06-30 00:00:00,,Whirlpool,USD
+Repurchase Of Capital Stock,2024-06-30 00:00:00,,Whirlpool,USD
+Repayment Of Debt,2024-06-30 00:00:00,,Whirlpool,USD
+Issuance Of Debt,2024-06-30 00:00:00,,Whirlpool,USD
+Issuance Of Capital Stock,2024-06-30 00:00:00,0.0,Whirlpool,USD
+Capital Expenditure,2024-06-30 00:00:00,,Whirlpool,USD
+End Cash Position,2024-06-30 00:00:00,,Whirlpool,USD
+Other Cash Adjustment Outside Changein Cash,2024-06-30 00:00:00,149000000.0,Whirlpool,USD
+Beginning Cash Position,2024-06-30 00:00:00,,Whirlpool,USD
+Effect Of Exchange Rate Changes,2024-06-30 00:00:00,,Whirlpool,USD
+Changes In Cash,2024-06-30 00:00:00,,Whirlpool,USD
+Financing Cash Flow,2024-06-30 00:00:00,,Whirlpool,USD
+Cash Flow From Continuing Financing Activities,2024-06-30 00:00:00,,Whirlpool,USD
+Net Other Financing Charges,2024-06-30 00:00:00,,Whirlpool,USD
+Cash Dividends Paid,2024-06-30 00:00:00,,Whirlpool,USD
+Common Stock Dividend Paid,2024-06-30 00:00:00,,Whirlpool,USD
+Net Common Stock Issuance,2024-06-30 00:00:00,,Whirlpool,USD
+Common Stock Payments,2024-06-30 00:00:00,,Whirlpool,USD
+Common Stock Issuance,2024-06-30 00:00:00,0.0,Whirlpool,USD
+Net Issuance Payments Of Debt,2024-06-30 00:00:00,,Whirlpool,USD
+Net Short Term Debt Issuance,2024-06-30 00:00:00,,Whirlpool,USD
+Net Long Term Debt Issuance,2024-06-30 00:00:00,,Whirlpool,USD
+Long Term Debt Payments,2024-06-30 00:00:00,,Whirlpool,USD
+Long Term Debt Issuance,2024-06-30 00:00:00,,Whirlpool,USD
+Investing Cash Flow,2024-06-30 00:00:00,,Whirlpool,USD
+Cash Flow From Continuing Investing Activities,2024-06-30 00:00:00,,Whirlpool,USD
+Net Other Investing Changes,2024-06-30 00:00:00,,Whirlpool,USD
+Net Business Purchase And Sale,2024-06-30 00:00:00,-245000000.0,Whirlpool,USD
+Purchase Of Business,2024-06-30 00:00:00,-245000000.0,Whirlpool,USD
+Capital Expenditure Reported,2024-06-30 00:00:00,,Whirlpool,USD
+Operating Cash Flow,2024-06-30 00:00:00,,Whirlpool,USD
+Cash Flow From Continuing Operating Activities,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Working Capital,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Other Working Capital,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Payables And Accrued Expense,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Accrued Expense,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Payable,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Account Payable,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Inventory,2024-06-30 00:00:00,,Whirlpool,USD
+Change In Receivables,2024-06-30 00:00:00,,Whirlpool,USD
+Changes In Account Receivables,2024-06-30 00:00:00,,Whirlpool,USD
+Stock Based Compensation,2024-06-30 00:00:00,20000000.0,Whirlpool,USD
+Depreciation Amortization Depletion,2024-06-30 00:00:00,,Whirlpool,USD
+Depreciation And Amortization,2024-06-30 00:00:00,,Whirlpool,USD
+Operating Gains Losses,2024-06-30 00:00:00,,Whirlpool,USD
+Earnings Losses From Equity Investments,2024-06-30 00:00:00,11000000.0,Whirlpool,USD
+Gain Loss On Sale Of Business,2024-06-30 00:00:00,,Whirlpool,USD
+Net Income From Continuing Operations,2024-06-30 00:00:00,,Whirlpool,USD
