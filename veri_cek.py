@@ -9,8 +9,12 @@ sirketler = {
     "LG": "066570.KS",
     "Electrolux": "ELUX-B.ST",
     "Hisense": "0921.HK",
-    "Vestel": "VESBE.IS",
-    "Whirlpool": "WHR"
+    "Whirlpool": "WHR",
+    "Panasonic": "6752.T",
+    "Gree": "000651.SZ",
+    "TCL": "1070.HK",
+    "Groupe SEB": "SK.PA",
+    "De'Longhi": "DLG.MI"
 }
 
 hist_list, fin_list, bs_list, cf_list, stat_list = [], [], [], [], []
@@ -24,8 +28,9 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi):
         df_melted['Company'] = sirket_adi
         df_melted['Currency'] = para_birimi
         
-        # Sayıya çevir ve Qlik limitini aşmamak için 1000'e böl ("in thousands" formatı)
-        df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce') / 1000
+        # Sayıya çevir, 1000'e böl ve bilimsel/ondalıklı gösterimi kalıcı olarak silmek için metne formatla
+        df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce')
+        df_melted['Value'] = (df_melted['Value'] / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
         return df_melted
     return pd.DataFrame()
 
@@ -33,7 +38,7 @@ for ad, sembol in sirketler.items():
     hisse = yf.Ticker(sembol)
     para_birimi = hisse.info.get('financialCurrency', 'Bilinmiyor')
     
-    # 1. Historical Data
+    # 1. Historical Data (Hisse fiyatları bölünmez)
     hist = hisse.history(period="max")
     if not hist.empty:
         hist['Company'] = ad
@@ -53,9 +58,9 @@ for ad, sembol in sirketler.items():
     except:
         pass
 
-# CSV olarak kaydet (Ondalıkları kaldırarak Qlik için en temiz formata getirir)
-if hist_list: pd.concat(hist_list).to_csv("historical_data.csv", float_format='%.2f')
-if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False, float_format='%.0f')
-if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False, float_format='%.0f')
-if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False, float_format='%.0f')
+# Verileri CSV olarak kaydet
+if hist_list: pd.concat(hist_list).to_csv("historical_data.csv")
+if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False)
+if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False)
+if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False)
 if stat_list: pd.concat(stat_list, ignore_index=True).to_csv("statistics.csv", index=False)
