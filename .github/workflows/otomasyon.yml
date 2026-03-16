@@ -21,9 +21,10 @@ jobs:
       - name: Python Scriptini Calistir
         run: python veri_cek.py
       - name: CSV Dosyalarini Repoya Kaydet
-        run: |
+     run: |
           git config --global user.name 'GitHub Action Bot'
           git config --global user.email 'action@github.com'
           git add *.csv
           git commit -m "CSV verileri guncellendi" || echo "Degisiklik yok"
+          git pull --rebase origin main
           git push
