@@ -20,7 +20,6 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi):
         df = df.copy()
         df.index.name = "Metric"
         df = df.reset_index()
-        # Tarihleri sütun olmaktan çıkarıp satıra indir
         df_melted = df.melt(id_vars=["Metric"], var_name="Date", value_name="Value")
         df_melted['Company'] = sirket_adi
         df_melted['Currency'] = para_birimi
@@ -38,10 +37,10 @@ for ad, sembol in sirketler.items():
         hist['Currency'] = para_birimi
         hist_list.append(hist)
         
-    # 2. Financials, Balance Sheet, Cash Flow
-    fin_list.append(tabloyu_duzenle(hisse.quarterly_financials, ad, para_birimi))
-    bs_list.append(tabloyu_duzenle(hisse.quarterly_balance_sheet, ad, para_birimi))
-    cf_list.append(tabloyu_duzenle(hisse.quarterly_cashflow, ad, para_birimi))
+    # 2. Financials, Balance Sheet, Cash Flow (Yıllık yapıldı)
+    fin_list.append(tabloyu_duzenle(hisse.financials, ad, para_birimi))
+    bs_list.append(tabloyu_duzenle(hisse.balance_sheet, ad, para_birimi))
+    cf_list.append(tabloyu_duzenle(hisse.cashflow, ad, para_birimi))
     
     # 3. Statistics
     try:
