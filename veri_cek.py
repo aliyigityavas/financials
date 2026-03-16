@@ -23,6 +23,9 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi):
         df_melted = df.melt(id_vars=["Metric"], var_name="Date", value_name="Value")
         df_melted['Company'] = sirket_adi
         df_melted['Currency'] = para_birimi
+        
+        # Değeri zorla sayısal formata çevir, hatalıysa NaN yap
+        df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce')
         return df_melted
     return pd.DataFrame()
 
@@ -37,7 +40,7 @@ for ad, sembol in sirketler.items():
         hist['Currency'] = para_birimi
         hist_list.append(hist)
         
-    # 2. Financials, Balance Sheet, Cash Flow (Yıllık yapıldı)
+    # 2. Financials, Balance Sheet, Cash Flow
     fin_list.append(tabloyu_duzenle(hisse.financials, ad, para_birimi))
     bs_list.append(tabloyu_duzenle(hisse.balance_sheet, ad, para_birimi))
     cf_list.append(tabloyu_duzenle(hisse.cashflow, ad, para_birimi))
@@ -50,9 +53,9 @@ for ad, sembol in sirketler.items():
     except:
         pass
 
-# Verileri birleştir ve CSV olarak kaydet
-if hist_list: pd.concat(hist_list).to_csv("historical_data.csv")
-if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False)
-if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False)
-if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False)
+# CSV'ye yazarken bilimsel gösterimi ve gereksiz ondalıkları (.0) kaldır
+if hist_list: pd.concat(hist_list).to_csv("historical_data.csv", float_format='%.4f')
+if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False, float_format='%.0f')
+if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False, float_format='%.0f')
+if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False, float_format='%.0f')
 if stat_list: pd.concat(stat_list, ignore_index=True).to_csv("statistics.csv", index=False)
