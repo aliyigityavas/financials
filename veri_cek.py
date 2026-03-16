@@ -53,4 +53,19 @@ for ad, sembol in sirketler.items():
     # 2. Financials, Balance Sheet, Cash Flow
     fin_list.append(tabloyu_duzenle(hisse.financials, ad, para_birimi))
     bs_list.append(tabloyu_duzenle(hisse.balance_sheet, ad, para_birimi))
-    cf_list.append(tabloyu_duzenle(hisse.cashflow, ad, para
+    cf_list.append(tabloyu_duzenle(hisse.cashflow, ad, para_birimi))
+    
+    # 3. Statistics
+    try:
+        stat = pd.DataFrame([hisse.info])
+        stat['Company'] = ad
+        stat_list.append(stat)
+    except:
+        pass
+
+# CSV olarak kaydet
+if hist_list: pd.concat(hist_list, ignore_index=True).to_csv("historical_data.csv", index=False)
+if fin_list: pd.concat(fin_list, ignore_index=True).to_csv("financials.csv", index=False)
+if bs_list: pd.concat(bs_list, ignore_index=True).to_csv("balance_sheet.csv", index=False)
+if cf_list: pd.concat(cf_list, ignore_index=True).to_csv("cash_flow.csv", index=False)
+if stat_list: pd.concat(stat_list, ignore_index=True).to_csv("statistics.csv", index=False)
