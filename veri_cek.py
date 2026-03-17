@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+import hashlib
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -27,14 +28,23 @@ for pb, ticker in kur_eslesme.items():
 kur_df = pd.DataFrame(kur_dict)
 kur_yillik = kur_df.resample('YE').mean()
 
+# Benzersiz ve kalıcı ID üreten fonksiyon
+def id_olustur(metin):
+    return int(hashlib.md5(str(metin).encode('utf-8')).hexdigest()[:8], 16)
+
 hist_list, fin_list, bs_list, cf_list, stat_list = [], [], [], [], []
 
 def tabloyu_duzenle(df, sirket_adi, para_birimi, tip):
     if df is not None and not df.empty:
         df = df.copy()
         df.index.name = "Metric"
+        df['Order'] = range(1, len(df) + 1)
         df = df.reset_index()
-        df_melted = df.melt(id_vars=["Metric"], var_name="Date", value_name="Value")
+        
+        # ID kolonunu ekle
+        df['Metric_ID'] = df['Metric'].apply(id_olustur)
+        
+        df_melted = df.melt(id_vars=["Metric_ID", "Metric", "Order"], var_name="Date", value_name="Value")
         df_melted['Company'] = sirket_adi
         df_melted['Currency'] = para_birimi
         df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce')
@@ -54,7 +64,7 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi, tip):
                 try:
                     if tip == "gunluk":
                         kur = kur_df[ticker].dropna().asof(tarih)
-                    else: # ortalama
+                    else: 
                         yil_sonu = pd.Timestamp(year=tarih.year, month=12, day=31)
                         kur = kur_yillik[ticker].dropna().asof(yil_sonu)
                     usd_degerler.append(val * kur)
@@ -73,7 +83,7 @@ for ad, sembol in sirketler.items():
     para_birimi = hisse.info.get('financialCurrency', 'Bilinmiyor')
     if para_birimi == 'Bilinmiyor' and ad == 'Whirlpool': para_birimi = 'USD'
     
-    # 1. Historical Data (Günlük Kur)
+    # 1. Historical Data
     hist = hisse.history(period="max")
     if not hist.empty:
         hist = hist[['Close']].copy()
@@ -81,6 +91,8 @@ for ad, sembol in sirketler.items():
         hist['Date'] = pd.to_datetime(hist['Date']).dt.tz_localize(None).dt.date
         hist.rename(columns={'Close': 'Value'}, inplace=True)
         hist['Metric'] = 'Stock'
+        hist['Metric_ID'] = id_olustur('Stock')
+        hist['Order'] = 1
         hist['Company'] = ad
         hist['Currency'] = para_birimi
         
@@ -103,10 +115,10 @@ for ad, sembol in sirketler.items():
         hist['Value_USD'] = usd_degerler
         hist['Value'] = hist['Value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
         hist['Value_USD'] = hist['Value_USD'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
-        hist = hist[['Date', 'Metric', 'Value', 'Value_USD', 'Company', 'Currency']]
+        hist = hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Company', 'Currency']]
         hist_list.append(hist)
         
-    # 2. Financials (Ortalama), Balance Sheet (Günlük), Cash Flow (Ortalama)
+    # 2. Financials, Balance Sheet, Cash Flow
     fin_list.append(tabloyu_duzenle(hisse.financials, ad, para_birimi, "ortalama"))
     bs_list.append(tabloyu_duzenle(hisse.balance_sheet, ad, para_birimi, "gunluk"))
     cf_list.append(tabloyu_duzenle(hisse.cashflow, ad, para_birimi, "ortalama"))
