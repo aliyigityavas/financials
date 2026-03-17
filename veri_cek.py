@@ -5,16 +5,22 @@ import warnings
 warnings.filterwarnings('ignore')
 
 sirketler = {
-    "Haier": "600690.SS", "Midea": "000333.SZ", "Beko": "ARCLK.IS",
-    "Samsung": "005930.KS", "LG": "066570.KS", "Electrolux": "ELUX-B.ST",
-    "Hisense": "0921.HK", "Whirlpool": "WHR", "Panasonic": "6752.T",
-    "Gree": "000651.SZ", "TCL": "1070.HK", "Groupe SEB": "SK.PA",
-    "De'Longhi": "DLG.MI"
+    "HAIER GROUP": "600690.SS", "MIDEA GROUP": "000333.SZ", "BEKO GROUP": "ARCLK.IS",
+    "SAMSUNG GROUP": "005930.KS", "LG ELECTRONICS": "066570.KS", "ELECTROLUX GROUP": "ELUX-B.ST",
+    "HISENSE GROUP": "0921.HK", "WHIRLPOOL CORPORATION": "WHR", "PANASONIC HOLDINGS": "6752.T",
+    "GREE ELECTRIC": "000651.SZ", "TCL TECHNOLOGY": "1070.HK", "GROUPE SEB": "SK.PA",
+    "DE'LONGHI GROUP": "DLG.MI", "AMICA GROUP": "AMC.WA", "VESTEL GROUP": "VESBE.IS",
+    "ROYAL PHILIPS": "PHIA.AS", "BREVILLE GROUP": "BRG.AX", "DAIKIN INDUSTRIES": "6367.T",
+    "MITSUBISHI ELECTRIC": "6503.T", "HITACHI LTD": "6501.T", "SHARP CORPORATION": "6753.T",
+    "CARRIER GLOBAL": "CARR", "TRANE TECHNOLOGIES": "TT", "JOHNSON CONTROLS": "JCI",
+    "VOLTAS LIMITED": "VOLTAS.NS"
 }
 
 kur_eslesme = {
     "TRY": "TRYUSD=X", "CNY": "CNYUSD=X", "KRW": "KRWUSD=X",
-    "SEK": "SEKUSD=X", "HKD": "HKDUSD=X", "JPY": "JPYUSD=X", "EUR": "EURUSD=X"
+    "SEK": "SEKUSD=X", "HKD": "HKDUSD=X", "JPY": "JPYUSD=X", 
+    "EUR": "EURUSD=X", "PLN": "PLNUSD=X", "AUD": "AUDUSD=X",
+    "INR": "INRUSD=X"
 }
 
 # Kurları çek ve hazırla
@@ -81,42 +87,44 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi, tip):
 for ad, sembol in sirketler.items():
     hisse = yf.Ticker(sembol)
     para_birimi = hisse.info.get('financialCurrency', 'Bilinmiyor')
-    if para_birimi == 'Bilinmiyor' and ad == 'Whirlpool': para_birimi = 'USD'
+    if para_birimi == 'Bilinmiyor' and sembol in ['WHR', 'CARR', 'TT', 'JCI']: 
+        para_birimi = 'USD'
     
     # 1. Historical Data
     hist = hisse.history(period="max")
     if not hist.empty:
-        hist = hist[['Close']].copy()
-        hist = hist.reset_index()
-        hist['Date'] = pd.to_datetime(hist['Date']).dt.tz_localize(None).dt.date
-        hist.rename(columns={'Close': 'Value'}, inplace=True)
-        hist['Metric'] = 'Stock'
-        hist['Metric_ID'] = id_olustur('Stock')
-        hist['Order'] = 1
-        hist['Company'] = ad
-        hist['Currency'] = para_birimi
-        
-        usd_degerler = []
-        for idx, row in hist.iterrows():
-            val = row['Value']
-            tarih = pd.to_datetime(row['Date'])
-            if para_birimi == "USD":
-                usd_degerler.append(val)
-            elif para_birimi in kur_eslesme:
-                ticker = kur_eslesme[para_birimi]
-                try:
-                    kur = kur_df[ticker].dropna().asof(tarih)
-                    usd_degerler.append(val * kur)
-                except:
+        if 'Close' in hist.columns:
+            hist = hist[['Close']].copy()
+            hist = hist.reset_index()
+            hist['Date'] = pd.to_datetime(hist['Date']).dt.tz_localize(None).dt.date
+            hist.rename(columns={'Close': 'Value'}, inplace=True)
+            hist['Metric'] = 'Stock'
+            hist['Metric_ID'] = id_olustur('Stock')
+            hist['Order'] = 1
+            hist['Company'] = ad
+            hist['Currency'] = para_birimi
+            
+            usd_degerler = []
+            for idx, row in hist.iterrows():
+                val = row['Value']
+                tarih = pd.to_datetime(row['Date'])
+                if para_birimi == "USD":
+                    usd_degerler.append(val)
+                elif para_birimi in kur_eslesme:
+                    ticker = kur_eslesme[para_birimi]
+                    try:
+                        kur = kur_df[ticker].dropna().asof(tarih)
+                        usd_degerler.append(val * kur)
+                    except:
+                        usd_degerler.append(None)
+                else:
                     usd_degerler.append(None)
-            else:
-                usd_degerler.append(None)
-                
-        hist['Value_USD'] = usd_degerler
-        hist['Value'] = hist['Value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
-        hist['Value_USD'] = hist['Value_USD'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
-        hist = hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Company', 'Currency']]
-        hist_list.append(hist)
+                    
+            hist['Value_USD'] = usd_degerler
+            hist['Value'] = hist['Value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
+            hist['Value_USD'] = hist['Value_USD'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
+            hist = hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Company', 'Currency']]
+            hist_list.append(hist)
         
     # 2. Financials, Balance Sheet, Cash Flow
     fin_list.append(tabloyu_duzenle(hisse.financials, ad, para_birimi, "ortalama"))
