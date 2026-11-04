@@ -126,10 +126,10 @@ for ad, sembol in sirketler.items():
             hist = hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Company', 'Currency']]
             hist_list.append(hist)
         
-    # 2. Financials, Balance Sheet, Cash Flow
-    fin_list.append(tabloyu_duzenle(hisse.financials, ad, para_birimi, "ortalama"))
-    bs_list.append(tabloyu_duzenle(hisse.balance_sheet, ad, para_birimi, "gunluk"))
-    cf_list.append(tabloyu_duzenle(hisse.cashflow, ad, para_birimi, "ortalama"))
+# 2. Financials, Balance Sheet, Cash Flow (ÇEYREKLİK GÜNCELLEME)
+    fin_list.append(tabloyu_duzenle(hisse.quarterly_financials, ad, para_birimi, "ortalama"))
+    bs_list.append(tabloyu_duzenle(hisse.quarterly_balance_sheet, ad, para_birimi, "gunluk"))
+    cf_list.append(tabloyu_duzenle(hisse.quarterly_cashflow, ad, para_birimi, "ortalama"))
     
     # 3. Statistics
     try:
