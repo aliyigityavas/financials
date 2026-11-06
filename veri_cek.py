@@ -23,7 +23,7 @@ kur_eslesme = {
     "INR": "INRUSD=X"
 }
 
-# Kurları çek ve hazırla
+# 1. Kurları çek ve hazırla
 kur_dict = {}
 for pb, ticker in kur_eslesme.items():
     k_data = yf.Ticker(ticker).history(period="max")
@@ -32,57 +32,89 @@ for pb, ticker in kur_eslesme.items():
         kur_dict[ticker] = k_data['Close']
 
 kur_df = pd.DataFrame(kur_dict)
-kur_yillik = kur_df.resample('YE').mean()
+eur_usd_series = kur_df['EURUSD=X'].dropna()
 
-# Benzersiz ve kalıcı ID üreten fonksiyon
 def id_olustur(metin):
     return int(hashlib.md5(str(metin).encode('utf-8')).hexdigest()[:8], 16)
 
-hist_list, fin_list, bs_list, cf_list, stat_list = [], [], [], [], []
+def tabloyu_duzenle(df, sirket_adi, para_birimi, tip, ytd_hesapla=False):
+    if df is None or df.empty:
+        return pd.DataFrame()
+        
+    df = df.copy()
+    df.index.name = "Metric"
+    df['Order'] = range(1, len(df) + 1)
+    df = df.reset_index()
+    df['Metric_ID'] = df['Metric'].apply(id_olustur)
+    
+    df_melted = df.melt(id_vars=["Metric_ID", "Metric", "Order"], var_name="Date", value_name="Value")
+    df_melted['Company'] = sirket_adi
+    df_melted['Currency'] = para_birimi
+    df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce')
+    df_melted['Date'] = pd.to_datetime(df_melted['Date'])
+    
+    # YTD Hesaplama (Gelir Tablosu ve Nakit Akışı için)
+    if ytd_hesapla:
+        df_melted = df_melted.sort_values(by=['Metric', 'Date'])
+        df_melted['Year'] = df_melted['Date'].dt.year
+        
+        # Yıl içi kümülatif toplam
+        ytd_df = df_melted.copy()
+        ytd_df['Value'] = ytd_df.groupby(['Metric', 'Year'])['Value'].cumsum()
+        ytd_df['Metric'] = ytd_df['Metric'] + " (YTD)"
+        ytd_df['Metric_ID'] = ytd_df['Metric'].apply(id_olustur)
+        ytd_df['Order'] = ytd_df['Order'] + 1000
+        
+        df_melted = pd.concat([df_melted, ytd_df], ignore_index=True)
+        df_melted.drop(columns=['Year'], inplace=True)
 
-def tabloyu_duzenle(df, sirket_adi, para_birimi, tip):
-    if df is not None and not df.empty:
-        df = df.copy()
-        df.index.name = "Metric"
-        df['Order'] = range(1, len(df) + 1)
-        df = df.reset_index()
+    usd_degerler = []
+    eur_degerler = []
+
+    for idx, row in df_melted.iterrows():
+        val = row['Value']
+        tarih = row['Date']
         
-        # ID kolonunu ekle
-        df['Metric_ID'] = df['Metric'].apply(id_olustur)
+        if pd.isna(val):
+            usd_degerler.append(None)
+            eur_degerler.append(None)
+            continue
         
-        df_melted = df.melt(id_vars=["Metric_ID", "Metric", "Order"], var_name="Date", value_name="Value")
-        df_melted['Company'] = sirket_adi
-        df_melted['Currency'] = para_birimi
-        df_melted['Value'] = pd.to_numeric(df_melted['Value'], errors='coerce')
-        
-        usd_degerler = []
-        for idx, row in df_melted.iterrows():
-            val = row['Value']
-            tarih = pd.to_datetime(row['Date'])
-            if pd.isna(val):
-                usd_degerler.append(None)
-                continue
-            
-            if para_birimi == "USD":
-                usd_degerler.append(val)
-            elif para_birimi in kur_eslesme:
-                ticker = kur_eslesme[para_birimi]
-                try:
-                    if tip == "gunluk":
-                        kur = kur_df[ticker].dropna().asof(tarih)
-                    else: 
-                        yil_sonu = pd.Timestamp(year=tarih.year, month=12, day=31)
-                        kur = kur_yillik[ticker].dropna().asof(yil_sonu)
-                    usd_degerler.append(val * kur)
-                except:
-                    usd_degerler.append(None)
-            else:
-                usd_degerler.append(None)
+        # USD Dönüşümü
+        val_usd = None
+        if para_birimi == "USD":
+            val_usd = val
+        elif para_birimi in kur_eslesme:
+            ticker = kur_eslesme[para_birimi]
+            try:
+                kur = kur_df[ticker].dropna().asof(tarih)
+                val_usd = val * kur
+            except:
+                val_usd = None
                 
-        df_melted['Value_USD'] = (pd.Series(usd_degerler) / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
-        df_melted['Value'] = (df_melted['Value'] / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
-        return df_melted
-    return pd.DataFrame()
+        # EUR Dönüşümü (EUR = USD / EURUSD)
+        val_eur = None
+        if val_usd is not None:
+            try:
+                eur_kur = eur_usd_series.asof(tarih)
+                if pd.notna(eur_kur) and eur_kur > 0:
+                    val_eur = val_usd / eur_kur
+            except:
+                val_eur = None
+
+        usd_degerler.append(val_usd)
+        eur_degerler.append(val_eur)
+        
+    df_melted['Date'] = df_melted['Date'].dt.date
+    df_melted['Value_USD'] = (pd.Series(usd_degerler) / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
+    df_melted['Value_EUR'] = (pd.Series(eur_degerler) / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
+    df_melted['Value'] = (df_melted['Value'] / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
+    
+    # Sütun sırasını garantiye al
+    kolonlar = ['Metric_ID', 'Metric', 'Order', 'Date', 'Value', 'Company', 'Currency', 'Value_USD', 'Value_EUR']
+    return df_melted[kolonlar]
+
+hist_list, fin_list, bs_list, cf_list, stat_list = [], [], [], [], []
 
 for ad, sembol in sirketler.items():
     hisse = yf.Ticker(sembol)
@@ -92,44 +124,48 @@ for ad, sembol in sirketler.items():
     
     # 1. Historical Data
     hist = hisse.history(period="max")
-    if not hist.empty:
-        if 'Close' in hist.columns:
-            hist = hist[['Close']].copy()
-            hist = hist.reset_index()
-            hist['Date'] = pd.to_datetime(hist['Date']).dt.tz_localize(None).dt.date
-            hist.rename(columns={'Close': 'Value'}, inplace=True)
-            hist['Metric'] = 'Stock'
-            hist['Metric_ID'] = id_olustur('Stock')
-            hist['Order'] = 1
-            hist['Company'] = ad
-            hist['Currency'] = para_birimi
-            
-            usd_degerler = []
-            for idx, row in hist.iterrows():
-                val = row['Value']
-                tarih = pd.to_datetime(row['Date'])
-                if para_birimi == "USD":
-                    usd_degerler.append(val)
-                elif para_birimi in kur_eslesme:
-                    ticker = kur_eslesme[para_birimi]
-                    try:
-                        kur = kur_df[ticker].dropna().asof(tarih)
-                        usd_degerler.append(val * kur)
-                    except:
-                        usd_degerler.append(None)
-                else:
-                    usd_degerler.append(None)
-                    
-            hist['Value_USD'] = usd_degerler
-            hist['Value'] = hist['Value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
-            hist['Value_USD'] = hist['Value_USD'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
-            hist = hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Company', 'Currency']]
-            hist_list.append(hist)
+    if not hist.empty and 'Close' in hist.columns:
+        hist = hist[['Close']].copy().reset_index()
+        hist['Date'] = pd.to_datetime(hist['Date']).dt.tz_localize(None).dt.date
+        hist.rename(columns={'Close': 'Value'}, inplace=True)
+        hist['Metric'] = 'Stock'
+        hist['Metric_ID'] = id_olustur('Stock')
+        hist['Order'] = 1
+        hist['Company'] = ad
+        hist['Currency'] = para_birimi
         
-# 2. Financials, Balance Sheet, Cash Flow (ÇEYREKLİK GÜNCELLEME)
-    fin_list.append(tabloyu_duzenle(hisse.quarterly_financials, ad, para_birimi, "ortalama"))
-    bs_list.append(tabloyu_duzenle(hisse.quarterly_balance_sheet, ad, para_birimi, "gunluk"))
-    cf_list.append(tabloyu_duzenle(hisse.quarterly_cashflow, ad, para_birimi, "ortalama"))
+        usd_vals, eur_vals = [], []
+        for _, row in hist.iterrows():
+            val = row['Value']
+            tarih = pd.to_datetime(row['Date'])
+            v_usd, v_eur = None, None
+            if para_birimi == "USD":
+                v_usd = val
+            elif para_birimi in kur_eslesme:
+                try:
+                    kur = kur_df[kur_eslesme[para_birimi]].dropna().asof(tarih)
+                    v_usd = val * kur
+                except:
+                    pass
+            if v_usd is not None:
+                try:
+                    eur_kur = eur_usd_series.asof(tarih)
+                    if pd.notna(eur_kur) and eur_kur > 0:
+                        v_eur = v_usd / eur_kur
+                except:
+                    pass
+            usd_vals.append(v_usd)
+            eur_vals.append(v_eur)
+            
+        hist['Value_USD'] = [f"{x:.2f}" if pd.notna(x) else "" for x in usd_vals]
+        hist['Value_EUR'] = [f"{x:.2f}" if pd.notna(x) else "" for x in eur_vals]
+        hist['Value'] = hist['Value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
+        hist_list.append(hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Value_EUR', 'Company', 'Currency']])
+        
+    # 2. Financials (YTD dahil), Balance Sheet (stok veri, YTD yok), Cash Flow (YTD dahil)
+    fin_list.append(tabloyu_duzenle(hisse.quarterly_financials, ad, para_birimi, "ortalama", ytd_hesapla=True))
+    bs_list.append(tabloyu_duzenle(hisse.quarterly_balance_sheet, ad, para_birimi, "gunluk", ytd_hesapla=False))
+    cf_list.append(tabloyu_duzenle(hisse.quarterly_cashflow, ad, para_birimi, "ortalama", ytd_hesapla=True))
     
     # 3. Statistics
     try:
