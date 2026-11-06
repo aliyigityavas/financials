@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Competitive Financial Intelligence</title>
+<script src="js/chart.min.js"></script>
+<style>
+  :root { --bg:#0b1120; --card:#1e293b; --cyan:#38bdf8; --mint:#34d399; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:Segoe UI,system-ui,sans-serif; }
+  header { padding:20px 32px 8px; }
+  h1 { margin:0; font-size:22px; letter-spacing:.5px; }
+  h1 span { color:var(--cyan); }
+  .sub { color:var(--muted); font-size:13px; margin-top:4px; }
+  .bar { display:flex; flex-wrap:wrap; gap:16px; padding:12px 32px; align-items:flex-end; }
+  .bar label { display:flex; flex-direction:column; font-size:11px; color:var(--muted); text-transform:uppercase; gap:4px; }
+  select,input { background:var(--card); color:var(--text); border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-width:170px; }
+  select:focus,input:focus { outline:none; border-color:var(--cyan); }
+  button { background:transparent; color:var(--cyan); border:1px solid var(--cyan); border-radius:8px; padding:8px 14px; cursor:pointer; }
+  button:hover { background:rgba(56,189,248,.12); }
+  main { padding:8px 32px 32px; }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+  .card { background:var(--card); border-radius:14px; padding:18px; border:1px solid var(--line); }
+  .kpi .label { color:var(--muted); font-size:12px; text-transform:uppercase; }
+  .kpi .value { font-size:28px; font-weight:600; margin-top:6px; color:var(--cyan); }
+  .kpi:nth-child(even) .value { color:var(--mint); }
+  .kpi .note { color:var(--muted); font-size:12px; margin-top:4px; }
+  .charts { display:grid; grid-template-columns:repeat(auto-fit,minmax(420px,1fr)); gap:16px; margin-top:16px; }
+  .charts h3, .tablecard h3 { margin:0 0 10px; font-size:14px; color:var(--muted); font-weight:500; }
+  .chartbox { position:relative; height:320px; }
+  .tablecard { margin-top:16px; overflow:auto; max-height:420px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th,td { padding:8px 10px; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th:first-child,td:first-child,th:nth-child(2),td:nth-child(2) { text-align:left; }
+  th { position:sticky; top:0; background:var(--card); color:var(--cyan); cursor:pointer; user-select:none; }
+  tr:hover td { background:rgba(56,189,248,.06); }
+  #status { color:var(--muted); font-size:12px; padding:0 32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Competitive <span>Financial Intelligence</span></h1>
+  <div class="sub">Quarterly performance and peer benchmarking (USD)</div>
+</header>
+<div class="bar">
+  <label>Competitor <select id="company"></select></label>
+  <label>From <input type="date" id="from"></label>
+  <label>To <input type="date" id="to"></label>
+  <button id="reset">Reset</button>
+</div>
+<div id="status"></div>
+<main>
+  <section class="kpis">
+    <div class="card kpi"><div class="label">Revenue</div><div class="value" id="kRev">–</div><div class="note" id="kRevN"></div></div>
+    <div class="card kpi"><div class="label">Operating Income (EBIT)</div><div class="value" id="kEbit">–</div><div class="note" id="kEbitN"></div></div>
+    <div class="card kpi"><div class="label">Operating Margin</div><div class="value" id="kMargin">–</div><div class="note" id="kMarginN"></div></div>
+    <div class="card kpi"><div class="label">Market Cap / Benchmark Rank</div><div class="value" id="kCap">–</div><div class="note" id="kCapN"></div></div>
+  </section>
+  <section class="charts">
+    <div class="card"><h3>Revenue &amp; EBIT Trend</h3><div class="chartbox"><canvas id="trend"></canvas></div></div>
+    <div class="card"><h3>Latest Operating Margin % by Competitor</h3><div class="chartbox"><canvas id="compare"></canvas></div></div>
+  </section>
+  <section class="card tablecard">
+    <h3>Quarterly Metrics</h3>
+    <table id="tbl"><thead></thead><tbody></tbody></table>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
