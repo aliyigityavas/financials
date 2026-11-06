@@ -37,6 +37,16 @@ eur_usd_series = kur_df['EURUSD=X'].dropna()
 def id_olustur(metin):
     return int(hashlib.md5(str(metin).encode('utf-8')).hexdigest()[:8], 16)
 
+def tarih_donem_hesapla(dt):
+    # Tarihi 2026Q3 ve 2026 formatına çevirir
+    if pd.isna(dt):
+        return "", ""
+    dt = pd.to_datetime(dt)
+    q = (dt.month - 1) // 3 + 1
+    quarter_str = f"{dt.year}Q{q}"
+    year_str = str(dt.year)
+    return quarter_str, year_str
+
 def tabloyu_duzenle(df, sirket_adi, para_birimi, tip, ytd_hesapla=False):
     if df is None or df.empty:
         return pd.DataFrame()
@@ -56,24 +66,29 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi, tip, ytd_hesapla=False):
     # YTD Hesaplama (Gelir Tablosu ve Nakit Akışı için)
     if ytd_hesapla:
         df_melted = df_melted.sort_values(by=['Metric', 'Date'])
-        df_melted['Year'] = df_melted['Date'].dt.year
+        df_melted['Year_Temp'] = df_melted['Date'].dt.year
         
-        # Yıl içi kümülatif toplam
         ytd_df = df_melted.copy()
-        ytd_df['Value'] = ytd_df.groupby(['Metric', 'Year'])['Value'].cumsum()
+        ytd_df['Value'] = ytd_df.groupby(['Metric', 'Year_Temp'])['Value'].cumsum()
         ytd_df['Metric'] = ytd_df['Metric'] + " (YTD)"
         ytd_df['Metric_ID'] = ytd_df['Metric'].apply(id_olustur)
         ytd_df['Order'] = ytd_df['Order'] + 1000
         
         df_melted = pd.concat([df_melted, ytd_df], ignore_index=True)
-        df_melted.drop(columns=['Year'], inplace=True)
+        df_melted.drop(columns=['Year_Temp'], inplace=True)
 
     usd_degerler = []
     eur_degerler = []
+    quarter_list = []
+    year_list = []
 
     for idx, row in df_melted.iterrows():
         val = row['Value']
         tarih = row['Date']
+        
+        q_str, y_str = tarih_donem_hesapla(tarih)
+        quarter_list.append(q_str)
+        year_list.append(y_str)
         
         if pd.isna(val):
             usd_degerler.append(None)
@@ -105,13 +120,14 @@ def tabloyu_duzenle(df, sirket_adi, para_birimi, tip, ytd_hesapla=False):
         usd_degerler.append(val_usd)
         eur_degerler.append(val_eur)
         
+    df_melted['Quarter'] = quarter_list
+    df_melted['Year'] = year_list
     df_melted['Date'] = df_melted['Date'].dt.date
     df_melted['Value_USD'] = (pd.Series(usd_degerler) / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
     df_melted['Value_EUR'] = (pd.Series(eur_degerler) / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
     df_melted['Value'] = (df_melted['Value'] / 1000).apply(lambda x: f"{x:.0f}" if pd.notna(x) else "")
     
-    # Sütun sırasını garantiye al
-    kolonlar = ['Metric_ID', 'Metric', 'Order', 'Date', 'Value', 'Company', 'Currency', 'Value_USD', 'Value_EUR']
+    kolonlar = ['Metric_ID', 'Metric', 'Order', 'Date', 'Quarter', 'Year', 'Value', 'Company', 'Currency', 'Value_USD', 'Value_EUR']
     return df_melted[kolonlar]
 
 hist_list, fin_list, bs_list, cf_list, stat_list = [], [], [], [], []
@@ -134,10 +150,15 @@ for ad, sembol in sirketler.items():
         hist['Company'] = ad
         hist['Currency'] = para_birimi
         
+        q_list, y_list = [], []
         usd_vals, eur_vals = [], []
         for _, row in hist.iterrows():
             val = row['Value']
             tarih = pd.to_datetime(row['Date'])
+            q_s, y_s = tarih_donem_hesapla(tarih)
+            q_list.append(q_s)
+            y_list.append(y_s)
+            
             v_usd, v_eur = None, None
             if para_birimi == "USD":
                 v_usd = val
@@ -157,10 +178,12 @@ for ad, sembol in sirketler.items():
             usd_vals.append(v_usd)
             eur_vals.append(v_eur)
             
+        hist['Quarter'] = q_list
+        hist['Year'] = y_list
         hist['Value_USD'] = [f"{x:.2f}" if pd.notna(x) else "" for x in usd_vals]
         hist['Value_EUR'] = [f"{x:.2f}" if pd.notna(x) else "" for x in eur_vals]
         hist['Value'] = hist['Value'].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
-        hist_list.append(hist[['Date', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Value_EUR', 'Company', 'Currency']])
+        hist_list.append(hist[['Date', 'Quarter', 'Year', 'Metric_ID', 'Metric', 'Order', 'Value', 'Value_USD', 'Value_EUR', 'Company', 'Currency']])
         
     # 2. Financials (YTD dahil), Balance Sheet (stok veri, YTD yok), Cash Flow (YTD dahil)
     fin_list.append(tabloyu_duzenle(hisse.quarterly_financials, ad, para_birimi, "ortalama", ytd_hesapla=True))
