@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Content Include="wwwroot\**\*" CopyToPublishDirectory="PreserveNewest" />
-    <Content Include="financials.csv;balance_sheet.csv;cash_flow.csv;statistics.csv"
+    <Content Include="*.csv"
              CopyToOutputDirectory="PreserveNewest"
              CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>

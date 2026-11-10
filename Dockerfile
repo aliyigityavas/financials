@@ -4,7 +4,7 @@ COPY FinancialBiApp.csproj ./
 RUN dotnet restore FinancialBiApp.csproj
 COPY Program.cs ./
 COPY wwwroot ./wwwroot
-COPY financials.csv balance_sheet.csv cash_flow.csv statistics.csv ./
+COPY *.csv ./
 RUN dotnet publish FinancialBiApp.csproj -c Release -o /app/publish --no-restore /p:UseAppHost=false
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final

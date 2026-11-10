@@ -199,6 +199,14 @@ class DataStore
     private static bool IsBalanceSheet(Dictionary<string, string> r) =>
         Str(r, "Statement_Type").StartsWith("B", StringComparison.OrdinalIgnoreCase);
 
+    // Empty Statement_Type (legacy) = PnL. "CashFlow"/"CF" and "BS" are excluded.
+    private static bool IsPnl(Dictionary<string, string> r)
+    {
+        var s = Str(r, "Statement_Type");
+        return s.Length == 0 || s.StartsWith("P", StringComparison.OrdinalIgnoreCase) ||
+               s.StartsWith("I", StringComparison.OrdinalIgnoreCase);
+    }
+
     // Statement company names (financials.csv) -> names used in statistics.csv
     private static readonly Dictionary<string, string> StatsAlias = new(StringComparer.OrdinalIgnoreCase)
     {
@@ -268,8 +276,10 @@ class DataStore
     {
         var fin = ReadCsv("financials.csv");
         var stats = ReadCsv("statistics.csv");
-        // New financials.csv carries both PnL and BS rows (Statement_Type); legacy files keep BS in balance_sheet.csv.
-        var finPl = fin.Where(r => !IsBalanceSheet(r)).ToList();
+        var benchCsv = ReadCsv("benchmark.csv");
+        // New financials.csv carries PnL, BS and CashFlow rows (Statement_Type); legacy files keep BS in balance_sheet.csv.
+        // FIX: CashFlow rows must not be mixed into the income statement.
+        var finPl = fin.Where(IsPnl).ToList();
         var finBs = fin.Where(IsBalanceSheet).ToList();
         var bs = finBs.Count > 0 ? finBs : ReadCsv("balance_sheet.csv");
 
@@ -342,6 +352,13 @@ class DataStore
             .OrderBy(c => c, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
+        var benchByCompany = new Dictionary<string, Dictionary<string, string>>(StringComparer.OrdinalIgnoreCase);
+        foreach (var b in benchCsv)
+        {
+            var c = Str(b, "Company");
+            if (c.Length > 0) benchByCompany[c] = b;
+        }
+
         var benchmark = new List<BenchmarkRow>();
         foreach (var c in companies)
         {
@@ -351,22 +368,29 @@ class DataStore
             if (!statsByCompany.TryGetValue(c, out st) && StatsAlias.TryGetValue(c, out var statsName))
                 statsByCompany.TryGetValue(statsName, out st);
 
-            double? mcapOc = st is null ? null : Num(st, "marketCap");
-            var mcapCur = st is null ? null : Str(st, "currency");
-            double? mcapUsd = mcapOc, mcapEur = null;
-            // A USD/local ratio of exactly ~1 for a non-USD currency means the source USD column was not converted.
-            if (mcapOc is not null && !string.Equals(mcapCur, "USD", StringComparison.OrdinalIgnoreCase))
-                mcapUsd = fx.TryGetValue(c, out var rate) && Math.Abs(rate - 1) > 0.001 ? mcapOc * rate : null;
-            if (mcapOc is not null)
+            // FIX: prefer benchmark.csv (market cap converted with today's FX in the trading currency).
+            benchByCompany.TryGetValue(c, out var bm);
+            double? mcapOc = bm is not null ? Num(bm, "MarketCap_OC") : st is null ? null : Num(st, "marketCap");
+            var mcapCur = bm is not null ? Str(bm, "Currency") : st is null ? null : Str(st, "currency");
+            double? mcapUsd = bm is not null ? Num(bm, "MarketCap_USD") : null;
+            double? mcapEur = bm is not null ? Num(bm, "MarketCap_EUR") : null;
+            // Fallback: statement FX ratio is only valid when trading currency == reporting currency.
+            var finCur = st is null ? "" : Str(st, "financialCurrency");
+            var sameCur = finCur.Length == 0 || string.Equals(finCur, mcapCur, StringComparison.OrdinalIgnoreCase);
+            if (mcapOc is not null && mcapUsd is null)
+                mcapUsd = string.Equals(mcapCur, "USD", StringComparison.OrdinalIgnoreCase) ? mcapOc
+                    : sameCur && fx.TryGetValue(c, out var rate) && Math.Abs(rate - 1) > 0.001 ? mcapOc * rate : null;
+            if (mcapOc is not null && mcapEur is null)
                 mcapEur = string.Equals(mcapCur, "EUR", StringComparison.OrdinalIgnoreCase) ? mcapOc
-                    : fxEur.TryGetValue(c, out var rateEur) && Math.Abs(rateEur - 1) > 0.001 ? mcapOc * rateEur : null;
+                    : sameCur && fxEur.TryGetValue(c, out var rateEur) && Math.Abs(rateEur - 1) > 0.001 ? mcapOc * rateEur : null;
 
             var rev = latest?.Revenue.Usd;
             double? opm = rev is > 0 && latest?.OperatingIncome.Usd is { } oi ? Math.Round(oi / rev.Value * 100, 2) : null;
             if (opm is null && st is not null && Num(st, "operatingMargins") is { } om) opm = Math.Round(om * 100, 2);
 
             benchmark.Add(new BenchmarkRow(c, latest?.Date, mcapUsd, mcapEur, mcapOc, mcapCur, rev, opm,
-                st is null ? null : Str(st, "symbol"), st is null ? null : Num(st, "currentPrice")));
+                bm is not null ? Str(bm, "Symbol") : st is null ? null : Str(st, "symbol"),
+                bm is not null ? Num(bm, "CurrentPrice") : st is null ? null : Num(st, "currentPrice")));
         }
 
         var profiles = new Dictionary<string, ProfileRow>(StringComparer.OrdinalIgnoreCase);
