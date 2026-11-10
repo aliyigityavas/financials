@@ -1,7 +1,11 @@
 import yfinance as yf
 import pandas as pd
 import numpy as np
+import re
 from datetime import datetime
+
+# Toplanamayan satırlar (oran / adet): YTD'de son mevcut çeyreğin değeri alınır
+NON_ADDITIVE = re.compile(r"tax rate|shares|share issued|\beps\b", re.IGNORECASE)
 
 # 22 Şirket ve Ticker Eşleşmeleri
 COMPANIES = {
@@ -161,6 +165,66 @@ def process_statement(df, company_name, statement_type, period_type, currency):
             })
     return records
 
+
+def add_ytd_rows(df):
+    """Her şirket / tablo / yıl / hesap için çeyrek verilerinden YTD satırları üretir (Period_Type = "YTD").
+
+    PnL: yılın başından o yıldaki son mevcut çeyreğe kadar mevcut çeyreklerin kümülatif toplamı.
+    BS : bakiye (stok) olduğu için toplanmaz; son mevcut çeyreğin değeri alınır.
+    Eksik çeyrekler atlanır (mevcut olanlar toplanır); hata durumunda orijinal veri korunur.
+    """
+    try:
+        if df is None or df.empty or "Period_Type" not in df.columns:
+            return df
+        q = df[df["Period_Type"] == "Quarterly"].copy()
+        if q.empty:
+            return df
+
+        q["Year"] = pd.to_numeric(q["Year"], errors="coerce")
+        q["Date_dt"] = pd.to_datetime(q["Date"], errors="coerce")
+        q = q.dropna(subset=["Year", "Date_dt"])
+        q["Year"] = q["Year"].astype(int)
+        value_cols = ["Value_OC", "Value_USD", "Value_EUR"]
+        for col in value_cols:
+            q[col] = pd.to_numeric(q[col], errors="coerce")
+
+        out = []
+        for (company, stmt, year), grp in q.groupby(["Company", "Statement_Type", "Year"]):
+            latest_date = grp["Date_dt"].max()
+            latest_quarter = grp.loc[grp["Date_dt"] == latest_date, "Quarter"].iloc[0]
+            for account, acc in grp.groupby("Account"):
+                acc = acc.sort_values("Date_dt")
+                ref = acc.iloc[-1]
+                if stmt == "BS" or NON_ADDITIVE.search(str(account)):
+                    vals = {c: ref[c] for c in value_cols}
+                else:
+                    vals = {c: acc[c].sum(min_count=1) for c in value_cols}
+                if all(pd.isna(v) for v in vals.values()):
+                    continue
+                out.append({
+                    "Company": company,
+                    "Statement_Type": stmt,
+                    "Period_Type": "YTD",
+                    "Period": f"{latest_quarter} YTD",
+                    "Date": latest_date.strftime("%Y-%m-%d"),
+                    "Year": int(year),
+                    "Quarter": latest_quarter,
+                    "Account": account,
+                    "Order": ref["Order"],
+                    "Currency_OC": ref["Currency_OC"],
+                    "Value_OC": None if pd.isna(vals["Value_OC"]) else float(vals["Value_OC"]),
+                    "Value_USD": None if pd.isna(vals["Value_USD"]) else float(vals["Value_USD"]),
+                    "Value_EUR": None if pd.isna(vals["Value_EUR"]) else float(vals["Value_EUR"]),
+                })
+        if not out:
+            return df
+        ytd = pd.DataFrame(out, columns=list(df.columns))
+        return pd.concat([df[df["Period_Type"] != "YTD"], ytd], ignore_index=True)
+    except Exception as e:
+        print(f"Uyarı: YTD hesaplanamadı, YTD satırları eklenmeden devam ediliyor: {e}")
+        return df
+
+
 def fetch_financial_data():
     all_financials = []
     benchmarks = []
@@ -208,7 +272,7 @@ def fetch_financial_data():
             print(f"Hata oluştu ({comp_name}): {e}")
 
     # CSV olarak kaydet
-    df_fin = pd.DataFrame(all_financials)
+    df_fin = add_ytd_rows(pd.DataFrame(all_financials))
     df_bench = pd.DataFrame(benchmarks)
 
     df_fin.to_csv("financials.csv", index=False, encoding="utf-8")
