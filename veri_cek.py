@@ -1,16 +1,31 @@
 import yfinance as yf
 import pandas as pd
+import numpy as np
 from datetime import datetime
 
 COMPANIES = {
-    "AMICA GROUP": "AMC.WA", "ARÇELİK": "ARCLK.IS", "BOSCH": "BOSCHLTD.NS",
-    "DE'LONGHI": "DLG.MI", "ELECTROLUX": "ELUX-B.ST", "GORENJE": "600060.SS",
-    "GREE ELECTRIC": "000651.SZ", "HAIER SMART HOME": "600690.SS",
-    "HISENSE HOME APPLIANCES": "000921.SZ", "LG ELECTRONICS": "066570.KS",
-    "MIDEA GROUP": "000333.SZ", "MIELE": "MIELE.DE", "PANASONIC": "6752.T",
-    "PHILIPS": "PHIA.AS", "SAMSUNG ELECTRONICS": "005930.KS", "SEB GROUP": "SK.PA",
-    "SHARP": "6753.T", "SMEG": "SMEG.MI", "TCL ELECTRONICS": "1070.HK",
-    "VESTEL": "VESBE.IS", "WHIRLPOOL CORPORATION": "WHR", "XIAOMI": "1810.HK"
+    "AMICA GROUP": "AMC.WA",
+    "ARÇELİK": "ARCLK.IS",
+    "BOSCH": "BOSCHLTD.NS",
+    "DE'LONGHI": "DLG.MI",
+    "ELECTROLUX": "ELUX-B.ST",
+    "GORENJE": "600060.SS",
+    "GREE ELECTRIC": "000651.SZ",
+    "HAIER SMART HOME": "600690.SS",
+    "HISENSE HOME APPLIANCES": "000921.SZ",
+    "LG ELECTRONICS": "066570.KS",
+    "MIDEA GROUP": "000333.SZ",
+    "MIELE": "MIELE.DE",
+    "PANASONIC": "6752.T",
+    "PHILIPS": "PHIA.AS",
+    "SAMSUNG ELECTRONICS": "005930.KS",
+    "SEB GROUP": "SK.PA",
+    "SHARP": "6753.T",
+    "SMEG": "SMEG.MI",
+    "TCL ELECTRONICS": "1070.HK",
+    "VESTEL": "VESBE.IS",
+    "WHIRLPOOL CORPORATION": "WHR",
+    "XIAOMI": "1810.HK"
 }
 
 ACCOUNT_ORDER = {
@@ -70,7 +85,7 @@ def get_current_usd_rate(currency):
         pass
     return 1.0
 
-def process_statement(df, company_name, statement_type, period_type, currency):
+def process_table(df, company_name, statement_type, period_type, currency):
     records = []
     if df is None or df.empty: return records
 
@@ -101,75 +116,123 @@ def process_statement(df, company_name, statement_type, period_type, currency):
             })
     return records
 
-def generate_ytd_records(df_quarterly):
-    ytd_records = []
-    grouped = df_quarterly.groupby(["Company", "Statement_Type", "Year", "Currency_OC", "Account", "Order"])
-    
+def add_ytd_records(df_records):
+    if df_records.empty: return df_records
+    df_q = df_records[df_records["Period_Type"] == "Quarterly"]
+    if df_q.empty: return df_records
+
+    ytd_list = []
+    grouped = df_q.groupby(["Company", "Statement_Type", "Year", "Currency_OC", "Account", "Order"])
     for name, group in grouped:
         group = group.sort_values("Date")
-        latest_row = group.iloc[-1]
-        
+        latest = group.iloc[-1]
         comp, stmt, yr, curr, acc, ordr = name
-        latest_q = latest_row["Quarter"]
-        
-        if stmt == "PnL":
-            # Gelir Tablosu: Çeyrekleri topla
-            val_oc = group["Value_OC"].sum()
-            val_usd = group["Value_USD"].sum()
-            val_eur = group["Value_EUR"].sum()
+        l_quarter = latest["Quarter"]
+
+        if stmt in ["PnL", "CashFlow"]:
+            v_oc = group["Value_OC"].sum()
+            v_usd = group["Value_USD"].sum()
+            v_eur = group["Value_EUR"].sum()
         else:
-            # Bilanço: Sadece son çeyreğin değerini al
-            val_oc = latest_row["Value_OC"]
-            val_usd = latest_row["Value_USD"]
-            val_eur = latest_row["Value_EUR"]
-            
-        ytd_records.append({
+            v_oc = latest["Value_OC"]
+            v_usd = latest["Value_USD"]
+            v_eur = latest["Value_EUR"]
+
+        ytd_list.append({
             "Company": comp, "Statement_Type": stmt, "Period_Type": "YTD",
-            "Period": f"{latest_q} YTD", "Date": latest_row["Date"],
-            "Year": yr, "Quarter": latest_q, "Account": acc, "Order": ordr,
-            "Currency_OC": curr, "Value_OC": val_oc, "Value_USD": val_usd, "Value_EUR": val_eur
+            "Period": f"{l_quarter} YTD", "Date": latest["Date"],
+            "Year": yr, "Quarter": l_quarter, "Account": acc, "Order": ordr,
+            "Currency_OC": curr, "Value_OC": v_oc, "Value_USD": v_usd, "Value_EUR": v_eur
         })
-    return pd.DataFrame(ytd_records)
+    df_ytd = pd.DataFrame(ytd_list)
+    return pd.concat([df_records, df_ytd], ignore_index=True)
 
-def fetch_financial_data():
-    all_financials = []
+def main():
+    pnl_records = []
+    bs_records = []
+    cf_records = []
     benchmarks = []
+    statistics = []
+    hist_prices = []
 
-    for comp_name, ticker_str in COMPANIES.items():
-        print(f"İşleniyor: {comp_name}...")
+    c_eur_rate = get_current_usd_rate("EUR")
+
+    for comp, ticker_str in COMPANIES.items():
+        print(f"Çekiliyor: {comp} ({ticker_str})...")
         try:
             t = yf.Ticker(ticker_str)
             curr = t.fast_info.get("currency", "USD")
+            c_usd_rate = get_current_usd_rate(curr)
             
-            # Benchmark / Market Cap
-            mcap = t.fast_info.get("marketCap", 0)
-            c_usd = get_current_usd_rate(curr)
-            c_eur = get_current_usd_rate("EUR")
+            # 1. Benchmark & Market Cap
+            mcap = t.fast_info.get("marketCap", 0) or 0
+            mcap_usd = mcap * c_usd_rate
+            mcap_eur = mcap_usd / c_eur_rate if c_eur_rate else mcap_usd
             benchmarks.append({
-                "Company": comp_name, "Currency": curr, "MarketCap_OC": mcap,
-                "MarketCap_USD": mcap * c_usd,
-                "MarketCap_EUR": (mcap * c_usd) / c_eur if c_eur else (mcap * c_usd)
+                "Company": comp, "Currency": curr, "MarketCap_OC": mcap,
+                "MarketCap_USD": mcap_usd, "MarketCap_EUR": mcap_eur
             })
 
-            # Tabloları Çek
-            all_financials.extend(process_statement(t.quarterly_income_stmt, comp_name, "PnL", "Quarterly", curr))
-            all_financials.extend(process_statement(t.income_stmt, comp_name, "PnL", "Annual", curr))
-            all_financials.extend(process_statement(t.quarterly_balance_sheet, comp_name, "BS", "Quarterly", curr))
-            all_financials.extend(process_statement(t.balance_sheet, comp_name, "BS", "Annual", curr))
+            # 2. Company Info (Statistics)
+            try:
+                info = t.info
+                statistics.append({
+                    "Company": comp,
+                    "address1": info.get("address1", ""),
+                    "address2": info.get("address2", ""),
+                    "city": info.get("city", ""),
+                    "country": info.get("country", ""),
+                    "phone": info.get("phone", ""),
+                    "fax": info.get("fax", ""),
+                    "website": info.get("website", ""),
+                    "industry": info.get("industry", "")
+                })
+            except Exception:
+                pass
+
+            # 3. Income Statement (PnL)
+            pnl_records.extend(process_table(t.quarterly_income_stmt, comp, "PnL", "Quarterly", curr))
+            pnl_records.extend(process_table(t.income_stmt, comp, "PnL", "Annual", curr))
+
+            # 4. Balance Sheet
+            bs_records.extend(process_table(t.quarterly_balance_sheet, comp, "BS", "Quarterly", curr))
+            bs_records.extend(process_table(t.balance_sheet, comp, "BS", "Annual", curr))
+
+            # 5. Cash Flow
+            cf_records.extend(process_table(t.quarterly_cashflow, comp, "CashFlow", "Quarterly", curr))
+            cf_records.extend(process_table(t.cashflow, comp, "CashFlow", "Annual", curr))
+
+            # 6. Historical Prices (Son 1 Yıl)
+            try:
+                h = t.history(period="1y")
+                for dt_idx, row in h.iterrows():
+                    hist_prices.append({
+                        "Company": comp, "Date": dt_idx.strftime("%Y-%m-%d"),
+                        "Close": float(row["Close"]), "Volume": float(row["Volume"])
+                    })
+            except Exception:
+                pass
+
         except Exception as e:
-            print(f"Hata ({comp_name}): {e}")
+            print(f"Hata ({comp}): {e}")
 
-    df_fin = pd.DataFrame(all_financials)
-    
-    # YTD Hesaplama ve Ekleme
-    df_q = df_fin[df_fin["Period_Type"] == "Quarterly"]
-    if not df_q.empty:
-        df_ytd = generate_ytd_records(df_q)
-        df_fin = pd.concat([df_fin, df_ytd], ignore_index=True)
+    # DataFrame'lere Çevir ve YTD Ekle
+    df_pnl = add_ytd_records(pd.DataFrame(pnl_records))
+    df_bs = add_ytd_records(pd.DataFrame(bs_records))
+    df_cf = add_ytd_records(pd.DataFrame(cf_records))
 
-    df_fin.to_csv("financials.csv", index=False, encoding="utf-8")
+    # Tüm Finansalları Tek Bir Dosyada da Birleştir
+    df_all_fin = pd.concat([df_pnl, df_bs, df_cf], ignore_index=True)
+
+    # 6 Dosyayı da Yaz (GitHub'daki eski dosyaların tümü güncellenecek)
+    df_all_fin.to_csv("financials.csv", index=False, encoding="utf-8")
+    df_bs.to_csv("balance_sheet.csv", index=False, encoding="utf-8")
+    df_cf.to_csv("cash_flow.csv", index=False, encoding="utf-8")
     pd.DataFrame(benchmarks).to_csv("benchmark.csv", index=False, encoding="utf-8")
-    print("İşlem tamamlandı. CSV'ler hazır.")
+    pd.DataFrame(statistics).to_csv("statistics.csv", index=False, encoding="utf-8")
+    pd.DataFrame(hist_prices).to_csv("historical_data.csv", index=False, encoding="utf-8")
+
+    print("İşlem tamam: Tüm 6 CSV dosyası başarıyla güncellendi.")
 
 if __name__ == "__main__":
-    fetch_financial_data()
+    main()
