@@ -10,13 +10,13 @@ COMPANIES = {
     "BOSCH": "BOSCHLTD.NS",
     "DE'LONGHI": "DLG.MI",
     "ELECTROLUX": "ELUX-B.ST",
-    "GORENJE": "600060.SS",        # Hisense Visual / Europe temsilcisi
+    "GORENJE": "600060.SS",
     "GREE ELECTRIC": "000651.SZ",
     "HAIER SMART HOME": "600690.SS",
     "HISENSE HOME APPLIANCES": "000921.SZ",
     "LG ELECTRONICS": "066570.KS",
     "MIDEA GROUP": "000333.SZ",
-    "MIELE": "MIELE.DE",          # Özel şirket temsili / veri varsa
+    "MIELE": "MIELE.DE",
     "PANASONIC": "6752.T",
     "PHILIPS": "PHIA.AS",
     "SAMSUNG ELECTRONICS": "005930.KS",
@@ -49,18 +49,75 @@ ACCOUNT_ORDER = {
     "Net Income": 16
 }
 
-def get_exchange_rates():
-    """USD ve EUR kurlarını Yahoo Finance üzerinden alır."""
-    rates = {"USD": 1.0, "EUR": 1.08}
-    try:
-        eur_usd = yf.Ticker("EURUSD=X").fast_info.get("lastPrice")
-        if eur_usd:
-            rates["EUR"] = float(eur_usd)
-    except Exception as e:
-        print(f"Döviz kuru alınamadı, varsayılan kullanılıyor: {e}")
-    return rates
+# --- KUR MOTORU ---
 
-def process_statement(df, company_name, statement_type, period_type, rates, currency):
+# API isteklerini minimize etmek için tarihsel kur önbelleği
+HISTORICAL_RATE_CACHE = {}
+
+def get_historical_close(ticker, date_obj):
+    """Belirli bir tarihteki kapanış kurunu Yahoo Finance history üzerinden çeker."""
+    date_str = date_obj.strftime("%Y-%m-%d")
+    cache_key = (ticker, date_str)
+    
+    if cache_key in HISTORICAL_RATE_CACHE:
+        return HISTORICAL_RATE_CACHE[cache_key]
+        
+    # Hafta sonu/tatil ihtimaline karşı 5 gün öncesine kadar tarama aralığı
+    start_date = (date_obj - pd.Timedelta(days=5)).strftime("%Y-%m-%d")
+    end_date = (date_obj + pd.Timedelta(days=2)).strftime("%Y-%m-%d")
+    
+    try:
+        hist = yf.Ticker(ticker).history(start=start_date, end=end_date)
+        if not hist.empty:
+            hist.index = hist.index.tz_localize(None)
+            available_dates = hist[hist.index <= date_obj]
+            if not available_dates.empty:
+                rate = float(available_dates.iloc[-1]["Close"])
+                HISTORICAL_RATE_CACHE[cache_key] = rate
+                return rate
+    except Exception:
+        pass
+        
+    HISTORICAL_RATE_CACHE[cache_key] = None
+    return None
+
+def get_historical_usd_rate(currency, date_obj):
+    """Bir para biriminin ilgili tarihteki USD karşılığını getirir."""
+    curr = str(currency).upper().strip()
+    if curr == "USD":
+        return 1.0
+        
+    # 1. Doğrudan Parite (Örn: TRYUSD=X, EURUSD=X)
+    rate = get_historical_close(f"{curr}USD=X", date_obj)
+    if rate:
+        return rate
+        
+    # 2. Ters Parite (Örn: USDTRY=X)
+    inv_rate = get_historical_close(f"USD{curr}=X", date_obj)
+    if inv_rate and inv_rate > 0:
+        return 1.0 / inv_rate
+        
+    print(f"Uyarı: {curr} için {date_obj.strftime('%Y-%m-%d')} tarihli kur bulunamadı.")
+    return 1.0 # Kesinti anında fallback
+
+def get_current_usd_rate(currency):
+    """Market Cap (güncel piyasa değeri) için anlık canlı kuru çeker."""
+    curr = str(currency).upper().strip()
+    if curr == "USD":
+        return 1.0
+    try:
+        rate = yf.Ticker(f"{curr}USD=X").fast_info.get("lastPrice")
+        if rate: return float(rate)
+        
+        inv_rate = yf.Ticker(f"USD{curr}=X").fast_info.get("lastPrice")
+        if inv_rate: return 1.0 / float(inv_rate)
+    except:
+        pass
+    return 1.0
+
+# --- VERİ İŞLEME ---
+
+def process_statement(df, company_name, statement_type, period_type, currency):
     """Gelen finansal tabloyu normalize eder ve satır bazlı kaydeder."""
     records = []
     if df is None or df.empty:
@@ -72,15 +129,18 @@ def process_statement(df, company_name, statement_type, period_type, rates, curr
         quarter_str = f"{year}Q{((dt.month - 1) // 3) + 1}"
         period_label = quarter_str if period_type == "Quarterly" else str(year)
 
+        # O çeyreğin kapanış tarihindeki kur değerleri
+        usd_rate = get_historical_usd_rate(currency, dt)
+        eur_usd_rate = get_historical_usd_rate("EUR", dt)
+
         for account_name, val in df[date_col].items():
             if pd.isna(val) or val is None:
                 continue
             
             val_oc = float(val)
-            # Para birimi dönüşümü (USD ve EUR)
-            # Not: Yfinance yerel para biriminde verir
-            val_usd = val_oc # Baz kur dönüşüm mantığı gerekirse eklenir
-            val_eur = val_usd / rates["EUR"] if rates["EUR"] else val_usd
+            # Tarihsel Kur Çarpımı
+            val_usd = val_oc * usd_rate
+            val_eur = val_usd / eur_usd_rate if eur_usd_rate else val_usd
 
             order = ACCOUNT_ORDER.get(str(account_name).strip(), 99)
 
@@ -102,7 +162,6 @@ def process_statement(df, company_name, statement_type, period_type, rates, curr
     return records
 
 def fetch_financial_data():
-    rates = get_exchange_rates()
     all_financials = []
     benchmarks = []
 
@@ -113,31 +172,37 @@ def fetch_financial_data():
             fast_info = t.fast_info
             curr = fast_info.get("currency", "USD")
 
-            # 1. Benchmark / Market Cap
+            # 1. Benchmark / Market Cap (Güncel)
             mcap = fast_info.get("marketCap", 0)
+            curr_usd_rate = get_current_usd_rate(curr)
+            curr_eur_rate = get_current_usd_rate("EUR")
+            
+            mcap_usd = mcap * curr_usd_rate
+            mcap_eur = mcap_usd / curr_eur_rate if curr_eur_rate else mcap_usd
+
             benchmarks.append({
                 "Company": comp_name,
                 "Currency": curr,
                 "MarketCap_OC": mcap,
-                "MarketCap_USD": mcap, # Kur dönüşümü yapılabilir
-                "MarketCap_EUR": mcap / rates["EUR"] if rates["EUR"] else mcap
+                "MarketCap_USD": mcap_usd,
+                "MarketCap_EUR": mcap_eur
             })
 
             # 2. P&L - Quarterly
             q_inc = t.quarterly_income_stmt
-            all_financials.extend(process_statement(q_inc, comp_name, "PnL", "Quarterly", rates, curr))
+            all_financials.extend(process_statement(q_inc, comp_name, "PnL", "Quarterly", curr))
 
             # 3. P&L - Annual
             a_inc = t.income_stmt
-            all_financials.extend(process_statement(a_inc, comp_name, "PnL", "Annual", rates, curr))
+            all_financials.extend(process_statement(a_inc, comp_name, "PnL", "Annual", curr))
 
             # 4. Balance Sheet - Quarterly
             q_bs = t.quarterly_balance_sheet
-            all_financials.extend(process_statement(q_bs, comp_name, "BS", "Quarterly", rates, curr))
+            all_financials.extend(process_statement(q_bs, comp_name, "BS", "Quarterly", curr))
 
             # 5. Balance Sheet - Annual
             a_bs = t.balance_sheet
-            all_financials.extend(process_statement(a_bs, comp_name, "BS", "Annual", rates, curr))
+            all_financials.extend(process_statement(a_bs, comp_name, "BS", "Annual", curr))
 
         except Exception as e:
             print(f"Hata oluştu ({comp_name}): {e}")
